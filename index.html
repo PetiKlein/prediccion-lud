@@ -170,7 +170,7 @@ const DIAS = ['dom','lun','mar','mié','jue','vie','sáb'];
 const MESES = ['ene','feb','mar','abr','may','jun','jul','ago','set','oct','nov','dic'];
 const noon = d => new Date(d+'T12:00:00-03:00');
 const fmtDia = d => { const x = noon(d); return `${DIAS[x.getUTCDay()]} ${x.getUTCDate()} ${MESES[x.getUTCMonth()]}`; };
-const fmtHora = dt => dt.toLocaleTimeString('es-UY', { hour: '2-digit', minute: '2-digit', timeZone: 'America/Montevideo' });
+const fmtHora = dt => dt.toLocaleTimeString('es-UY', { hour: '2-digit', minute: '2-digit', hourCycle: 'h23', timeZone: 'America/Montevideo' });
 
 function toast(msg){ $toast.textContent = msg; $toast.hidden = false; clearTimeout(toast.t); toast.t = setTimeout(() => $toast.hidden = true, 2400); }
 
