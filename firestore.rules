@@ -8,6 +8,12 @@ service cloud.firestore {
   match /databases/{database}/documents {
 
     function logueado() { return request.auth != null; }
+    // El organizador: solo esta cuenta de Google, con el mail verificado.
+    function admin() {
+      return logueado()
+        && request.auth.token.email == 'alanklein2006@gmail.com'
+        && request.auth.token.email_verified == true;
+    }
 
     match /partidos/{id} {
       allow read: if true;
@@ -25,7 +31,17 @@ service cloud.firestore {
         && request.resource.data.cuentaNombre.size() <= 80
         && !exists(/databases/$(database)/documents/cuentas/$(request.auth.uid))
         && getAfter(/databases/$(database)/documents/cuentas/$(request.auth.uid)).data.jugador == jugador;
-      allow create, delete: if false;
+      // El organizador agrega jugadores, corrige puntos de antes y libera nombres.
+      allow create: if admin()
+        && request.resource.data.keys().hasOnly(['nombre', 'base', 'uid', 'cuentaNombre'])
+        && request.resource.data.nombre is string
+        && request.resource.data.base is int
+        && request.resource.data.uid == null;
+      allow update: if admin()
+        && request.resource.data.keys().hasOnly(['nombre', 'base', 'uid', 'cuentaNombre'])
+        && request.resource.data.base is int
+        && (request.resource.data.uid == resource.data.uid || request.resource.data.uid == null);
+      allow delete: if false;
     }
 
     // Índice cuenta -> nombre. Se crea una sola vez y no se puede cambiar.
@@ -35,7 +51,8 @@ service cloud.firestore {
         && uid == request.auth.uid
         && request.resource.data.keys().hasOnly(['jugador'])
         && getAfter(/databases/$(database)/documents/jugadores/$(request.resource.data.jugador)).data.uid == request.auth.uid;
-      allow update, delete: if false;
+      allow update: if false;
+      allow delete: if admin();
     }
 
     // Un pronóstico por cuenta y partido. Id: <uid>_<partido>.
@@ -49,7 +66,7 @@ service cloud.firestore {
         && request.resource.data.t == request.time
         && get(/databases/$(database)/documents/cuentas/$(request.auth.uid)).data.jugador == request.resource.data.jugador
         && get(/databases/$(database)/documents/partidos/$(request.resource.data.partido)).data.cierre > request.time;
-      allow delete: if logueado()
+      allow delete: if admin() || logueado()
         && resource.data.uid == request.auth.uid
         && get(/databases/$(database)/documents/partidos/$(resource.data.partido)).data.cierre > request.time;
     }

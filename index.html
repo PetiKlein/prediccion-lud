@@ -118,6 +118,12 @@ td.f{color:var(--muted)}
 .chip.miss{background:var(--miss-soft);color:var(--miss)}
 .src{font-size:.78rem;color:var(--muted)}
 .src a{color:var(--accent)}
+.btn.danger{background:var(--miss);border-color:var(--miss);color:#fff}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+form.inline{display:flex;gap:6px;justify-content:center;align-items:center}
+form.inline input{width:72px;font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--fg);text-align:center}
+td.acciones{display:flex;gap:6px;align-items:center;justify-content:flex-end;flex-wrap:wrap;white-space:normal}
+.admin .tablewrap{border:0}
 @media (max-width:420px){.brand h1{font-size:1.7rem}.pick{font-size:.9rem}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
@@ -139,6 +145,7 @@ td.f{color:var(--muted)}
       <button role="tab" id="tab-pronosticar" aria-selected="true" data-tab="pronosticar">Pronosticar</button>
       <button role="tab" id="tab-tabla" aria-selected="false" data-tab="tabla">Tabla</button>
       <button role="tab" id="tab-resultados" aria-selected="false" data-tab="resultados">Resultados</button>
+      <button role="tab" id="tab-panel" aria-selected="false" data-tab="panel" hidden>Panel</button>
     </nav>
   </div>
 </header>
@@ -153,7 +160,7 @@ td.f{color:var(--muted)}
 import { firebaseConfig } from './firebase-config.js';
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js';
 import { getAuth, GoogleAuthProvider, onAuthStateChanged, signInWithPopup, signInWithRedirect, signOut } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js';
-import { getFirestore, collection, doc, onSnapshot, setDoc, deleteDoc, writeBatch, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js';
+import { getFirestore, collection, doc, onSnapshot, setDoc, updateDoc, deleteDoc, writeBatch, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js';
 
 const S = { partidos: [], jugadores: [], picks: [], user: null, authListo: false, tab: 'pronosticar', fecha: null, pendingClaim: null, listo: { p: false, j: false } };
 const $main = document.getElementById('main');
@@ -198,6 +205,9 @@ function cierreFecha(f){ const ps = S.partidos.filter(p => p.fecha === f); retur
 
 function picksPor(jugadorId){ const o = {}; for (const k of S.picks) if (k.jugador === jugadorId) o[k.partido] = k.v; return o; }
 function yo(){ return S.user ? S.jugadores.find(j => j.uid === S.user.uid) || null : null; }
+// El organizador. Firebase verifica el mismo mail en firestore.rules; acá solo decide qué se muestra.
+const ADMIN_EMAIL = 'alanklein2006@gmail.com';
+const esAdmin = () => !!S.user && S.user.email === ADMIN_EMAIL && S.user.emailVerified;
 
 function score(j){
   const pk = picksPor(j.id); let pts = Number(j.base) || 0; const porFecha = {};
@@ -222,7 +232,70 @@ function render(){
   if (!S.partidos.length){ $main.innerHTML = `<div class="empty">Todavía no hay partidos cargados. Aparecen acá cuando el robot lee el fixture de la Liga.</div>`; return; }
   if (S.tab === 'tabla') return renderTabla();
   if (S.tab === 'resultados') return renderResultados();
+  if (S.tab === 'panel' && esAdmin()) return renderPanel();
   renderPronosticar();
+}
+
+// ---------- panel del organizador ----------
+function renderPanel(){
+  const f = defaultFecha();
+  const abiertos = S.partidos.filter(p => p.fecha === f && !locked(p));
+  const js = S.jugadores.slice().sort((a,b)=>a.nombre.localeCompare(b.nombre,'es'));
+  const faltan = abiertos.length ? js.map(j => {
+    const pk = picksPor(j.id); const n = abiertos.filter(p => !pk[p.id]).length;
+    return n ? { j, n } : null;
+  }).filter(Boolean) : [];
+  const filas = js.map(j => {
+    const conf = S.panelConfirm === j.id;
+    const cuenta = j.uid ? `<span class="acct">${esc(j.cuentaNombre || 'cuenta sin nombre')}</span>` : `<span class="acct">sin reclamar</span>`;
+    const accion = !j.uid ? '' : conf
+      ? `<span class="acct">¿Liberar ${esc(j.nombre)}? Se borran sus pronósticos.</span><button class="btn danger" type="button" data-liberar="${esc(j.id)}">Sí, liberar</button><button class="btn ghost" type="button" data-cancelar>Cancelar</button>`
+      : `<button class="btn ghost" type="button" data-pedir-liberar="${esc(j.id)}">Liberar nombre</button>`;
+    return `<tr><td class="name">${esc(j.nombre)}${cuenta}</td>
+      <td><form class="inline" data-base-form="${esc(j.id)}"><label class="sr" for="base-${esc(j.id)}">Puntos de antes de ${esc(j.nombre)}</label><input id="base-${esc(j.id)}" type="number" min="0" max="999" value="${Number(j.base)||0}"><button class="btn ghost" type="submit">Guardar</button></form></td>
+      <td class="acciones">${accion}</td></tr>`;
+  }).join('');
+  $main.innerHTML = `
+    <section class="admin"><h3>Fecha ${f ?? '–'}: faltan votar</h3>
+      ${!abiertos.length ? '<p class="lede">No hay partidos abiertos ahora.</p>'
+        : faltan.length ? `<div class="chips">${faltan.map(x => `<span class="chip miss">${esc(x.j.nombre)} · ${x.n} de ${abiertos.length}</span>`).join('')}</div>`
+        : '<p class="lede">Ya votaron todos.</p>'}
+    </section>
+    <section class="admin"><h3>Jugadores</h3>
+      <p class="lede">«Liberar nombre» desvincula la cuenta de Google que lo reclamó y borra sus pronósticos, así otra persona puede elegirlo.</p>
+      <div class="tablewrap"><table><thead><tr><th class="name">Jugador</th><th>Antes</th><th></th></tr></thead><tbody>${filas}</tbody></table></div>
+    </section>
+    <section class="admin"><h3>Agregar jugador</h3>
+      <form class="join" id="addForm"><label class="sr" for="addName">Nombre</label><input id="addName" maxlength="24" placeholder="Nombre o apodo" autocomplete="off" required>
+        <label class="sr" for="addBase">Puntos de antes</label><input id="addBase" type="number" min="0" max="999" value="0" style="max-width:110px">
+        <button class="btn" type="submit">Agregar</button></form>
+    </section>`;
+}
+
+const slugify = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,40);
+
+async function liberar(jugadorId){
+  const j = S.jugadores.find(x => x.id === jugadorId); if (!j || !j.uid) return;
+  const b = writeBatch(db);
+  b.update(doc(db, 'jugadores', jugadorId), { uid: null, cuentaNombre: null });
+  b.delete(doc(db, 'cuentas', j.uid));
+  for (const k of S.picks.filter(k => k.uid === j.uid || k.id.startsWith(j.uid + '_'))) b.delete(doc(db, 'picks', k.id));
+  try { await b.commit(); S.panelConfirm = null; toast(`${j.nombre} quedó libre`); }
+  catch(e){ toast('No se pudo liberar. Revisá que las reglas de Firebase estén actualizadas.'); }
+}
+
+async function guardarBase(jugadorId, valor){
+  const n = Math.max(0, Math.min(999, Math.round(Number(valor) || 0)));
+  try { await updateDoc(doc(db, 'jugadores', jugadorId), { base: n }); toast('Puntos guardados'); }
+  catch(e){ toast('No se pudo guardar. Revisá que las reglas de Firebase estén actualizadas.'); }
+}
+
+async function agregarJugador(nombre, base){
+  nombre = nombre.trim().replace(/\s+/g,' '); if (!nombre) return;
+  if (S.jugadores.some(j => j.nombre.toLowerCase() === nombre.toLowerCase())){ toast(`${nombre} ya está en la penca`); return; }
+  let id = slugify(nombre) || 'jugador'; let n = 2; while (S.jugadores.some(j => j.id === id)) id = slugify(nombre) + '-' + n++;
+  try { await setDoc(doc(db, 'jugadores', id), { nombre, base: Math.max(0, Math.round(Number(base) || 0)), uid: null, cuentaNombre: null }); toast(`${nombre} agregado`); }
+  catch(e){ toast('No se pudo agregar. Revisá que las reglas de Firebase estén actualizadas.'); }
 }
 
 function identityBox(){
@@ -362,7 +435,18 @@ $main.addEventListener('click', e => {
   const f = e.target.closest('button[data-fecha]'); if (f){ S.fecha = Number(f.dataset.fecha); render(); return; }
   const p = e.target.closest('button[data-pick]'); if (p && !p.disabled){ savePick(p.dataset.id, p.dataset.pick); return; }
   const c = e.target.closest('button[data-claim]'); if (c){ S.pendingClaim = c.dataset.claim; render(); return; }
-  const k = e.target.closest('button[data-confirm]'); if (k){ k.disabled = true; claim(k.dataset.confirm); }
+  const k = e.target.closest('button[data-confirm]'); if (k){ k.disabled = true; claim(k.dataset.confirm); return; }
+  if (!esAdmin()) return;
+  const pl = e.target.closest('button[data-pedir-liberar]'); if (pl){ S.panelConfirm = pl.dataset.pedirLiberar; render(); return; }
+  if (e.target.closest('button[data-cancelar]')){ S.panelConfirm = null; render(); return; }
+  const lb = e.target.closest('button[data-liberar]'); if (lb){ lb.disabled = true; liberar(lb.dataset.liberar); }
+});
+$main.addEventListener('submit', e => {
+  if (!esAdmin()) return;
+  e.preventDefault();
+  if (e.target.id === 'addForm'){ agregarJugador(document.getElementById('addName').value, document.getElementById('addBase').value); return; }
+  const id = e.target.dataset.baseForm;
+  if (id) guardarBase(id, e.target.querySelector('input').value);
 });
 
 // ---------- datos en vivo ----------
@@ -379,6 +463,8 @@ onSnapshot(collection(db, 'jugadores'), snap => {
 let unsubPicks = null;
 onAuthStateChanged(auth, u => {
   S.user = u; S.authListo = true;
+  document.getElementById('tab-panel').hidden = !esAdmin();
+  if (S.tab === 'panel' && !esAdmin()) S.tab = 'pronosticar';
   if (unsubPicks){ unsubPicks(); unsubPicks = null; }
   S.picks = [];
   if (u) unsubPicks = onSnapshot(collection(db, 'picks'), snap => { S.picks = snap.docs.map(d => ({ id: d.id, ...d.data() })); render(); }, () => {});
