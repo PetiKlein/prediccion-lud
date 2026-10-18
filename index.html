@@ -124,6 +124,8 @@ form.inline{display:flex;gap:6px;justify-content:center;align-items:center}
 form.inline input{width:72px;font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--fg);text-align:center}
 td.acciones{display:flex;gap:6px;align-items:center;justify-content:flex-end;flex-wrap:wrap;white-space:normal}
 .admin .tablewrap{border:0}
+.faltan{display:flex;flex-direction:column;gap:8px}
+.faltan h3{margin:0;font-family:var(--display);font-size:1rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .cierres{display:flex;flex-direction:column;gap:12px}
 .cierre{display:flex;flex-direction:column;gap:6px;padding-block:10px;border-top:1px solid var(--line)}
 .inline-row{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
@@ -205,6 +207,22 @@ function defaultFecha(){
       ?? fs.find(f => S.partidos.some(p => p.fecha === f && !played(p)))
       ?? fs[fs.length-1];
 }
+// Quién no completó los partidos abiertos de una fecha.
+function faltanVotar(f){
+  const abiertos = S.partidos.filter(p => p.fecha === f && !locked(p));
+  const lista = abiertos.length ? S.jugadores.slice().sort((a,b)=>a.nombre.localeCompare(b.nombre,'es')).map(j => {
+    const pk = picksPor(j.id); const n = abiertos.filter(p => !pk[p.id]).length;
+    return n ? { j, n } : null;
+  }).filter(Boolean) : [];
+  return { abiertos, lista };
+}
+function faltanBox(f){
+  if (!S.user) return '';
+  const { abiertos, lista } = faltanVotar(f);
+  if (!abiertos.length) return '';
+  const chips = lista.map(x => `<span class="chip miss">${esc(x.j.nombre)}${x.n < abiertos.length ? ` · le faltan ${x.n}` : ''}</span>`).join('');
+  return `<section class="faltan"><h3>Faltan votar</h3>${lista.length ? `<div class="chips">${chips}</div>` : '<p class="lede">Ya votaron todos.</p>'}</section>`;
+}
 const diaMvd = dt => dt.toLocaleDateString('en-CA', { timeZone: 'America/Montevideo' });
 // El día de la fecha: el que más se repite entre sus partidos (normalmente el domingo).
 function diaDeFecha(f){ const c = {}; for (const p of S.partidos) if (p.fecha === f) c[p.dia] = (c[p.dia]||0)+1; return Object.entries(c).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]))[0]?.[0]; }
@@ -246,12 +264,8 @@ function render(){
 // ---------- panel del organizador ----------
 function renderPanel(){
   const f = defaultFecha();
-  const abiertos = S.partidos.filter(p => p.fecha === f && !locked(p));
   const js = S.jugadores.slice().sort((a,b)=>a.nombre.localeCompare(b.nombre,'es'));
-  const faltan = abiertos.length ? js.map(j => {
-    const pk = picksPor(j.id); const n = abiertos.filter(p => !pk[p.id]).length;
-    return n ? { j, n } : null;
-  }).filter(Boolean) : [];
+  const { abiertos, lista: faltan } = faltanVotar(f);
   const filas = js.map(j => {
     const conf = S.panelConfirm === j.id;
     const cuenta = j.uid ? `<span class="acct">${esc(j.cuentaNombre || 'cuenta sin nombre')}</span>` : `<span class="acct">sin reclamar</span>`;
@@ -390,7 +404,7 @@ function renderPronosticar(){
   const ps = S.partidos.filter(p => p.fecha === S.fecha);
   const abiertos = ps.filter(p => !locked(p)).length;
   const c = cierreFecha(S.fecha);
-  let html = identityBox() + fechaBar();
+  let html = identityBox() + fechaBar() + faltanBox(S.fecha);
   html += `<p class="lede">${abiertos
     ? `Fecha ${S.fecha}: cierra el ${esc(fmtDia(diaMvd(c)))} a las ${esc(fmtHora(c))}. Tocá quién gana o empate; se guarda solo y podés cambiarlo hasta el cierre.`
     : `Fecha ${S.fecha} cerrada.`} Cada acierto vale 1 punto.</p>`;
