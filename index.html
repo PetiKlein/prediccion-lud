@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Predicción LUD</title>
+<meta name="description" content="La penca del grupo: pronósticos de la Divisional A Mayores de la Liga Universitaria.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%230f1d2e'/%3E%3Ctext x='16' y='21' font-family='Arial' font-weight='700' font-size='13' text-anchor='middle' fill='%237cc0ff'%3ELUD%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600;700;800&family=Figtree:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: a single scoreboard column — sticky header with tabs, then fixture cards per zona, ranking table, results. */
+:root{
+  --bg:#eef2f6; --surface:#ffffff; --surface-2:#e3e9f0; --line:#cdd6e0;
+  --fg:#0f1d2e; --muted:#5a6a7d;
+  --accent:#1d6fd8; --accent-soft:#d7e6fa; --accent-fg:#ffffff;
+  --navy:#0f1d2e; --navy-fg:#f3f6fa; --sky:#7cc0ff;
+  --win:#1f8a4c; --win-soft:#d9f0e2; --miss:#b9473a; --miss-soft:#f6dedb; --draw:#8a6d12;
+  --display:"Saira Condensed","Arial Narrow",system-ui,sans-serif;
+  --body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --r:10px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0a121c; --surface:#111c29; --surface-2:#182636; --line:#253649;
+  --fg:#e6edf5; --muted:#91a2b6;
+  --accent:#5ea6ff; --accent-soft:#16304f; --accent-fg:#06121f;
+  --navy:#060c14; --navy-fg:#e6edf5; --sky:#7cc0ff;
+  --win:#4cc27e; --win-soft:#123224; --miss:#ec7a6c; --miss-soft:#3a1b18; --draw:#e2bf55;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0a121c; --surface:#111c29; --surface-2:#182636; --line:#253649;
+  --fg:#e6edf5; --muted:#91a2b6;
+  --accent:#5ea6ff; --accent-soft:#16304f; --accent-fg:#06121f;
+  --navy:#060c14; --navy-fg:#e6edf5; --sky:#7cc0ff;
+  --win:#4cc27e; --win-soft:#123224; --miss:#ec7a6c; --miss-soft:#3a1b18; --draw:#e2bf55;
+  color-scheme:dark}
+*{box-sizing:border-box}
+html{padding-block:env(safe-area-inset-top,0px) env(safe-area-inset-bottom,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.45}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--navy)}
+.wrap{max-width:720px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header.top{background:var(--navy);color:var(--navy-fg);position:sticky;top:env(safe-area-inset-top,0px);z-index:5}
+.brand{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;padding-block:16px 10px;flex-wrap:wrap}
+.brand h1{font-family:var(--display);font-weight:800;font-size:2rem;line-height:1;margin:0;letter-spacing:.01em;text-transform:uppercase}
+.brand h1 span{color:var(--sky)}
+.brand p{margin:4px 0 0;font-size:.8rem;color:color-mix(in srgb,var(--navy-fg) 70%,transparent);letter-spacing:.06em;text-transform:uppercase}
+.who{display:flex;flex-direction:column;align-items:flex-end;gap:1px}
+.who-l{font-size:.68rem;text-transform:uppercase;letter-spacing:.08em;opacity:.7}
+.authbtn{font:inherit;font-size:.78rem;font-weight:600;margin-top:4px;background:transparent;color:var(--sky);border:1px solid color-mix(in srgb,var(--sky) 60%,transparent);border-radius:999px;padding:4px 10px;cursor:pointer}
+code{font-size:.85em}
+.who b{font-family:var(--display);font-size:1.25rem;font-weight:700;line-height:1}
+.claim{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.claim button{font:inherit;font-weight:600;padding:8px 12px;border-radius:8px;border:1px solid var(--accent);background:var(--surface);color:var(--accent);cursor:pointer}
+.claim button[aria-pressed="true"]{background:var(--accent);color:var(--accent-fg)}
+.confirm{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:10px}
+.acct{display:block;font-size:.72rem;color:var(--muted);font-weight:400}
+.dup{color:var(--miss);font-size:.72rem;font-weight:600}
+.linkbtn{font:inherit;font-size:.75rem;background:none;border:0;color:var(--miss);text-decoration:underline;cursor:pointer;padding:0}
+.admin{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;display:flex;flex-direction:column;gap:8px}
+.admin h3{margin:0;font-family:var(--display);font-size:1rem;letter-spacing:.06em;text-transform:uppercase}
+nav.tabs{display:flex;gap:4px;padding-block:0;overflow-x:auto}
+nav.tabs button{font-family:var(--display);font-weight:700;font-size:1.05rem;letter-spacing:.04em;text-transform:uppercase;background:none;border:0;color:color-mix(in srgb,var(--navy-fg) 65%,transparent);padding:10px 12px;border-bottom:3px solid transparent;cursor:pointer;white-space:nowrap}
+nav.tabs button[aria-selected="true"]{color:var(--navy-fg);border-bottom-color:var(--sky)}
+nav.tabs button:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+main{padding-block:18px 48px;display:flex;flex-direction:column;gap:18px}
+.notice{background:var(--accent-soft);border:1px solid color-mix(in srgb,var(--accent) 35%,transparent);border-radius:var(--r);padding:12px 14px;font-size:.92rem}
+.notice strong{display:block;margin-bottom:2px}
+.notice.warn{background:var(--miss-soft);border-color:color-mix(in srgb,var(--miss) 35%,transparent)}
+.join{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.join input{flex:1 1 180px;min-width:0;font:inherit;padding:9px 11px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--fg)}
+.btn{font:inherit;font-weight:600;border-radius:8px;padding:9px 14px;border:1px solid var(--accent);background:var(--accent);color:var(--accent-fg);cursor:pointer}
+.btn.ghost{background:transparent;color:var(--accent)}
+.btn:disabled{opacity:.5;cursor:default}
+.fechas{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px}
+.fechas button{flex:0 0 auto;font-family:var(--display);font-weight:700;font-size:1rem;min-width:52px;padding:6px 10px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--fg);cursor:pointer;display:flex;flex-direction:column;align-items:center;line-height:1.1}
+.fechas button small{font-family:var(--body);font-weight:500;font-size:.68rem;color:var(--muted)}
+.fechas button[aria-pressed="true"]{background:var(--navy);color:var(--navy-fg);border-color:var(--navy)}
+.fechas button[aria-pressed="true"] small{color:var(--sky)}
+.zona h2{font-family:var(--display);font-weight:700;font-size:1.15rem;letter-spacing:.06em;text-transform:uppercase;margin:0 0 8px;display:flex;align-items:baseline;gap:8px}
+.zona h2 small{font-family:var(--body);font-weight:500;font-size:.78rem;letter-spacing:0;text-transform:none;color:var(--muted)}
+.matches{display:flex;flex-direction:column;gap:8px}
+.match{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:10px 12px;display:flex;flex-direction:column;gap:8px}
+.meta{display:flex;justify-content:space-between;gap:8px;font-size:.75rem;color:var(--muted);flex-wrap:wrap}
+.meta .state{font-weight:600;text-transform:uppercase;letter-spacing:.06em}
+.meta .state.open{color:var(--accent)}
+.picks{display:grid;grid-template-columns:1fr auto 1fr;gap:6px}
+.pick{font:inherit;font-weight:600;min-width:0;border:1px solid var(--line);background:var(--surface-2);color:var(--fg);border-radius:8px;padding:10px 8px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:6px;text-align:center;line-height:1.15}
+.pick.e{min-width:64px;font-family:var(--display);letter-spacing:.06em;text-transform:uppercase}
+.pick .sc{font-family:var(--display);font-weight:800;font-size:1.35rem;font-variant-numeric:tabular-nums}
+.pick[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-fg)}
+.pick:disabled{cursor:default}
+.pick.hit[aria-pressed="true"]{background:var(--win);border-color:var(--win);color:#fff}
+.pick.miss[aria-pressed="true"]{background:var(--miss);border-color:var(--miss);color:#fff}
+.pick.result{outline:2px solid var(--win);outline-offset:-2px}
+.others{font-size:.78rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 10px}
+.others b{color:var(--fg);font-weight:600}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:var(--r);padding:20px;text-align:center;color:var(--muted)}
+.tablewrap{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th,td{padding:9px 10px;text-align:center;border-bottom:1px solid var(--line);white-space:nowrap}
+th{font-family:var(--display);font-weight:700;font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);background:var(--surface-2)}
+td.name,th.name{text-align:left}
+td.pos{font-family:var(--display);font-weight:800;font-size:1.1rem;width:36px}
+td.pts{font-family:var(--display);font-weight:800;font-size:1.25rem;color:var(--accent)}
+tr.me td{background:var(--accent-soft)}
+tr:last-child td{border-bottom:0}
+td.f{color:var(--muted)}
+.lede{color:var(--muted);font-size:.9rem;margin:0}
+.toast{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--navy);color:var(--navy-fg);padding:9px 16px;border-radius:999px;font-size:.88rem;font-weight:600;z-index:20}
+.res{display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:center}
+.res .t{min-width:0;font-weight:600}
+.res .t.l{text-align:right}
+.res .score{font-family:var(--display);font-weight:800;font-size:1.4rem;background:var(--navy);color:var(--navy-fg);border-radius:6px;padding:2px 10px;font-variant-numeric:tabular-nums}
+.res .score.pend{background:var(--surface-2);color:var(--muted);font-size:1rem}
+.chips{display:flex;flex-wrap:wrap;gap:4px}
+.chip{font-size:.74rem;padding:2px 8px;border-radius:999px;background:var(--surface-2);color:var(--muted)}
+.chip.hit{background:var(--win-soft);color:var(--win)}
+.chip.miss{background:var(--miss-soft);color:var(--miss)}
+.src{font-size:.78rem;color:var(--muted)}
+.src a{color:var(--accent)}
+@media (max-width:420px){.brand h1{font-size:1.7rem}.pick{font-size:.9rem}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <div>
+        <h1>Predicción <span>LUD</span></h1>
+        <p>Mayores · Divisional A · 2026</p>
+      </div>
+      <div class="who" id="who" aria-live="polite">
+        <span class="who-l" id="whoLabel">Jugás como</span><b id="whoName">…</b>
+        <button class="authbtn" id="authBtn" type="button" hidden></button>
+      </div>
+    </div>
+    <nav class="tabs" role="tablist">
+      <button role="tab" id="tab-pronosticar" aria-selected="true" data-tab="pronosticar">Pronosticar</button>
+      <button role="tab" id="tab-tabla" aria-selected="false" data-tab="tabla">Tabla</button>
+      <button role="tab" id="tab-resultados" aria-selected="false" data-tab="resultados">Resultados</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="main">
+  <div class="empty" id="loading">Cargando la penca…</div>
+</main>
+
+<div class="toast" id="toast" hidden></div>
+
+<script type="module">
+import { firebaseConfig } from './firebase-config.js';
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js';
+import { getAuth, GoogleAuthProvider, onAuthStateChanged, signInWithPopup, signInWithRedirect, signOut } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js';
+import { getFirestore, collection, doc, onSnapshot, setDoc, deleteDoc, writeBatch, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js';
+
+const S = { partidos: [], jugadores: [], picks: [], user: null, authListo: false, tab: 'pronosticar', fecha: null, pendingClaim: null, listo: { p: false, j: false } };
+const $main = document.getElementById('main');
+const $whoName = document.getElementById('whoName');
+const $whoLabel = document.getElementById('whoLabel');
+const $authBtn = document.getElementById('authBtn');
+const $toast = document.getElementById('toast');
+
+const store = { get(k){ try { return localStorage.getItem(k); } catch(e){ return null; } }, set(k,v){ try { localStorage.setItem(k,v); } catch(e){} } };
+S.tab = store.get('plud-tab') || 'pronosticar';
+
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const DIAS = ['dom','lun','mar','mié','jue','vie','sáb'];
+const MESES = ['ene','feb','mar','abr','may','jun','jul','ago','set','oct','nov','dic'];
+const noon = d => new Date(d+'T12:00:00-03:00');
+const fmtDia = d => { const x = noon(d); return `${DIAS[x.getUTCDay()]} ${x.getUTCDate()} ${MESES[x.getUTCMonth()]}`; };
+const fmtHora = dt => dt.toLocaleTimeString('es-UY', { hour: '2-digit', minute: '2-digit', timeZone: 'America/Montevideo' });
+
+function toast(msg){ $toast.textContent = msg; $toast.hidden = false; clearTimeout(toast.t); toast.t = setTimeout(() => $toast.hidden = true, 2400); }
+
+if (!firebaseConfig || !firebaseConfig.apiKey) {
+  $main.innerHTML = `<div class="notice warn"><strong>Falta configurar Firebase</strong>Pegá la configuración del proyecto en <code>firebase-config.js</code>.</div>`;
+  throw new Error('firebase-config.js sin completar');
+}
+
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+const db = getFirestore(app);
+
+// ---------- reglas de juego ----------
+const played = p => Number.isFinite(p.gl) && Number.isFinite(p.gv);
+const outcome = p => !played(p) ? null : p.gl > p.gv ? 'L' : p.gl < p.gv ? 'V' : 'E';
+const locked = p => played(p) || Date.now() >= p.cierre.getTime();
+const fechas = () => [...new Set(S.partidos.map(p => p.fecha))].sort((a,b)=>a-b);
+function defaultFecha(){
+  const fs = fechas(); if (!fs.length) return null;
+  return fs.find(f => S.partidos.some(p => p.fecha === f && !locked(p)))
+      ?? fs.find(f => S.partidos.some(p => p.fecha === f && !played(p)))
+      ?? fs[fs.length-1];
+}
+function cierreFecha(f){ const ps = S.partidos.filter(p => p.fecha === f); return new Date(Math.max(...ps.map(p => p.cierre.getTime()))); }
+
+function picksPor(jugadorId){ const o = {}; for (const k of S.picks) if (k.jugador === jugadorId) o[k.partido] = k.v; return o; }
+function yo(){ return S.user ? S.jugadores.find(j => j.uid === S.user.uid) || null : null; }
+
+function score(j){
+  const pk = picksPor(j.id); let pts = Number(j.base) || 0; const porFecha = {};
+  for (const p of S.partidos){ const o = outcome(p), v = pk[p.id]; if (!o || !v) continue; const hit = v === o ? 1 : 0; pts += hit; porFecha[p.fecha] = (porFecha[p.fecha] || 0) + hit; }
+  return { pts, base: Number(j.base) || 0, porFecha };
+}
+
+// ---------- render ----------
+function renderWho(){
+  if (!S.authListo){ $whoName.textContent = '…'; $authBtn.hidden = true; return; }
+  if (!S.user){ $whoLabel.textContent = 'Para jugar'; $whoName.textContent = ''; $authBtn.textContent = 'Entrar con Google'; $authBtn.hidden = false; return; }
+  const me = yo();
+  $whoLabel.textContent = 'Jugás como';
+  $whoName.textContent = me ? me.nombre : 'Elegí tu nombre';
+  $authBtn.textContent = 'Salir'; $authBtn.hidden = false;
+}
+
+function render(){
+  document.querySelectorAll('nav.tabs button').forEach(b => b.setAttribute('aria-selected', String(b.dataset.tab === S.tab)));
+  renderWho();
+  if (!S.listo.p || !S.listo.j) return;
+  if (!S.partidos.length){ $main.innerHTML = `<div class="empty">Todavía no hay partidos cargados. Aparecen acá cuando el robot lee el fixture de la Liga.</div>`; return; }
+  if (S.tab === 'tabla') return renderTabla();
+  if (S.tab === 'resultados') return renderResultados();
+  renderPronosticar();
+}
+
+function identityBox(){
+  if (!S.authListo) return '';
+  if (!S.user) return `<div class="notice"><strong>Entrá con tu cuenta de Google</strong>Así la penca sabe quién sos y nadie puede pronosticar por vos. La sesión queda guardada en este dispositivo.
+    <div class="confirm"><button class="btn" type="button" data-login>Entrar con Google</button></div></div>`;
+  if (yo()) return '';
+  const libres = S.jugadores.filter(j => !j.uid).sort((a,b)=>a.nombre.localeCompare(b.nombre,'es'));
+  if (!libres.length) return `<div class="notice"><strong>No quedan nombres libres</strong>Pedile a Alan que te agregue a la penca.</div>`;
+  const sel = S.pendingClaim && libres.find(j => j.id === S.pendingClaim);
+  return `<div class="notice"><strong>¿Quién sos?</strong>Elegí tu nombre. Queda atado a tu cuenta de Google (${esc(S.user.email)}) y no se puede cambiar.
+    <div class="claim">${libres.map(j => `<button type="button" data-claim="${esc(j.id)}" aria-pressed="${sel && sel.id===j.id}">${esc(j.nombre)}</button>`).join('')}</div>
+    ${sel ? `<div class="confirm"><span>¿Confirmás que sos <b>${esc(sel.nombre)}</b>?</span><button class="btn" type="button" data-confirm="${esc(sel.id)}">Sí, soy ${esc(sel.nombre)}</button></div>` : ''}
+  </div>`;
+}
+
+function fechaBar(){
+  return `<div class="fechas" role="group" aria-label="Fechas">` + fechas().map(f =>
+    `<button data-fecha="${f}" aria-pressed="${f===S.fecha}">F${f}<small>${esc(fmtDia(cierreFecha(f).toISOString().slice(0,10)).replace(/^\S+ /,''))}</small></button>`).join('') + `</div>`;
+}
+
+function matchCard(p, me){
+  const pk = me ? picksPor(me.id)[p.id] || null : null;
+  const o = outcome(p), lk = locked(p);
+  const canEdit = !!me && !lk;
+  const state = played(p) ? 'Final' : lk ? 'Cerrado' : 'Abierto';
+  const cls = v => { let c = 'pick' + (v==='E'?' e':''); if (o && pk === v) c += pk === o ? ' hit' : ' miss'; if (o && o === v && pk !== v) c += ' result'; return c; };
+  const btn = (v, label, sc) => `<button class="${cls(v)}" data-pick="${v}" data-id="${esc(p.id)}" aria-pressed="${pk===v}" ${canEdit?'':'disabled'} aria-label="${esc(label)}">${v==='V'&&sc!=null?`<span class="sc">${sc}</span>`:''}<span>${esc(label)}</span>${v==='L'&&sc!=null?`<span class="sc">${sc}</span>`:''}</button>`;
+  const quienes = S.jugadores.map(j => [j, picksPor(j.id)[p.id]]).filter(([,v]) => v);
+  const others = quienes.length ? `<div class="others">${quienes.map(([j,v]) => `<span><b>${esc(j.nombre)}</b> ${esc(v==='L'?p.local:v==='V'?p.visitante:'Empate')}</span>`).join('')}</div>` : '';
+  const hora = p.horaAConfirmar ? 'hora a confirmar' : `${p.hora} h`;
+  return `<article class="match">
+    <div class="meta"><span>${esc(fmtDia(p.dia))} · ${esc(hora)} · ${esc(p.cancha)}</span><span class="state ${lk?'':'open'}">${state}</span></div>
+    <div class="picks">${btn('L', p.local, o?p.gl:null)}${btn('E','Empate')}${btn('V', p.visitante, o?p.gv:null)}</div>
+    ${others}
+  </article>`;
+}
+
+function renderPronosticar(){
+  if (S.fecha == null || !fechas().includes(S.fecha)) S.fecha = defaultFecha();
+  const me = yo();
+  const ps = S.partidos.filter(p => p.fecha === S.fecha);
+  const abiertos = ps.filter(p => !locked(p)).length;
+  const c = cierreFecha(S.fecha);
+  let html = identityBox() + fechaBar();
+  html += `<p class="lede">${abiertos
+    ? `Fecha ${S.fecha}: cierra el ${esc(fmtDia(c.toISOString().slice(0,10)))} a las ${esc(fmtHora(c))}. Tocá quién gana o empate; se guarda solo y podés cambiarlo hasta el cierre.`
+    : `Fecha ${S.fecha} cerrada.`} Cada acierto vale 1 punto.</p>`;
+  for (const z of ['Título','Permanencia']){
+    const zp = ps.filter(p => p.zona === z).sort((a,b)=> (a.dia+a.hora).localeCompare(b.dia+b.hora) || a.local.localeCompare(b.local));
+    if (!zp.length) continue;
+    html += `<section class="zona"><h2>Zona ${z}<small>${z==='Título'?'pelean el campeonato':'pelean la permanencia'}</small></h2><div class="matches">${zp.map(p=>matchCard(p,me)).join('')}</div></section>`;
+  }
+  html += `<p class="src">Fixture y resultados: <a href="https://ligauniversitaria.org.uy/estadisticas-futbol-mayores-a/" target="_blank" rel="noopener">Liga Universitaria de Deportes</a>. Se actualizan solos los domingos de tarde.</p>`;
+  $main.innerHTML = html;
+}
+
+function renderTabla(){
+  const conPicks = new Set(S.picks.map(k => k.partido));
+  const fs = fechas().filter(f => S.partidos.some(p => p.fecha === f && played(p) && conPicks.has(p.id)));
+  const rows = S.jugadores.map(j => ({ j, ...score(j) })).sort((a,b) => b.pts-a.pts || a.j.nombre.localeCompare(b.j.nombre,'es'));
+  if (!rows.length){ $main.innerHTML = `<div class="empty">Todavía no hay jugadores en la penca.</div>`; return; }
+  const hayBase = rows.some(r => r.base);
+  const me = yo();
+  let pos = 0, prev = null;
+  const body = rows.map((r,i) => { if (r.pts !== prev){ pos = i+1; prev = r.pts; }
+    const sub = r.j.uid ? (r.j.cuentaNombre ? `<span class="acct">${esc(r.j.cuentaNombre)}</span>` : '') : `<span class="acct">sin reclamar</span>`;
+    return `<tr class="${me && r.j.id===me.id?'me':''}"><td class="pos">${pos}</td><td class="name">${esc(r.j.nombre)}${sub}</td><td class="pts">${r.pts}</td>${hayBase?`<td class="f">${r.base}</td>`:''}${fs.map(f=>`<td class="f">+${r.porFecha[f] ?? 0}</td>`).join('')}</tr>`; }).join('');
+  $main.innerHTML = identityBox() + `<p class="lede">1 punto por acertar ganador o empate. Se suma solo cuando la Liga carga el resultado.${hayBase?' «Antes» son los puntos que traían del grupo hasta la fecha 4.':''} Debajo de cada nombre está la cuenta de Google que lo usa.</p>
+    <div class="tablewrap"><table><thead><tr><th>#</th><th class="name">Jugador</th><th>Pts</th>${hayBase?'<th>Antes</th>':''}${fs.map(f=>`<th>F${f}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table></div>`;
+}
+
+function renderResultados(){
+  const fs = fechas().filter(f => S.partidos.some(p => p.fecha === f && played(p))).reverse();
+  if (!fs.length){ $main.innerHTML = `<div class="empty">Todavía no hay resultados cargados.</div>`; return; }
+  let html = '';
+  for (const f of fs){
+    const ps = S.partidos.filter(p => p.fecha === f).sort((a,b)=> a.zona.localeCompare(b.zona) || (a.dia+a.hora).localeCompare(b.dia+b.hora));
+    html += `<section class="zona"><h2>Fecha ${f}<small>${esc(fmtDia(cierreFecha(f).toISOString().slice(0,10)))}</small></h2><div class="matches">` + ps.map(p => {
+      const o = outcome(p);
+      const chips = S.jugadores.map(j => [j, picksPor(j.id)[p.id]]).filter(([,v]) => v).map(([j,v]) => `<span class="chip ${o ? (v===o?'hit':'miss') : ''}">${esc(j.nombre)}</span>`).join('');
+      return `<article class="match"><div class="meta"><span>Zona ${esc(p.zona)} · ${esc(p.cancha)}</span></div>
+        <div class="res"><span class="t l">${esc(p.local)}</span>${o?`<span class="score">${p.gl} – ${p.gv}</span>`:`<span class="score pend">vs</span>`}<span class="t">${esc(p.visitante)}</span></div>
+        ${chips?`<div class="chips">${chips}</div>`:''}</article>`;
+    }).join('') + `</div></section>`;
+  }
+  $main.innerHTML = html;
+}
+
+// ---------- acciones ----------
+async function login(){
+  const provider = new GoogleAuthProvider();
+  provider.setCustomParameters({ prompt: 'select_account' });
+  try { await signInWithPopup(auth, provider); }
+  catch(e){
+    if (e && (e.code === 'auth/popup-blocked' || e.code === 'auth/operation-not-supported-in-this-environment')) return signInWithRedirect(auth, provider);
+    if (e && e.code !== 'auth/popup-closed-by-user' && e.code !== 'auth/cancelled-popup-request') toast('No se pudo entrar. Probá de nuevo.');
+  }
+}
+
+async function claim(jugadorId){
+  const j = S.jugadores.find(x => x.id === jugadorId); if (!j || !S.user) return;
+  const b = writeBatch(db);
+  b.update(doc(db, 'jugadores', jugadorId), { uid: S.user.uid, cuentaNombre: (S.user.displayName || S.user.email || '').slice(0, 80) });
+  b.set(doc(db, 'cuentas', S.user.uid), { jugador: jugadorId });
+  try { await b.commit(); S.pendingClaim = null; toast(`Listo, sos ${j.nombre}`); }
+  catch(e){ toast(`No se pudo: ${j.nombre} ya fue reclamado o tu cuenta ya tiene un nombre.`); S.pendingClaim = null; render(); }
+}
+
+let chain = Promise.resolve();
+function savePick(partidoId, v){
+  const me = yo(); if (!me) return;
+  const p = S.partidos.find(x => x.id === partidoId);
+  if (!p || locked(p)){ toast('Ese partido ya cerró'); render(); return; }
+  const id = `${S.user.uid}_${partidoId}`;
+  const cur = picksPor(me.id)[partidoId] || null;
+  const next = cur === v ? null : v;
+  // Cambio optimista; la confirmación llega por el snapshot.
+  S.picks = S.picks.filter(k => k.id !== id);
+  if (next) S.picks.push({ id, jugador: me.id, partido: partidoId, v: next });
+  render();
+  chain = chain.then(() => next
+      ? setDoc(doc(db, 'picks', id), { uid: S.user.uid, jugador: me.id, partido: partidoId, v: next, t: serverTimestamp() })
+      : deleteDoc(doc(db, 'picks', id)))
+    .then(() => toast(next ? 'Pronóstico guardado' : 'Pronóstico borrado'))
+    .catch(() => toast('No se pudo guardar: el partido ya cerró o se cortó la conexión.'));
+}
+
+// ---------- eventos ----------
+document.querySelector('nav.tabs').addEventListener('click', e => {
+  const b = e.target.closest('button[data-tab]'); if (!b) return;
+  S.tab = b.dataset.tab; store.set('plud-tab', S.tab); render();
+});
+$authBtn.addEventListener('click', () => S.user ? signOut(auth) : login());
+$main.addEventListener('click', e => {
+  if (e.target.closest('button[data-login]')) { login(); return; }
+  const f = e.target.closest('button[data-fecha]'); if (f){ S.fecha = Number(f.dataset.fecha); render(); return; }
+  const p = e.target.closest('button[data-pick]'); if (p && !p.disabled){ savePick(p.dataset.id, p.dataset.pick); return; }
+  const c = e.target.closest('button[data-claim]'); if (c){ S.pendingClaim = c.dataset.claim; render(); return; }
+  const k = e.target.closest('button[data-confirm]'); if (k){ k.disabled = true; claim(k.dataset.confirm); }
+});
+
+// ---------- datos en vivo ----------
+const fail = msg => () => { $main.innerHTML = `<div class="notice warn"><strong>No se pudo cargar la penca</strong>${msg}</div>`; };
+onSnapshot(collection(db, 'partidos'), snap => {
+  S.partidos = snap.docs.map(d => { const x = d.data(); return { id: d.id, ...x, cierre: x.cierre?.toDate ? x.cierre.toDate() : new Date(x.cierre) }; });
+  S.listo.p = true; render();
+}, fail('Revisá tu conexión y recargá la página.'));
+onSnapshot(collection(db, 'jugadores'), snap => {
+  S.jugadores = snap.docs.map(d => ({ id: d.id, ...d.data() }));
+  S.listo.j = true; render();
+}, fail('Revisá tu conexión y recargá la página.'));
+
+let unsubPicks = null;
+onAuthStateChanged(auth, u => {
+  S.user = u; S.authListo = true;
+  if (unsubPicks){ unsubPicks(); unsubPicks = null; }
+  S.picks = [];
+  if (u) unsubPicks = onSnapshot(collection(db, 'picks'), snap => { S.picks = snap.docs.map(d => ({ id: d.id, ...d.data() })); render(); }, () => {});
+  render();
+});
+
+setInterval(() => { if (S.tab === 'pronosticar') render(); }, 60000);
+render();
+</script>
+</body>
+</html>

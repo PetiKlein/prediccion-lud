@@ -1,0 +1,12 @@
+[
+  { "id": "juanma", "nombre": "Juanma", "base": 63 },
+  { "id": "seba", "nombre": "Seba", "base": 63 },
+  { "id": "facu", "nombre": "Facu", "base": 62 },
+  { "id": "santi", "nombre": "Santi", "base": 60 },
+  { "id": "pepi", "nombre": "Pepi", "base": 60 },
+  { "id": "tincho", "nombre": "Tincho", "base": 59 },
+  { "id": "alan", "nombre": "Alan", "base": 58 },
+  { "id": "beco", "nombre": "Beco", "base": 51 },
+  { "id": "ventu", "nombre": "Ventu", "base": 44 },
+  { "id": "foncho", "nombre": "Foncho", "base": 42 }
+]

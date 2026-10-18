@@ -1,0 +1,62 @@
+rules_version = '2';
+
+// Reglas de la penca. Se pegan en Firebase: Firestore Database > Reglas > Publicar.
+// - partidos y jugadores los escribe solo el robot de resultados (cuenta de servicio, que no pasa por estas reglas).
+// - Cada cuenta de Google reclama un solo nombre, y un nombre lo reclama una sola cuenta.
+// - Cada uno escribe solo sus pronósticos, y solo antes del cierre de ese partido (domingo 9:00).
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function logueado() { return request.auth != null; }
+    function doc(path) { return /databases/$(database)/documents/$(path); }
+
+    match /partidos/{id} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /jugadores/{jugador} {
+      allow read: if true;
+      // Reclamar un nombre libre: solo se completan uid y cuentaNombre, y a la vez se crea cuentas/{uid}.
+      allow update: if logueado()
+        && resource.data.uid == null
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['uid', 'cuentaNombre'])
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.cuentaNombre is string
+        && request.resource.data.cuentaNombre.size() <= 80
+        && !exists(doc('cuentas/' + request.auth.uid))
+        && getAfter(doc('cuentas/' + request.auth.uid)).data.jugador == jugador;
+      allow create, delete: if false;
+    }
+
+    // Índice cuenta -> nombre. Se crea una sola vez y no se puede cambiar.
+    match /cuentas/{uid} {
+      allow read: if true;
+      allow create: if logueado()
+        && uid == request.auth.uid
+        && request.resource.data.keys().hasOnly(['jugador'])
+        && getAfter(doc('jugadores/' + request.resource.data.jugador)).data.uid == request.auth.uid;
+      allow update, delete: if false;
+    }
+
+    // Un pronóstico por cuenta y partido. Id: <uid>_<partido>.
+    match /picks/{pickId} {
+      allow read: if logueado();
+      allow create, update: if logueado()
+        && pickId == request.auth.uid + '_' + request.resource.data.partido
+        && request.resource.data.keys().hasOnly(['uid', 'jugador', 'partido', 'v', 't'])
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.v in ['L', 'E', 'V']
+        && request.resource.data.t == request.time
+        && get(doc('cuentas/' + request.auth.uid)).data.jugador == request.resource.data.jugador
+        && get(doc('partidos/' + request.resource.data.partido)).data.cierre > request.time;
+      allow delete: if logueado()
+        && resource.data.uid == request.auth.uid
+        && get(doc('partidos/' + resource.data.partido)).data.cierre > request.time;
+    }
+
+    match /{otro=**} {
+      allow read, write: if false;
+    }
+  }
+}

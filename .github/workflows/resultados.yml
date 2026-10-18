@@ -1,0 +1,29 @@
+name: Resultados de la Liga
+
+on:
+  schedule:
+    # Horario en UTC. Uruguay es UTC-3: 17:05 UTC = domingo 14:05 en Montevideo.
+    - cron: '5 17 * * 0'
+    # Domingo 18:05 en Montevideo, por si la Liga carga tarde algún resultado.
+    - cron: '5 21 * * 0'
+    # Lunes a miércoles 20:05 en Montevideo, por partidos que se pasan a días de semana.
+    - cron: '5 23 * * 1,2,3'
+  workflow_dispatch: {}
+
+concurrency:
+  group: resultados
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install --no-audit --no-fund
+      - run: npm run actualizar
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}

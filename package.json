@@ -1,0 +1,11 @@
+{
+  "name": "prediccion-lud",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "actualizar": "node scripts/actualizar.mjs"
+  },
+  "dependencies": {
+    "firebase-admin": "12.7.0"
+  }
+}
