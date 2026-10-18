@@ -15,9 +15,19 @@ service cloud.firestore {
         && request.auth.token.email_verified == true;
     }
 
+    // Cierre efectivo de un partido: el que puso el organizador, o el automático del robot.
+    function cierreDe(partido) {
+      let p = get(/databases/$(database)/documents/partidos/$(partido)).data;
+      return p.get('cierreManual', p.cierre);
+    }
+
     match /partidos/{id} {
       allow read: if true;
-      allow write: if false;
+      // El organizador solo puede cambiar el cierre; el resto lo escribe el robot.
+      allow update: if admin()
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['cierreManual'])
+        && (!('cierreManual' in request.resource.data) || request.resource.data.cierreManual is timestamp);
+      allow create, delete: if false;
     }
 
     match /jugadores/{jugador} {
@@ -65,10 +75,10 @@ service cloud.firestore {
         && request.resource.data.v in ['L', 'E', 'V']
         && request.resource.data.t == request.time
         && get(/databases/$(database)/documents/cuentas/$(request.auth.uid)).data.jugador == request.resource.data.jugador
-        && get(/databases/$(database)/documents/partidos/$(request.resource.data.partido)).data.cierre > request.time;
+        && cierreDe(request.resource.data.partido) > request.time;
       allow delete: if admin() || logueado()
         && resource.data.uid == request.auth.uid
-        && get(/databases/$(database)/documents/partidos/$(resource.data.partido)).data.cierre > request.time;
+        && cierreDe(resource.data.partido) > request.time;
     }
 
     match /{otro=**} {

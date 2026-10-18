@@ -34,6 +34,10 @@ for (const [id, p] of Object.entries(partidos)) {
   const ant = existentes[id];
   // Un resultado ya cargado no se borra si la Liga deja de mostrarlo.
   if (ant && ant.gl != null && p.gl == null) { p.gl = ant.gl; p.gv = ant.gv; }
+  // Un partido que ya cerró no se reabre solo si la Liga lo posterga. Reabrirlo es decisión del
+  // organizador, desde el panel (cierreManual, que este script nunca toca).
+  const antCierre = ant?.cierre?.toMillis?.();
+  if (antCierre && antCierre <= Date.now() && p.cierre.getTime() > antCierre) p.cierre = new Date(antCierre);
   const igual = ant && ['fecha', 'dia', 'hora', 'horaAConfirmar', 'cancha', 'gl', 'gv', 'local', 'visitante', 'zona']
     .every(k => ant[k] === p[k]) && ant.cierre?.toMillis?.() === p.cierre.getTime();
   if (igual) continue;

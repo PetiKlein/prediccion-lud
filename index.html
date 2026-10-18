@@ -124,6 +124,10 @@ form.inline{display:flex;gap:6px;justify-content:center;align-items:center}
 form.inline input{width:72px;font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--fg);text-align:center}
 td.acciones{display:flex;gap:6px;align-items:center;justify-content:flex-end;flex-wrap:wrap;white-space:normal}
 .admin .tablewrap{border:0}
+.cierres{display:flex;flex-direction:column;gap:12px}
+.cierre{display:flex;flex-direction:column;gap:6px;padding-block:10px;border-top:1px solid var(--line)}
+.inline-row{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.inline-row input{font:inherit;padding:7px 9px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--fg);min-width:0}
 @media (max-width:420px){.brand h1{font-size:1.7rem}.pick{font-size:.9rem}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
@@ -160,7 +164,7 @@ td.acciones{display:flex;gap:6px;align-items:center;justify-content:flex-end;fle
 import { firebaseConfig } from './firebase-config.js';
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js';
 import { getAuth, GoogleAuthProvider, onAuthStateChanged, signInWithPopup, signInWithRedirect, signOut } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js';
-import { getFirestore, collection, doc, onSnapshot, setDoc, updateDoc, deleteDoc, writeBatch, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js';
+import { getFirestore, collection, doc, onSnapshot, setDoc, updateDoc, deleteDoc, deleteField, writeBatch, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js';
 
 const S = { partidos: [], jugadores: [], picks: [], user: null, authListo: false, tab: 'pronosticar', fecha: null, pendingClaim: null, listo: { p: false, j: false } };
 const $main = document.getElementById('main');
@@ -201,6 +205,9 @@ function defaultFecha(){
       ?? fs.find(f => S.partidos.some(p => p.fecha === f && !played(p)))
       ?? fs[fs.length-1];
 }
+const diaMvd = dt => dt.toLocaleDateString('en-CA', { timeZone: 'America/Montevideo' });
+// El día de la fecha: el que más se repite entre sus partidos (normalmente el domingo).
+function diaDeFecha(f){ const c = {}; for (const p of S.partidos) if (p.fecha === f) c[p.dia] = (c[p.dia]||0)+1; return Object.entries(c).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]))[0]?.[0]; }
 function cierreFecha(f){ const ps = S.partidos.filter(p => p.fecha === f); return new Date(Math.max(...ps.map(p => p.cierre.getTime()))); }
 
 function picksPor(jugadorId){ const o = {}; for (const k of S.picks) if (k.jugador === jugadorId) o[k.partido] = k.v; return o; }
@@ -261,6 +268,10 @@ function renderPanel(){
         : faltan.length ? `<div class="chips">${faltan.map(x => `<span class="chip miss">${esc(x.j.nombre)} · ${x.n} de ${abiertos.length}</span>`).join('')}</div>`
         : '<p class="lede">Ya votaron todos.</p>'}
     </section>
+    <section class="admin"><h3>Cierre de las fechas</h3>
+      <p class="lede">Por defecto cada fecha cierra el domingo a las 9:00, y un partido que se juega antes cierra a su hora. Si cambiás el cierre, se aplica a los partidos de esa fecha que todavía no se jugaron; un partido que empieza antes de ese horario igual cierra a su hora.</p>
+      ${cierresPanel()}
+    </section>
     <section class="admin"><h3>Jugadores</h3>
       <p class="lede">«Liberar nombre» desvincula la cuenta de Google que lo reclamó y borra sus pronósticos, así otra persona puede elegirlo.</p>
       <div class="tablewrap"><table><thead><tr><th class="name">Jugador</th><th>Antes</th><th></th></tr></thead><tbody>${filas}</tbody></table></div>
@@ -270,6 +281,46 @@ function renderPanel(){
         <label class="sr" for="addBase">Puntos de antes</label><input id="addBase" type="number" min="0" max="999" value="0" style="max-width:110px">
         <button class="btn" type="submit">Agregar</button></form>
     </section>`;
+}
+
+const mvdInput = dt => new Intl.DateTimeFormat('sv-SE', { timeZone: 'America/Montevideo', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).format(dt).replace(' ', 'T');
+const kickoffDe = p => p.horaAConfirmar ? null : new Date(`${p.dia}T${p.hora}:00-03:00`);
+
+function cierresPanel(){
+  const fs = fechas().filter(f => S.partidos.some(p => p.fecha === f && !played(p)));
+  if (!fs.length) return '<p class="lede">No quedan fechas por jugar.</p>';
+  return `<div class="cierres">` + fs.map(f => {
+    const ps = S.partidos.filter(p => p.fecha === f && !played(p));
+    const c = new Date(Math.max(...ps.map(p => p.cierre.getTime())));
+    const manual = ps.some(p => p.cierreManual);
+    const estado = Date.now() >= c.getTime() ? 'cerrada' : 'abierta';
+    return `<form class="cierre" data-cierre-form="${f}">
+      <div><b>Fecha ${f}</b> <span class="acct">${ps.length} partido${ps.length>1?'s':''} sin jugar · ${estado} · ${manual ? 'horario puesto a mano' : 'domingo 9:00 (automático)'}</span></div>
+      <div class="inline-row"><label class="sr" for="cierre-${f}">Cierre de la fecha ${f}</label><input id="cierre-${f}" type="datetime-local" value="${mvdInput(c)}" required>
+        <button class="btn ghost" type="submit">Guardar cierre</button>
+        ${manual ? `<button class="btn ghost" type="button" data-cierre-auto="${f}">Volver al domingo 9:00</button>` : ''}</div>
+    </form>`;
+  }).join('') + `</div>`;
+}
+
+async function guardarCierre(f, valor){
+  if (!valor) return;
+  const elegido = new Date(`${valor}:00-03:00`);
+  if (isNaN(elegido)) { toast('Fecha u hora inválida'); return; }
+  const b = writeBatch(db);
+  for (const p of S.partidos.filter(p => p.fecha === f && !played(p))) {
+    const k = kickoffDe(p);
+    b.update(doc(db, 'partidos', p.id), { cierreManual: k && k < elegido ? k : elegido });
+  }
+  try { await b.commit(); toast(`Fecha ${f}: cierra el ${fmtDia(diaMvd(elegido))} a las ${fmtHora(elegido)}`); }
+  catch(e){ toast('No se pudo guardar. Revisá que las reglas de Firebase estén actualizadas.'); }
+}
+
+async function cierreAutomatico(f){
+  const b = writeBatch(db);
+  for (const p of S.partidos.filter(p => p.fecha === f && p.cierreManual)) b.update(doc(db, 'partidos', p.id), { cierreManual: deleteField() });
+  try { await b.commit(); toast(`Fecha ${f}: vuelve a cerrar el domingo a las 9:00`); }
+  catch(e){ toast('No se pudo guardar. Revisá que las reglas de Firebase estén actualizadas.'); }
 }
 
 const slugify = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,40);
@@ -314,7 +365,7 @@ function identityBox(){
 
 function fechaBar(){
   return `<div class="fechas" role="group" aria-label="Fechas">` + fechas().map(f =>
-    `<button data-fecha="${f}" aria-pressed="${f===S.fecha}">F${f}<small>${esc(fmtDia(cierreFecha(f).toISOString().slice(0,10)).replace(/^\S+ /,''))}</small></button>`).join('') + `</div>`;
+    `<button data-fecha="${f}" aria-pressed="${f===S.fecha}">F${f}<small>${esc(fmtDia(diaDeFecha(f)).replace(/^\S+ /,''))}</small></button>`).join('') + `</div>`;
 }
 
 function matchCard(p, me){
@@ -342,7 +393,7 @@ function renderPronosticar(){
   const c = cierreFecha(S.fecha);
   let html = identityBox() + fechaBar();
   html += `<p class="lede">${abiertos
-    ? `Fecha ${S.fecha}: cierra el ${esc(fmtDia(c.toISOString().slice(0,10)))} a las ${esc(fmtHora(c))}. Tocá quién gana o empate; se guarda solo y podés cambiarlo hasta el cierre.`
+    ? `Fecha ${S.fecha}: cierra el ${esc(fmtDia(diaMvd(c)))} a las ${esc(fmtHora(c))}. Tocá quién gana o empate; se guarda solo y podés cambiarlo hasta el cierre.`
     : `Fecha ${S.fecha} cerrada.`} Cada acierto vale 1 punto.</p>`;
   for (const z of ['Título','Permanencia']){
     const zp = ps.filter(p => p.zona === z).sort((a,b)=> (a.dia+a.hora).localeCompare(b.dia+b.hora) || a.local.localeCompare(b.local));
@@ -374,7 +425,7 @@ function renderResultados(){
   let html = '';
   for (const f of fs){
     const ps = S.partidos.filter(p => p.fecha === f).sort((a,b)=> a.zona.localeCompare(b.zona) || (a.dia+a.hora).localeCompare(b.dia+b.hora));
-    html += `<section class="zona"><h2>Fecha ${f}<small>${esc(fmtDia(cierreFecha(f).toISOString().slice(0,10)))}</small></h2><div class="matches">` + ps.map(p => {
+    html += `<section class="zona"><h2>Fecha ${f}<small>${esc(fmtDia(diaDeFecha(f)))}</small></h2><div class="matches">` + ps.map(p => {
       const o = outcome(p);
       const chips = S.jugadores.map(j => [j, picksPor(j.id)[p.id]]).filter(([,v]) => v).map(([j,v]) => `<span class="chip ${o ? (v===o?'hit':'miss') : ''}">${esc(j.nombre)}</span>`).join('');
       return `<article class="match"><div class="meta"><span>Zona ${esc(p.zona)} · ${esc(p.cancha)}</span></div>
@@ -439,12 +490,14 @@ $main.addEventListener('click', e => {
   if (!esAdmin()) return;
   const pl = e.target.closest('button[data-pedir-liberar]'); if (pl){ S.panelConfirm = pl.dataset.pedirLiberar; render(); return; }
   if (e.target.closest('button[data-cancelar]')){ S.panelConfirm = null; render(); return; }
-  const lb = e.target.closest('button[data-liberar]'); if (lb){ lb.disabled = true; liberar(lb.dataset.liberar); }
+  const lb = e.target.closest('button[data-liberar]'); if (lb){ lb.disabled = true; liberar(lb.dataset.liberar); return; }
+  const ca = e.target.closest('button[data-cierre-auto]'); if (ca){ ca.disabled = true; cierreAutomatico(Number(ca.dataset.cierreAuto)); }
 });
 $main.addEventListener('submit', e => {
   if (!esAdmin()) return;
   e.preventDefault();
   if (e.target.id === 'addForm'){ agregarJugador(document.getElementById('addName').value, document.getElementById('addBase').value); return; }
+  if (e.target.dataset.cierreForm){ const f = Number(e.target.dataset.cierreForm); guardarCierre(f, e.target.querySelector('input').value); return; }
   const id = e.target.dataset.baseForm;
   if (id) guardarBase(id, e.target.querySelector('input').value);
 });
@@ -452,7 +505,9 @@ $main.addEventListener('submit', e => {
 // ---------- datos en vivo ----------
 const fail = msg => () => { $main.innerHTML = `<div class="notice warn"><strong>No se pudo cargar la penca</strong>${msg}</div>`; };
 onSnapshot(collection(db, 'partidos'), snap => {
-  S.partidos = snap.docs.map(d => { const x = d.data(); return { id: d.id, ...x, cierre: x.cierre?.toDate ? x.cierre.toDate() : new Date(x.cierre) }; });
+  const aFecha = v => v == null ? null : v.toDate ? v.toDate() : new Date(v);
+  S.partidos = snap.docs.map(d => { const x = d.data(); const auto = aFecha(x.cierre), manual = aFecha(x.cierreManual);
+    return { id: d.id, ...x, cierreAuto: auto, cierreManual: manual, cierre: manual || auto }; });
   S.listo.p = true; render();
 }, fail('Revisá tu conexión y recargá la página.'));
 onSnapshot(collection(db, 'jugadores'), snap => {
