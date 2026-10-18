@@ -130,6 +130,19 @@ td.acciones{display:flex;gap:6px;align-items:center;justify-content:flex-end;fle
 .cierre{display:flex;flex-direction:column;gap:6px;padding-block:10px;border-top:1px solid var(--line)}
 .inline-row{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
 .inline-row input{font:inherit;padding:7px 9px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--fg);min-width:0}
+.meta{flex-wrap:nowrap;align-items:flex-start}
+.meta > span:first-child{min-width:0}
+.meta .state{flex:0 0 auto}
+@media (max-width:560px){
+  .brand{flex-wrap:nowrap;align-items:center;padding-block:10px 4px}
+  .brand h1{font-size:1.45rem}
+  .brand p{font-size:.62rem;margin-top:2px}
+  .who{flex:0 0 auto}
+  .who-l{display:none}
+  .who b{font-size:1.05rem}
+  .authbtn{margin-top:0}
+  nav.tabs button{padding:8px 10px;font-size:.98rem}
+}
 @media (max-width:420px){.brand h1{font-size:1.7rem}.pick{font-size:.9rem}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
