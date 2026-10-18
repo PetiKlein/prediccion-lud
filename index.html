@@ -268,8 +268,8 @@ function renderPanel(){
         : faltan.length ? `<div class="chips">${faltan.map(x => `<span class="chip miss">${esc(x.j.nombre)} · ${x.n} de ${abiertos.length}</span>`).join('')}</div>`
         : '<p class="lede">Ya votaron todos.</p>'}
     </section>
-    <section class="admin"><h3>Cierre de las fechas</h3>
-      <p class="lede">Por defecto cada fecha cierra el domingo a las 9:00, y un partido que se juega antes cierra a su hora. Si cambiás el cierre, se aplica a los partidos de esa fecha que todavía no se jugaron; un partido que empieza antes de ese horario igual cierra a su hora.</p>
+    <section class="admin"><h3>Cierre de los partidos</h3>
+      <p class="lede">Por defecto todos los partidos cierran el domingo de su fecha a las 9:00, y uno que se juega antes cierra a su hora. Elegí la fecha y cambiá el cierre del partido que necesites.</p>
       ${cierresPanel()}
     </section>
     <section class="admin"><h3>Jugadores</h3>
@@ -284,42 +284,41 @@ function renderPanel(){
 }
 
 const mvdInput = dt => new Intl.DateTimeFormat('sv-SE', { timeZone: 'America/Montevideo', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).format(dt).replace(' ', 'T');
-const kickoffDe = p => p.horaAConfirmar ? null : new Date(`${p.dia}T${p.hora}:00-03:00`);
 
 function cierresPanel(){
   const fs = fechas().filter(f => S.partidos.some(p => p.fecha === f && !played(p)));
   if (!fs.length) return '<p class="lede">No quedan fechas por jugar.</p>';
-  return `<div class="cierres">` + fs.map(f => {
-    const ps = S.partidos.filter(p => p.fecha === f && !played(p));
-    const c = new Date(Math.max(...ps.map(p => p.cierre.getTime())));
-    const manual = ps.some(p => p.cierreManual);
-    const estado = Date.now() >= c.getTime() ? 'cerrada' : 'abierta';
-    return `<form class="cierre" data-cierre-form="${f}">
-      <div><b>Fecha ${f}</b> <span class="acct">${ps.length} partido${ps.length>1?'s':''} sin jugar · ${estado} · ${manual ? 'horario puesto a mano' : 'domingo 9:00 (automático)'}</span></div>
-      <div class="inline-row"><label class="sr" for="cierre-${f}">Cierre de la fecha ${f}</label><input id="cierre-${f}" type="datetime-local" value="${mvdInput(c)}" required>
-        <button class="btn ghost" type="submit">Guardar cierre</button>
-        ${manual ? `<button class="btn ghost" type="button" data-cierre-auto="${f}">Volver al domingo 9:00</button>` : ''}</div>
+  if (!fs.includes(S.panelFecha)) S.panelFecha = fs.includes(defaultFecha()) ? defaultFecha() : fs[0];
+  const f = S.panelFecha;
+  const barra = `<div class="fechas" role="group" aria-label="Fecha a editar">` + fs.map(x =>
+    `<button type="button" data-panel-fecha="${x}" aria-pressed="${x===f}">F${x}<small>${esc(fmtDia(diaDeFecha(x)).replace(/^\S+ /,''))}</small></button>`).join('') + `</div>`;
+  const ps = S.partidos.filter(p => p.fecha === f).sort((a,b)=> a.zona.localeCompare(b.zona) || (a.dia+a.hora).localeCompare(b.dia+b.hora));
+  const filas = ps.map(p => {
+    const hora = p.horaAConfirmar ? 'hora a confirmar' : `${p.hora} h`;
+    const head = `<div><b>${esc(p.local)} vs ${esc(p.visitante)}</b> <span class="acct">Zona ${esc(p.zona)} · ${esc(fmtDia(p.dia))} · ${esc(hora)}</span></div>`;
+    if (played(p)) return `<div class="cierre">${head}<span class="acct">Jugado: ${p.gl}-${p.gv}</span></div>`;
+    const estado = locked(p) ? 'cerrado' : 'abierto';
+    return `<form class="cierre" data-cierre-form="${esc(p.id)}">${head}
+      <span class="acct">Cierra el ${esc(fmtDia(diaMvd(p.cierre)))} a las ${esc(fmtHora(p.cierre))} · ${estado} · ${p.cierreManual ? 'puesto a mano' : 'automático'}</span>
+      <div class="inline-row"><label class="sr" for="cierre-${esc(p.id)}">Cierre de ${esc(p.local)} vs ${esc(p.visitante)}</label><input id="cierre-${esc(p.id)}" type="datetime-local" value="${mvdInput(p.cierre)}" required>
+        <button class="btn ghost" type="submit">Guardar</button>
+        ${p.cierreManual ? `<button class="btn ghost" type="button" data-cierre-auto="${esc(p.id)}">Volver al automático</button>` : ''}</div>
     </form>`;
-  }).join('') + `</div>`;
+  }).join('');
+  return barra + `<div class="cierres">${filas}</div>`;
 }
 
-async function guardarCierre(f, valor){
-  if (!valor) return;
+async function guardarCierre(partidoId, valor){
+  const p = S.partidos.find(x => x.id === partidoId); if (!p || !valor) return;
   const elegido = new Date(`${valor}:00-03:00`);
   if (isNaN(elegido)) { toast('Fecha u hora inválida'); return; }
-  const b = writeBatch(db);
-  for (const p of S.partidos.filter(p => p.fecha === f && !played(p))) {
-    const k = kickoffDe(p);
-    b.update(doc(db, 'partidos', p.id), { cierreManual: k && k < elegido ? k : elegido });
-  }
-  try { await b.commit(); toast(`Fecha ${f}: cierra el ${fmtDia(diaMvd(elegido))} a las ${fmtHora(elegido)}`); }
+  try { await updateDoc(doc(db, 'partidos', partidoId), { cierreManual: elegido }); toast(`${p.local} vs ${p.visitante}: cierra el ${fmtDia(diaMvd(elegido))} a las ${fmtHora(elegido)}`); }
   catch(e){ toast('No se pudo guardar. Revisá que las reglas de Firebase estén actualizadas.'); }
 }
 
-async function cierreAutomatico(f){
-  const b = writeBatch(db);
-  for (const p of S.partidos.filter(p => p.fecha === f && p.cierreManual)) b.update(doc(db, 'partidos', p.id), { cierreManual: deleteField() });
-  try { await b.commit(); toast(`Fecha ${f}: vuelve a cerrar el domingo a las 9:00`); }
+async function cierreAutomatico(partidoId){
+  const p = S.partidos.find(x => x.id === partidoId); if (!p) return;
+  try { await updateDoc(doc(db, 'partidos', partidoId), { cierreManual: deleteField() }); toast(`${p.local} vs ${p.visitante}: vuelve al cierre automático`); }
   catch(e){ toast('No se pudo guardar. Revisá que las reglas de Firebase estén actualizadas.'); }
 }
 
@@ -491,13 +490,14 @@ $main.addEventListener('click', e => {
   const pl = e.target.closest('button[data-pedir-liberar]'); if (pl){ S.panelConfirm = pl.dataset.pedirLiberar; render(); return; }
   if (e.target.closest('button[data-cancelar]')){ S.panelConfirm = null; render(); return; }
   const lb = e.target.closest('button[data-liberar]'); if (lb){ lb.disabled = true; liberar(lb.dataset.liberar); return; }
-  const ca = e.target.closest('button[data-cierre-auto]'); if (ca){ ca.disabled = true; cierreAutomatico(Number(ca.dataset.cierreAuto)); }
+  const ca = e.target.closest('button[data-cierre-auto]'); if (ca){ ca.disabled = true; cierreAutomatico(ca.dataset.cierreAuto); return; }
+  const pf = e.target.closest('button[data-panel-fecha]'); if (pf){ S.panelFecha = Number(pf.dataset.panelFecha); render(); }
 });
 $main.addEventListener('submit', e => {
   if (!esAdmin()) return;
   e.preventDefault();
   if (e.target.id === 'addForm'){ agregarJugador(document.getElementById('addName').value, document.getElementById('addBase').value); return; }
-  if (e.target.dataset.cierreForm){ const f = Number(e.target.dataset.cierreForm); guardarCierre(f, e.target.querySelector('input').value); return; }
+  if (e.target.dataset.cierreForm){ guardarCierre(e.target.dataset.cierreForm, e.target.querySelector('input').value); return; }
   const id = e.target.dataset.baseForm;
   if (id) guardarBase(id, e.target.querySelector('input').value);
 });
