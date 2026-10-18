@@ -8,7 +8,6 @@ service cloud.firestore {
   match /databases/{database}/documents {
 
     function logueado() { return request.auth != null; }
-    function doc(path) { return /databases/$(database)/documents/$(path); }
 
     match /partidos/{id} {
       allow read: if true;
@@ -24,8 +23,8 @@ service cloud.firestore {
         && request.resource.data.uid == request.auth.uid
         && request.resource.data.cuentaNombre is string
         && request.resource.data.cuentaNombre.size() <= 80
-        && !exists(doc('cuentas/' + request.auth.uid))
-        && getAfter(doc('cuentas/' + request.auth.uid)).data.jugador == jugador;
+        && !exists(/databases/$(database)/documents/cuentas/$(request.auth.uid))
+        && getAfter(/databases/$(database)/documents/cuentas/$(request.auth.uid)).data.jugador == jugador;
       allow create, delete: if false;
     }
 
@@ -35,7 +34,7 @@ service cloud.firestore {
       allow create: if logueado()
         && uid == request.auth.uid
         && request.resource.data.keys().hasOnly(['jugador'])
-        && getAfter(doc('jugadores/' + request.resource.data.jugador)).data.uid == request.auth.uid;
+        && getAfter(/databases/$(database)/documents/jugadores/$(request.resource.data.jugador)).data.uid == request.auth.uid;
       allow update, delete: if false;
     }
 
@@ -48,11 +47,11 @@ service cloud.firestore {
         && request.resource.data.uid == request.auth.uid
         && request.resource.data.v in ['L', 'E', 'V']
         && request.resource.data.t == request.time
-        && get(doc('cuentas/' + request.auth.uid)).data.jugador == request.resource.data.jugador
-        && get(doc('partidos/' + request.resource.data.partido)).data.cierre > request.time;
+        && get(/databases/$(database)/documents/cuentas/$(request.auth.uid)).data.jugador == request.resource.data.jugador
+        && get(/databases/$(database)/documents/partidos/$(request.resource.data.partido)).data.cierre > request.time;
       allow delete: if logueado()
         && resource.data.uid == request.auth.uid
-        && get(doc('partidos/' + resource.data.partido)).data.cierre > request.time;
+        && get(/databases/$(database)/documents/partidos/$(resource.data.partido)).data.cierre > request.time;
     }
 
     match /{otro=**} {
