@@ -3,7 +3,7 @@ name: Minutos y posibles bajas
 on:
   push:
     branches: [explorar-lud]
-    paths: ['scripts/detalle.mjs', 'scripts/bajas.mjs', '.github/workflows/bajas.yml']
+    paths: ['scripts/detalle.mjs', 'scripts/categorias.mjs', '.github/workflows/bajas.yml']
   schedule:
     # Horario en UTC (Uruguay = UTC-3). Domingo 18:35 y lunes a miércoles 20:35 en Montevideo,
     # para agarrar las planillas que la Liga carga tarde. Solo corre desde la rama principal.
@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: 22
       - run: node scripts/detalle.mjs
-      - run: '[ -f scripts/bajas.mjs ] && node scripts/bajas.mjs || true'
+      - run: node scripts/bajas.mjs
       - name: Guardar datos
         if: always()
         run: |
