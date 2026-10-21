@@ -1,0 +1,290 @@
+{
+ "id": "99241",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 6,
+ "fechaHora": "2026-05-23 15:30:00",
+ "cancha": "TENIS EL PINAR",
+ "local": "TENIS EL PINAR",
+ "visitante": "MATURANA UNIVERSITARIO",
+ "gl": 2,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "43",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "TENIS EL PINAR",
+  "Fecha_Inicio": "2026-05-23 17:30:00",
+  "Fecha_fin": "2026-05-23 17:30:00",
+  "Locatario": "TENIS EL PINAR",
+  "goles_locatario": "2",
+  "puntos_locatario": "3",
+  "Visitante": "MATURANA UNIVERSITARIO",
+  "goles_visitante": "1",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "56185",
+   "Nombre": "JUAN ANDRES BAYARDI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56163",
+   "Nombre": "BRUNO GONZALEZ",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "66599",
+   "Nombre": "FACUNDO ALVAREZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56164",
+   "Nombre": "GUZMAN COSTEMALLE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "54831",
+   "Nombre": "JOAQUÌN GOLDARACENA",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58654",
+   "Nombre": "MATIAS NICOLAS BARRIOS",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "53658",
+   "Nombre": "JOAQUIN VAZQUEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "54592",
+   "Nombre": "LUCCA BONOMI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "67917",
+   "Nombre": "SANTIAGO CASTRO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "56166",
+   "Nombre": "MARTIN NICOLAS GOMEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "66515",
+   "Nombre": "FELIPE ANTONIO REGUEIRO",
+   "camiseta": "16",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "57897",
+   "Nombre": "FACUNDO TORRES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "52597",
+   "Nombre": "JOAQUIN ZABALETA",
+   "camiseta": "80",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56778",
+   "Nombre": "FRANCISCO GOMEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "56787",
+   "Nombre": "IGNACIO GONZALEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "63203",
+   "Nombre": "JOAQUIN RODRIGUEZ",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "64808",
+   "Nombre": "MANUEL TIAGO LIARD",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "56098",
+   "Nombre": "MATIAS MARTIRENA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "56223",
+   "Nombre": "SALVADOR MORATORIO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "56100",
+   "Nombre": "IGNACIO POPELKA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "63888",
+   "Nombre": "TOMAS NAHUEL AREOSA",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "59528",
+   "Nombre": "MANUEL CAIMI",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56163",
+   "Jug_Sale": "BRUNO GONZALEZ",
+   "CarneEntra": "57044",
+   "Jug_Entra": "JUAN RAMON CASAL",
+   "camiseta": "25",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "53658",
+   "Jug_Sale": "JOAQUIN VAZQUEZ",
+   "CarneEntra": "64786",
+   "Jug_Entra": "THIAGO  DANILO SOUTO",
+   "camiseta": "18",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "56164",
+   "Jug_Sale": "GUZMAN COSTEMALLE",
+   "CarneEntra": "60889",
+   "Jug_Entra": "MATEO OLIVEIRA",
+   "camiseta": "17",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "56166",
+   "Jug_Sale": "MARTIN NICOLAS GOMEZ",
+   "CarneEntra": "56831",
+   "Jug_Entra": "JUAN MARTIN ABO",
+   "camiseta": "2",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "54592",
+   "Jug_Sale": "LUCCA BONOMI",
+   "CarneEntra": "64788",
+   "Jug_Entra": "JUAN IGNACIO LIZARRAGA",
+   "camiseta": "15",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "54831",
+   "Jug_Sale": "JOAQUÌN GOLDARACENA",
+   "CarneEntra": "61622",
+   "Jug_Entra": "MATEO OMAR ROLAND",
+   "camiseta": "21",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "63888",
+   "Jug_Sale": "TOMAS NAHUEL AREOSA",
+   "CarneEntra": "63826",
+   "Jug_Entra": "JUAN SEBASTIAN CHIESA",
+   "camiseta": "8",
+   "minutos": "48"
+  },
+  {
+   "CarneSale": "56787",
+   "Jug_Sale": "IGNACIO GONZALEZ",
+   "CarneEntra": "59701",
+   "Jug_Entra": "MATIAS JAVIER GATTO",
+   "camiseta": "99",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "63203",
+   "Jug_Sale": "JOAQUIN RODRIGUEZ",
+   "CarneEntra": "56775",
+   "Jug_Entra": "MARIO AGUSTIN ANDRIOLO",
+   "camiseta": "10",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "56100",
+   "Jug_Sale": "IGNACIO POPELKA",
+   "CarneEntra": "64798",
+   "Jug_Entra": "SANTIAGO BIDONDO",
+   "camiseta": "4",
+   "minutos": "76"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56164",
+   "Nombre": "GUZMAN COSTEMALLE",
+   "minutos": "1",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67917",
+   "Nombre": "SANTIAGO CASTRO",
+   "minutos": "85",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "63888",
+   "Nombre": "TOMAS NAHUEL AREOSA",
+   "minutos": "40",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "JOAQUIN VAZQUEZ",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "MANUEL TIAGO LIARD",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "MATIAS MARTIRENA",
+   "observaciones": ""
+  }
+ ]
+}

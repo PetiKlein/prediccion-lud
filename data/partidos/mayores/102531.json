@@ -1,0 +1,292 @@
+{
+ "id": "102531",
+ "categoria": "mayores",
+ "serie": "APD",
+ "fecha": 2,
+ "fechaHora": "2026-10-04 11:15:00",
+ "cancha": "OLD CHRISTIANS CLUB",
+ "local": "OLD CHRISTIANS CLUB",
+ "visitante": "CLUB SEMINARIO",
+ "gl": 2,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "875",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "2",
+  "Divisional": "MAYORES \"A\" PERM. y DESC.",
+  "Cancha": "OLD CHRISTIANS CLUB",
+  "Fecha_Inicio": "2026-10-04 13:20:00",
+  "Fecha_fin": "2026-10-04 13:20:00",
+  "Locatario": "OLD CHRISTIANS CLUB",
+  "goles_locatario": "2",
+  "puntos_locatario": "3",
+  "Visitante": "CLUB SEMINARIO",
+  "goles_visitante": "1",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "51657",
+   "Nombre": "FELIPE PEREYRA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "52602",
+   "Nombre": "JUAN DIEGO DE CASTRO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "37170",
+   "Nombre": "SEBASTIAN REGULES",
+   "camiseta": "71",
+   "Capitan": ""
+  },
+  {
+   "carne": "50841",
+   "Nombre": "SANTOS JUAN HOUNIE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "51886",
+   "Nombre": "LUCAS ALONSO",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "52355",
+   "Nombre": "SANTIAGO PAZ RODRIGUEZ",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "53249",
+   "Nombre": "JUAN FRANCISCO FERREIRA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "50902",
+   "Nombre": "SANTIAGO VINCENT",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "37187",
+   "Nombre": "GUILLERMO DEAL",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "42069",
+   "Nombre": "MATEO GIOIA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "37735",
+   "Nombre": "FRANCO MASCIA",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "45817",
+   "Nombre": "MATIAS ESTAPE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54784",
+   "Nombre": "FACUNDO EMILIANO PAGANI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "50839",
+   "Nombre": "FABRIZIO JORGE GRAJALES",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "39147",
+   "Nombre": "SEBASTIAN ECHEVERZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "55503",
+   "Nombre": "SALVADOR DI CANDIA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "39017",
+   "Nombre": "GERMAN FRAGA",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57157",
+   "Nombre": "FACUNDO PIRIS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64647",
+   "Nombre": "FABRIZIO OSCAR PAGLIA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "50866",
+   "Nombre": "JOSE SANTIAGO LUCAS",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "47176",
+   "Nombre": "SANTIAGO BENZANO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "47680",
+   "Nombre": "JUAN FELIPE LUCAS",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "42069",
+   "Jug_Sale": "MATEO GIOIA",
+   "CarneEntra": "52249",
+   "Jug_Entra": "JUAN GERVASIO ETCHEVERRY",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "37187",
+   "Jug_Sale": "GUILLERMO DEAL",
+   "CarneEntra": "66722",
+   "Jug_Entra": "JOAQUIN RODRIGUEZ",
+   "camiseta": "38",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "53249",
+   "Jug_Sale": "JUAN FRANCISCO FERREIRA",
+   "CarneEntra": "40765",
+   "Jug_Entra": "JUAN DIEGO GONZALEZ",
+   "camiseta": "5",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "50902",
+   "Jug_Sale": "SANTIAGO VINCENT",
+   "CarneEntra": "26432",
+   "Jug_Entra": "SANTIAGO LOPEZ",
+   "camiseta": "10",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "50841",
+   "Jug_Sale": "SANTOS JUAN HOUNIE",
+   "CarneEntra": "35115",
+   "Jug_Entra": "JUAN PEDRO BELO",
+   "camiseta": "20",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "51886",
+   "Jug_Sale": "LUCAS ALONSO",
+   "CarneEntra": "39599",
+   "Jug_Entra": "MATIAS HAM",
+   "camiseta": "21",
+   "minutos": "84"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "39147",
+   "Jug_Sale": "SEBASTIAN ECHEVERZ",
+   "CarneEntra": "47696",
+   "Jug_Entra": "IGNACIO TOMAS ESTEFAN",
+   "camiseta": "9",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "39017",
+   "Jug_Sale": "GERMAN FRAGA",
+   "CarneEntra": "45815",
+   "Jug_Entra": "FRANCISCO MARICHAL",
+   "camiseta": "6",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "55503",
+   "Jug_Sale": "SALVADOR DI CANDIA",
+   "CarneEntra": "39147",
+   "Jug_Entra": "SEBASTIAN ECHEVERZ",
+   "camiseta": "15",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "64647",
+   "Jug_Sale": "FABRIZIO OSCAR PAGLIA",
+   "CarneEntra": "28056",
+   "Jug_Entra": "RENZO CARUSO",
+   "camiseta": "5",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "50866",
+   "Jug_Sale": "JOSE SANTIAGO LUCAS",
+   "CarneEntra": "56643",
+   "Jug_Entra": "FEDERICO MOSCA",
+   "camiseta": "20",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "47176",
+   "Jug_Sale": "SANTIAGO BENZANO",
+   "CarneEntra": "53659",
+   "Jug_Entra": "ANDRES HERRERA",
+   "camiseta": "10",
+   "minutos": "81"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "42069",
+   "Nombre": "MATEO GIOIA",
+   "minutos": "27",
+   "EnContra": "0"
+  },
+  {
+   "carne": "52249",
+   "Nombre": "JUAN GERVASIO ETCHEVERRY",
+   "minutos": "85",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "47680",
+   "Nombre": "JUAN FELIPE LUCAS",
+   "minutos": "89",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

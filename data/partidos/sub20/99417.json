@@ -1,0 +1,301 @@
+{
+ "id": "99417",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 7,
+ "fechaHora": "2026-05-30 15:45:00",
+ "cancha": "COMPLEJO LOS NOGALES",
+ "local": "NACIONAL UNIVERSITARIO",
+ "visitante": "J.M.L.M",
+ "gl": 4,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "52",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "COMPLEJO LOS NOGALES",
+  "Fecha_Inicio": "2026-05-30 17:36:00",
+  "Fecha_fin": "2026-05-30 17:36:00",
+  "Locatario": "NACIONAL UNIVERSITARIO",
+  "goles_locatario": "4",
+  "puntos_locatario": "3",
+  "Visitante": "J.M.L.M",
+  "goles_visitante": "1",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "62299",
+   "Nombre": "FACUNDO GONZALEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68674",
+   "Nombre": "SANTIAGO VIERA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "63621",
+   "Nombre": "RAUL ERNESTO GONZALEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "58538",
+   "Nombre": "PATRICIO BULA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "57415",
+   "Nombre": "IÑAKI ETCHEVERRIA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "58009",
+   "Nombre": "SEBASTIAN FARIAS",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "53307",
+   "Nombre": "LUCA GIUSEPPE MARRONE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67309",
+   "Nombre": "GUZMAN DUFOUR",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "67310",
+   "Nombre": "FACUNDO PEREZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "56570",
+   "Nombre": "MARCOA ISMAEL GARCIA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "66558",
+   "Nombre": "CONSTANTINO BENTANCUR",
+   "camiseta": "29",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67397",
+   "Nombre": "ALEJANDRO MAURO NARIO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "64165",
+   "Nombre": "BENJAMIN MONTES",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "53175",
+   "Nombre": "MATEO GILI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "57046",
+   "Nombre": "FRANCISCO MATTOS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "55785",
+   "Nombre": "MATEO LAUTARO RODRIGUEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "56241",
+   "Nombre": "GUILLERMO FERRARI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "56238",
+   "Nombre": "THIAGO GONZALEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "56176",
+   "Nombre": "SANTIAGO LUCAS",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "55662",
+   "Nombre": "FEDERICO GASTON DOLIVO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "55679",
+   "Nombre": "TOMAS RODRIGUEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "66739",
+   "Nombre": "RENZO BARBIERI",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "68674",
+   "Jug_Sale": "SANTIAGO VIERA",
+   "CarneEntra": "58539",
+   "Jug_Entra": "SEBASTIAN BULA",
+   "camiseta": "24",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "56570",
+   "Jug_Sale": "MARCOA ISMAEL GARCIA",
+   "CarneEntra": "61151",
+   "Jug_Entra": "VALENTIN GUERRICO",
+   "camiseta": "17",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "67309",
+   "Jug_Sale": "GUZMAN DUFOUR",
+   "CarneEntra": "57960",
+   "Jug_Entra": "LUCAS GABRIEL GRAÑA",
+   "camiseta": "7",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "67310",
+   "Jug_Sale": "FACUNDO PEREZ",
+   "CarneEntra": "63351",
+   "Jug_Entra": "FRANCO ESTEBAN VALIENTE",
+   "camiseta": "18",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64165",
+   "Jug_Sale": "BENJAMIN MONTES",
+   "CarneEntra": "55148",
+   "Jug_Entra": "SEBASTIAN DANIEL REY",
+   "camiseta": "27",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55785",
+   "Jug_Sale": "MATEO LAUTARO RODRIGUEZ",
+   "CarneEntra": "60876",
+   "Jug_Entra": "EMILIANO TASENDE",
+   "camiseta": "41",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56176",
+   "Jug_Sale": "SANTIAGO LUCAS",
+   "CarneEntra": "58174",
+   "Jug_Entra": "MATEO MARTINEZ",
+   "camiseta": "13",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "56241",
+   "Jug_Sale": "GUILLERMO FERRARI",
+   "CarneEntra": "54714",
+   "Jug_Entra": "JOAQUIN MARTINICORENA",
+   "camiseta": "80",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "55679",
+   "Jug_Sale": "TOMAS RODRIGUEZ",
+   "CarneEntra": "55153",
+   "Jug_Entra": "MAXIMO FERRIRA",
+   "camiseta": "6",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "53175",
+   "Jug_Sale": "MATEO GILI",
+   "CarneEntra": "54716",
+   "Jug_Entra": "MATEO PICUN",
+   "camiseta": "79",
+   "minutos": "77"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56570",
+   "Nombre": "MARCOA ISMAEL GARCIA",
+   "minutos": "44",
+   "EnContra": "0"
+  },
+  {
+   "carne": "56570",
+   "Nombre": "MARCOA ISMAEL GARCIA",
+   "minutos": "60",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67310",
+   "Nombre": "FACUNDO PEREZ",
+   "minutos": "21",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67310",
+   "Nombre": "FACUNDO PEREZ",
+   "minutos": "91",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "56241",
+   "Nombre": "GUILLERMO FERRARI",
+   "minutos": "27",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "MATEO GILI",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "THIAGO GONZALEZ",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "FEDERICO GASTON DOLIVO",
+   "observaciones": ""
+  }
+ ]
+}

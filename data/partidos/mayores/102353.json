@@ -1,0 +1,269 @@
+{
+ "id": "102353",
+ "categoria": "mayores",
+ "serie": "APD",
+ "fecha": 1,
+ "fechaHora": "2026-09-27 11:15:00",
+ "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+ "local": "CLUB SEMINARIO",
+ "visitante": "PLAYA HONDA UNIVERSITARIO",
+ "gl": 2,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "871",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "2",
+  "Divisional": "MAYORES \"A\" PERM. y DESC.",
+  "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+  "Fecha_Inicio": "2026-09-27 13:08:00",
+  "Fecha_fin": "2026-09-27 13:08:00",
+  "Locatario": "CLUB SEMINARIO",
+  "goles_locatario": "2",
+  "puntos_locatario": "3",
+  "Visitante": "PLAYA HONDA UNIVERSITARIO",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "45817",
+   "Nombre": "MATIAS ESTAPE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "55503",
+   "Nombre": "SALVADOR DI CANDIA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "50839",
+   "Nombre": "FABRIZIO JORGE GRAJALES",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "39147",
+   "Nombre": "SEBASTIAN ECHEVERZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "45815",
+   "Nombre": "FRANCISCO MARICHAL",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "39017",
+   "Nombre": "GERMAN FRAGA",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "47673",
+   "Nombre": "FRANCISCO JAVIER CAMPON",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "57157",
+   "Nombre": "FACUNDO PIRIS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "50866",
+   "Nombre": "JOSE SANTIAGO LUCAS",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "47176",
+   "Nombre": "SANTIAGO BENZANO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "47680",
+   "Nombre": "JUAN FELIPE LUCAS",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "54947",
+   "Nombre": "SANTIAGO HERNAN RAMIREZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54303",
+   "Nombre": "RODRIGO LEON",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "58714",
+   "Nombre": "LUCIANO LAUDICIO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "40183",
+   "Nombre": "FERNANDO MICHEL CHACON",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57182",
+   "Nombre": "JOAQUIN PABLO BAUTISTA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "68936",
+   "Nombre": "EZEQUIEL ACOSTA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "55198",
+   "Nombre": "CAMILO JOAQUIN CABRERA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "58638",
+   "Nombre": "SANTINO TORTORELLA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "57539",
+   "Nombre": "MARTIN ANDRES RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "68646",
+   "Nombre": "MARTIN GUADALUPE",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "31696",
+   "Nombre": "JAVIER TAIS",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "45815",
+   "Jug_Sale": "FRANCISCO MARICHAL",
+   "CarneEntra": "54784",
+   "Jug_Entra": "FACUNDO EMILIANO PAGANI",
+   "camiseta": "11",
+   "minutos": "35"
+  },
+  {
+   "CarneSale": "50866",
+   "Jug_Sale": "JOSE SANTIAGO LUCAS",
+   "CarneEntra": "47696",
+   "Jug_Entra": "IGNACIO TOMAS ESTEFAN",
+   "camiseta": "9",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "47680",
+   "Jug_Sale": "JUAN FELIPE LUCAS",
+   "CarneEntra": "37424",
+   "Jug_Entra": "SANTIAGO PEREZ",
+   "camiseta": "2",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "47673",
+   "Jug_Sale": "FRANCISCO JAVIER CAMPON",
+   "CarneEntra": "64647",
+   "Jug_Entra": "FABRIZIO OSCAR PAGLIA",
+   "camiseta": "4",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "55503",
+   "Jug_Sale": "SALVADOR DI CANDIA",
+   "CarneEntra": "28056",
+   "Jug_Entra": "RENZO CARUSO",
+   "camiseta": "5",
+   "minutos": "87"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57539",
+   "Jug_Sale": "MARTIN ANDRES RODRIGUEZ",
+   "CarneEntra": "47657",
+   "Jug_Entra": "FACUNDO CAPDEVIELLE",
+   "camiseta": "32",
+   "minutos": "25"
+  },
+  {
+   "CarneSale": "68936",
+   "Jug_Sale": "EZEQUIEL ACOSTA",
+   "CarneEntra": "58944",
+   "Jug_Entra": "IGNACIO ALGORTA",
+   "camiseta": "29",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "57182",
+   "Jug_Sale": "JOAQUIN PABLO BAUTISTA",
+   "CarneEntra": "67539",
+   "Jug_Entra": "MATIAS NICOLAS RODRIGUEZ",
+   "camiseta": "46",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "55198",
+   "Jug_Sale": "CAMILO JOAQUIN CABRERA",
+   "CarneEntra": "56818",
+   "Jug_Entra": "FACUNDO MARCEL RODRIGUEZ",
+   "camiseta": "37",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "54303",
+   "Jug_Sale": "RODRIGO LEON",
+   "CarneEntra": "64140",
+   "Jug_Entra": "JUAN IGNACIO CHOCHO",
+   "camiseta": "12",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "39147",
+   "Nombre": "SEBASTIAN ECHEVERZ",
+   "minutos": "52",
+   "EnContra": "0"
+  },
+  {
+   "carne": "47680",
+   "Nombre": "JUAN FELIPE LUCAS",
+   "minutos": "8",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

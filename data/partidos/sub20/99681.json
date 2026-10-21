@@ -1,0 +1,256 @@
+{
+ "id": "99681",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 8,
+ "fechaHora": "2026-06-06 15:30:00",
+ "cancha": "LA MENNAIS",
+ "local": "J.M.L.M",
+ "visitante": "CLUB SEMINARIO",
+ "gl": 0,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "61",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "LA MENNAIS",
+  "Fecha_Inicio": "2026-06-06 17:30:00",
+  "Fecha_fin": "2026-06-06 17:30:00",
+  "Locatario": "J.M.L.M",
+  "goles_locatario": "0",
+  "puntos_locatario": "1",
+  "Visitante": "CLUB SEMINARIO",
+  "goles_visitante": "0",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "67397",
+   "Nombre": "ALEJANDRO MAURO NARIO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57046",
+   "Nombre": "FRANCISCO MATTOS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "56241",
+   "Nombre": "GUILLERMO FERRARI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "55148",
+   "Nombre": "SEBASTIAN DANIEL REY",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "58174",
+   "Nombre": "MATEO MARTINEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "56176",
+   "Nombre": "SANTIAGO LUCAS",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "60876",
+   "Nombre": "EMILIANO TASENDE",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "66739",
+   "Nombre": "RENZO BARBIERI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "54714",
+   "Nombre": "JOAQUIN MARTINICORENA",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "64263",
+   "Nombre": "JUAN MANUEL DUPONT",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "64165",
+   "Nombre": "BENJAMIN MONTES",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58598",
+   "Nombre": "NICOLAS MAZZILLI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56208",
+   "Nombre": "LORENZO MANDIA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "56638",
+   "Nombre": "NICOLAS BACHINO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56190",
+   "Nombre": "JUAN BAUTISTA OLASCOAGA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "54598",
+   "Nombre": "LUCA SIVORI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "56643",
+   "Nombre": "FEDERICO MOSCA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "56639",
+   "Nombre": "BENJAMIN MORALES",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54965",
+   "Nombre": "JOAQUIN EMILIO VOLA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "56645",
+   "Nombre": "MAXIMO BERTOLA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "65936",
+   "Nombre": "DIEGO TABERNE",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "58599",
+   "Nombre": "FACUNDO MOSCA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "64165",
+   "Jug_Sale": "BENJAMIN MONTES",
+   "CarneEntra": "55679",
+   "Jug_Entra": "TOMAS RODRIGUEZ",
+   "camiseta": "20",
+   "minutos": "31"
+  },
+  {
+   "CarneSale": "56176",
+   "Jug_Sale": "SANTIAGO LUCAS",
+   "CarneEntra": "62555",
+   "Jug_Entra": "JUAN DIEGO FERNANDEZ",
+   "camiseta": "33",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66739",
+   "Jug_Sale": "RENZO BARBIERI",
+   "CarneEntra": "55153",
+   "Jug_Entra": "MAXIMO FERRIRA",
+   "camiseta": "8",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "54714",
+   "Jug_Sale": "JOAQUIN MARTINICORENA",
+   "CarneEntra": "55785",
+   "Jug_Entra": "MATEO LAUTARO RODRIGUEZ",
+   "camiseta": "33",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "55148",
+   "Jug_Sale": "SEBASTIAN DANIEL REY",
+   "CarneEntra": "59539",
+   "Jug_Entra": "AGUSTIN ROBERTO",
+   "camiseta": "24",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "64165",
+   "Jug_Sale": "BENJAMIN MONTES",
+   "CarneEntra": "57052",
+   "Jug_Entra": "VALENTIN VIDAL",
+   "camiseta": "25",
+   "minutos": "83"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56638",
+   "Jug_Sale": "NICOLAS BACHINO",
+   "CarneEntra": "59080",
+   "Jug_Entra": "MATIAS GOSSWEILER",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "54965",
+   "Jug_Sale": "JOAQUIN EMILIO VOLA",
+   "CarneEntra": "56647",
+   "Jug_Entra": "JOAQUIN EMILIANO SOLOGAISTOA",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56645",
+   "Jug_Sale": "MAXIMO BERTOLA",
+   "CarneEntra": "62030",
+   "Jug_Entra": "FRANCO TORTEROLO",
+   "camiseta": "20",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "58599",
+   "Jug_Sale": "FACUNDO MOSCA",
+   "CarneEntra": "54965",
+   "Jug_Entra": "JOAQUIN EMILIO VOLA",
+   "camiseta": "21",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

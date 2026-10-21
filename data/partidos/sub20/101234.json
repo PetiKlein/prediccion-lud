@@ -1,0 +1,232 @@
+{
+ "id": "101234",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 4,
+ "fechaHora": "2026-08-29 13:30:00",
+ "cancha": "TENIS EL PINAR",
+ "local": "TENIS EL PINAR",
+ "visitante": "NACIONAL UNIVERSITARIO",
+ "gl": 0,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "28",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "TENIS EL PINAR",
+  "Fecha_Inicio": "2026-08-29 15:15:00",
+  "Fecha_fin": "2026-08-29 15:15:00",
+  "Locatario": "TENIS EL PINAR",
+  "goles_locatario": "0",
+  "puntos_locatario": "1",
+  "Visitante": "NACIONAL UNIVERSITARIO",
+  "goles_visitante": "0",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "58654",
+   "Nombre": "MATIAS NICOLAS BARRIOS",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "54596",
+   "Nombre": "HERNAN FERNANDEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "66515",
+   "Nombre": "FELIPE ANTONIO REGUEIRO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "66599",
+   "Nombre": "FACUNDO ALVAREZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67917",
+   "Nombre": "SANTIAGO CASTRO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "58083",
+   "Nombre": "IGNACIO FACUNDO RICOBALDI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "60889",
+   "Nombre": "MATEO OLIVEIRA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "54831",
+   "Nombre": "JOAQUÌN GOLDARACENA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "62853",
+   "Nombre": "GUILLERMO BAROFFIO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "56834",
+   "Nombre": "JOAQUIN QUINTANA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "56188",
+   "Nombre": "THIAGO NAHUEL ROLAND",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62299",
+   "Nombre": "FACUNDO GONZALEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68674",
+   "Nombre": "SANTIAGO VIERA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "63621",
+   "Nombre": "RAUL ERNESTO GONZALEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "66786",
+   "Nombre": "FACUNDO FEO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "57415",
+   "Nombre": "IÑAKI ETCHEVERRIA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "58009",
+   "Nombre": "SEBASTIAN FARIAS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "67309",
+   "Nombre": "GUZMAN DUFOUR",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "57960",
+   "Nombre": "LUCAS GABRIEL GRAÑA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "53307",
+   "Nombre": "LUCA GIUSEPPE MARRONE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "66558",
+   "Nombre": "CONSTANTINO BENTANCUR",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "67310",
+   "Nombre": "FACUNDO PEREZ",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56188",
+   "Jug_Sale": "THIAGO NAHUEL ROLAND",
+   "CarneEntra": "53658",
+   "Jug_Entra": "JOAQUIN VAZQUEZ",
+   "camiseta": "3",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "66515",
+   "Jug_Sale": "FELIPE ANTONIO REGUEIRO",
+   "CarneEntra": "56831",
+   "Jug_Entra": "JUAN MARTIN ABO",
+   "camiseta": "2",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "54831",
+   "Jug_Sale": "JOAQUÌN GOLDARACENA",
+   "CarneEntra": "64788",
+   "Jug_Entra": "JUAN IGNACIO LIZARRAGA",
+   "camiseta": "14",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "60889",
+   "Jug_Sale": "MATEO OLIVEIRA",
+   "CarneEntra": "64246",
+   "Jug_Entra": "FELIPE RAFFETTO",
+   "camiseta": "7",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "62853",
+   "Jug_Sale": "GUILLERMO BAROFFIO",
+   "CarneEntra": "56166",
+   "Jug_Entra": "MARTIN NICOLAS GOMEZ",
+   "camiseta": "25",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57960",
+   "Jug_Sale": "LUCAS GABRIEL GRAÑA",
+   "CarneEntra": "63351",
+   "Jug_Entra": "FRANCO ESTEBAN VALIENTE",
+   "camiseta": "20",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "63621",
+   "Jug_Sale": "RAUL ERNESTO GONZALEZ",
+   "CarneEntra": "58538",
+   "Jug_Entra": "PATRICIO BULA",
+   "camiseta": "4",
+   "minutos": "93"
+  }
+ ],
+ "golesL": [],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

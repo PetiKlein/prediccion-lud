@@ -1,0 +1,286 @@
+{
+ "id": "99089",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 6,
+ "fechaHora": "2026-05-23 00:00:00",
+ "cancha": "COMPLEJO WOODLANDS SCHOOL",
+ "local": "OLD WOODLANDS CLUB",
+ "visitante": "CLUB SEMINARIO",
+ "gl": 2,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "44",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "COMPLEJO WOODLANDS SCHOOL",
+  "Fecha_Inicio": "2026-05-23 17:30:00",
+  "Fecha_fin": "2026-05-23 17:30:00",
+  "Locatario": "OLD WOODLANDS CLUB",
+  "goles_locatario": "2",
+  "puntos_locatario": "3",
+  "Visitante": "CLUB SEMINARIO",
+  "goles_visitante": "1",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "65071",
+   "Nombre": "MANUEL FELIPE DOMINGUEZ",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "52997",
+   "Nombre": "FELIX MARTIN ALVAREZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "65736",
+   "Nombre": "CONSTANTINO JUAN SOTO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "63286",
+   "Nombre": "ENZO PIGNANELLI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "55243",
+   "Nombre": "FELIPE LYONNET",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "55065",
+   "Nombre": "FELIPE SONEIRA",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57173",
+   "Nombre": "ALFONSO FLEURQUIN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "55093",
+   "Nombre": "TIMOTEO MORELLI",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "57168",
+   "Nombre": "PEDRO ROMERO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62361",
+   "Nombre": "FACUNDO GONZALEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "59187",
+   "Nombre": "FACUNDO FERNANDEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58598",
+   "Nombre": "NICOLAS MAZZILLI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56208",
+   "Nombre": "LORENZO MANDIA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "56638",
+   "Nombre": "NICOLAS BACHINO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56190",
+   "Nombre": "JUAN BAUTISTA OLASCOAGA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "54598",
+   "Nombre": "LUCA SIVORI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "56643",
+   "Nombre": "FEDERICO MOSCA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "58217",
+   "Nombre": "LUCA TORTEROLO",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54965",
+   "Nombre": "JOAQUIN EMILIO VOLA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "56645",
+   "Nombre": "MAXIMO BERTOLA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "56642",
+   "Nombre": "MATEO PEREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63286",
+   "Jug_Sale": "ENZO PIGNANELLI",
+   "CarneEntra": "52677",
+   "Jug_Entra": "JUAN MARTIN CANAN",
+   "camiseta": "15",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "55065",
+   "Jug_Sale": "FELIPE SONEIRA",
+   "CarneEntra": "58545",
+   "Jug_Entra": "TOMAS MAGNANO",
+   "camiseta": "10",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "62361",
+   "Jug_Sale": "FACUNDO GONZALEZ",
+   "CarneEntra": "62191",
+   "Jug_Entra": "NICOLAS PIRIZ",
+   "camiseta": "27",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "57168",
+   "Jug_Sale": "PEDRO ROMERO",
+   "CarneEntra": "55081",
+   "Jug_Entra": "GUILLERMO DI BELLO",
+   "camiseta": "71",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "55093",
+   "Jug_Sale": "TIMOTEO MORELLI",
+   "CarneEntra": "57171",
+   "Jug_Entra": "IGNACIO IRAZUSTA",
+   "camiseta": "17",
+   "minutos": "91"
+  },
+  {
+   "CarneSale": "59187",
+   "Jug_Sale": "FACUNDO FERNANDEZ",
+   "CarneEntra": "62195",
+   "Jug_Entra": "FRANCO MORELLI",
+   "camiseta": "29",
+   "minutos": "92"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56645",
+   "Jug_Sale": "MAXIMO BERTOLA",
+   "CarneEntra": "58599",
+   "Jug_Entra": "FACUNDO MOSCA",
+   "camiseta": "11",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "56642",
+   "Jug_Sale": "MATEO PEREZ",
+   "CarneEntra": "56639",
+   "Jug_Entra": "BENJAMIN MORALES",
+   "camiseta": "5",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "56208",
+   "Jug_Sale": "LORENZO MANDIA",
+   "CarneEntra": "62949",
+   "Jug_Entra": "JUAN IGNACIO PEDROZO",
+   "camiseta": "2",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "56638",
+   "Jug_Sale": "NICOLAS BACHINO",
+   "CarneEntra": "57297",
+   "Jug_Entra": "FACUNDO SAPELLO",
+   "camiseta": "17",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "56190",
+   "Jug_Sale": "JUAN BAUTISTA OLASCOAGA",
+   "CarneEntra": "59082",
+   "Jug_Entra": "MARTIN JOSE DIAZ",
+   "camiseta": "19",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "54965",
+   "Jug_Sale": "JOAQUIN EMILIO VOLA",
+   "CarneEntra": "56195",
+   "Jug_Entra": "SANTIAGO ALFREDO CAFFA",
+   "camiseta": "7",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "59187",
+   "Nombre": "FACUNDO FERNANDEZ",
+   "minutos": "7",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59187",
+   "Nombre": "FACUNDO FERNANDEZ",
+   "minutos": "66",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "56643",
+   "Nombre": "FEDERICO MOSCA",
+   "minutos": "53",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

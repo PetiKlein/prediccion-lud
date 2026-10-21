@@ -1,0 +1,291 @@
+{
+ "id": "98858",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 5,
+ "fechaHora": "2026-05-16 13:30:00",
+ "cancha": "ELF (LICEO FRANCES)",
+ "local": "E.L.F.",
+ "visitante": "OLD BRENDANS CLUB",
+ "gl": 0,
+ "gv": 3,
+ "detalle": {
+  "nro_partido": "33",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "ELF (LICEO FRANCES)",
+  "Fecha_Inicio": "2026-05-16 15:20:00",
+  "Fecha_fin": "2026-05-16 15:20:00",
+  "Locatario": "E.L.F.",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "OLD BRENDANS CLUB",
+  "goles_visitante": "3",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "56750",
+   "Nombre": "JOAQUIN BLANCO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "60555",
+   "Nombre": "MARCOS TRIGO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "65790",
+   "Nombre": "FELIPE LIMA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "57687",
+   "Nombre": "RAMIRO MENDEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "56266",
+   "Nombre": "JUAN FRANCISCO CASTELLANOS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "66605",
+   "Nombre": "AMARO SOSA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "56768",
+   "Nombre": "MATIAS DUPUY",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62703",
+   "Nombre": "MATIAS AGUSTIN RIPOLL",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "57799",
+   "Nombre": "IGNACIO CATTANEO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "67158",
+   "Nombre": "LUCIANO DOS SANTOS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "56764",
+   "Nombre": "IGNACIO VERANO",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58285",
+   "Nombre": "RODRIGO BROTONS",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "61565",
+   "Nombre": "JOAQUIN FRANCISCO WÜRTH",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "57835",
+   "Nombre": "ALFONSO ZAMBRANO",
+   "camiseta": "49",
+   "Capitan": ""
+  },
+  {
+   "carne": "66331",
+   "Nombre": "JUAN BARRANDEGUY",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "56689",
+   "Nombre": "DIEGO ANDRE MENDOZA",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "56690",
+   "Nombre": "ALEJO ZAMBRANO",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "53390",
+   "Nombre": "JUAN MANUEL ECHEVERRY",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "53398",
+   "Nombre": "MARTINO RAIMONDO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67254",
+   "Nombre": "JUAN IGNACIO VAZQUEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "55434",
+   "Nombre": "DIEGO TOURON",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "59207",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "65790",
+   "Jug_Sale": "FELIPE LIMA",
+   "CarneEntra": "54658",
+   "Jug_Entra": "JUAN MANUEL DUPUY",
+   "camiseta": "6",
+   "minutos": "40"
+  },
+  {
+   "CarneSale": "60555",
+   "Jug_Sale": "MARCOS TRIGO",
+   "CarneEntra": "57955",
+   "Jug_Entra": "MATIAS VIÑAR",
+   "camiseta": "19",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "57687",
+   "Jug_Sale": "RAMIRO MENDEZ",
+   "CarneEntra": "59824",
+   "Jug_Entra": "ALFONSO JOSE BECOÑA",
+   "camiseta": "21",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "57799",
+   "Jug_Sale": "IGNACIO CATTANEO",
+   "CarneEntra": "61087",
+   "Jug_Entra": "MANUEL RODRIGUEZ",
+   "camiseta": "14",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "67158",
+   "Jug_Sale": "LUCIANO DOS SANTOS",
+   "CarneEntra": "58276",
+   "Jug_Entra": "BRUNO GRANOTICH",
+   "camiseta": "5",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "66605",
+   "Jug_Sale": "AMARO SOSA",
+   "CarneEntra": "63493",
+   "Jug_Entra": "TEO SILVA",
+   "camiseta": "19",
+   "minutos": "83"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "61565",
+   "Jug_Sale": "JOAQUIN FRANCISCO WÜRTH",
+   "CarneEntra": "53840",
+   "Jug_Entra": "MATIAS ANDRES RIANI",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56689",
+   "Jug_Sale": "DIEGO ANDRE MENDOZA",
+   "CarneEntra": "53875",
+   "Jug_Entra": "ALFONSO ABELLA",
+   "camiseta": "20",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "59207",
+   "Jug_Sale": "IGNACIO RODRIGUEZ",
+   "CarneEntra": "54756",
+   "Jug_Entra": "ADRIANO MARTIN AGGIO",
+   "camiseta": "55",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "55434",
+   "Jug_Sale": "DIEGO TOURON",
+   "CarneEntra": "61164",
+   "Jug_Entra": "MATEO CAPLIVSCHI",
+   "camiseta": "40",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "56690",
+   "Jug_Sale": "ALEJO ZAMBRANO",
+   "CarneEntra": "56472",
+   "Jug_Entra": "FACUNDO ASTIAZARAN",
+   "camiseta": "24",
+   "minutos": "89"
+  },
+  {
+   "CarneSale": "53390",
+   "Jug_Sale": "JUAN MANUEL ECHEVERRY",
+   "CarneEntra": "58816",
+   "Jug_Entra": "GUILLERMO SOTO",
+   "camiseta": "32",
+   "minutos": "89"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "53390",
+   "Nombre": "JUAN MANUEL ECHEVERRY",
+   "minutos": "39",
+   "EnContra": "1"
+  },
+  {
+   "carne": "55434",
+   "Nombre": "DIEGO TOURON",
+   "minutos": "32",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67254",
+   "Nombre": "JUAN IGNACIO VAZQUEZ",
+   "minutos": "46",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

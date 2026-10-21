@@ -1,0 +1,304 @@
+{
+ "id": "98884",
+ "categoria": "mayores",
+ "serie": "A",
+ "fecha": 5,
+ "fechaHora": "2026-05-17 11:15:00",
+ "cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
+ "local": "HEBRAICA UNIVERSITARIO",
+ "visitante": "CLUB SEMINARIO",
+ "gl": 3,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "35",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "1",
+  "Divisional": "DIVISIONAL \"A\"",
+  "Cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
+  "Fecha_Inicio": "2026-05-17 13:15:00",
+  "Fecha_fin": "2026-05-17 13:15:00",
+  "Locatario": "HEBRAICA UNIVERSITARIO",
+  "goles_locatario": "3",
+  "puntos_locatario": "3",
+  "Visitante": "CLUB SEMINARIO",
+  "goles_visitante": "2",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "35658",
+   "Nombre": "JOAQUIN ZEINAL",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61200",
+   "Nombre": "ARY GUSTAVO RABINO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "43323",
+   "Nombre": "MATIAS LIJTENSTEIN",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "39124",
+   "Nombre": "DARIO SZTERMAN",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "37385",
+   "Nombre": "FEDERICO BRENER",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "28319",
+   "Nombre": "MIKAEL LIJTENSTEIN",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "47255",
+   "Nombre": "ALAN SKORKA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "35104",
+   "Nombre": "MARTIN OPPENHEIMER",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "35085",
+   "Nombre": "IONATAN ISZAKOVITS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "34651",
+   "Nombre": "MARCEL POZIOMEK",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "35092",
+   "Nombre": "NICOLAS POZIOMEK",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "52755",
+   "Nombre": "JOAQUIN MIRANDA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "37424",
+   "Nombre": "SANTIAGO PEREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "50839",
+   "Nombre": "FABRIZIO JORGE GRAJALES",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "39147",
+   "Nombre": "SEBASTIAN ECHEVERZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "47683",
+   "Nombre": "JUAN IGNACIO VIOLA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "28056",
+   "Nombre": "RENZO CARUSO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "47680",
+   "Nombre": "JUAN FELIPE LUCAS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "57157",
+   "Nombre": "FACUNDO PIRIS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "47176",
+   "Nombre": "SANTIAGO BENZANO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "47696",
+   "Nombre": "IGNACIO TOMAS ESTEFAN",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "50866",
+   "Nombre": "JOSE SANTIAGO LUCAS",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "39124",
+   "Jug_Sale": "DARIO SZTERMAN",
+   "CarneEntra": "34392",
+   "Jug_Entra": "JUAN PEDRO PEREYRA",
+   "camiseta": "20",
+   "minutos": "15"
+  },
+  {
+   "CarneSale": "39124",
+   "Jug_Sale": "DARIO SZTERMAN",
+   "CarneEntra": "34392",
+   "Jug_Entra": "JUAN PEDRO PEREYRA",
+   "camiseta": "20",
+   "minutos": "15"
+  },
+  {
+   "CarneSale": "34651",
+   "Jug_Sale": "MARCEL POZIOMEK",
+   "CarneEntra": "37317",
+   "Jug_Entra": "MAURICIO WAITER",
+   "camiseta": "34",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "35085",
+   "Jug_Sale": "IONATAN ISZAKOVITS",
+   "CarneEntra": "43445",
+   "Jug_Entra": "SEBASTIAN ZOLKWER",
+   "camiseta": "22",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "35092",
+   "Jug_Sale": "NICOLAS POZIOMEK",
+   "CarneEntra": "29775",
+   "Jug_Entra": "DIEGO MARTINEZ",
+   "camiseta": "19",
+   "minutos": "29"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "37424",
+   "Jug_Sale": "SANTIAGO PEREZ",
+   "CarneEntra": "42555",
+   "Jug_Entra": "RODRIGO VAZQUEZ",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47683",
+   "Jug_Sale": "JUAN IGNACIO VIOLA",
+   "CarneEntra": "54784",
+   "Jug_Entra": "FACUNDO EMILIANO PAGANI",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "28056",
+   "Jug_Sale": "RENZO CARUSO",
+   "CarneEntra": "59121",
+   "Jug_Entra": "ARIEL YONHATAN PACHECO",
+   "camiseta": "3",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "47680",
+   "Jug_Sale": "JUAN FELIPE LUCAS",
+   "CarneEntra": "52764",
+   "Jug_Entra": "DIEGO BUELA",
+   "camiseta": "20",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "39147",
+   "Jug_Sale": "SEBASTIAN ECHEVERZ",
+   "CarneEntra": "47800",
+   "Jug_Entra": "MATIAS GARRIDO",
+   "camiseta": "22",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "50839",
+   "Jug_Sale": "FABRIZIO JORGE GRAJALES",
+   "CarneEntra": "43035",
+   "Jug_Entra": "LUCAS PIAGGIO",
+   "camiseta": "14",
+   "minutos": "92"
+  },
+  {
+   "CarneSale": "47176",
+   "Jug_Sale": "SANTIAGO BENZANO",
+   "CarneEntra": "47680",
+   "Jug_Entra": "JUAN FELIPE LUCAS",
+   "camiseta": "21",
+   "minutos": "92"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "28319",
+   "Nombre": "MIKAEL LIJTENSTEIN",
+   "minutos": "37",
+   "EnContra": "0"
+  },
+  {
+   "carne": "35104",
+   "Nombre": "MARTIN OPPENHEIMER",
+   "minutos": "60",
+   "EnContra": "0"
+  },
+  {
+   "carne": "43323",
+   "Nombre": "MATIAS LIJTENSTEIN",
+   "minutos": "94",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "47176",
+   "Nombre": "SANTIAGO BENZANO",
+   "minutos": "6",
+   "EnContra": "1"
+  },
+  {
+   "carne": "47696",
+   "Nombre": "IGNACIO TOMAS ESTEFAN",
+   "minutos": "89",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

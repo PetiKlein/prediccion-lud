@@ -1,0 +1,247 @@
+{
+ "id": "99839",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 8,
+ "fechaHora": "2026-06-06 15:30:00",
+ "cancha": "OLD CHRISTIANS CLUB",
+ "local": "OLD CHRISTIANS CLUB",
+ "visitante": "E.L.F.",
+ "gl": 1,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "57",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "OLD CHRISTIANS CLUB",
+  "Fecha_Inicio": "2026-06-06 17:30:00",
+  "Fecha_fin": "2026-06-06 17:30:00",
+  "Locatario": "OLD CHRISTIANS CLUB",
+  "goles_locatario": "1",
+  "puntos_locatario": "3",
+  "Visitante": "E.L.F.",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "55226",
+   "Nombre": "ALFONSO DEL CASTILLO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56866",
+   "Nombre": "MATEO AGUIRRE",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "64681",
+   "Nombre": "FACUNDO TOPOLANSKI",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "56863",
+   "Nombre": "JUAN PEDRO TORRES",
+   "camiseta": "54",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56856",
+   "Nombre": "JOAQUIN FLEURQUIN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "59506",
+   "Nombre": "AGUSTIN HOUNIE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "56317",
+   "Nombre": "PABLO EZEQUIEL BARRETO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "56859",
+   "Nombre": "AGUSTIN FERNANDEZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "64835",
+   "Nombre": "FACUNDO MARQUEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "54771",
+   "Nombre": "MARTIN MIHALIK",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "55609",
+   "Nombre": "THEO CORTABARRIA",
+   "camiseta": "0",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "56750",
+   "Nombre": "JOAQUIN BLANCO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "60555",
+   "Nombre": "MARCOS TRIGO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "54773",
+   "Nombre": "JUAN IGNACIO PODESTA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "56768",
+   "Nombre": "MATIAS DUPUY",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "57687",
+   "Nombre": "RAMIRO MENDEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "66605",
+   "Nombre": "AMARO SOSA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "57955",
+   "Nombre": "MATIAS VIÑAR",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "62703",
+   "Nombre": "MATIAS AGUSTIN RIPOLL",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "54658",
+   "Nombre": "JUAN MANUEL DUPUY",
+   "camiseta": "6",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67158",
+   "Nombre": "LUCIANO DOS SANTOS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "57799",
+   "Nombre": "IGNACIO CATTANEO",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54771",
+   "Jug_Sale": "MARTIN MIHALIK",
+   "CarneEntra": "55216",
+   "Jug_Entra": "GASPAR HUGHES",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55609",
+   "Jug_Sale": "THEO CORTABARRIA",
+   "CarneEntra": "59504",
+   "Jug_Entra": "BAUTISTA RAUL FERNANDEZ",
+   "camiseta": "37",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "56317",
+   "Jug_Sale": "PABLO EZEQUIEL BARRETO",
+   "CarneEntra": "65751",
+   "Jug_Entra": "SANTIAGO GOSSWEILER",
+   "camiseta": "42",
+   "minutos": "86"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57955",
+   "Jug_Sale": "MATIAS VIÑAR",
+   "CarneEntra": "55273",
+   "Jug_Entra": "JUAN SARACCO",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57799",
+   "Jug_Sale": "IGNACIO CATTANEO",
+   "CarneEntra": "61161",
+   "Jug_Entra": "FACUNDO CORREA",
+   "camiseta": "14",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "54658",
+   "Jug_Sale": "JUAN MANUEL DUPUY",
+   "CarneEntra": "57799",
+   "Jug_Entra": "IGNACIO CATTANEO",
+   "camiseta": "40",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "57687",
+   "Jug_Sale": "RAMIRO MENDEZ",
+   "CarneEntra": "57955",
+   "Jug_Entra": "MATIAS VIÑAR",
+   "camiseta": "22",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "54773",
+   "Jug_Sale": "JUAN IGNACIO PODESTA",
+   "CarneEntra": "58276",
+   "Jug_Entra": "BRUNO GRANOTICH",
+   "camiseta": "2",
+   "minutos": "86"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56866",
+   "Nombre": "MATEO AGUIRRE",
+   "minutos": "60",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

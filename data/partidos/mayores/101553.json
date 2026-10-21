@@ -1,0 +1,259 @@
+{
+ "id": "101553",
+ "categoria": "mayores",
+ "serie": "A",
+ "fecha": 12,
+ "fechaHora": "2026-09-06 09:00:00",
+ "cancha": "MONTE VI \"LOS CEIBOS\"",
+ "local": "TAPE",
+ "visitante": "OLD WOODLANDS CLUB",
+ "gl": 1,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "93",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "1",
+  "Divisional": "DIVISIONAL \"A\"",
+  "Cancha": "MONTE VI \"LOS CEIBOS\"",
+  "Fecha_Inicio": "2026-09-06 10:59:00",
+  "Fecha_fin": "2026-09-06 10:59:00",
+  "Locatario": "TAPE",
+  "goles_locatario": "1",
+  "puntos_locatario": "1",
+  "Visitante": "OLD WOODLANDS CLUB",
+  "goles_visitante": "1",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "58443",
+   "Nombre": "ALFONSO PFEIFF",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61063",
+   "Nombre": "NICOLAS DORAO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "55125",
+   "Nombre": "JUAN GURMENDEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "65006",
+   "Nombre": "GERONIMO GAUTHIER",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "66855",
+   "Nombre": "SEBASTIAN MARTINEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "46872",
+   "Nombre": "SANTIAGO JOSE TAFERNABERRY",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65012",
+   "Nombre": "JUAN MARTIN IFRAN",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "60720",
+   "Nombre": "MATEO FERRERE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "56348",
+   "Nombre": "FELIPE SICALO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "56344",
+   "Nombre": "JUAN PEDRO ECHEGUIA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "63592",
+   "Nombre": "JUAN ANDRES ERRANONDEA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "47611",
+   "Nombre": "FERNAN BZUROVSKI",
+   "camiseta": "73",
+   "Capitan": ""
+  },
+  {
+   "carne": "35584",
+   "Nombre": "LUCAS GUIMARAES",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "49214",
+   "Nombre": "FELIPE HERNANDEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "52842",
+   "Nombre": "TIZIANO GUIGOU",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "39927",
+   "Nombre": "MARTIN HERNANDEZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "36481",
+   "Nombre": "JUAN PABLO VIANA",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "45789",
+   "Nombre": "JUAN PABLO COLELLA",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "45433",
+   "Nombre": "FELIPE BENZANO",
+   "camiseta": "45",
+   "Capitan": ""
+  },
+  {
+   "carne": "53615",
+   "Nombre": "THIAGO BENITES",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "41519",
+   "Nombre": "MATEO ROLDOS",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "35145",
+   "Nombre": "IGNACIO COLELLA",
+   "camiseta": "6",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63592",
+   "Jug_Sale": "JUAN ANDRES ERRANONDEA",
+   "CarneEntra": "52213",
+   "Jug_Entra": "NICOLAS JAVIER PRATES",
+   "camiseta": "14",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "65012",
+   "Jug_Sale": "JUAN MARTIN IFRAN",
+   "CarneEntra": "45426",
+   "Jug_Entra": "JOAQUIN IGNACIO TAFERNABERRY",
+   "camiseta": "16",
+   "minutos": "76"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "35145",
+   "Jug_Sale": "IGNACIO COLELLA",
+   "CarneEntra": "59187",
+   "Jug_Entra": "FACUNDO FERNANDEZ",
+   "camiseta": "92",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "53615",
+   "Jug_Sale": "THIAGO BENITES",
+   "CarneEntra": "55093",
+   "Jug_Entra": "TIMOTEO MORELLI",
+   "camiseta": "29",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "49214",
+   "Jug_Sale": "FELIPE HERNANDEZ",
+   "CarneEntra": "31120",
+   "Jug_Entra": "JUAN MANUEL DELUCCA",
+   "camiseta": "3",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "39927",
+   "Jug_Sale": "MARTIN HERNANDEZ",
+   "CarneEntra": "35671",
+   "Jug_Entra": "FRANCO FACCENNINI",
+   "camiseta": "55",
+   "minutos": "86"
+  },
+  {
+   "CarneSale": "45433",
+   "Jug_Sale": "FELIPE BENZANO",
+   "CarneEntra": "36816",
+   "Jug_Entra": "MARTIN COLELLA",
+   "camiseta": "7",
+   "minutos": "95"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "63592",
+   "Nombre": "JUAN ANDRES ERRANONDEA",
+   "minutos": "55",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "31120",
+   "Nombre": "JUAN MANUEL DELUCCA",
+   "minutos": "73",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "NICOLAS DORAO",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "JUAN GURMENDEZ",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "SEBASTIAN MARTINEZ",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": []
+}

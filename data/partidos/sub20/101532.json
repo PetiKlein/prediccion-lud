@@ -1,0 +1,298 @@
+{
+ "id": "101532",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 12,
+ "fechaHora": "2026-09-05 15:30:00",
+ "cancha": "LA MENNAIS",
+ "local": "J.M.L.M",
+ "visitante": "OLD CHRISTIANS CLUB",
+ "gl": 3,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "91",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "LA MENNAIS",
+  "Fecha_Inicio": "2026-09-05 17:30:00",
+  "Fecha_fin": "2026-09-05 17:30:00",
+  "Locatario": "J.M.L.M",
+  "goles_locatario": "3",
+  "puntos_locatario": "3",
+  "Visitante": "OLD CHRISTIANS CLUB",
+  "goles_visitante": "1",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "67397",
+   "Nombre": "ALEJANDRO MAURO NARIO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56241",
+   "Nombre": "GUILLERMO FERRARI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "53175",
+   "Nombre": "MATEO GILI",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57046",
+   "Nombre": "FRANCISCO MATTOS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "55785",
+   "Nombre": "MATEO LAUTARO RODRIGUEZ",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "56176",
+   "Nombre": "SANTIAGO LUCAS",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "56238",
+   "Nombre": "THIAGO GONZALEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "62555",
+   "Nombre": "JUAN DIEGO FERNANDEZ",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "54714",
+   "Nombre": "JOAQUIN MARTINICORENA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "66739",
+   "Nombre": "RENZO BARBIERI",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "55662",
+   "Nombre": "FEDERICO GASTON DOLIVO",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "55226",
+   "Nombre": "ALFONSO DEL CASTILLO",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56866",
+   "Nombre": "MATEO AGUIRRE",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "55609",
+   "Nombre": "THEO CORTABARRIA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "55216",
+   "Nombre": "GASPAR HUGHES",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "64835",
+   "Nombre": "FACUNDO MARQUEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "56859",
+   "Nombre": "AGUSTIN FERNANDEZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "56317",
+   "Nombre": "PABLO EZEQUIEL BARRETO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "59506",
+   "Nombre": "AGUSTIN HOUNIE",
+   "camiseta": "59",
+   "Capitan": ""
+  },
+  {
+   "carne": "56856",
+   "Nombre": "JOAQUIN FLEURQUIN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "59504",
+   "Nombre": "BAUTISTA RAUL FERNANDEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "64681",
+   "Nombre": "FACUNDO TOPOLANSKI",
+   "camiseta": "33",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54714",
+   "Jug_Sale": "JOAQUIN MARTINICORENA",
+   "CarneEntra": "60876",
+   "Jug_Entra": "EMILIANO TASENDE",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "54714",
+   "Jug_Sale": "JOAQUIN MARTINICORENA",
+   "CarneEntra": "64263",
+   "Jug_Entra": "JUAN MANUEL DUPONT",
+   "camiseta": "71",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62555",
+   "Jug_Sale": "JUAN DIEGO FERNANDEZ",
+   "CarneEntra": "55153",
+   "Jug_Entra": "MAXIMO FERRIRA",
+   "camiseta": "33",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "66739",
+   "Jug_Sale": "RENZO BARBIERI",
+   "CarneEntra": "55679",
+   "Jug_Entra": "TOMAS RODRIGUEZ",
+   "camiseta": "20",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "55785",
+   "Jug_Sale": "MATEO LAUTARO RODRIGUEZ",
+   "CarneEntra": "57052",
+   "Jug_Entra": "VALENTIN VIDAL",
+   "camiseta": "44",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "56241",
+   "Jug_Sale": "GUILLERMO FERRARI",
+   "CarneEntra": "55150",
+   "Jug_Entra": "MANUEL MAZZILLI",
+   "camiseta": "80",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "55679",
+   "Jug_Sale": "TOMAS RODRIGUEZ",
+   "CarneEntra": "56241",
+   "Jug_Entra": "GUILLERMO FERRARI",
+   "camiseta": "17",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "55609",
+   "Jug_Sale": "THEO CORTABARRIA",
+   "CarneEntra": "54771",
+   "Jug_Entra": "MARTIN MIHALIK",
+   "camiseta": "7",
+   "minutos": "32"
+  },
+  {
+   "CarneSale": "56856",
+   "Jug_Sale": "JOAQUIN FLEURQUIN",
+   "CarneEntra": "65751",
+   "Jug_Entra": "SANTIAGO GOSSWEILER",
+   "camiseta": "42",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "55216",
+   "Jug_Sale": "GASPAR HUGHES",
+   "CarneEntra": "67547",
+   "Jug_Entra": "PEDRO ALEJO AROCENA",
+   "camiseta": "96",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "59506",
+   "Jug_Sale": "AGUSTIN HOUNIE",
+   "CarneEntra": "55211",
+   "Jug_Entra": "SANTIAGO BOUTMY",
+   "camiseta": "8",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "56859",
+   "Jug_Sale": "AGUSTIN FERNANDEZ",
+   "CarneEntra": "56860",
+   "Jug_Entra": "AGUSTIN BEYHAUT",
+   "camiseta": "37",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "55662",
+   "Nombre": "FEDERICO GASTON DOLIVO",
+   "minutos": "3",
+   "EnContra": "0"
+  },
+  {
+   "carne": "55662",
+   "Nombre": "FEDERICO GASTON DOLIVO",
+   "minutos": "44",
+   "EnContra": "0"
+  },
+  {
+   "carne": "55662",
+   "Nombre": "FEDERICO GASTON DOLIVO",
+   "minutos": "47",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "56866",
+   "Nombre": "MATEO AGUIRRE",
+   "minutos": "26",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

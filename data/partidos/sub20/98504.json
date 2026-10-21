@@ -1,0 +1,270 @@
+{
+ "id": "98504",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 3,
+ "fechaHora": "2026-04-25 15:30:00",
+ "cancha": "ELF (LICEO FRANCES)",
+ "local": "E.L.F.",
+ "visitante": "OLD BOYS CLUB",
+ "gl": 1,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "17",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "ELF (LICEO FRANCES)",
+  "Fecha_Inicio": "2026-04-25 17:30:00",
+  "Fecha_fin": "2026-04-25 17:30:00",
+  "Locatario": "E.L.F.",
+  "goles_locatario": "1",
+  "puntos_locatario": "1",
+  "Visitante": "OLD BOYS CLUB",
+  "goles_visitante": "1",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "56750",
+   "Nombre": "JOAQUIN BLANCO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56266",
+   "Nombre": "JUAN FRANCISCO CASTELLANOS",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54773",
+   "Nombre": "JUAN IGNACIO PODESTA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "54658",
+   "Nombre": "JUAN MANUEL DUPUY",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56768",
+   "Nombre": "MATIAS DUPUY",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "66605",
+   "Nombre": "AMARO SOSA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "62703",
+   "Nombre": "MATIAS AGUSTIN RIPOLL",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "67158",
+   "Nombre": "LUCIANO DOS SANTOS",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "57799",
+   "Nombre": "IGNACIO CATTANEO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "57687",
+   "Nombre": "RAMIRO MENDEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "55273",
+   "Nombre": "JUAN SARACCO",
+   "camiseta": "2",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "65914",
+   "Nombre": "LUCAS FACUNDO RUIZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "55700",
+   "Nombre": "MANUEL LACALLE",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56265",
+   "Nombre": "JUAN MARTIN HRILJAC",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "57010",
+   "Nombre": "FELIPE SUAREZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "56261",
+   "Nombre": "FRANCISCO NOVEGIL",
+   "camiseta": "45",
+   "Capitan": ""
+  },
+  {
+   "carne": "57004",
+   "Nombre": "ALBERTO HERRERA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "58858",
+   "Nombre": "JOAQUIN QUINTO REYES",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "54975",
+   "Nombre": "TOMAS BRAUSE",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "57001",
+   "Nombre": "MANUEL BOSCH",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "55218",
+   "Nombre": "THIAGO ESTEVEZ",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "56267",
+   "Nombre": "JOAQUIN GUTIERREZ",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54773",
+   "Jug_Sale": "JUAN IGNACIO PODESTA",
+   "CarneEntra": "57955",
+   "Jug_Entra": "MATIAS VIÑAR",
+   "camiseta": "19",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "54658",
+   "Jug_Sale": "JUAN MANUEL DUPUY",
+   "CarneEntra": "60555",
+   "Jug_Entra": "MARCOS TRIGO",
+   "camiseta": "13",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "56768",
+   "Jug_Sale": "MATIAS DUPUY",
+   "CarneEntra": "59828",
+   "Jug_Entra": "IGNACIO RAMO",
+   "camiseta": "25",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "57687",
+   "Jug_Sale": "RAMIRO MENDEZ",
+   "CarneEntra": "59824",
+   "Jug_Entra": "ALFONSO JOSE BECOÑA",
+   "camiseta": "15",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "57799",
+   "Jug_Sale": "IGNACIO CATTANEO",
+   "CarneEntra": "59720",
+   "Jug_Entra": "LUCKA DIEGO REIS",
+   "camiseta": "17",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "67158",
+   "Jug_Sale": "LUCIANO DOS SANTOS",
+   "CarneEntra": "58276",
+   "Jug_Entra": "BRUNO GRANOTICH",
+   "camiseta": "20",
+   "minutos": "90"
+  },
+  {
+   "CarneSale": "62703",
+   "Jug_Sale": "MATIAS AGUSTIN RIPOLL",
+   "CarneEntra": "61087",
+   "Jug_Entra": "MANUEL RODRIGUEZ",
+   "camiseta": "11",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "55218",
+   "Jug_Sale": "THIAGO ESTEVEZ",
+   "CarneEntra": "67654",
+   "Jug_Entra": "BAUTISTA RISSO",
+   "camiseta": "42",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "57001",
+   "Jug_Sale": "MANUEL BOSCH",
+   "CarneEntra": "57000",
+   "Jug_Entra": "ANDRES ARTAGAVEYTIA",
+   "camiseta": "16",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "58858",
+   "Jug_Sale": "JOAQUIN QUINTO REYES",
+   "CarneEntra": "55875",
+   "Jug_Entra": "AGUSTIN AGUIRRE",
+   "camiseta": "32",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "62703",
+   "Nombre": "MATIAS AGUSTIN RIPOLL",
+   "minutos": "59",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "55700",
+   "Nombre": "MANUEL LACALLE",
+   "minutos": "74",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

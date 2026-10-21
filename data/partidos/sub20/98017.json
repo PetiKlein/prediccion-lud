@@ -1,0 +1,280 @@
+{
+ "id": "98017",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 1,
+ "fechaHora": "2026-04-11 15:30:00",
+ "cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
+ "local": "NAUTICO CARRASCO Y PUNTA GORDA",
+ "visitante": "OLD CHRISTIANS CLUB",
+ "gl": 2,
+ "gv": 3,
+ "detalle": {
+  "nro_partido": "5",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
+  "Fecha_Inicio": "2026-04-11 17:20:00",
+  "Fecha_fin": "2026-04-11 17:20:00",
+  "Locatario": "NAUTICO CARRASCO Y PUNTA GORDA",
+  "goles_locatario": "2",
+  "puntos_locatario": "0",
+  "Visitante": "OLD CHRISTIANS CLUB",
+  "goles_visitante": "3",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "56966",
+   "Nombre": "MARTIN GOMEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "61249",
+   "Nombre": "AGUSTIN PALOMINO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "59560",
+   "Nombre": "NAHUEL TABOADA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "59547",
+   "Nombre": "FEDERICO MARTINEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "57996",
+   "Nombre": "FRNCISCO GUZMAN BICA",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "61206",
+   "Nombre": "ALEX AGUSTIN MIGUEL",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "59549",
+   "Nombre": "SANTIAGO MARTINEZ",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "51094",
+   "Nombre": "DAMIAN ALMIRON",
+   "camiseta": "86",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56547",
+   "Nombre": "JUAN FRANCISCO PEREIRO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67319",
+   "Nombre": "FACUNDO LAPROVITERA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "59740",
+   "Nombre": "IGNACIO LOPEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "55226",
+   "Nombre": "ALFONSO DEL CASTILLO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "52697",
+   "Nombre": "JOAQUIN DAVID LEAO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "56863",
+   "Nombre": "JUAN PEDRO TORRES",
+   "camiseta": "54",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59504",
+   "Nombre": "BAUTISTA RAUL FERNANDEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56856",
+   "Nombre": "JOAQUIN FLEURQUIN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56317",
+   "Nombre": "PABLO EZEQUIEL BARRETO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "56859",
+   "Nombre": "AGUSTIN FERNANDEZ",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "59506",
+   "Nombre": "AGUSTIN HOUNIE",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "52688",
+   "Nombre": "FRANCO RAUL CORREA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "55609",
+   "Nombre": "THEO CORTABARRIA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "54771",
+   "Nombre": "MARTIN MIHALIK",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "59740",
+   "Jug_Sale": "IGNACIO LOPEZ",
+   "CarneEntra": "57720",
+   "Jug_Entra": "FELIPE GALLO",
+   "camiseta": "14",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "57996",
+   "Jug_Sale": "FRNCISCO GUZMAN BICA",
+   "CarneEntra": "58759",
+   "Jug_Entra": "JUAN FAUSTINO FERRARI",
+   "camiseta": "21",
+   "minutos": "64"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "54771",
+   "Jug_Sale": "MARTIN MIHALIK",
+   "CarneEntra": "64835",
+   "Jug_Entra": "FACUNDO MARQUEZ",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59506",
+   "Jug_Sale": "AGUSTIN HOUNIE",
+   "CarneEntra": "55250",
+   "Jug_Entra": "TOMAS PEREYRA",
+   "camiseta": "10",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "56859",
+   "Jug_Sale": "AGUSTIN FERNANDEZ",
+   "CarneEntra": "65948",
+   "Jug_Entra": "BALTASAR DELBENE",
+   "camiseta": "47",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "52697",
+   "Jug_Sale": "JOAQUIN DAVID LEAO",
+   "CarneEntra": "65751",
+   "Jug_Entra": "SANTIAGO GOSSWEILER",
+   "camiseta": "18",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "52688",
+   "Jug_Sale": "FRANCO RAUL CORREA",
+   "CarneEntra": "55212",
+   "Jug_Entra": "PEDRO TORRENDELL",
+   "camiseta": "11",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "55609",
+   "Jug_Sale": "THEO CORTABARRIA",
+   "CarneEntra": "55211",
+   "Jug_Entra": "SANTIAGO BOUTMY",
+   "camiseta": "8",
+   "minutos": "88"
+  },
+  {
+   "CarneSale": "55250",
+   "Jug_Sale": "TOMAS PEREYRA",
+   "CarneEntra": "55609",
+   "Jug_Entra": "THEO CORTABARRIA",
+   "camiseta": "20",
+   "minutos": "97"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "59547",
+   "Nombre": "FEDERICO MARTINEZ",
+   "minutos": "76",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59740",
+   "Nombre": "IGNACIO LOPEZ",
+   "minutos": "31",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "55609",
+   "Nombre": "THEO CORTABARRIA",
+   "minutos": "35",
+   "EnContra": "1"
+  },
+  {
+   "carne": "55609",
+   "Nombre": "THEO CORTABARRIA",
+   "minutos": "50",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56317",
+   "Nombre": "PABLO EZEQUIEL BARRETO",
+   "minutos": "82",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

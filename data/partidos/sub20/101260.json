@@ -1,0 +1,283 @@
+{
+ "id": "101260",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 4,
+ "fechaHora": "2026-08-29 15:30:00",
+ "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
+ "local": "SAN PABLO UNIVERSITARIO",
+ "visitante": "MATURANA UNIVERSITARIO",
+ "gl": 1,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "26",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
+  "Fecha_Inicio": "2026-08-29 17:30:00",
+  "Fecha_fin": "2026-08-29 17:30:00",
+  "Locatario": "SAN PABLO UNIVERSITARIO",
+  "goles_locatario": "1",
+  "puntos_locatario": "1",
+  "Visitante": "MATURANA UNIVERSITARIO",
+  "goles_visitante": "1",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "64487",
+   "Nombre": "HUGO FELIPE CASAL",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "55821",
+   "Nombre": "FACUNDO JOEL SANDMAN",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "59591",
+   "Nombre": "EMILIANO GARCIA",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "66026",
+   "Nombre": "JOAQUIN GIRAUDIN",
+   "camiseta": "75",
+   "Capitan": ""
+  },
+  {
+   "carne": "59963",
+   "Nombre": "NICOLAS PROCHNAU",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "59390",
+   "Nombre": "LUCCA BREGANI",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "64490",
+   "Nombre": "FACUNDO MORENO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "56493",
+   "Nombre": "SEBASTIAN MANGANELLI",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "56707",
+   "Nombre": "JUAN SANCHEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "57407",
+   "Nombre": "LUCAS GAMBETTA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "64826",
+   "Nombre": "SEBASTIAN DANIEL URETA",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "57897",
+   "Nombre": "FACUNDO TORRES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59293",
+   "Nombre": "AGUSTIN ALMEIDA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "63203",
+   "Nombre": "JOAQUIN RODRIGUEZ",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "56098",
+   "Nombre": "MATIAS MARTIRENA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64807",
+   "Nombre": "FRANCO GONZALEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "64808",
+   "Nombre": "MANUEL TIAGO LIARD",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "63888",
+   "Nombre": "TOMAS NAHUEL AREOSA",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "69052",
+   "Nombre": "BAUTISTA CONDE",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "52597",
+   "Nombre": "JOAQUIN ZABALETA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "56778",
+   "Nombre": "FRANCISCO GOMEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "59701",
+   "Nombre": "MATIAS JAVIER GATTO",
+   "camiseta": "99",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "59591",
+   "Jug_Sale": "EMILIANO GARCIA",
+   "CarneEntra": "64482",
+   "Jug_Entra": "FRANCESCO GIOVANELLI",
+   "camiseta": "32",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59390",
+   "Jug_Sale": "LUCCA BREGANI",
+   "CarneEntra": "64828",
+   "Jug_Entra": "JUAN AGUSTIN PUPPO",
+   "camiseta": "97",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55821",
+   "Jug_Sale": "FACUNDO JOEL SANDMAN",
+   "CarneEntra": "64488",
+   "Jug_Entra": "JOAQUIN HECTOR CERRUDO",
+   "camiseta": "80",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59963",
+   "Jug_Sale": "NICOLAS PROCHNAU",
+   "CarneEntra": "65764",
+   "Jug_Entra": "JOAQUIN CARRASCO",
+   "camiseta": "78",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "64490",
+   "Jug_Sale": "FACUNDO MORENO",
+   "CarneEntra": "56773",
+   "Jug_Entra": "SANTIAGO DANIEL VERGARA",
+   "camiseta": "70",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "64826",
+   "Jug_Sale": "SEBASTIAN DANIEL URETA",
+   "CarneEntra": "64484",
+   "Jug_Entra": "PABLO RODRIGUEZ",
+   "camiseta": "25",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "57407",
+   "Jug_Sale": "LUCAS GAMBETTA",
+   "CarneEntra": "63701",
+   "Jug_Entra": "IGNACIO DANGLADA",
+   "camiseta": "69",
+   "minutos": "86"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "59701",
+   "Jug_Sale": "MATIAS JAVIER GATTO",
+   "CarneEntra": "63826",
+   "Jug_Entra": "JUAN SEBASTIAN CHIESA",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59293",
+   "Jug_Sale": "AGUSTIN ALMEIDA",
+   "CarneEntra": "64798",
+   "Jug_Entra": "SANTIAGO BIDONDO",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63203",
+   "Jug_Sale": "JOAQUIN RODRIGUEZ",
+   "CarneEntra": "56787",
+   "Jug_Entra": "IGNACIO GONZALEZ",
+   "camiseta": "11",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "64807",
+   "Jug_Sale": "FRANCO GONZALEZ",
+   "CarneEntra": "56100",
+   "Jug_Entra": "IGNACIO POPELKA",
+   "camiseta": "2",
+   "minutos": "82"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56493",
+   "Nombre": "SEBASTIAN MANGANELLI",
+   "minutos": "30",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "63203",
+   "Nombre": "JOAQUIN RODRIGUEZ",
+   "minutos": "9",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "TOMAS NAHUEL AREOSA",
+   "observaciones": ""
+  }
+ ]
+}

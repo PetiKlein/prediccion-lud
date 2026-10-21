@@ -1,0 +1,290 @@
+{
+ "id": "100937",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 15,
+ "fechaHora": "2026-08-15 15:30:00",
+ "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
+ "local": "SAN PABLO UNIVERSITARIO",
+ "visitante": "NAUTICO CARRASCO Y PUNTA GORDA",
+ "gl": 2,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "116",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
+  "Fecha_Inicio": "2026-08-15 17:30:00",
+  "Fecha_fin": "2026-08-15 17:30:00",
+  "Locatario": "SAN PABLO UNIVERSITARIO",
+  "goles_locatario": "2",
+  "puntos_locatario": "3",
+  "Visitante": "NAUTICO CARRASCO Y PUNTA GORDA",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "64487",
+   "Nombre": "HUGO FELIPE CASAL",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "64488",
+   "Nombre": "JOAQUIN HECTOR CERRUDO",
+   "camiseta": "60",
+   "Capitan": ""
+  },
+  {
+   "carne": "66026",
+   "Nombre": "JOAQUIN GIRAUDIN",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "65764",
+   "Nombre": "JOAQUIN CARRASCO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "59390",
+   "Nombre": "LUCCA BREGANI",
+   "camiseta": "78",
+   "Capitan": ""
+  },
+  {
+   "carne": "57407",
+   "Nombre": "LUCAS GAMBETTA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "62915",
+   "Nombre": "MATEO RODRIGUEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "56493",
+   "Nombre": "SEBASTIAN MANGANELLI",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "62715",
+   "Nombre": "FACUNDO HERNANDEZ",
+   "camiseta": "91",
+   "Capitan": ""
+  },
+  {
+   "carne": "64826",
+   "Nombre": "SEBASTIAN DANIEL URETA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "59591",
+   "Nombre": "EMILIANO GARCIA",
+   "camiseta": "30",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "56966",
+   "Nombre": "MARTIN GOMEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "57996",
+   "Nombre": "FRNCISCO GUZMAN BICA",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "59547",
+   "Nombre": "FEDERICO MARTINEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "65858",
+   "Nombre": "DYLAN JOAQUIN PITTAMEGLIO",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "68685",
+   "Nombre": "BRUNO ALVAREZ",
+   "camiseta": "93",
+   "Capitan": ""
+  },
+  {
+   "carne": "57720",
+   "Nombre": "FELIPE GALLO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "61206",
+   "Nombre": "ALEX AGUSTIN MIGUEL",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "51094",
+   "Nombre": "DAMIAN ALMIRON",
+   "camiseta": "86",
+   "Capitan": ""
+  },
+  {
+   "carne": "56547",
+   "Nombre": "JUAN FRANCISCO PEREIRO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "60967",
+   "Nombre": "JUAN FRANCISCO ARRETCHE",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "59549",
+   "Nombre": "SANTIAGO MARTINEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62715",
+   "Jug_Sale": "FACUNDO HERNANDEZ",
+   "CarneEntra": "64490",
+   "Jug_Entra": "FACUNDO MORENO",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59591",
+   "Jug_Sale": "EMILIANO GARCIA",
+   "CarneEntra": "64482",
+   "Jug_Entra": "FRANCESCO GIOVANELLI",
+   "camiseta": "32",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59390",
+   "Jug_Sale": "LUCCA BREGANI",
+   "CarneEntra": "56707",
+   "Jug_Entra": "JUAN SANCHEZ",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62915",
+   "Jug_Sale": "MATEO RODRIGUEZ",
+   "CarneEntra": "64828",
+   "Jug_Entra": "JUAN AGUSTIN PUPPO",
+   "camiseta": "97",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "64488",
+   "Jug_Sale": "JOAQUIN HECTOR CERRUDO",
+   "CarneEntra": "56773",
+   "Jug_Entra": "SANTIAGO DANIEL VERGARA",
+   "camiseta": "70",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "64826",
+   "Jug_Sale": "SEBASTIAN DANIEL URETA",
+   "CarneEntra": "63701",
+   "Jug_Entra": "IGNACIO DANGLADA",
+   "camiseta": "69",
+   "minutos": "83"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57720",
+   "Jug_Sale": "FELIPE GALLO",
+   "CarneEntra": "54710",
+   "Jug_Entra": "JUAN BAUTISTA BERNACHIN",
+   "camiseta": "11",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "60967",
+   "Jug_Sale": "JUAN FRANCISCO ARRETCHE",
+   "CarneEntra": "59740",
+   "Jug_Entra": "IGNACIO LOPEZ",
+   "camiseta": "10",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "68685",
+   "Jug_Sale": "BRUNO ALVAREZ",
+   "CarneEntra": "57929",
+   "Jug_Entra": "JUAN MANUEL LAGO",
+   "camiseta": "81",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "65858",
+   "Jug_Sale": "DYLAN JOAQUIN PITTAMEGLIO",
+   "CarneEntra": "59933",
+   "Jug_Entra": "AGUSTIN MARTINEZ",
+   "camiseta": "24",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "61206",
+   "Jug_Sale": "ALEX AGUSTIN MIGUEL",
+   "CarneEntra": "67319",
+   "Jug_Entra": "FACUNDO LAPROVITERA",
+   "camiseta": "19",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "56547",
+   "Jug_Sale": "JUAN FRANCISCO PEREIRO",
+   "CarneEntra": "62605",
+   "Jug_Entra": "FELIPE CÒCCARO",
+   "camiseta": "50",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "57407",
+   "Nombre": "LUCAS GAMBETTA",
+   "minutos": "89",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64490",
+   "Nombre": "FACUNDO MORENO",
+   "minutos": "72",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "FEDERICO MARTINEZ",
+   "observaciones": ""
+  }
+ ]
+}

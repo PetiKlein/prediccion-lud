@@ -1,0 +1,286 @@
+{
+ "id": "101284",
+ "categoria": "mayores",
+ "serie": "A",
+ "fecha": 4,
+ "fechaHora": "2026-08-30 11:15:00",
+ "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+ "local": "CLUB SEMINARIO",
+ "visitante": "NACIONAL UNIVERSITARIO",
+ "gl": 2,
+ "gv": 4,
+ "detalle": {
+  "nro_partido": "31",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "1",
+  "Divisional": "DIVISIONAL \"A\"",
+  "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+  "Fecha_Inicio": "2026-08-30 13:10:00",
+  "Fecha_fin": "2026-08-30 13:10:00",
+  "Locatario": "CLUB SEMINARIO",
+  "goles_locatario": "2",
+  "puntos_locatario": "0",
+  "Visitante": "NACIONAL UNIVERSITARIO",
+  "goles_visitante": "4",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "52755",
+   "Nombre": "JOAQUIN MIRANDA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "37424",
+   "Nombre": "SANTIAGO PEREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "50839",
+   "Nombre": "FABRIZIO JORGE GRAJALES",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "42555",
+   "Nombre": "RODRIGO VAZQUEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "47683",
+   "Nombre": "JUAN IGNACIO VIOLA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "50866",
+   "Nombre": "JOSE SANTIAGO LUCAS",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "47673",
+   "Nombre": "FRANCISCO JAVIER CAMPON",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "57157",
+   "Nombre": "FACUNDO PIRIS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "54784",
+   "Nombre": "FACUNDO EMILIANO PAGANI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "47680",
+   "Nombre": "JUAN FELIPE LUCAS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "47696",
+   "Nombre": "IGNACIO TOMAS ESTEFAN",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "48534",
+   "Nombre": "LEANDRO LOBELCHO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "42097",
+   "Nombre": "JUAN MANUEL LEIZA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "42913",
+   "Nombre": "MARTIN MASLLORENS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "40727",
+   "Nombre": "RODRIGO YAMANDU TISCORNIA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "46942",
+   "Nombre": "IGNACIO REGUEIRO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "52667",
+   "Nombre": "ENZO GALEANO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "33218",
+   "Nombre": "FACUNDO MARQUES",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "35132",
+   "Nombre": "GIANFRANCO ROVETTA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "35011",
+   "Nombre": "FEDERICO MANUEL ALFARO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "56666",
+   "Nombre": "FACUNDO JAVIER GODOY",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "44968",
+   "Nombre": "JOAQUIN GARCIA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "47680",
+   "Jug_Sale": "JUAN FELIPE LUCAS",
+   "CarneEntra": "39017",
+   "Jug_Entra": "GERMAN FRAGA",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47683",
+   "Jug_Sale": "JUAN IGNACIO VIOLA",
+   "CarneEntra": "39147",
+   "Jug_Entra": "SEBASTIAN ECHEVERZ",
+   "camiseta": "15",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "54784",
+   "Jug_Sale": "FACUNDO EMILIANO PAGANI",
+   "CarneEntra": "54618",
+   "Jug_Entra": "MATIAS JOSE MORENO",
+   "camiseta": "22",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "47683",
+   "Jug_Sale": "JUAN IGNACIO VIOLA",
+   "CarneEntra": "47686",
+   "Jug_Entra": "JUAN ANDRES BOZZOLASCO",
+   "camiseta": "10",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "42097",
+   "Jug_Sale": "JUAN MANUEL LEIZA",
+   "CarneEntra": "41919",
+   "Jug_Entra": "CHRISTOPHER MATIAS LARROSA",
+   "camiseta": "15",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "35132",
+   "Jug_Sale": "GIANFRANCO ROVETTA",
+   "CarneEntra": "62452",
+   "Jug_Entra": "FRANCISCO ARRUA",
+   "camiseta": "11",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "33218",
+   "Jug_Sale": "FACUNDO MARQUES",
+   "CarneEntra": "56963",
+   "Jug_Entra": "LUCAS BERTIN",
+   "camiseta": "22",
+   "minutos": "84"
+  },
+  {
+   "CarneSale": "56666",
+   "Jug_Sale": "FACUNDO JAVIER GODOY",
+   "CarneEntra": "56667",
+   "Jug_Entra": "JUAN DIEGO GODOY",
+   "camiseta": "23",
+   "minutos": "89"
+  },
+  {
+   "CarneSale": "35011",
+   "Jug_Sale": "FEDERICO MANUEL ALFARO",
+   "CarneEntra": "50717",
+   "Jug_Entra": "SANTIAGO VEIGA",
+   "camiseta": "30",
+   "minutos": "96"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "37424",
+   "Nombre": "SANTIAGO PEREZ",
+   "minutos": "17",
+   "EnContra": "0"
+  },
+  {
+   "carne": "50839",
+   "Nombre": "FABRIZIO JORGE GRAJALES",
+   "minutos": "75",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "33218",
+   "Nombre": "FACUNDO MARQUES",
+   "minutos": "37",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56666",
+   "Nombre": "FACUNDO JAVIER GODOY",
+   "minutos": "26",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56666",
+   "Nombre": "FACUNDO JAVIER GODOY",
+   "minutos": "33",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56666",
+   "Nombre": "FACUNDO JAVIER GODOY",
+   "minutos": "60",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

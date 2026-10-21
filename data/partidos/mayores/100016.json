@@ -1,0 +1,271 @@
+{
+ "id": "100016",
+ "categoria": "mayores",
+ "serie": "A",
+ "fecha": 9,
+ "fechaHora": "2026-06-14 11:15:00",
+ "cancha": "COMPLEJO WOODLANDS SCHOOL",
+ "local": "OLD WOODLANDS CLUB",
+ "visitante": "CARRASCO POLO CLUB",
+ "gl": 1,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "70",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "1",
+  "Divisional": "DIVISIONAL \"A\"",
+  "Cancha": "COMPLEJO WOODLANDS SCHOOL",
+  "Fecha_Inicio": "2026-06-14 13:05:00",
+  "Fecha_fin": "2026-06-14 13:05:00",
+  "Locatario": "OLD WOODLANDS CLUB",
+  "goles_locatario": "1",
+  "puntos_locatario": "3",
+  "Visitante": "CARRASCO POLO CLUB",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "47611",
+   "Nombre": "FERNAN BZUROVSKI",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "49929",
+   "Nombre": "ALBERTO GALLINAL",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "49214",
+   "Nombre": "FELIPE HERNANDEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "39927",
+   "Nombre": "MARTIN HERNANDEZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "35584",
+   "Nombre": "LUCAS GUIMARAES",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "31120",
+   "Nombre": "JUAN MANUEL DELUCCA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "40030",
+   "Nombre": "ALEJO BZUROVSKI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "52842",
+   "Nombre": "TIZIANO GUIGOU",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "35145",
+   "Nombre": "IGNACIO COLELLA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "36816",
+   "Nombre": "MARTIN COLELLA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "41519",
+   "Nombre": "MATEO ROLDOS",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "32465",
+   "Nombre": "MATHIAS PARRA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "53597",
+   "Nombre": "BAUTISTA DE LUCA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "29697",
+   "Nombre": "DIEGO LACURCIA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "39328",
+   "Nombre": "FEDERICO UCAR",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "35870",
+   "Nombre": "LUCAS MACAGNO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "48017",
+   "Nombre": "JUAN MARTIN IRAOLA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "42582",
+   "Nombre": "IGNACIO LACURCIA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "37473",
+   "Nombre": "SANTIAGO MATO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "35206",
+   "Nombre": "FEDERICO LACURCIA",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "46817",
+   "Nombre": "FEDERICO HEBER VAZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "57347",
+   "Nombre": "FACUNDO COSTA",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "36816",
+   "Jug_Sale": "MARTIN COLELLA",
+   "CarneEntra": "41117",
+   "Jug_Entra": "LUIS FERNANDO HERBIN",
+   "camiseta": "30",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "49214",
+   "Jug_Sale": "FELIPE HERNANDEZ",
+   "CarneEntra": "50731",
+   "Jug_Entra": "FACUNDO MUNUA",
+   "camiseta": "80",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "52842",
+   "Jug_Sale": "TIZIANO GUIGOU",
+   "CarneEntra": "58593",
+   "Jug_Entra": "ALVARO FACUNDO DEFAUT",
+   "camiseta": "50",
+   "minutos": "84"
+  },
+  {
+   "CarneSale": "49929",
+   "Jug_Sale": "ALBERTO GALLINAL",
+   "CarneEntra": "62191",
+   "Jug_Entra": "NICOLAS PIRIZ",
+   "camiseta": "27",
+   "minutos": "84"
+  },
+  {
+   "CarneSale": "40030",
+   "Jug_Sale": "ALEJO BZUROVSKI",
+   "CarneEntra": "33370",
+   "Jug_Entra": "SANTIAGO BZUROVSKI",
+   "camiseta": "95",
+   "minutos": "94"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "46817",
+   "Jug_Sale": "FEDERICO HEBER VAZ",
+   "CarneEntra": "39434",
+   "Jug_Entra": "SANTIAGO QUIÑONES",
+   "camiseta": "10",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "37473",
+   "Jug_Sale": "SANTIAGO MATO",
+   "CarneEntra": "44449",
+   "Jug_Entra": "MARTIN PIANGELUA",
+   "camiseta": "8",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "53597",
+   "Jug_Sale": "BAUTISTA DE LUCA",
+   "CarneEntra": "50873",
+   "Jug_Entra": "LUCIO FLANGINI",
+   "camiseta": "7",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "42582",
+   "Jug_Sale": "IGNACIO LACURCIA",
+   "CarneEntra": "45501",
+   "Jug_Entra": "IVAN AMADEO",
+   "camiseta": "20",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "39328",
+   "Jug_Sale": "FEDERICO UCAR",
+   "CarneEntra": "55483",
+   "Jug_Entra": "IGNACIO PAGES",
+   "camiseta": "21",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "44449",
+   "Jug_Sale": "MARTIN PIANGELUA",
+   "CarneEntra": "46817",
+   "Jug_Entra": "FEDERICO HEBER VAZ",
+   "camiseta": "9",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "40030",
+   "Nombre": "ALEJO BZUROVSKI",
+   "minutos": "67",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

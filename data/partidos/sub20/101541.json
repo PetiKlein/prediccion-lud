@@ -1,0 +1,268 @@
+{
+ "id": "101541",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 12,
+ "fechaHora": "2026-09-05 15:30:00",
+ "cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
+ "local": "NAUTICO CARRASCO Y PUNTA GORDA",
+ "visitante": "CLUB SEMINARIO",
+ "gl": 0,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "95",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
+  "Fecha_Inicio": "2026-09-05 17:38:00",
+  "Fecha_fin": "2026-09-05 17:38:00",
+  "Locatario": "NAUTICO CARRASCO Y PUNTA GORDA",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "CLUB SEMINARIO",
+  "goles_visitante": "1",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "56966",
+   "Nombre": "MARTIN GOMEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "61249",
+   "Nombre": "AGUSTIN PALOMINO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "56547",
+   "Nombre": "JUAN FRANCISCO PEREIRO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "59547",
+   "Nombre": "FEDERICO MARTINEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "68685",
+   "Nombre": "BRUNO ALVAREZ",
+   "camiseta": "93",
+   "Capitan": ""
+  },
+  {
+   "carne": "51094",
+   "Nombre": "DAMIAN ALMIRON",
+   "camiseta": "86",
+   "Capitan": ""
+  },
+  {
+   "carne": "60967",
+   "Nombre": "JUAN FRANCISCO ARRETCHE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "61206",
+   "Nombre": "ALEX AGUSTIN MIGUEL",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "59549",
+   "Nombre": "SANTIAGO MARTINEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "67319",
+   "Nombre": "FACUNDO LAPROVITERA",
+   "camiseta": "49",
+   "Capitan": ""
+  },
+  {
+   "carne": "54710",
+   "Nombre": "JUAN BAUTISTA BERNACHIN",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58598",
+   "Nombre": "NICOLAS MAZZILLI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54598",
+   "Nombre": "LUCA SIVORI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62949",
+   "Nombre": "JUAN IGNACIO PEDROZO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "56647",
+   "Nombre": "JOAQUIN EMILIANO SOLOGAISTOA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "54965",
+   "Nombre": "JOAQUIN EMILIO VOLA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "56643",
+   "Nombre": "FEDERICO MOSCA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "58217",
+   "Nombre": "LUCA TORTEROLO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56645",
+   "Nombre": "MAXIMO BERTOLA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "60868",
+   "Nombre": "IGNACIO ANDRES LEGARRA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "59080",
+   "Nombre": "MATIAS GOSSWEILER",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "54618",
+   "Nombre": "MATIAS JOSE MORENO",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54710",
+   "Jug_Sale": "JUAN BAUTISTA BERNACHIN",
+   "CarneEntra": "57720",
+   "Jug_Entra": "FELIPE GALLO",
+   "camiseta": "14",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "68685",
+   "Jug_Sale": "BRUNO ALVAREZ",
+   "CarneEntra": "57929",
+   "Jug_Entra": "JUAN MANUEL LAGO",
+   "camiseta": "81",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "61249",
+   "Jug_Sale": "AGUSTIN PALOMINO",
+   "CarneEntra": "59740",
+   "Jug_Entra": "IGNACIO LOPEZ",
+   "camiseta": "10",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "60967",
+   "Jug_Sale": "JUAN FRANCISCO ARRETCHE",
+   "CarneEntra": "68980",
+   "Jug_Entra": "TADEO MARRONE",
+   "camiseta": "79",
+   "minutos": "82"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56645",
+   "Jug_Sale": "MAXIMO BERTOLA",
+   "CarneEntra": "56642",
+   "Jug_Entra": "MATEO PEREZ",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58217",
+   "Jug_Sale": "LUCA TORTEROLO",
+   "CarneEntra": "62166",
+   "Jug_Entra": "FELIPE AMARO LACASSY",
+   "camiseta": "5",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "62949",
+   "Jug_Sale": "JUAN IGNACIO PEDROZO",
+   "CarneEntra": "56639",
+   "Jug_Entra": "BENJAMIN MORALES",
+   "camiseta": "16",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "56643",
+   "Jug_Sale": "FEDERICO MOSCA",
+   "CarneEntra": "56208",
+   "Jug_Entra": "LORENZO MANDIA",
+   "camiseta": "3",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "54618",
+   "Jug_Sale": "MATIAS JOSE MORENO",
+   "CarneEntra": "63872",
+   "Jug_Entra": "MANUEL DE LA PEÑA",
+   "camiseta": "15",
+   "minutos": "86"
+  },
+  {
+   "CarneSale": "59080",
+   "Jug_Sale": "MATIAS GOSSWEILER",
+   "CarneEntra": "56643",
+   "Jug_Entra": "FEDERICO MOSCA",
+   "camiseta": "20",
+   "minutos": "92"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "58598",
+   "Nombre": "NICOLAS MAZZILLI",
+   "minutos": "90",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "IGNACIO ANDRES LEGARRA",
+   "observaciones": ""
+  }
+ ]
+}

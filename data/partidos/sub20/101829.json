@@ -1,0 +1,237 @@
+{
+ "id": "101829",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 13,
+ "fechaHora": "2026-09-12 13:30:00",
+ "cancha": "ELF (LICEO FRANCES)",
+ "local": "E.L.F.",
+ "visitante": "NACIONAL UNIVERSITARIO",
+ "gl": 2,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "97",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "ELF (LICEO FRANCES)",
+  "Fecha_Inicio": "2026-09-12 17:15:00",
+  "Fecha_fin": "2026-09-12 17:15:00",
+  "Locatario": "E.L.F.",
+  "goles_locatario": "2",
+  "puntos_locatario": "3",
+  "Visitante": "NACIONAL UNIVERSITARIO",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "59812",
+   "Nombre": "FRANCO EMANUEL NUÑEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56266",
+   "Nombre": "JUAN FRANCISCO CASTELLANOS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "55273",
+   "Nombre": "JUAN SARACCO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "54773",
+   "Nombre": "JUAN IGNACIO PODESTA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "57687",
+   "Nombre": "RAMIRO MENDEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "57799",
+   "Nombre": "IGNACIO CATTANEO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "56768",
+   "Nombre": "MATIAS DUPUY",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "60555",
+   "Nombre": "MARCOS TRIGO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "54658",
+   "Nombre": "JUAN MANUEL DUPUY",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "67158",
+   "Nombre": "LUCIANO DOS SANTOS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "56764",
+   "Nombre": "IGNACIO VERANO",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62299",
+   "Nombre": "FACUNDO GONZALEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67310",
+   "Nombre": "FACUNDO PEREZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "57415",
+   "Nombre": "IÑAKI ETCHEVERRIA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "63621",
+   "Nombre": "RAUL ERNESTO GONZALEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "66786",
+   "Nombre": "FACUNDO FEO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "58009",
+   "Nombre": "SEBASTIAN FARIAS",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68674",
+   "Nombre": "SANTIAGO VIERA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "53307",
+   "Nombre": "LUCA GIUSEPPE MARRONE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "60494",
+   "Nombre": "PEDRO ALBERTO LISTA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "68428",
+   "Nombre": "FRANCISCO VIDIELLA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "57960",
+   "Nombre": "LUCAS GABRIEL GRAÑA",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54658",
+   "Jug_Sale": "JUAN MANUEL DUPUY",
+   "CarneEntra": "59824",
+   "Jug_Entra": "ALFONSO JOSE BECOÑA",
+   "camiseta": "19",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "57799",
+   "Jug_Sale": "IGNACIO CATTANEO",
+   "CarneEntra": "57955",
+   "Jug_Entra": "MATIAS VIÑAR",
+   "camiseta": "5",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "56764",
+   "Jug_Sale": "IGNACIO VERANO",
+   "CarneEntra": "62369",
+   "Jug_Entra": "MAURICIO ZECCHI",
+   "camiseta": "20",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "67158",
+   "Jug_Sale": "LUCIANO DOS SANTOS",
+   "CarneEntra": "63240",
+   "Jug_Entra": "NICOLAS PERAZZO",
+   "camiseta": "14",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "56266",
+   "Jug_Sale": "JUAN FRANCISCO CASTELLANOS",
+   "CarneEntra": "57969",
+   "Jug_Entra": "FRANCO MAZZUCCHELLI",
+   "camiseta": "24",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57960",
+   "Jug_Sale": "LUCAS GABRIEL GRAÑA",
+   "CarneEntra": "63351",
+   "Jug_Entra": "FRANCO ESTEBAN VALIENTE",
+   "camiseta": "20",
+   "minutos": "74"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "59824",
+   "Nombre": "ALFONSO JOSE BECOÑA",
+   "minutos": "73",
+   "EnContra": "0"
+  },
+  {
+   "carne": "60555",
+   "Nombre": "MARCOS TRIGO",
+   "minutos": "70",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

@@ -1,0 +1,248 @@
+{
+ "id": "99716",
+ "categoria": "mayores",
+ "serie": "A",
+ "fecha": 8,
+ "fechaHora": "2026-06-07 09:00:00",
+ "cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
+ "local": "URUNDAY UNIVERSITARIO",
+ "visitante": "OLD WOODLANDS CLUB",
+ "gl": 0,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "59",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "1",
+  "Divisional": "DIVISIONAL \"A\"",
+  "Cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
+  "Fecha_Inicio": "2026-06-07 11:05:00",
+  "Fecha_fin": "2026-06-07 11:05:00",
+  "Locatario": "URUNDAY UNIVERSITARIO",
+  "goles_locatario": "0",
+  "puntos_locatario": "1",
+  "Visitante": "OLD WOODLANDS CLUB",
+  "goles_visitante": "0",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "52399",
+   "Nombre": "FEDERICO JOAQUIN GARCIA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "54532",
+   "Nombre": "MANUEL AGUSTIN DURE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "66693",
+   "Nombre": "AGUSTIN LEMA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "62165",
+   "Nombre": "JUAN IGNACIO AFFONSO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "36910",
+   "Nombre": "GERMAN CAYON",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "41285",
+   "Nombre": "RODRIGO FERNANDEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "41114",
+   "Nombre": "FACUNDO MEDEIROS",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "56470",
+   "Nombre": "BRUNO AGUSTIN FANTONI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "55417",
+   "Nombre": "DIEGO HERNAN TABORDA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "52533",
+   "Nombre": "GUZMAN FERNANDEZ",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "58206",
+   "Nombre": "TOMAS ARAGUSTO",
+   "camiseta": "92",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "47611",
+   "Nombre": "FERNAN BZUROVSKI",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "41117",
+   "Nombre": "LUIS FERNANDO HERBIN",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "35584",
+   "Nombre": "LUCAS GUIMARAES",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "53488",
+   "Nombre": "FRANCO FONTANAROSSA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "49214",
+   "Nombre": "FELIPE HERNANDEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "35145",
+   "Nombre": "IGNACIO COLELLA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "49206",
+   "Nombre": "TOMAS PONCE DE LEON",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "41519",
+   "Nombre": "MATEO ROLDOS",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "40030",
+   "Nombre": "ALEJO BZUROVSKI",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "52842",
+   "Nombre": "TIZIANO GUIGOU",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "39927",
+   "Nombre": "MARTIN HERNANDEZ",
+   "camiseta": "26",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "55417",
+   "Jug_Sale": "DIEGO HERNAN TABORDA",
+   "CarneEntra": "36942",
+   "Jug_Entra": "NICOLAS LOPEZ",
+   "camiseta": "9",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "56470",
+   "Jug_Sale": "BRUNO AGUSTIN FANTONI",
+   "CarneEntra": "50454",
+   "Jug_Entra": "RENZO LEMMO",
+   "camiseta": "19",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "41114",
+   "Jug_Sale": "FACUNDO MEDEIROS",
+   "CarneEntra": "46496",
+   "Jug_Entra": "RODRIGO AGUSTIN VEGA",
+   "camiseta": "20",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "58206",
+   "Jug_Sale": "TOMAS ARAGUSTO",
+   "CarneEntra": "66692",
+   "Jug_Entra": "FACUNDO MOLINA",
+   "camiseta": "18",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "52533",
+   "Jug_Sale": "GUZMAN FERNANDEZ",
+   "CarneEntra": "50071",
+   "Jug_Entra": "AGUSTIN SANTURIO",
+   "camiseta": "29",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "53488",
+   "Jug_Sale": "FRANCO FONTANAROSSA",
+   "CarneEntra": "36816",
+   "Jug_Entra": "MARTIN COLELLA",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "49206",
+   "Jug_Sale": "TOMAS PONCE DE LEON",
+   "CarneEntra": "31120",
+   "Jug_Entra": "JUAN MANUEL DELUCCA",
+   "camiseta": "4",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "49214",
+   "Jug_Sale": "FELIPE HERNANDEZ",
+   "CarneEntra": "58593",
+   "Jug_Entra": "ALVARO FACUNDO DEFAUT",
+   "camiseta": "36",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "52842",
+   "Jug_Sale": "TIZIANO GUIGOU",
+   "CarneEntra": "50731",
+   "Jug_Entra": "FACUNDO MUNUA",
+   "camiseta": "80",
+   "minutos": "86"
+  }
+ ],
+ "golesL": [],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

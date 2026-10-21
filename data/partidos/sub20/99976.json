@@ -1,0 +1,301 @@
+{
+ "id": "99976",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 9,
+ "fechaHora": "2026-06-13 15:30:00",
+ "cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
+ "local": "SAN PABLO UNIVERSITARIO",
+ "visitante": "OLD WOODLANDS CLUB",
+ "gl": 0,
+ "gv": 6,
+ "detalle": {
+  "nro_partido": "71",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "COM. CLUB UNIVERSIDAD CATOLICA",
+  "Fecha_Inicio": "2026-06-13 17:30:00",
+  "Fecha_fin": "2026-06-13 17:30:00",
+  "Locatario": "SAN PABLO UNIVERSITARIO",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "OLD WOODLANDS CLUB",
+  "goles_visitante": "6",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "64487",
+   "Nombre": "HUGO FELIPE CASAL",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "64488",
+   "Nombre": "JOAQUIN HECTOR CERRUDO",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "59591",
+   "Nombre": "EMILIANO GARCIA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "66026",
+   "Nombre": "JOAQUIN GIRAUDIN",
+   "camiseta": "75",
+   "Capitan": ""
+  },
+  {
+   "carne": "59963",
+   "Nombre": "NICOLAS PROCHNAU",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "65764",
+   "Nombre": "JOAQUIN CARRASCO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "55821",
+   "Nombre": "FACUNDO JOEL SANDMAN",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "56493",
+   "Nombre": "SEBASTIAN MANGANELLI",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "59536",
+   "Nombre": "VALENTINO GUIDI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "63701",
+   "Nombre": "IGNACIO DANGLADA",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "62715",
+   "Nombre": "FACUNDO HERNANDEZ",
+   "camiseta": "91",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "65071",
+   "Nombre": "MANUEL FELIPE DOMINGUEZ",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "59184",
+   "Nombre": "IGNACIO CASTELLO",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "56934",
+   "Nombre": "RODRIGO VICTORICA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "65736",
+   "Nombre": "CONSTANTINO JUAN SOTO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "55065",
+   "Nombre": "FELIPE SONEIRA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "57173",
+   "Nombre": "ALFONSO FLEURQUIN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "55243",
+   "Nombre": "FELIPE LYONNET",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "55093",
+   "Nombre": "TIMOTEO MORELLI",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "57168",
+   "Nombre": "PEDRO ROMERO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "62361",
+   "Nombre": "FACUNDO GONZALEZ",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "59187",
+   "Nombre": "FACUNDO FERNANDEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "59536",
+   "Jug_Sale": "VALENTINO GUIDI",
+   "CarneEntra": "59390",
+   "Jug_Entra": "LUCCA BREGANI",
+   "camiseta": "78",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66026",
+   "Jug_Sale": "JOAQUIN GIRAUDIN",
+   "CarneEntra": "64482",
+   "Jug_Entra": "FRANCESCO GIOVANELLI",
+   "camiseta": "32",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "56493",
+   "Jug_Sale": "SEBASTIAN MANGANELLI",
+   "CarneEntra": "59536",
+   "Jug_Entra": "VALENTINO GUIDI",
+   "camiseta": "5",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "62715",
+   "Jug_Sale": "FACUNDO HERNANDEZ",
+   "CarneEntra": "64486",
+   "Jug_Entra": "SANTINO OROÑA",
+   "camiseta": "9",
+   "minutos": "73"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "59184",
+   "Jug_Sale": "IGNACIO CASTELLO",
+   "CarneEntra": "63286",
+   "Jug_Entra": "ENZO PIGNANELLI",
+   "camiseta": "3",
+   "minutos": "30"
+  },
+  {
+   "CarneSale": "65071",
+   "Jug_Sale": "MANUEL FELIPE DOMINGUEZ",
+   "CarneEntra": "57170",
+   "Jug_Entra": "JUAN MANUEL BACHINO",
+   "camiseta": "1",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "59187",
+   "Jug_Sale": "FACUNDO FERNANDEZ",
+   "CarneEntra": "57430",
+   "Jug_Entra": "JUAN BAUTISTA MARTINEZ",
+   "camiseta": "9",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "62361",
+   "Jug_Sale": "FACUNDO GONZALEZ",
+   "CarneEntra": "55094",
+   "Jug_Entra": "THIAGO NICOLAS TEJERA",
+   "camiseta": "10",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "57173",
+   "Jug_Sale": "ALFONSO FLEURQUIN",
+   "CarneEntra": "57171",
+   "Jug_Entra": "IGNACIO IRAZUSTA",
+   "camiseta": "17",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "57168",
+   "Jug_Sale": "PEDRO ROMERO",
+   "CarneEntra": "57450",
+   "Jug_Entra": "NICOLAS FOTI",
+   "camiseta": "5",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "55243",
+   "Jug_Sale": "FELIPE LYONNET",
+   "CarneEntra": "64357",
+   "Jug_Entra": "MAURICIO ADOLFO JACOBO",
+   "camiseta": "15",
+   "minutos": "72"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "55094",
+   "Nombre": "THIAGO NICOLAS TEJERA",
+   "minutos": "79",
+   "EnContra": "1"
+  },
+  {
+   "carne": "57168",
+   "Nombre": "PEDRO ROMERO",
+   "minutos": "25",
+   "EnContra": "1"
+  },
+  {
+   "carne": "57168",
+   "Nombre": "PEDRO ROMERO",
+   "minutos": "62",
+   "EnContra": "1"
+  },
+  {
+   "carne": "59187",
+   "Nombre": "FACUNDO FERNANDEZ",
+   "minutos": "10",
+   "EnContra": "1"
+  },
+  {
+   "carne": "59187",
+   "Nombre": "FACUNDO FERNANDEZ",
+   "minutos": "27",
+   "EnContra": "1"
+  },
+  {
+   "carne": "59187",
+   "Nombre": "FACUNDO FERNANDEZ",
+   "minutos": "35",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

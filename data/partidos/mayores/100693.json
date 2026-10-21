@@ -1,0 +1,290 @@
+{
+ "id": "100693",
+ "categoria": "mayores",
+ "serie": "A",
+ "fecha": 10,
+ "fechaHora": "2026-07-12 11:15:00",
+ "cancha": "CARRASCO POLO",
+ "local": "CARRASCO POLO CLUB",
+ "visitante": "SANTA ELENA LAGOMAR",
+ "gl": 4,
+ "gv": 4,
+ "detalle": {
+  "nro_partido": "75",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "1",
+  "Divisional": "DIVISIONAL \"A\"",
+  "Cancha": "CARRASCO POLO",
+  "Fecha_Inicio": "2026-07-12 13:07:00",
+  "Fecha_fin": "2026-07-12 13:07:00",
+  "Locatario": "CARRASCO POLO CLUB",
+  "goles_locatario": "4",
+  "puntos_locatario": "1",
+  "Visitante": "SANTA ELENA LAGOMAR",
+  "goles_visitante": "4",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "53730",
+   "Nombre": "RENZO MACHIN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "53597",
+   "Nombre": "BAUTISTA DE LUCA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "39328",
+   "Nombre": "FEDERICO UCAR",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "35870",
+   "Nombre": "LUCAS MACAGNO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "44449",
+   "Nombre": "MARTIN PIANGELUA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "48017",
+   "Nombre": "JUAN MARTIN IRAOLA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "44181",
+   "Nombre": "FRANCISCO LABAT",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "45501",
+   "Nombre": "IVAN AMADEO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "39434",
+   "Nombre": "SANTIAGO QUIÑONES",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57347",
+   "Nombre": "FACUNDO COSTA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "46817",
+   "Nombre": "FEDERICO HEBER VAZ",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "55249",
+   "Nombre": "MATEO ENRICH",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "39354",
+   "Nombre": "FEDERICO COMBA",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "49228",
+   "Nombre": "SANTIAGO QUINTANS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "50407",
+   "Nombre": "FELIPE PONS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "54416",
+   "Nombre": "JOAQUIN FALCON",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "53426",
+   "Nombre": "JUAN MANUEL BELLO",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "41027",
+   "Nombre": "FELIPE ESTEVEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "41326",
+   "Nombre": "FRANCO POLACCHINI",
+   "camiseta": "96",
+   "Capitan": ""
+  },
+  {
+   "carne": "53269",
+   "Nombre": "JUAN MANUEL RODRIGUEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "56503",
+   "Nombre": "JOAQUIN SANCHEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "56961",
+   "Nombre": "MAXIMILIAN AMADO",
+   "camiseta": "62",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "45501",
+   "Jug_Sale": "IVAN AMADEO",
+   "CarneEntra": "37473",
+   "Jug_Entra": "SANTIAGO MATO",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "46817",
+   "Jug_Sale": "FEDERICO HEBER VAZ",
+   "CarneEntra": "59748",
+   "Jug_Entra": "SANTIAGO MENDEZ",
+   "camiseta": "21",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "48017",
+   "Jug_Sale": "JUAN MARTIN IRAOLA",
+   "CarneEntra": "42512",
+   "Jug_Entra": "NICOLAS BOLGER",
+   "camiseta": "16",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "53597",
+   "Jug_Sale": "BAUTISTA DE LUCA",
+   "CarneEntra": "37465",
+   "Jug_Entra": "RODRIGO FERNANDEZ",
+   "camiseta": "7",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "44449",
+   "Jug_Sale": "MARTIN PIANGELUA",
+   "CarneEntra": "40972",
+   "Jug_Entra": "FRANCISCO TRONCOSO",
+   "camiseta": "4",
+   "minutos": "89"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "41027",
+   "Jug_Sale": "FELIPE ESTEVEZ",
+   "CarneEntra": "61323",
+   "Jug_Entra": "SANTINO MIGUEL VILA",
+   "camiseta": "5",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "56961",
+   "Jug_Sale": "MAXIMILIAN AMADO",
+   "CarneEntra": "41018",
+   "Jug_Entra": "FEDERICO IGNACIO TAMBUSSO",
+   "camiseta": "11",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "50407",
+   "Jug_Sale": "FELIPE PONS",
+   "CarneEntra": "38985",
+   "Jug_Entra": "MATEO BARAYBAR",
+   "camiseta": "20",
+   "minutos": "82"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "48017",
+   "Nombre": "JUAN MARTIN IRAOLA",
+   "minutos": "29",
+   "EnContra": "0"
+  },
+  {
+   "carne": "57347",
+   "Nombre": "FACUNDO COSTA",
+   "minutos": "25",
+   "EnContra": "0"
+  },
+  {
+   "carne": "57347",
+   "Nombre": "FACUNDO COSTA",
+   "minutos": "60",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59748",
+   "Nombre": "SANTIAGO MENDEZ",
+   "minutos": "72",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "39354",
+   "Nombre": "FEDERICO COMBA",
+   "minutos": "36",
+   "EnContra": "1"
+  },
+  {
+   "carne": "53269",
+   "Nombre": "JUAN MANUEL RODRIGUEZ",
+   "minutos": "2",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56503",
+   "Nombre": "JOAQUIN SANCHEZ",
+   "minutos": "29",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56503",
+   "Nombre": "JOAQUIN SANCHEZ",
+   "minutos": "46",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

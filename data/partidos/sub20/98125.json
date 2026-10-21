@@ -1,0 +1,287 @@
+{
+ "id": "98125",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 1,
+ "fechaHora": "2026-04-11 15:30:00",
+ "cancha": "COMPLEJO AZULGRANA",
+ "local": "OLD BOYS CLUB",
+ "visitante": "PLAYA HONDA UNIVERSITARIO",
+ "gl": 1,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "2",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "COMPLEJO AZULGRANA",
+  "Fecha_Inicio": "2026-04-11 17:25:00",
+  "Fecha_fin": "2026-04-11 17:25:00",
+  "Locatario": "OLD BOYS CLUB",
+  "goles_locatario": "1",
+  "puntos_locatario": "3",
+  "Visitante": "PLAYA HONDA UNIVERSITARIO",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "65914",
+   "Nombre": "LUCAS FACUNDO RUIZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "57010",
+   "Nombre": "FELIPE SUAREZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "54579",
+   "Nombre": "JAVIER CIVETTA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56262",
+   "Nombre": "FRANCISCO NAVARRO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "55700",
+   "Nombre": "MANUEL LACALLE",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "57004",
+   "Nombre": "ALBERTO HERRERA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "56273",
+   "Nombre": "ALEXIS BRUCE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "56267",
+   "Nombre": "JOAQUIN GUTIERREZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "57001",
+   "Nombre": "MANUEL BOSCH",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "54975",
+   "Nombre": "TOMAS BRAUSE",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "56265",
+   "Nombre": "JUAN MARTIN HRILJAC",
+   "camiseta": "3",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "52916",
+   "Nombre": "GUZMAN ESTOUP",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "56235",
+   "Nombre": "MANUEL SEBASTIAN BURGOS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "67302",
+   "Nombre": "DIEGO PERAZZO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "64141",
+   "Nombre": "LAUTARO MARTIN PRESA",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "64032",
+   "Nombre": "FRANCESCO BRUNO STAGNO",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "58540",
+   "Nombre": "TOMAS BERTINAT",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58513",
+   "Nombre": "JOAQUIN ALEJANDRO FARIAS",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "57053",
+   "Nombre": "JUAN MATTOS",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "58940",
+   "Nombre": "MARTIN LANGONE",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "57776",
+   "Nombre": "EMILIANO DIAZ",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "58744",
+   "Nombre": "AGUSTIN SANTIAGO LUCERO",
+   "camiseta": "24",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "57004",
+   "Jug_Sale": "ALBERTO HERRERA",
+   "CarneEntra": "56874",
+   "Jug_Entra": "JUAN FLEURQUIN",
+   "camiseta": "45",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56273",
+   "Jug_Sale": "ALEXIS BRUCE",
+   "CarneEntra": "56255",
+   "Jug_Entra": "TOMAS YOUNG",
+   "camiseta": "36",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57004",
+   "Jug_Sale": "ALBERTO HERRERA",
+   "CarneEntra": "58858",
+   "Jug_Entra": "JOAQUIN QUINTO REYES",
+   "camiseta": "25",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "57001",
+   "Jug_Sale": "MANUEL BOSCH",
+   "CarneEntra": "67654",
+   "Jug_Entra": "BAUTISTA RISSO",
+   "camiseta": "42",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "56267",
+   "Jug_Sale": "JOAQUIN GUTIERREZ",
+   "CarneEntra": "56261",
+   "Jug_Entra": "FRANCISCO NOVEGIL",
+   "camiseta": "23",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "55700",
+   "Jug_Sale": "MANUEL LACALLE",
+   "CarneEntra": "55218",
+   "Jug_Entra": "THIAGO ESTEVEZ",
+   "camiseta": "33",
+   "minutos": "70"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "58513",
+   "Jug_Sale": "JOAQUIN ALEJANDRO FARIAS",
+   "CarneEntra": "62024",
+   "Jug_Entra": "JUAN MANUEL BOCCHI",
+   "camiseta": "41",
+   "minutos": "26"
+  },
+  {
+   "CarneSale": "57053",
+   "Jug_Sale": "JUAN MATTOS",
+   "CarneEntra": "67127",
+   "Jug_Entra": "FEDERICO SORIA",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58940",
+   "Jug_Sale": "MARTIN LANGONE",
+   "CarneEntra": "56183",
+   "Jug_Entra": "RAFAEL SANTIAGO SANCHEZ",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64141",
+   "Jug_Sale": "LAUTARO MARTIN PRESA",
+   "CarneEntra": "67301",
+   "Jug_Entra": "TOMAS TABOADA",
+   "camiseta": "28",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56235",
+   "Jug_Sale": "MANUEL SEBASTIAN BURGOS",
+   "CarneEntra": "58939",
+   "Jug_Entra": "JOAQUIN MARTINEZ",
+   "camiseta": "9",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "64032",
+   "Jug_Sale": "FRANCESCO BRUNO STAGNO",
+   "CarneEntra": "67535",
+   "Jug_Entra": "BENJAMIN DE IZAGUIRRE",
+   "camiseta": "44",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "58744",
+   "Jug_Sale": "AGUSTIN SANTIAGO LUCERO",
+   "CarneEntra": "67537",
+   "Jug_Entra": "BAUTISTA GARRE",
+   "camiseta": "38",
+   "minutos": "67"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56262",
+   "Nombre": "FRANCISCO NAVARRO",
+   "minutos": "11",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

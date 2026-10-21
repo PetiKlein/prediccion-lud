@@ -1,0 +1,276 @@
+{
+ "id": "102005",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 14,
+ "fechaHora": "2026-09-16 20:30:00",
+ "cancha": "COMPLEJO LAS CASUARINAS",
+ "local": "SAN JUAN BAUTISTA",
+ "visitante": "SAN PABLO UNIVERSITARIO",
+ "gl": 2,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "109",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "COMPLEJO LAS CASUARINAS",
+  "Fecha_Inicio": "2026-09-16 22:30:00",
+  "Fecha_fin": "2026-09-16 22:30:00",
+  "Locatario": "SAN JUAN BAUTISTA",
+  "goles_locatario": "2",
+  "puntos_locatario": "3",
+  "Visitante": "SAN PABLO UNIVERSITARIO",
+  "goles_visitante": "1",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "64191",
+   "Nombre": "NICOLAS ANTONIO DE ARMAS",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62670",
+   "Nombre": "LORENZO MONTERO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "59224",
+   "Nombre": "MATIAS LEMBO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "66389",
+   "Nombre": "JOAQUIN LIMA",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "59596",
+   "Nombre": "JOAQUIN PEREDA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "61182",
+   "Nombre": "LUCAS CANOSA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "59102",
+   "Nombre": "AGUSTIN CAZET",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "57840",
+   "Nombre": "DIEGO BIDEGAIN",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "57785",
+   "Nombre": "JUAN CAPPELLINI",
+   "camiseta": "91",
+   "Capitan": ""
+  },
+  {
+   "carne": "59100",
+   "Nombre": "VALENTINO PIERI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "61871",
+   "Nombre": "FRANCO DI GIOVANNI",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "64487",
+   "Nombre": "HUGO FELIPE CASAL",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64488",
+   "Nombre": "JOAQUIN HECTOR CERRUDO",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "59591",
+   "Nombre": "EMILIANO GARCIA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "66026",
+   "Nombre": "JOAQUIN GIRAUDIN",
+   "camiseta": "75",
+   "Capitan": ""
+  },
+  {
+   "carne": "59963",
+   "Nombre": "NICOLAS PROCHNAU",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "64828",
+   "Nombre": "JUAN AGUSTIN PUPPO",
+   "camiseta": "97",
+   "Capitan": ""
+  },
+  {
+   "carne": "56773",
+   "Nombre": "SANTIAGO DANIEL VERGARA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "56707",
+   "Nombre": "JUAN SANCHEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "65764",
+   "Nombre": "JOAQUIN CARRASCO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "57407",
+   "Nombre": "LUCAS GAMBETTA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "64826",
+   "Nombre": "SEBASTIAN DANIEL URETA",
+   "camiseta": "70",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "59596",
+   "Jug_Sale": "JOAQUIN PEREDA",
+   "CarneEntra": "59103",
+   "Jug_Entra": "MATEO AGUSTIN PETILLO",
+   "camiseta": "17",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "61871",
+   "Jug_Sale": "FRANCO DI GIOVANNI",
+   "CarneEntra": "62570",
+   "Jug_Entra": "JUAN BERNARDO HERNANDEZ",
+   "camiseta": "7",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "59100",
+   "Jug_Sale": "VALENTINO PIERI",
+   "CarneEntra": "65258",
+   "Jug_Entra": "GASTON OMAR VANNI",
+   "camiseta": "99",
+   "minutos": "89"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "59591",
+   "Jug_Sale": "EMILIANO GARCIA",
+   "CarneEntra": "57379",
+   "Jug_Entra": "MANUEL CACERES",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56773",
+   "Jug_Sale": "SANTIAGO DANIEL VERGARA",
+   "CarneEntra": "64490",
+   "Jug_Entra": "FACUNDO MORENO",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64488",
+   "Jug_Sale": "JOAQUIN HECTOR CERRUDO",
+   "CarneEntra": "55821",
+   "Jug_Entra": "FACUNDO JOEL SANDMAN",
+   "camiseta": "7",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "59963",
+   "Jug_Sale": "NICOLAS PROCHNAU",
+   "CarneEntra": "64482",
+   "Jug_Entra": "FRANCESCO GIOVANELLI",
+   "camiseta": "32",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "65764",
+   "Jug_Sale": "JOAQUIN CARRASCO",
+   "CarneEntra": "59390",
+   "Jug_Entra": "LUCCA BREGANI",
+   "camiseta": "78",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "64828",
+   "Jug_Sale": "JUAN AGUSTIN PUPPO",
+   "CarneEntra": "62714",
+   "Jug_Entra": "IGNACIO RODRIGUEZ",
+   "camiseta": "47",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "57407",
+   "Jug_Sale": "LUCAS GAMBETTA",
+   "CarneEntra": "63701",
+   "Jug_Entra": "IGNACIO DANGLADA",
+   "camiseta": "69",
+   "minutos": "89"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "57840",
+   "Nombre": "DIEGO BIDEGAIN",
+   "minutos": "47",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59100",
+   "Nombre": "VALENTINO PIERI",
+   "minutos": "21",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "62714",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "minutos": "77",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

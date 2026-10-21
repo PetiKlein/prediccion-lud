@@ -1,0 +1,270 @@
+{
+ "id": "98002",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 1,
+ "fechaHora": "2026-04-11 15:30:00",
+ "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+ "local": "CLUB SEMINARIO",
+ "visitante": "MATURANA UNIVERSITARIO",
+ "gl": 1,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "8",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+  "Fecha_Inicio": "2026-04-11 17:30:00",
+  "Fecha_fin": "2026-04-11 17:30:00",
+  "Locatario": "CLUB SEMINARIO",
+  "goles_locatario": "1",
+  "puntos_locatario": "1",
+  "Visitante": "MATURANA UNIVERSITARIO",
+  "goles_visitante": "1",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "58598",
+   "Nombre": "NICOLAS MAZZILLI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56638",
+   "Nombre": "NICOLAS BACHINO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "57302",
+   "Nombre": "JUAN BAUTISTA PAMPIN",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "56190",
+   "Nombre": "JUAN BAUTISTA OLASCOAGA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "54598",
+   "Nombre": "LUCA SIVORI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "56643",
+   "Nombre": "FEDERICO MOSCA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "56639",
+   "Nombre": "BENJAMIN MORALES",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56195",
+   "Nombre": "SANTIAGO ALFREDO CAFFA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "54618",
+   "Nombre": "MATIAS JOSE MORENO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "65936",
+   "Nombre": "DIEGO TABERNE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "56642",
+   "Nombre": "MATEO PEREZ",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "57897",
+   "Nombre": "FACUNDO TORRES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56100",
+   "Nombre": "IGNACIO POPELKA",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "56223",
+   "Nombre": "SALVADOR MORATORIO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56098",
+   "Nombre": "MATIAS MARTIRENA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "59293",
+   "Nombre": "AGUSTIN ALMEIDA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "63888",
+   "Nombre": "TOMAS NAHUEL AREOSA",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "56778",
+   "Nombre": "FRANCISCO GOMEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "59701",
+   "Nombre": "MATIAS JAVIER GATTO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "52597",
+   "Nombre": "JOAQUIN ZABALETA",
+   "camiseta": "80",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56787",
+   "Nombre": "IGNACIO GONZALEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "56775",
+   "Nombre": "MARIO AGUSTIN ANDRIOLO",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56638",
+   "Jug_Sale": "NICOLAS BACHINO",
+   "CarneEntra": "62949",
+   "Jug_Entra": "JUAN IGNACIO PEDROZO",
+   "camiseta": "16",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "56639",
+   "Jug_Sale": "BENJAMIN MORALES",
+   "CarneEntra": "58217",
+   "Jug_Entra": "LUCA TORTEROLO",
+   "camiseta": "20",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "56195",
+   "Jug_Sale": "SANTIAGO ALFREDO CAFFA",
+   "CarneEntra": "56208",
+   "Jug_Entra": "LORENZO MANDIA",
+   "camiseta": "18",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "56642",
+   "Jug_Sale": "MATEO PEREZ",
+   "CarneEntra": "56645",
+   "Jug_Entra": "MAXIMO BERTOLA",
+   "camiseta": "19",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "54598",
+   "Jug_Sale": "LUCA SIVORI",
+   "CarneEntra": "56639",
+   "Jug_Entra": "BENJAMIN MORALES",
+   "camiseta": "5",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "59701",
+   "Jug_Sale": "MATIAS JAVIER GATTO",
+   "CarneEntra": "64808",
+   "Jug_Entra": "MANUEL TIAGO LIARD",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56778",
+   "Jug_Sale": "FRANCISCO GOMEZ",
+   "CarneEntra": "63203",
+   "Jug_Entra": "JOAQUIN RODRIGUEZ",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56100",
+   "Jug_Sale": "IGNACIO POPELKA",
+   "CarneEntra": "64798",
+   "Jug_Entra": "SANTIAGO BIDONDO",
+   "camiseta": "6",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "56775",
+   "Jug_Sale": "MARIO AGUSTIN ANDRIOLO",
+   "CarneEntra": "60756",
+   "Jug_Entra": "IGNACIO AGUSTIN DE GOUVEIA",
+   "camiseta": "38",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "56098",
+   "Jug_Sale": "MATIAS MARTIRENA",
+   "CarneEntra": "58751",
+   "Jug_Entra": "FRANCISCO ANTONIO VILLAGRAN",
+   "camiseta": "9",
+   "minutos": "77"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "65936",
+   "Nombre": "DIEGO TABERNE",
+   "minutos": "51",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "63888",
+   "Nombre": "TOMAS NAHUEL AREOSA",
+   "minutos": "20",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

@@ -1,0 +1,263 @@
+{
+ "id": "99694",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 8,
+ "fechaHora": "2026-06-06 15:30:00",
+ "cancha": "COMPLEJO AZULGRANA",
+ "local": "OLD BOYS CLUB",
+ "visitante": "NACIONAL UNIVERSITARIO",
+ "gl": 2,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "62",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "COMPLEJO AZULGRANA",
+  "Fecha_Inicio": "2026-06-06 17:30:00",
+  "Fecha_fin": "2026-06-06 17:30:00",
+  "Locatario": "OLD BOYS CLUB",
+  "goles_locatario": "2",
+  "puntos_locatario": "1",
+  "Visitante": "NACIONAL UNIVERSITARIO",
+  "goles_visitante": "2",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "56273",
+   "Nombre": "ALEXIS BRUCE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "57004",
+   "Nombre": "ALBERTO HERRERA",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "55218",
+   "Nombre": "THIAGO ESTEVEZ",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "55875",
+   "Nombre": "AGUSTIN AGUIRRE",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "56265",
+   "Nombre": "JUAN MARTIN HRILJAC",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "56262",
+   "Nombre": "FRANCISCO NAVARRO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "56261",
+   "Nombre": "FRANCISCO NOVEGIL",
+   "camiseta": "45",
+   "Capitan": ""
+  },
+  {
+   "carne": "57010",
+   "Nombre": "FELIPE SUAREZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "56255",
+   "Nombre": "TOMAS YOUNG",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "58840",
+   "Nombre": "BENJAMIN VALERIANI",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "54975",
+   "Nombre": "TOMAS BRAUSE",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62299",
+   "Nombre": "FACUNDO GONZALEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68674",
+   "Nombre": "SANTIAGO VIERA",
+   "camiseta": "45",
+   "Capitan": ""
+  },
+  {
+   "carne": "66786",
+   "Nombre": "FACUNDO FEO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "58538",
+   "Nombre": "PATRICIO BULA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "57415",
+   "Nombre": "IÑAKI ETCHEVERRIA",
+   "camiseta": "57",
+   "Capitan": ""
+  },
+  {
+   "carne": "67310",
+   "Nombre": "FACUNDO PEREZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "67309",
+   "Nombre": "GUZMAN DUFOUR",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "53307",
+   "Nombre": "LUCA GIUSEPPE MARRONE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "58009",
+   "Nombre": "SEBASTIAN FARIAS",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66558",
+   "Nombre": "CONSTANTINO BENTANCUR",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "56570",
+   "Nombre": "MARCOA ISMAEL GARCIA",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "57004",
+   "Jug_Sale": "ALBERTO HERRERA",
+   "CarneEntra": "57000",
+   "Jug_Entra": "ANDRES ARTAGAVEYTIA",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56273",
+   "Jug_Sale": "ALEXIS BRUCE",
+   "CarneEntra": "68761",
+   "Jug_Entra": "MATIAS AGUSTIN RUIZ",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "54975",
+   "Jug_Sale": "TOMAS BRAUSE",
+   "CarneEntra": "57001",
+   "Jug_Entra": "MANUEL BOSCH",
+   "camiseta": "11",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "55218",
+   "Jug_Sale": "THIAGO ESTEVEZ",
+   "CarneEntra": "58844",
+   "Jug_Entra": "NICOLAS MONTERO",
+   "camiseta": "27",
+   "minutos": "82"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "67309",
+   "Jug_Sale": "GUZMAN DUFOUR",
+   "CarneEntra": "63351",
+   "Jug_Entra": "FRANCO ESTEBAN VALIENTE",
+   "camiseta": "27",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "56570",
+   "Jug_Sale": "MARCOA ISMAEL GARCIA",
+   "CarneEntra": "57960",
+   "Jug_Entra": "LUCAS GABRIEL GRAÑA",
+   "camiseta": "7",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "66558",
+   "Jug_Sale": "CONSTANTINO BENTANCUR",
+   "CarneEntra": "67309",
+   "Jug_Entra": "GUZMAN DUFOUR",
+   "camiseta": "13",
+   "minutos": "88"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56273",
+   "Nombre": "ALEXIS BRUCE",
+   "minutos": "18",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58844",
+   "Nombre": "NICOLAS MONTERO",
+   "minutos": "85",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "66558",
+   "Nombre": "CONSTANTINO BENTANCUR",
+   "minutos": "6",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67309",
+   "Nombre": "GUZMAN DUFOUR",
+   "minutos": "1",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "FRANCISCO NOVEGIL",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": []
+}
