@@ -1,0 +1,22 @@
+name: Explorar API de la LUD (temporal)
+on:
+  push:
+    branches: [explorar-lud]
+jobs:
+  explorar:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Bajar páginas y scripts
+        run: |
+          B=https://ligauniversitaria.org.uy
+          for p in resultados/F21AT.html partidos/F21AT.html; do
+            echo "===== $p"; curl -sL "$B/$p" | tee "$(basename $(dirname $p)).html"
+          done
+          for f in resultados.html partidos.html; do
+            grep -oE 'src="[^"]+\.js[^"]*"' "$f" | sed 's/src="//;s/"$//' | sort -u | while read s; do
+              case "$s" in http*) u="$s";; /*) u="$B$s";; *) u="$B/${f%.html}/$s";; esac
+              echo "===== JS $u"; curl -sL "$u" | grep -nE "action=|api\.php|fetch\(|\\.ajax|\\.get\(|\\.post\(" | head -60
+            done
+          done
+          echo "===== action= en HTML"; grep -hoE "action=[A-Za-z]+[^\"' ]*" *.html | sort -u
