@@ -4,8 +4,6 @@ La penca del grupo para la Divisional A de Mayores de la Liga Universitaria de D
 
 Página: https://petiklein.github.io/prediccion-lud
 
-Datos (minutos, planteles y posibles bajas de Mayores A y Sub 20 A): https://petiklein.github.io/prediccion-lud/datos/
-
 ## Cómo funciona
 
 - Cada uno entra con su cuenta de Google y reclama su nombre una sola vez.
@@ -40,22 +38,3 @@ Las series de la Liga están en `scripts/lud.mjs` (`ETAPAS`). Cuando la Liga arr
 ## Si alguien reclama el nombre equivocado
 
 En Firebase > Firestore Database: en `jugadores/<nombre>` poner `uid` y `cuentaNombre` en `null`, y borrar el documento `cuentas/<uid>` de esa persona.
-
-## Datos de partidos (/datos)
-
-Una segunda página, sin login, con lo que sale de las planillas oficiales de la Liga:
-minutos de cada jugador partido a partido, planteles, detalle de cada partido y posibles bajas
-para la próxima fecha (expulsados, suspendidos probables, titulares habituales que no jugaron,
-titulares que salieron temprano).
-
-- `scripts/detalle.mjs` baja la planilla de cada partido jugado a `data/partidos/<categoria>/<ID>.json`
-  (API de la Liga: `resultados/api.php?action=...&id=<ID>`). Solo baja lo que falta.
-- `scripts/analizar.mjs` revisa cada planilla, calcula minutos (con reingresos) y alertas, y
-  escribe `datos/data/<categoria>.json`, que es lo que lee `datos/index.html`.
-- `scripts/categorias.mjs` define qué categorías se siguen.
-- Corre solo con GitHub Actions (`.github/workflows/bajas.yml`): domingo 18:35 y lunes a jueves 20:35.
-  También se puede correr a mano desde Actions > "Minutos y posibles bajas" > Run workflow.
-
-Cosas de la Liga a tener en cuenta: no carga amarillas (y no hay acumulación), los expulsados vienen
-sin minuto, el campo `EnContra` no indica gol en contra, y algunas planillas tienen cambios imposibles.
-Lo que no cierra se corrige si es obvio o se descarta, y queda anotado en la pestaña Planillas.
