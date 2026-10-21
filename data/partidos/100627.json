@@ -1,0 +1,271 @@
+{
+ "id": "100627",
+ "serie": "A",
+ "fecha": 11,
+ "fechaHora": "2026-06-28 11:15:00",
+ "local": "TENIS EL PINAR",
+ "visitante": "TAPE",
+ "gl": 0,
+ "gv": 2,
+ "detalle": [
+  {
+   "nro_partido": "84",
+   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+   "deporte": "FÚTBOL",
+   "torneo": "MAYORES",
+   "categoria": "MAYORES MASCULINO",
+   "rueda": "1",
+   "Divisional": "DIVISIONAL \"A\"",
+   "Cancha": "TENIS EL PINAR",
+   "Fecha_Inicio": "2026-06-28 13:15:00",
+   "Fecha_fin": "2026-06-28 13:15:00",
+   "Locatario": "TENIS EL PINAR",
+   "goles_locatario": "0",
+   "puntos_locatario": "0",
+   "Visitante": "TAPE",
+   "goles_visitante": "2",
+   "puntos_visitante": "3",
+   "walk_over": "0",
+   "observaciones": null
+  }
+ ],
+ "titularesL": [
+  {
+   "carne": "46449",
+   "Nombre": "AGUSTIN LOMBARDO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "42528",
+   "Nombre": "RODRIGO MARTIN ESPINOSA",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "40761",
+   "Nombre": "MAXIMILIANO SIENRA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "52628",
+   "Nombre": "JOAQUIN NUÑEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "23904",
+   "Nombre": "GASTON ANDRES SUAREZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "48654",
+   "Nombre": "JUAN PABLO LOCATELLI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "34528",
+   "Nombre": "JOAQUIN ANDRES AMOEDO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "57966",
+   "Nombre": "FRANCISCO LOURTET",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "39169",
+   "Nombre": "GONZALO FEDERICO PRADA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "45225",
+   "Nombre": "LAUTARO PEREZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "36992",
+   "Nombre": "AGUSTIN RAMOS",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58443",
+   "Nombre": "ALFONSO PFEIFF",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "65006",
+   "Nombre": "GERONIMO GAUTHIER",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "61063",
+   "Nombre": "NICOLAS DORAO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "55125",
+   "Nombre": "JUAN GURMENDEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "66855",
+   "Nombre": "SEBASTIAN MARTINEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "60720",
+   "Nombre": "MATEO FERRERE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "65012",
+   "Nombre": "JUAN MARTIN IFRAN",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "56348",
+   "Nombre": "FELIPE SICALO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "58984",
+   "Nombre": "NICOLAS LIBONATTI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "46872",
+   "Nombre": "SANTIAGO JOSE TAFERNABERRY",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "52213",
+   "Nombre": "NICOLAS JAVIER PRATES",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "52628",
+   "Jug_Sale": "JOAQUIN NUÑEZ",
+   "CarneEntra": "58083",
+   "Jug_Entra": "IGNACIO FACUNDO RICOBALDI",
+   "camiseta": "18",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "39169",
+   "Jug_Sale": "GONZALO FEDERICO PRADA",
+   "CarneEntra": "38029",
+   "Jug_Entra": "NICOLAS AMOEDO",
+   "camiseta": "2",
+   "minutos": "44"
+  },
+  {
+   "CarneSale": "36992",
+   "Jug_Sale": "AGUSTIN RAMOS",
+   "CarneEntra": "46829",
+   "Jug_Entra": "FACUNDO LABARTHE",
+   "camiseta": "89",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57966",
+   "Jug_Sale": "FRANCISCO LOURTET",
+   "CarneEntra": "45505",
+   "Jug_Entra": "SANTIAGO DANIEL TORRES",
+   "camiseta": "13",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "45225",
+   "Jug_Sale": "LAUTARO PEREZ",
+   "CarneEntra": "48796",
+   "Jug_Entra": "MARTIN JAVIER DIAZ",
+   "camiseta": "25",
+   "minutos": "69"
+  },
+  {
+   "CarneSale": "48654",
+   "Jug_Sale": "JUAN PABLO LOCATELLI",
+   "CarneEntra": "48653",
+   "Jug_Entra": "MATIAS  BERNARDO VAZQUEZ",
+   "camiseta": "5",
+   "minutos": "78"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "61063",
+   "Jug_Sale": "NICOLAS DORAO",
+   "CarneEntra": "56344",
+   "Jug_Entra": "JUAN PEDRO ECHEGUIA",
+   "camiseta": "2",
+   "minutos": "16"
+  },
+  {
+   "CarneSale": "52213",
+   "Jug_Sale": "NICOLAS JAVIER PRATES",
+   "CarneEntra": "63592",
+   "Jug_Entra": "JUAN ANDRES ERRANONDEA",
+   "camiseta": "17",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "66855",
+   "Jug_Sale": "SEBASTIAN MARTINEZ",
+   "CarneEntra": "51930",
+   "Jug_Entra": "TOMAS PEREZ",
+   "camiseta": "20",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "52213",
+   "Jug_Sale": "NICOLAS JAVIER PRATES",
+   "CarneEntra": "54540",
+   "Jug_Entra": "JOAQUIN RODRIGUEZ",
+   "camiseta": "10",
+   "minutos": "43"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "52213",
+   "Nombre": "NICOLAS JAVIER PRATES",
+   "minutos": "30",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56348",
+   "Nombre": "FELIPE SICALO",
+   "minutos": "76",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [],
+ "amonestadosL": [],
+ "amonestadosV": []
+}

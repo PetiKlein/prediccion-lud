@@ -1,0 +1,307 @@
+{
+ "id": "98300",
+ "serie": "A",
+ "fecha": 2,
+ "fechaHora": "2026-04-19 11:15:00",
+ "local": "OLD WOODLANDS CLUB",
+ "visitante": "CARRASCO LAWN TENNIS",
+ "gl": 1,
+ "gv": 2,
+ "detalle": [
+  {
+   "nro_partido": "10",
+   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+   "deporte": "FÚTBOL",
+   "torneo": "MAYORES",
+   "categoria": "MAYORES MASCULINO",
+   "rueda": "1",
+   "Divisional": "DIVISIONAL \"A\"",
+   "Cancha": "COMPLEJO WOODLANDS SCHOOL",
+   "Fecha_Inicio": "2026-04-19 13:05:00",
+   "Fecha_fin": "2026-04-19 13:05:00",
+   "Locatario": "OLD WOODLANDS CLUB",
+   "goles_locatario": "1",
+   "puntos_locatario": "0",
+   "Visitante": "CARRASCO LAWN TENNIS",
+   "goles_visitante": "2",
+   "puntos_visitante": "3",
+   "walk_over": "0",
+   "observaciones": "Expulsado jugador suplente de Old Woodlands Nº50720 por insulto a la terna arbitral."
+  }
+ ],
+ "titularesL": [
+  {
+   "carne": "47611",
+   "Nombre": "FERNAN BZUROVSKI",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "49214",
+   "Nombre": "FELIPE HERNANDEZ",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "35584",
+   "Nombre": "LUCAS GUIMARAES",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "39927",
+   "Nombre": "MARTIN HERNANDEZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "53488",
+   "Nombre": "FRANCO FONTANAROSSA",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "35145",
+   "Nombre": "IGNACIO COLELLA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "52840",
+   "Nombre": "BENJAMIN ALVAREZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "41519",
+   "Nombre": "MATEO ROLDOS",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "41117",
+   "Nombre": "LUIS FERNANDO HERBIN",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "55772",
+   "Nombre": "IGNACIO ETCHEVERS",
+   "camiseta": "91",
+   "Capitan": ""
+  },
+  {
+   "carne": "45789",
+   "Nombre": "JUAN PABLO COLELLA",
+   "camiseta": "33",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "41005",
+   "Nombre": "NICOLAS RAFFO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "44809",
+   "Nombre": "TOMAS JOSE SANZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "40246",
+   "Nombre": "LUCAS NERY CALCAGNO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "31952",
+   "Nombre": "JOAQUIN REBELLATO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "44899",
+   "Nombre": "JUAN MARTIN DEFFEMINIS",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "43969",
+   "Nombre": "MAURO DONNANGELO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "45118",
+   "Nombre": "LUCAS MARIA PEREIRA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58673",
+   "Nombre": "ALEJO FERRES",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "66377",
+   "Nombre": "MATEO AGUSTIN ASENCIO",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "29653",
+   "Nombre": "MARTIN MUSETTI",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "50239",
+   "Nombre": "FRANCISCO AGUSTIN PERTUSSO",
+   "camiseta": "2",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "49214",
+   "Jug_Sale": "FELIPE HERNANDEZ",
+   "CarneEntra": "52842",
+   "Jug_Entra": "TIZIANO GUIGOU",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "41117",
+   "Jug_Sale": "LUIS FERNANDO HERBIN",
+   "CarneEntra": "40030",
+   "Jug_Entra": "ALEJO BZUROVSKI",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "52840",
+   "Jug_Sale": "BENJAMIN ALVAREZ",
+   "CarneEntra": "48077",
+   "Jug_Entra": "AGUSTIN MARTINEZ",
+   "camiseta": "10",
+   "minutos": "49"
+  },
+  {
+   "CarneSale": "35145",
+   "Jug_Sale": "IGNACIO COLELLA",
+   "CarneEntra": "58593",
+   "Jug_Entra": "ALVARO FACUNDO DEFAUT",
+   "camiseta": "50",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "39927",
+   "Jug_Sale": "MARTIN HERNANDEZ",
+   "CarneEntra": "31120",
+   "Jug_Entra": "JUAN MANUEL DELUCCA",
+   "camiseta": "23",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "55772",
+   "Jug_Sale": "IGNACIO ETCHEVERS",
+   "CarneEntra": "66475",
+   "Jug_Entra": "KEVIN STEVEN HURTADO",
+   "camiseta": "44",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "53488",
+   "Jug_Sale": "FRANCO FONTANAROSSA",
+   "CarneEntra": "49929",
+   "Jug_Entra": "ALBERTO GALLINAL",
+   "camiseta": "38",
+   "minutos": "49"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "44809",
+   "Jug_Sale": "TOMAS JOSE SANZ",
+   "CarneEntra": "66422",
+   "Jug_Entra": "RODRIGO ARIAS",
+   "camiseta": "42",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66377",
+   "Jug_Sale": "MATEO AGUSTIN ASENCIO",
+   "CarneEntra": "47761",
+   "Jug_Entra": "JUAN IGNACIO POTRIE",
+   "camiseta": "13",
+   "minutos": "18"
+  },
+  {
+   "CarneSale": "50239",
+   "Jug_Sale": "FRANCISCO AGUSTIN PERTUSSO",
+   "CarneEntra": "58916",
+   "Jug_Entra": "FELIPE BORDOLI",
+   "camiseta": "30",
+   "minutos": "2"
+  },
+  {
+   "CarneSale": "58673",
+   "Jug_Sale": "ALEJO FERRES",
+   "CarneEntra": "39086",
+   "Jug_Entra": "MATHIAS GASTON CASTIÑEIRA",
+   "camiseta": "15",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "29653",
+   "Jug_Sale": "MARTIN MUSETTI",
+   "CarneEntra": "56869",
+   "Jug_Entra": "NICOLAS PODESTA",
+   "camiseta": "36",
+   "minutos": "90"
+  },
+  {
+   "CarneSale": "40246",
+   "Jug_Sale": "LUCAS NERY CALCAGNO",
+   "CarneEntra": "48826",
+   "Jug_Entra": "JOAQUIN PODESTA",
+   "camiseta": "14",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "41519",
+   "Nombre": "MATEO ROLDOS",
+   "minutos": "48",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "47761",
+   "Nombre": "JUAN IGNACIO POTRIE",
+   "minutos": "93",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66377",
+   "Nombre": "MATEO AGUSTIN ASENCIO",
+   "minutos": "3",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "LUCAS MARIA PEREIRA",
+   "observaciones": ""
+  }
+ ],
+ "amonestadosL": [],
+ "amonestadosV": []
+}

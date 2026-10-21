@@ -1,0 +1,272 @@
+{
+ "id": "98882",
+ "serie": "A",
+ "fecha": 5,
+ "fechaHora": "2026-05-17 09:00:00",
+ "local": "NACIONAL UNIVERSITARIO",
+ "visitante": "OLD CHRISTIANS CLUB",
+ "gl": 1,
+ "gv": 1,
+ "detalle": [
+  {
+   "nro_partido": "34",
+   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+   "deporte": "FÚTBOL",
+   "torneo": "MAYORES",
+   "categoria": "MAYORES MASCULINO",
+   "rueda": "1",
+   "Divisional": "DIVISIONAL \"A\"",
+   "Cancha": "COM. DEP. CLUB TROUVILLE",
+   "Fecha_Inicio": "2026-05-17 11:15:00",
+   "Fecha_fin": "2026-05-17 11:15:00",
+   "Locatario": "NACIONAL UNIVERSITARIO",
+   "goles_locatario": "1",
+   "puntos_locatario": "1",
+   "Visitante": "OLD CHRISTIANS CLUB",
+   "goles_visitante": "1",
+   "puntos_visitante": "1",
+   "walk_over": "0",
+   "observaciones": null
+  }
+ ],
+ "titularesL": [
+  {
+   "carne": "59355",
+   "Nombre": "AUGUSTO GUERRA",
+   "camiseta": "0",
+   "Capitan": ""
+  },
+  {
+   "carne": "42913",
+   "Nombre": "MARTIN MASLLORENS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "40727",
+   "Nombre": "RODRIGO YAMANDU TISCORNIA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "41919",
+   "Nombre": "CHRISTOPHER MATIAS LARROSA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "46942",
+   "Nombre": "IGNACIO REGUEIRO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "54680",
+   "Nombre": "GUILLERMO GUERRICO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "52667",
+   "Nombre": "ENZO GALEANO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "35011",
+   "Nombre": "FEDERICO MANUEL ALFARO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "56667",
+   "Nombre": "JUAN DIEGO GODOY",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "44968",
+   "Nombre": "JOAQUIN GARCIA",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56666",
+   "Nombre": "FACUNDO JAVIER GODOY",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "51657",
+   "Nombre": "FELIPE PEREYRA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "40763",
+   "Nombre": "MATEO VINCENT",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "48884",
+   "Nombre": "JUAN GUILLERMO ARROSPIDE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "35068",
+   "Nombre": "MATEO DI LORENZO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "52602",
+   "Nombre": "JUAN DIEGO DE CASTRO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "50902",
+   "Nombre": "SANTIAGO VINCENT",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "50842",
+   "Nombre": "NICOLAS ARROSPIDE",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "37187",
+   "Nombre": "GUILLERMO DEAL",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "37735",
+   "Nombre": "FRANCO MASCIA",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "52249",
+   "Nombre": "JUAN GERVASIO ETCHEVERRY",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "55118",
+   "Nombre": "JUAN PABLO MOREIRA",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56667",
+   "Jug_Sale": "JUAN DIEGO GODOY",
+   "CarneEntra": "62452",
+   "Jug_Entra": "FRANCISCO ARRUA",
+   "camiseta": "22",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "35011",
+   "Jug_Sale": "FEDERICO MANUEL ALFARO",
+   "CarneEntra": "57413",
+   "Jug_Entra": "ENZO SEBASTIAN LAXAGUE",
+   "camiseta": "27",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "42913",
+   "Jug_Sale": "MARTIN MASLLORENS",
+   "CarneEntra": "30119",
+   "Jug_Entra": "GONZALO PUIG",
+   "camiseta": "8",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "54680",
+   "Jug_Sale": "GUILLERMO GUERRICO",
+   "CarneEntra": "36051",
+   "Jug_Entra": "GONZALO PEREZ",
+   "camiseta": "80",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "52249",
+   "Jug_Sale": "JUAN GERVASIO ETCHEVERRY",
+   "CarneEntra": "56908",
+   "Jug_Entra": "GUILLERMO HOUNIE",
+   "camiseta": "71",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50902",
+   "Jug_Sale": "SANTIAGO VINCENT",
+   "CarneEntra": "53249",
+   "Jug_Entra": "JUAN FRANCISCO FERREIRA",
+   "camiseta": "16",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "37735",
+   "Jug_Sale": "FRANCO MASCIA",
+   "CarneEntra": "42069",
+   "Jug_Entra": "MATEO GIOIA",
+   "camiseta": "3",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "40763",
+   "Jug_Sale": "MATEO VINCENT",
+   "CarneEntra": "51886",
+   "Jug_Entra": "LUCAS ALONSO",
+   "camiseta": "40",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "37187",
+   "Jug_Sale": "GUILLERMO DEAL",
+   "CarneEntra": "26432",
+   "Jug_Entra": "SANTIAGO LOPEZ",
+   "camiseta": "10",
+   "minutos": "90"
+  },
+  {
+   "CarneSale": "50902",
+   "Jug_Sale": "SANTIAGO VINCENT",
+   "CarneEntra": "52355",
+   "Jug_Entra": "SANTIAGO PAZ RODRIGUEZ",
+   "camiseta": "47",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "35011",
+   "Nombre": "FEDERICO MANUEL ALFARO",
+   "minutos": "26",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "55118",
+   "Nombre": "JUAN PABLO MOREIRA",
+   "minutos": "75",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [],
+ "amonestadosL": [],
+ "amonestadosV": []
+}

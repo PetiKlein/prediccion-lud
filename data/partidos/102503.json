@@ -1,0 +1,284 @@
+{
+ "id": "102503",
+ "serie": "AT",
+ "fecha": 2,
+ "fechaHora": "2026-10-04 09:00:00",
+ "local": "URUNDAY UNIVERSITARIO",
+ "visitante": "NACIONAL UNIVERSITARIO",
+ "gl": 3,
+ "gv": 1,
+ "detalle": [
+  {
+   "nro_partido": "845",
+   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+   "deporte": "FÚTBOL",
+   "torneo": "MAYORES",
+   "categoria": "MAYORES MASCULINO",
+   "rueda": "2",
+   "Divisional": "MAYORES \"A\" TITULO",
+   "Cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
+   "Fecha_Inicio": "2026-10-04 10:55:00",
+   "Fecha_fin": "2026-10-04 10:55:00",
+   "Locatario": "URUNDAY UNIVERSITARIO",
+   "goles_locatario": "3",
+   "puntos_locatario": "3",
+   "Visitante": "NACIONAL UNIVERSITARIO",
+   "goles_visitante": "1",
+   "puntos_visitante": "0",
+   "walk_over": "0",
+   "observaciones": null
+  }
+ ],
+ "titularesL": [
+  {
+   "carne": "52399",
+   "Nombre": "FEDERICO JOAQUIN GARCIA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "54532",
+   "Nombre": "MANUEL AGUSTIN DURE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "66692",
+   "Nombre": "FACUNDO MOLINA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "54332",
+   "Nombre": "AGUSTIN PENELA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "36910",
+   "Nombre": "GERMAN CAYON",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "41114",
+   "Nombre": "FACUNDO MEDEIROS",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "62723",
+   "Nombre": "TOMAS GABRIEL ERRECARTT",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "66693",
+   "Nombre": "AGUSTIN LEMA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "41285",
+   "Nombre": "RODRIGO FERNANDEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "56470",
+   "Nombre": "BRUNO AGUSTIN FANTONI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "52533",
+   "Nombre": "GUZMAN FERNANDEZ",
+   "camiseta": "77",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "48534",
+   "Nombre": "LEANDRO LOBELCHO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68981",
+   "Nombre": "IGNACIO FACUNDO ISNARDI",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "42913",
+   "Nombre": "MARTIN MASLLORENS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "40727",
+   "Nombre": "RODRIGO YAMANDU TISCORNIA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "46942",
+   "Nombre": "IGNACIO REGUEIRO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "50717",
+   "Nombre": "SANTIAGO VEIGA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "33218",
+   "Nombre": "FACUNDO MARQUES",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "35132",
+   "Nombre": "GIANFRANCO ROVETTA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "35011",
+   "Nombre": "FEDERICO MANUEL ALFARO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62452",
+   "Nombre": "FRANCISCO ARRUA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "44968",
+   "Nombre": "JOAQUIN GARCIA",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62723",
+   "Jug_Sale": "TOMAS GABRIEL ERRECARTT",
+   "CarneEntra": "55417",
+   "Jug_Entra": "DIEGO HERNAN TABORDA",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "41114",
+   "Jug_Sale": "FACUNDO MEDEIROS",
+   "CarneEntra": "62165",
+   "Jug_Entra": "JUAN IGNACIO AFFONSO",
+   "camiseta": "25",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "56470",
+   "Jug_Sale": "BRUNO AGUSTIN FANTONI",
+   "CarneEntra": "36942",
+   "Jug_Entra": "NICOLAS LOPEZ",
+   "camiseta": "9",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "52533",
+   "Jug_Sale": "GUZMAN FERNANDEZ",
+   "CarneEntra": "58206",
+   "Jug_Entra": "TOMAS ARAGUSTO",
+   "camiseta": "92",
+   "minutos": "87"
+  },
+  {
+   "CarneSale": "41285",
+   "Jug_Sale": "RODRIGO FERNANDEZ",
+   "CarneEntra": "46496",
+   "Jug_Entra": "RODRIGO AGUSTIN VEGA",
+   "camiseta": "20",
+   "minutos": "92"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "68981",
+   "Jug_Sale": "IGNACIO FACUNDO ISNARDI",
+   "CarneEntra": "62446",
+   "Jug_Entra": "LAUTARO FELICIANO GONZALEZ",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50717",
+   "Jug_Sale": "SANTIAGO VEIGA",
+   "CarneEntra": "56667",
+   "Jug_Entra": "JUAN DIEGO GODOY",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "33218",
+   "Jug_Sale": "FACUNDO MARQUES",
+   "CarneEntra": "58507",
+   "Jug_Entra": "VALENTINO MUYANO",
+   "camiseta": "20",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "35011",
+   "Jug_Sale": "FEDERICO MANUEL ALFARO",
+   "CarneEntra": "58350",
+   "Jug_Entra": "RAMIRO LEONCINI",
+   "camiseta": "16",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "50717",
+   "Jug_Sale": "SANTIAGO VEIGA",
+   "CarneEntra": "29119",
+   "Jug_Entra": "ALEJANDRO JUAN RAIZ",
+   "camiseta": "19",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "36942",
+   "Nombre": "NICOLAS LOPEZ",
+   "minutos": "84",
+   "EnContra": "0"
+  },
+  {
+   "carne": "62723",
+   "Nombre": "TOMAS GABRIEL ERRECARTT",
+   "minutos": "1",
+   "EnContra": "0"
+  },
+  {
+   "carne": "66693",
+   "Nombre": "AGUSTIN LEMA",
+   "minutos": "82",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "35011",
+   "Nombre": "FEDERICO MANUEL ALFARO",
+   "minutos": "76",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [],
+ "amonestadosL": [],
+ "amonestadosV": []
+}

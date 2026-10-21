@@ -1,0 +1,320 @@
+{
+ "id": "100063",
+ "serie": "A",
+ "fecha": 9,
+ "fechaHora": "2026-06-14 11:15:00",
+ "local": "E.L.F.",
+ "visitante": "TAPE",
+ "gl": 4,
+ "gv": 2,
+ "detalle": [
+  {
+   "nro_partido": "67",
+   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+   "deporte": "FÚTBOL",
+   "torneo": "MAYORES",
+   "categoria": "MAYORES MASCULINO",
+   "rueda": "1",
+   "Divisional": "DIVISIONAL \"A\"",
+   "Cancha": "ELF (LICEO FRANCES)",
+   "Fecha_Inicio": "2026-06-14 13:05:00",
+   "Fecha_fin": "2026-06-14 13:05:00",
+   "Locatario": "E.L.F.",
+   "goles_locatario": "4",
+   "puntos_locatario": "3",
+   "Visitante": "TAPE",
+   "goles_visitante": "2",
+   "puntos_visitante": "0",
+   "walk_over": "0",
+   "observaciones": null
+  }
+ ],
+ "titularesL": [
+  {
+   "carne": "56750",
+   "Nombre": "JOAQUIN BLANCO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "36849",
+   "Nombre": "LUCAS RICARDO VITOLA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "35841",
+   "Nombre": "ADOLFO SAEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "56768",
+   "Nombre": "MATIAS DUPUY",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "43243",
+   "Nombre": "LUIS OMAR CASTAGNINO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "45408",
+   "Nombre": "IGNACIO CANEPA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "59826",
+   "Nombre": "ALFONSO BADANO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "38540",
+   "Nombre": "JOAQUIN SAEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "27123",
+   "Nombre": "AGUSTIN GABUS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "41113",
+   "Nombre": "FACUNDO CANEPA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "40561",
+   "Nombre": "AGUSTIN ETCHEGARAY",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58443",
+   "Nombre": "ALFONSO PFEIFF",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "46872",
+   "Nombre": "SANTIAGO JOSE TAFERNABERRY",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "55125",
+   "Nombre": "JUAN GURMENDEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "61063",
+   "Nombre": "NICOLAS DORAO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "66855",
+   "Nombre": "SEBASTIAN MARTINEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "65007",
+   "Nombre": "MATHIAS LUCAS",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "56348",
+   "Nombre": "FELIPE SICALO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "39600",
+   "Nombre": "JAVIER ANDRES ZAFFARONI",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "58984",
+   "Nombre": "NICOLAS LIBONATTI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "60720",
+   "Nombre": "MATEO FERRERE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "52213",
+   "Nombre": "NICOLAS JAVIER PRATES",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "36849",
+   "Jug_Sale": "LUCAS RICARDO VITOLA",
+   "CarneEntra": "48897",
+   "Jug_Entra": "FRANCISCO BARAIBAR",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59826",
+   "Jug_Sale": "ALFONSO BADANO",
+   "CarneEntra": "49458",
+   "Jug_Entra": "GUZMAN RODRIGUEZ",
+   "camiseta": "14",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "41113",
+   "Jug_Sale": "FACUNDO CANEPA",
+   "CarneEntra": "55273",
+   "Jug_Entra": "JUAN SARACCO",
+   "camiseta": "17",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "56768",
+   "Jug_Sale": "MATIAS DUPUY",
+   "CarneEntra": "40646",
+   "Jug_Entra": "JOAQUIN MATIAS DE LEON",
+   "camiseta": "10",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "45408",
+   "Jug_Sale": "IGNACIO CANEPA",
+   "CarneEntra": "54773",
+   "Jug_Entra": "JUAN IGNACIO PODESTA",
+   "camiseta": "22",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "35841",
+   "Jug_Sale": "ADOLFO SAEZ",
+   "CarneEntra": "57205",
+   "Jug_Entra": "DIAGO COSTA",
+   "camiseta": "15",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "38540",
+   "Jug_Sale": "JOAQUIN SAEZ",
+   "CarneEntra": "56764",
+   "Jug_Entra": "IGNACIO VERANO",
+   "camiseta": "7",
+   "minutos": "89"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "55125",
+   "Jug_Sale": "JUAN GURMENDEZ",
+   "CarneEntra": "65006",
+   "Jug_Entra": "GERONIMO GAUTHIER",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65007",
+   "Jug_Sale": "MATHIAS LUCAS",
+   "CarneEntra": "65012",
+   "Jug_Entra": "JUAN MARTIN IFRAN",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "39600",
+   "Jug_Sale": "JAVIER ANDRES ZAFFARONI",
+   "CarneEntra": "65008",
+   "Jug_Entra": "JUAN DIEGO JACQUES",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58984",
+   "Jug_Sale": "NICOLAS LIBONATTI",
+   "CarneEntra": "39288",
+   "Jug_Entra": "IGNACIO OPER",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "60720",
+   "Jug_Sale": "MATEO FERRERE",
+   "CarneEntra": "54540",
+   "Jug_Entra": "JOAQUIN RODRIGUEZ",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "52213",
+   "Jug_Sale": "NICOLAS JAVIER PRATES",
+   "CarneEntra": "55925",
+   "Jug_Entra": "FRANCISCO PABLO VILLAR",
+   "camiseta": "16",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "40561",
+   "Nombre": "AGUSTIN ETCHEGARAY",
+   "minutos": "4",
+   "EnContra": "0"
+  },
+  {
+   "carne": "40561",
+   "Nombre": "AGUSTIN ETCHEGARAY",
+   "minutos": "28",
+   "EnContra": "0"
+  },
+  {
+   "carne": "40561",
+   "Nombre": "AGUSTIN ETCHEGARAY",
+   "minutos": "47",
+   "EnContra": "0"
+  },
+  {
+   "carne": "41113",
+   "Nombre": "FACUNDO CANEPA",
+   "minutos": "30",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "65008",
+   "Nombre": "JUAN DIEGO JACQUES",
+   "minutos": "48",
+   "EnContra": "1"
+  },
+  {
+   "carne": "65008",
+   "Nombre": "JUAN DIEGO JACQUES",
+   "minutos": "84",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [],
+ "amonestadosL": [],
+ "amonestadosV": []
+}

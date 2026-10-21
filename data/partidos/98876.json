@@ -1,0 +1,269 @@
+{
+ "id": "98876",
+ "serie": "A",
+ "fecha": 5,
+ "fechaHora": "2026-05-17 11:15:00",
+ "local": "PLAYA HONDA UNIVERSITARIO",
+ "visitante": "TAPE",
+ "gl": 1,
+ "gv": 1,
+ "detalle": [
+  {
+   "nro_partido": "33",
+   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+   "deporte": "FÚTBOL",
+   "torneo": "MAYORES",
+   "categoria": "MAYORES MASCULINO",
+   "rueda": "1",
+   "Divisional": "DIVISIONAL \"A\"",
+   "Cancha": "COMPLEJO LAS CASUARINAS",
+   "Fecha_Inicio": "2026-05-17 13:05:00",
+   "Fecha_fin": "2026-05-17 13:05:00",
+   "Locatario": "PLAYA HONDA UNIVERSITARIO",
+   "goles_locatario": "1",
+   "puntos_locatario": "1",
+   "Visitante": "TAPE",
+   "goles_visitante": "1",
+   "puntos_visitante": "1",
+   "walk_over": "0",
+   "observaciones": null
+  }
+ ],
+ "titularesL": [
+  {
+   "carne": "54947",
+   "Nombre": "SANTIAGO HERNAN RAMIREZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54303",
+   "Nombre": "RODRIGO LEON",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "40183",
+   "Nombre": "FERNANDO MICHEL CHACON",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "58714",
+   "Nombre": "LUCIANO LAUDICIO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "57182",
+   "Nombre": "JOAQUIN PABLO BAUTISTA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "58638",
+   "Nombre": "SANTINO TORTORELLA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "57539",
+   "Nombre": "MARTIN ANDRES RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "55198",
+   "Nombre": "CAMILO JOAQUIN CABRERA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "67539",
+   "Nombre": "MATIAS NICOLAS RODRIGUEZ",
+   "camiseta": "46",
+   "Capitan": ""
+  },
+  {
+   "carne": "58944",
+   "Nombre": "IGNACIO ALGORTA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "46832",
+   "Nombre": "EMILIANO DANTAZ",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58443",
+   "Nombre": "ALFONSO PFEIFF",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "53801",
+   "Nombre": "JUAN MANUEL VILDOZOLA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "65006",
+   "Nombre": "GERONIMO GAUTHIER",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "61063",
+   "Nombre": "NICOLAS DORAO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "66855",
+   "Nombre": "SEBASTIAN MARTINEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "46872",
+   "Nombre": "SANTIAGO JOSE TAFERNABERRY",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "65007",
+   "Nombre": "MATHIAS LUCAS",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "60720",
+   "Nombre": "MATEO FERRERE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "56348",
+   "Nombre": "FELIPE SICALO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "54540",
+   "Nombre": "JOAQUIN RODRIGUEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "63592",
+   "Nombre": "JUAN ANDRES ERRANONDEA",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67539",
+   "Jug_Sale": "MATIAS NICOLAS RODRIGUEZ",
+   "CarneEntra": "53111",
+   "Jug_Entra": "JUAN PEDRO TAFERNABERRY",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58944",
+   "Jug_Sale": "IGNACIO ALGORTA",
+   "CarneEntra": "31696",
+   "Jug_Entra": "JAVIER TAIS",
+   "camiseta": "19",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "58714",
+   "Jug_Sale": "LUCIANO LAUDICIO",
+   "CarneEntra": "53845",
+   "Jug_Entra": "MARTIN CURUTCHAGUE",
+   "camiseta": "25",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "55198",
+   "Jug_Sale": "CAMILO JOAQUIN CABRERA",
+   "CarneEntra": "56818",
+   "Jug_Entra": "FACUNDO MARCEL RODRIGUEZ",
+   "camiseta": "37",
+   "minutos": "81"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "63592",
+   "Jug_Sale": "JUAN ANDRES ERRANONDEA",
+   "CarneEntra": "55125",
+   "Jug_Entra": "JUAN GURMENDEZ",
+   "camiseta": "3",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "53801",
+   "Jug_Sale": "JUAN MANUEL VILDOZOLA",
+   "CarneEntra": "52213",
+   "Jug_Entra": "NICOLAS JAVIER PRATES",
+   "camiseta": "20",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "65007",
+   "Jug_Sale": "MATHIAS LUCAS",
+   "CarneEntra": "65012",
+   "Jug_Entra": "JUAN MARTIN IFRAN",
+   "camiseta": "14",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "56348",
+   "Jug_Sale": "FELIPE SICALO",
+   "CarneEntra": "65008",
+   "Jug_Entra": "JUAN DIEGO JACQUES",
+   "camiseta": "11",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "54540",
+   "Jug_Sale": "JOAQUIN RODRIGUEZ",
+   "CarneEntra": "51930",
+   "Jug_Entra": "TOMAS PEREZ",
+   "camiseta": "16",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "58714",
+   "Nombre": "LUCIANO LAUDICIO",
+   "minutos": "15",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "46872",
+   "Nombre": "SANTIAGO JOSE TAFERNABERRY",
+   "minutos": "12",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "MARTIN ANDRES RODRIGUEZ",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [],
+ "amonestadosL": [],
+ "amonestadosV": []
+}

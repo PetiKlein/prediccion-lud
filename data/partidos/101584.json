@@ -1,0 +1,256 @@
+{
+ "id": "101584",
+ "serie": "A",
+ "fecha": 12,
+ "fechaHora": "2026-09-06 11:15:00",
+ "local": "OLD CHRISTIANS CLUB",
+ "visitante": "SANTA ELENA LAGOMAR",
+ "gl": 1,
+ "gv": 1,
+ "detalle": [
+  {
+   "nro_partido": "92",
+   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+   "deporte": "FÚTBOL",
+   "torneo": "MAYORES",
+   "categoria": "MAYORES MASCULINO",
+   "rueda": "1",
+   "Divisional": "DIVISIONAL \"A\"",
+   "Cancha": "OLD CHRISTIANS CLUB",
+   "Fecha_Inicio": "2026-09-06 13:05:00",
+   "Fecha_fin": "2026-09-06 13:05:00",
+   "Locatario": "OLD CHRISTIANS CLUB",
+   "goles_locatario": "1",
+   "puntos_locatario": "1",
+   "Visitante": "SANTA ELENA LAGOMAR",
+   "goles_visitante": "1",
+   "puntos_visitante": "1",
+   "walk_over": "0",
+   "observaciones": null
+  }
+ ],
+ "titularesL": [
+  {
+   "carne": "51657",
+   "Nombre": "FELIPE PEREYRA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "48884",
+   "Nombre": "JUAN GUILLERMO ARROSPIDE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "52602",
+   "Nombre": "JUAN DIEGO DE CASTRO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "35115",
+   "Nombre": "JUAN PEDRO BELO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "40763",
+   "Nombre": "MATEO VINCENT",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "52355",
+   "Nombre": "SANTIAGO PAZ RODRIGUEZ",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "42069",
+   "Nombre": "MATEO GIOIA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "53249",
+   "Nombre": "JUAN FRANCISCO FERREIRA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "51886",
+   "Nombre": "LUCAS ALONSO",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "56908",
+   "Nombre": "GUILLERMO HOUNIE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "43345",
+   "Nombre": "SANTIAGO PALLARES",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "40031",
+   "Nombre": "MATEO GUERRA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54416",
+   "Nombre": "JOAQUIN FALCON",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "49228",
+   "Nombre": "SANTIAGO QUINTANS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "39354",
+   "Nombre": "FEDERICO COMBA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "50407",
+   "Nombre": "FELIPE PONS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "41027",
+   "Nombre": "FELIPE ESTEVEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "61323",
+   "Nombre": "SANTINO MIGUEL VILA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "56961",
+   "Nombre": "MAXIMILIAN AMADO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "41326",
+   "Nombre": "FRANCO POLACCHINI",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "53269",
+   "Nombre": "JUAN MANUEL RODRIGUEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "55248",
+   "Nombre": "MARCOS RADMILOVICH",
+   "camiseta": "22",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "43345",
+   "Jug_Sale": "SANTIAGO PALLARES",
+   "CarneEntra": "62462",
+   "Jug_Entra": "JUAN GABRIEL ALVAREZ",
+   "camiseta": "97",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "35115",
+   "Jug_Sale": "JUAN PEDRO BELO",
+   "CarneEntra": "50841",
+   "Jug_Entra": "SANTOS JUAN HOUNIE",
+   "camiseta": "3",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "53249",
+   "Jug_Sale": "JUAN FRANCISCO FERREIRA",
+   "CarneEntra": "26432",
+   "Jug_Entra": "SANTIAGO LOPEZ",
+   "camiseta": "10",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "56908",
+   "Jug_Sale": "GUILLERMO HOUNIE",
+   "CarneEntra": "52249",
+   "Jug_Entra": "JUAN GERVASIO ETCHEVERRY",
+   "camiseta": "2",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "42069",
+   "Jug_Sale": "MATEO GIOIA",
+   "CarneEntra": "32400",
+   "Jug_Entra": "MATIAS DANIEL RIOS",
+   "camiseta": "17",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "51886",
+   "Jug_Sale": "LUCAS ALONSO",
+   "CarneEntra": "50902",
+   "Jug_Entra": "SANTIAGO VINCENT",
+   "camiseta": "20",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "52355",
+   "Jug_Sale": "SANTIAGO PAZ RODRIGUEZ",
+   "CarneEntra": "37735",
+   "Jug_Entra": "FRANCO MASCIA",
+   "camiseta": "71",
+   "minutos": "92"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "61323",
+   "Jug_Sale": "SANTINO MIGUEL VILA",
+   "CarneEntra": "56495",
+   "Jug_Entra": "BAUTISTA MATEO",
+   "camiseta": "2",
+   "minutos": "65"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "42069",
+   "Nombre": "MATEO GIOIA",
+   "minutos": "21",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "53269",
+   "Nombre": "JUAN MANUEL RODRIGUEZ",
+   "minutos": "53",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [],
+ "amonestadosL": [],
+ "amonestadosV": []
+}

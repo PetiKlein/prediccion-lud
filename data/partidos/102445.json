@@ -1,0 +1,291 @@
+{
+ "id": "102445",
+ "serie": "AT",
+ "fecha": 2,
+ "fechaHora": "2026-10-02 20:00:00",
+ "local": "OLD BOYS CLUB",
+ "visitante": "TAPE",
+ "gl": 2,
+ "gv": 1,
+ "detalle": [
+  {
+   "nro_partido": "848",
+   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+   "deporte": "FÚTBOL",
+   "torneo": "MAYORES",
+   "categoria": "MAYORES MASCULINO",
+   "rueda": "2",
+   "Divisional": "MAYORES \"A\" TITULO",
+   "Cancha": "BRITISH SCHOOL",
+   "Fecha_Inicio": "2026-10-02 21:55:00",
+   "Fecha_fin": "2026-10-02 21:55:00",
+   "Locatario": "OLD BOYS CLUB",
+   "goles_locatario": "2",
+   "puntos_locatario": "3",
+   "Visitante": "TAPE",
+   "goles_visitante": "1",
+   "puntos_visitante": "0",
+   "walk_over": "0",
+   "observaciones": null
+  }
+ ],
+ "titularesL": [
+  {
+   "carne": "59008",
+   "Nombre": "GERONIMO FEDERICO ALONSO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "29671",
+   "Nombre": "MARTIN GUSTAVO GUERRA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "39045",
+   "Nombre": "SANTIAGO ASTIGARRAGA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "37275",
+   "Nombre": "JOSE MARIA MAÑE",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "48390",
+   "Nombre": "GERONIMO ALVARES",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "47513",
+   "Nombre": "MAXIMO VARGAS",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "54585",
+   "Nombre": "TOMAS CABRAL",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "37272",
+   "Nombre": "JUAN LUIS IRULEGUY",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "45241",
+   "Nombre": "JUAN FERMIN REMEDI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "58231",
+   "Nombre": "FACUNDO VALENTTI",
+   "camiseta": "91",
+   "Capitan": ""
+  },
+  {
+   "carne": "54580",
+   "Nombre": "JUAN CARLOS VIDIELLA",
+   "camiseta": "49",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58443",
+   "Nombre": "ALFONSO PFEIFF",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "53410",
+   "Nombre": "SANTIAGO FEDERICO CAETANO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "65006",
+   "Nombre": "GERONIMO GAUTHIER",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "66855",
+   "Nombre": "SEBASTIAN MARTINEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "55925",
+   "Nombre": "FRANCISCO PABLO VILLAR",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "49165",
+   "Nombre": "GUILLERMO PONS",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "39600",
+   "Nombre": "JAVIER ANDRES ZAFFARONI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "65012",
+   "Nombre": "JUAN MARTIN IFRAN",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "65008",
+   "Nombre": "JUAN DIEGO JACQUES",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "52213",
+   "Nombre": "NICOLAS JAVIER PRATES",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "63592",
+   "Nombre": "JUAN ANDRES ERRANONDEA",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54580",
+   "Jug_Sale": "JUAN CARLOS VIDIELLA",
+   "CarneEntra": "26972",
+   "Jug_Entra": "JUAN MANUEL MUSETTI",
+   "camiseta": "99",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "37272",
+   "Jug_Sale": "JUAN LUIS IRULEGUY",
+   "CarneEntra": "56273",
+   "Jug_Entra": "ALEXIS BRUCE",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47513",
+   "Jug_Sale": "MAXIMO VARGAS",
+   "CarneEntra": "49786",
+   "Jug_Entra": "JUAN IGNACIO HARDOY",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58231",
+   "Jug_Sale": "FACUNDO VALENTTI",
+   "CarneEntra": "54579",
+   "Jug_Entra": "JAVIER CIVETTA",
+   "camiseta": "26",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "45241",
+   "Jug_Sale": "JUAN FERMIN REMEDI",
+   "CarneEntra": "47503",
+   "Jug_Entra": "FRANCO CHIAPPARA",
+   "camiseta": "77",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "48390",
+   "Jug_Sale": "GERONIMO ALVARES",
+   "CarneEntra": "41575",
+   "Jug_Entra": "MANUEL TERRA",
+   "camiseta": "19",
+   "minutos": "90"
+  },
+  {
+   "CarneSale": "54585",
+   "Jug_Sale": "TOMAS CABRAL",
+   "CarneEntra": "47515",
+   "Jug_Entra": "JUAN MARIA SEIZER",
+   "camiseta": "10",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "49165",
+   "Jug_Sale": "GUILLERMO PONS",
+   "CarneEntra": "61063",
+   "Jug_Entra": "NICOLAS DORAO",
+   "camiseta": "4",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "39600",
+   "Jug_Sale": "JAVIER ANDRES ZAFFARONI",
+   "CarneEntra": "56348",
+   "Jug_Entra": "FELIPE SICALO",
+   "camiseta": "18",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "55925",
+   "Jug_Sale": "FRANCISCO PABLO VILLAR",
+   "CarneEntra": "66853",
+   "Jug_Entra": "MARCELO JAVIER RUIZ",
+   "camiseta": "20",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "53410",
+   "Jug_Sale": "SANTIAGO FEDERICO CAETANO",
+   "CarneEntra": "56347",
+   "Jug_Entra": "JUAN SANTANNA",
+   "camiseta": "17",
+   "minutos": "81"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "26972",
+   "Nombre": "JUAN MANUEL MUSETTI",
+   "minutos": "33",
+   "EnContra": "0"
+  },
+  {
+   "carne": "26972",
+   "Nombre": "JUAN MANUEL MUSETTI",
+   "minutos": "74",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "66855",
+   "Nombre": "SEBASTIAN MARTINEZ",
+   "minutos": "15",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "SANTIAGO ASTIGARRAGA",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [],
+ "amonestadosL": [],
+ "amonestadosV": []
+}

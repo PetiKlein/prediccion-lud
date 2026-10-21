@@ -1,0 +1,263 @@
+{
+ "id": "98545",
+ "serie": "A",
+ "fecha": 3,
+ "fechaHora": "2026-04-26 09:00:00",
+ "local": "NACIONAL UNIVERSITARIO",
+ "visitante": "CARRASCO POLO CLUB",
+ "gl": 0,
+ "gv": 2,
+ "detalle": [
+  {
+   "nro_partido": "19",
+   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+   "deporte": "FÚTBOL",
+   "torneo": "MAYORES",
+   "categoria": "MAYORES MASCULINO",
+   "rueda": "1",
+   "Divisional": "DIVISIONAL \"A\"",
+   "Cancha": "COM. DEP. CLUB TROUVILLE",
+   "Fecha_Inicio": "2026-04-26 11:05:00",
+   "Fecha_fin": "2026-04-26 11:05:00",
+   "Locatario": "NACIONAL UNIVERSITARIO",
+   "goles_locatario": "0",
+   "puntos_locatario": "0",
+   "Visitante": "CARRASCO POLO CLUB",
+   "goles_visitante": "2",
+   "puntos_visitante": "3",
+   "walk_over": "0",
+   "observaciones": null
+  }
+ ],
+ "titularesL": [
+  {
+   "carne": "59355",
+   "Nombre": "AUGUSTO GUERRA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "42913",
+   "Nombre": "MARTIN MASLLORENS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "41919",
+   "Nombre": "CHRISTOPHER MATIAS LARROSA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "40727",
+   "Nombre": "RODRIGO YAMANDU TISCORNIA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "42097",
+   "Nombre": "JUAN MANUEL LEIZA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "62452",
+   "Nombre": "FRANCISCO ARRUA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "52667",
+   "Nombre": "ENZO GALEANO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "54680",
+   "Nombre": "GUILLERMO GUERRICO",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "46942",
+   "Nombre": "IGNACIO REGUEIRO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "35011",
+   "Nombre": "FEDERICO MANUEL ALFARO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56667",
+   "Nombre": "JUAN DIEGO GODOY",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "40866",
+   "Nombre": "FACUNDO ROMANELLI",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "53597",
+   "Nombre": "BAUTISTA DE LUCA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "39328",
+   "Nombre": "FEDERICO UCAR",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "29697",
+   "Nombre": "DIEGO LACURCIA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "44449",
+   "Nombre": "MARTIN PIANGELUA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "44181",
+   "Nombre": "FRANCISCO LABAT",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "48017",
+   "Nombre": "JUAN MARTIN IRAOLA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "37473",
+   "Nombre": "SANTIAGO MATO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "50873",
+   "Nombre": "LUCIO FLANGINI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "35206",
+   "Nombre": "FEDERICO LACURCIA",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57347",
+   "Nombre": "FACUNDO COSTA",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "46942",
+   "Jug_Sale": "IGNACIO REGUEIRO",
+   "CarneEntra": "38674",
+   "Jug_Entra": "RODRIGO MANUEL NOGUEIRA",
+   "camiseta": "23",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "35011",
+   "Jug_Sale": "FEDERICO MANUEL ALFARO",
+   "CarneEntra": "57413",
+   "Jug_Entra": "ENZO SEBASTIAN LAXAGUE",
+   "camiseta": "21",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "62452",
+   "Jug_Sale": "FRANCISCO ARRUA",
+   "CarneEntra": "29119",
+   "Jug_Entra": "ALEJANDRO JUAN RAIZ",
+   "camiseta": "9",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "42097",
+   "Jug_Sale": "JUAN MANUEL LEIZA",
+   "CarneEntra": "67309",
+   "Jug_Entra": "GUZMAN DUFOUR",
+   "camiseta": "19",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "50873",
+   "Jug_Sale": "LUCIO FLANGINI",
+   "CarneEntra": "46817",
+   "Jug_Entra": "FEDERICO HEBER VAZ",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57347",
+   "Jug_Sale": "FACUNDO COSTA",
+   "CarneEntra": "55483",
+   "Jug_Entra": "IGNACIO PAGES",
+   "camiseta": "19",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "37473",
+   "Jug_Sale": "SANTIAGO MATO",
+   "CarneEntra": "56444",
+   "Jug_Entra": "DIOGO LAUTARO DE SOUZA",
+   "camiseta": "21",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "44449",
+   "Jug_Sale": "MARTIN PIANGELUA",
+   "CarneEntra": "49037",
+   "Jug_Entra": "SANTIAGO ROVELLA",
+   "camiseta": "4",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "35206",
+   "Jug_Sale": "FEDERICO LACURCIA",
+   "CarneEntra": "42512",
+   "Jug_Entra": "NICOLAS BOLGER",
+   "camiseta": "13",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "37473",
+   "Nombre": "SANTIAGO MATO",
+   "minutos": "10",
+   "EnContra": "1"
+  },
+  {
+   "carne": "53597",
+   "Nombre": "BAUTISTA DE LUCA",
+   "minutos": "8",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [],
+ "amonestadosL": [],
+ "amonestadosV": []
+}

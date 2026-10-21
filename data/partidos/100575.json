@@ -1,0 +1,274 @@
+{
+ "id": "100575",
+ "serie": "A",
+ "fecha": 11,
+ "fechaHora": "2026-06-28 11:15:00",
+ "local": "SANTA ELENA LAGOMAR",
+ "visitante": "CLUB SEMINARIO",
+ "gl": 0,
+ "gv": 1,
+ "detalle": [
+  {
+   "nro_partido": "86",
+   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+   "deporte": "FÚTBOL",
+   "torneo": "MAYORES",
+   "categoria": "MAYORES MASCULINO",
+   "rueda": "1",
+   "Divisional": "DIVISIONAL \"A\"",
+   "Cancha": "COMPLEJO DEPORTIVO ARRAYANES",
+   "Fecha_Inicio": "2026-06-28 13:15:00",
+   "Fecha_fin": "2026-06-28 13:15:00",
+   "Locatario": "SANTA ELENA LAGOMAR",
+   "goles_locatario": "0",
+   "puntos_locatario": "0",
+   "Visitante": "CLUB SEMINARIO",
+   "goles_visitante": "1",
+   "puntos_visitante": "3",
+   "walk_over": "0",
+   "observaciones": null
+  }
+ ],
+ "titularesL": [
+  {
+   "carne": "55249",
+   "Nombre": "MATEO ENRICH",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "41018",
+   "Nombre": "FEDERICO IGNACIO TAMBUSSO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "49228",
+   "Nombre": "SANTIAGO QUINTANS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "63093",
+   "Nombre": "VALENTINO TORRES",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "50407",
+   "Nombre": "FELIPE PONS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "53426",
+   "Nombre": "JUAN MANUEL BELLO",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "61323",
+   "Nombre": "SANTINO MIGUEL VILA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "41027",
+   "Nombre": "FELIPE ESTEVEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "41326",
+   "Nombre": "FRANCO POLACCHINI",
+   "camiseta": "96",
+   "Capitan": ""
+  },
+  {
+   "carne": "56503",
+   "Nombre": "JOAQUIN SANCHEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "53269",
+   "Nombre": "JUAN MANUEL RODRIGUEZ",
+   "camiseta": "23",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "52755",
+   "Nombre": "JOAQUIN MIRANDA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54784",
+   "Nombre": "FACUNDO EMILIANO PAGANI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "43035",
+   "Nombre": "LUCAS PIAGGIO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "39147",
+   "Nombre": "SEBASTIAN ECHEVERZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "42555",
+   "Nombre": "RODRIGO VAZQUEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "39017",
+   "Nombre": "GERMAN FRAGA",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "28056",
+   "Nombre": "RENZO CARUSO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "47673",
+   "Nombre": "FRANCISCO JAVIER CAMPON",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "50866",
+   "Nombre": "JOSE SANTIAGO LUCAS",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "47176",
+   "Nombre": "SANTIAGO BENZANO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "47680",
+   "Nombre": "JUAN FELIPE LUCAS",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "41027",
+   "Jug_Sale": "FELIPE ESTEVEZ",
+   "CarneEntra": "39354",
+   "Jug_Entra": "FEDERICO COMBA",
+   "camiseta": "3",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "41326",
+   "Jug_Sale": "FRANCO POLACCHINI",
+   "CarneEntra": "54416",
+   "Jug_Entra": "JOAQUIN FALCON",
+   "camiseta": "7",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "56503",
+   "Jug_Sale": "JOAQUIN SANCHEZ",
+   "CarneEntra": "56961",
+   "Jug_Entra": "MAXIMILIAN AMADO",
+   "camiseta": "62",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "61323",
+   "Jug_Sale": "SANTINO MIGUEL VILA",
+   "CarneEntra": "51790",
+   "Jug_Entra": "BRUNO SOSA",
+   "camiseta": "6",
+   "minutos": "84"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "28056",
+   "Jug_Sale": "RENZO CARUSO",
+   "CarneEntra": "47696",
+   "Jug_Entra": "IGNACIO TOMAS ESTEFAN",
+   "camiseta": "9",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "47673",
+   "Jug_Sale": "FRANCISCO JAVIER CAMPON",
+   "CarneEntra": "56643",
+   "Jug_Entra": "FEDERICO MOSCA",
+   "camiseta": "8",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "50866",
+   "Jug_Sale": "JOSE SANTIAGO LUCAS",
+   "CarneEntra": "47683",
+   "Jug_Entra": "JUAN IGNACIO VIOLA",
+   "camiseta": "10",
+   "minutos": "84"
+  },
+  {
+   "CarneSale": "54784",
+   "Jug_Sale": "FACUNDO EMILIANO PAGANI",
+   "CarneEntra": "47800",
+   "Jug_Entra": "MATIAS GARRIDO",
+   "camiseta": "13",
+   "minutos": "88"
+  },
+  {
+   "CarneSale": "47680",
+   "Jug_Sale": "JUAN FELIPE LUCAS",
+   "CarneEntra": "50839",
+   "Jug_Entra": "FABRIZIO JORGE GRAJALES",
+   "camiseta": "16",
+   "minutos": "88"
+  },
+  {
+   "CarneSale": "47176",
+   "Jug_Sale": "SANTIAGO BENZANO",
+   "CarneEntra": "50866",
+   "Jug_Entra": "JOSE SANTIAGO LUCAS",
+   "camiseta": "29",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "28056",
+   "Nombre": "RENZO CARUSO",
+   "minutos": "61",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "SANTIAGO QUINTANS",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "VALENTINO TORRES",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [],
+ "amonestadosL": [],
+ "amonestadosV": []
+}

@@ -1,0 +1,254 @@
+{
+ "id": "103012",
+ "serie": "AT",
+ "fecha": 4,
+ "fechaHora": "2026-10-18 11:15:00",
+ "local": "TENIS EL PINAR",
+ "visitante": "URUNDAY UNIVERSITARIO",
+ "gl": 1,
+ "gv": 2,
+ "detalle": [
+  {
+   "nro_partido": "854",
+   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+   "deporte": "FÚTBOL",
+   "torneo": "MAYORES",
+   "categoria": "MAYORES MASCULINO",
+   "rueda": "2",
+   "Divisional": "MAYORES \"A\" TITULO",
+   "Cancha": "TENIS EL PINAR",
+   "Fecha_Inicio": "2026-10-18 13:15:00",
+   "Fecha_fin": "2026-10-18 13:15:00",
+   "Locatario": "TENIS EL PINAR",
+   "goles_locatario": "1",
+   "puntos_locatario": "0",
+   "Visitante": "URUNDAY UNIVERSITARIO",
+   "goles_visitante": "2",
+   "puntos_visitante": "3",
+   "walk_over": "0",
+   "observaciones": null
+  }
+ ],
+ "titularesL": [
+  {
+   "carne": "46449",
+   "Nombre": "AGUSTIN LOMBARDO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "46828",
+   "Nombre": "CIPRIANO BAROFFIO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "40761",
+   "Nombre": "MAXIMILIANO SIENRA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "39703",
+   "Nombre": "GUILLERMO DANIEL TENCA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "38349",
+   "Nombre": "JUAN PABLO ECHEVERRIARZA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "23904",
+   "Nombre": "GASTON ANDRES SUAREZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "34528",
+   "Nombre": "JOAQUIN ANDRES AMOEDO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "39169",
+   "Nombre": "GONZALO FEDERICO PRADA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "54830",
+   "Nombre": "GUILLERMO NIETO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "45225",
+   "Nombre": "LAUTARO PEREZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "26339",
+   "Nombre": "JUAN MARTIN OYENARD",
+   "camiseta": "15",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "52399",
+   "Nombre": "FEDERICO JOAQUIN GARCIA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "36910",
+   "Nombre": "GERMAN CAYON",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "66692",
+   "Nombre": "FACUNDO MOLINA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "62165",
+   "Nombre": "JUAN IGNACIO AFFONSO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "66693",
+   "Nombre": "AGUSTIN LEMA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "62723",
+   "Nombre": "TOMAS GABRIEL ERRECARTT",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "41285",
+   "Nombre": "RODRIGO FERNANDEZ",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "46496",
+   "Nombre": "RODRIGO AGUSTIN VEGA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "56470",
+   "Nombre": "BRUNO AGUSTIN FANTONI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "36942",
+   "Nombre": "NICOLAS LOPEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "52533",
+   "Nombre": "GUZMAN FERNANDEZ",
+   "camiseta": "77",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "39169",
+   "Jug_Sale": "GONZALO FEDERICO PRADA",
+   "CarneEntra": "48870",
+   "Jug_Entra": "RENZO FORTI",
+   "camiseta": "30",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "39703",
+   "Jug_Sale": "GUILLERMO DANIEL TENCA",
+   "CarneEntra": "57966",
+   "Jug_Entra": "FRANCISCO LOURTET",
+   "camiseta": "24",
+   "minutos": "65"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56470",
+   "Jug_Sale": "BRUNO AGUSTIN FANTONI",
+   "CarneEntra": "55417",
+   "Jug_Entra": "DIEGO HERNAN TABORDA",
+   "camiseta": "21",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "46496",
+   "Jug_Sale": "RODRIGO AGUSTIN VEGA",
+   "CarneEntra": "41114",
+   "Jug_Entra": "FACUNDO MEDEIROS",
+   "camiseta": "5",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "36910",
+   "Jug_Sale": "GERMAN CAYON",
+   "CarneEntra": "50071",
+   "Jug_Entra": "AGUSTIN SANTURIO",
+   "camiseta": "29",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "52533",
+   "Jug_Sale": "GUZMAN FERNANDEZ",
+   "CarneEntra": "29713",
+   "Jug_Entra": "PAOLO ADRIAN DI VINCENZO",
+   "camiseta": "8",
+   "minutos": "87"
+  },
+  {
+   "CarneSale": "36942",
+   "Jug_Sale": "NICOLAS LOPEZ",
+   "CarneEntra": "49704",
+   "Jug_Entra": "SANTIAGO DEARMAS",
+   "camiseta": "90",
+   "minutos": "92"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "45225",
+   "Nombre": "LAUTARO PEREZ",
+   "minutos": "44",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "50071",
+   "Nombre": "AGUSTIN SANTURIO",
+   "minutos": "90",
+   "EnContra": "1"
+  },
+  {
+   "carne": "52533",
+   "Nombre": "GUZMAN FERNANDEZ",
+   "minutos": "61",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [],
+ "amonestadosL": [],
+ "amonestadosV": []
+}

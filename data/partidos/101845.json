@@ -1,0 +1,270 @@
+{
+ "id": "101845",
+ "serie": "A",
+ "fecha": 13,
+ "fechaHora": "2026-09-13 11:15:00",
+ "local": "OLD BOYS CLUB",
+ "visitante": "CLUB SEMINARIO",
+ "gl": 2,
+ "gv": 1,
+ "detalle": [
+  {
+   "nro_partido": "103",
+   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+   "deporte": "FÚTBOL",
+   "torneo": "MAYORES",
+   "categoria": "MAYORES MASCULINO",
+   "rueda": "1",
+   "Divisional": "DIVISIONAL \"A\"",
+   "Cancha": "BRITISH SCHOOL",
+   "Fecha_Inicio": "2026-09-13 13:15:00",
+   "Fecha_fin": "2026-09-13 13:15:00",
+   "Locatario": "OLD BOYS CLUB",
+   "goles_locatario": "2",
+   "puntos_locatario": "3",
+   "Visitante": "CLUB SEMINARIO",
+   "goles_visitante": "1",
+   "puntos_visitante": "0",
+   "walk_over": "0",
+   "observaciones": null
+  }
+ ],
+ "titularesL": [
+  {
+   "carne": "59008",
+   "Nombre": "GERONIMO FEDERICO ALONSO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "37275",
+   "Nombre": "JOSE MARIA MAÑE",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54579",
+   "Nombre": "JAVIER CIVETTA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "39045",
+   "Nombre": "SANTIAGO ASTIGARRAGA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "38391",
+   "Nombre": "NICOLAS MARIA RODRIGUEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "54585",
+   "Nombre": "TOMAS CABRAL",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "45980",
+   "Nombre": "ZENON CAPELLI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "37272",
+   "Nombre": "JUAN LUIS IRULEGUY",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "45241",
+   "Nombre": "JUAN FERMIN REMEDI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "29955",
+   "Nombre": "NICOLAS CASAROTTI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "54580",
+   "Nombre": "JUAN CARLOS VIDIELLA",
+   "camiseta": "49",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "45817",
+   "Nombre": "MATIAS ESTAPE",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "37424",
+   "Nombre": "SANTIAGO PEREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "50839",
+   "Nombre": "FABRIZIO JORGE GRAJALES",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "55503",
+   "Nombre": "SALVADOR DI CANDIA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "47683",
+   "Nombre": "JUAN IGNACIO VIOLA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "39017",
+   "Nombre": "GERMAN FRAGA",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "47673",
+   "Nombre": "FRANCISCO JAVIER CAMPON",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "57157",
+   "Nombre": "FACUNDO PIRIS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "54784",
+   "Nombre": "FACUNDO EMILIANO PAGANI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "47696",
+   "Nombre": "IGNACIO TOMAS ESTEFAN",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "47680",
+   "Nombre": "JUAN FELIPE LUCAS",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "29955",
+   "Jug_Sale": "NICOLAS CASAROTTI",
+   "CarneEntra": "26972",
+   "Jug_Entra": "JUAN MANUEL MUSETTI",
+   "camiseta": "59",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "37272",
+   "Jug_Sale": "JUAN LUIS IRULEGUY",
+   "CarneEntra": "42815",
+   "Jug_Entra": "ALFONSO JOSE MARTINELLI",
+   "camiseta": "80",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "54580",
+   "Jug_Sale": "JUAN CARLOS VIDIELLA",
+   "CarneEntra": "47515",
+   "Jug_Entra": "JUAN MARIA SEIZER",
+   "camiseta": "10",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "45980",
+   "Jug_Sale": "ZENON CAPELLI",
+   "CarneEntra": "41575",
+   "Jug_Entra": "MANUEL TERRA",
+   "camiseta": "19",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "45241",
+   "Jug_Sale": "JUAN FERMIN REMEDI",
+   "CarneEntra": "47513",
+   "Jug_Entra": "MAXIMO VARGAS",
+   "camiseta": "88",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "47683",
+   "Jug_Sale": "JUAN IGNACIO VIOLA",
+   "CarneEntra": "50866",
+   "Jug_Entra": "JOSE SANTIAGO LUCAS",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "39017",
+   "Jug_Sale": "GERMAN FRAGA",
+   "CarneEntra": "45815",
+   "Jug_Entra": "FRANCISCO MARICHAL",
+   "camiseta": "6",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "37424",
+   "Jug_Sale": "SANTIAGO PEREZ",
+   "CarneEntra": "47176",
+   "Jug_Entra": "SANTIAGO BENZANO",
+   "camiseta": "7",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "47673",
+   "Jug_Sale": "FRANCISCO JAVIER CAMPON",
+   "CarneEntra": "64647",
+   "Jug_Entra": "FABRIZIO OSCAR PAGLIA",
+   "camiseta": "4",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "37272",
+   "Nombre": "JUAN LUIS IRULEGUY",
+   "minutos": "45",
+   "EnContra": "0"
+  },
+  {
+   "carne": "54580",
+   "Nombre": "JUAN CARLOS VIDIELLA",
+   "minutos": "2",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "47176",
+   "Nombre": "SANTIAGO BENZANO",
+   "minutos": "66",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [],
+ "amonestadosL": [],
+ "amonestadosV": []
+}

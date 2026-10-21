@@ -1,0 +1,283 @@
+{
+ "id": "102998",
+ "serie": "APD",
+ "fecha": 4,
+ "fechaHora": "2026-10-18 11:15:00",
+ "local": "PLAYA HONDA UNIVERSITARIO",
+ "visitante": "JUAN XXIII",
+ "gl": 4,
+ "gv": 0,
+ "detalle": [
+  {
+   "nro_partido": "881",
+   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+   "deporte": "FÚTBOL",
+   "torneo": "MAYORES",
+   "categoria": "MAYORES MASCULINO",
+   "rueda": "2",
+   "Divisional": "MAYORES \"A\" PERM. y DESC.",
+   "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+   "Fecha_Inicio": "2026-10-18 13:15:00",
+   "Fecha_fin": "2026-10-18 13:15:00",
+   "Locatario": "PLAYA HONDA UNIVERSITARIO",
+   "goles_locatario": "4",
+   "puntos_locatario": "3",
+   "Visitante": "JUAN XXIII",
+   "goles_visitante": "0",
+   "puntos_visitante": "0",
+   "walk_over": "0",
+   "observaciones": null
+  }
+ ],
+ "titularesL": [
+  {
+   "carne": "54947",
+   "Nombre": "SANTIAGO HERNAN RAMIREZ",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "40183",
+   "Nombre": "FERNANDO MICHEL CHACON",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64140",
+   "Nombre": "JUAN IGNACIO CHOCHO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "57182",
+   "Nombre": "JOAQUIN PABLO BAUTISTA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "47657",
+   "Nombre": "FACUNDO CAPDEVIELLE",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "68936",
+   "Nombre": "EZEQUIEL ACOSTA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "58638",
+   "Nombre": "SANTINO TORTORELLA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "55198",
+   "Nombre": "CAMILO JOAQUIN CABRERA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "68646",
+   "Nombre": "MARTIN GUADALUPE",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "58944",
+   "Nombre": "IGNACIO ALGORTA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "53111",
+   "Nombre": "JUAN PEDRO TAFERNABERRY",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "36530",
+   "Nombre": "MATIAS IROLDI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "67677",
+   "Nombre": "JOAQUIN LANDEIRA",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "49012",
+   "Nombre": "AGUSTIN SUPERVIELLE",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "40859",
+   "Nombre": "JUAN MANUEL FERREIRA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "47130",
+   "Nombre": "FRANCISCO ALVAREZ DE RON",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "58711",
+   "Nombre": "GERMAN MANGARELLI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "48081",
+   "Nombre": "EMILIANO DANIEL AHUNTCHAIN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "45693",
+   "Nombre": "PEDRO BENZO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "50344",
+   "Nombre": "FELIPE MANUEL NIETO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "49276",
+   "Nombre": "MATEO TECHEIRA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "41174",
+   "Nombre": "JUAN PABLO PASTORINO",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "58638",
+   "Jug_Sale": "SANTINO TORTORELLA",
+   "CarneEntra": "56818",
+   "Jug_Entra": "FACUNDO MARCEL RODRIGUEZ",
+   "camiseta": "37",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47657",
+   "Jug_Sale": "FACUNDO CAPDEVIELLE",
+   "CarneEntra": "39946",
+   "Jug_Entra": "MAURO OSORIO",
+   "camiseta": "14",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "53111",
+   "Jug_Sale": "JUAN PEDRO TAFERNABERRY",
+   "CarneEntra": "53845",
+   "Jug_Entra": "MARTIN CURUTCHAGUE",
+   "camiseta": "25",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "55198",
+   "Jug_Sale": "CAMILO JOAQUIN CABRERA",
+   "CarneEntra": "67539",
+   "Jug_Entra": "MATIAS NICOLAS RODRIGUEZ",
+   "camiseta": "46",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "58944",
+   "Jug_Sale": "IGNACIO ALGORTA",
+   "CarneEntra": "58714",
+   "Jug_Entra": "LUCIANO LAUDICIO",
+   "camiseta": "18",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "40183",
+   "Jug_Sale": "FERNANDO MICHEL CHACON",
+   "CarneEntra": "46832",
+   "Jug_Entra": "EMILIANO DANTAZ",
+   "camiseta": "10",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "57182",
+   "Jug_Sale": "JOAQUIN PABLO BAUTISTA",
+   "CarneEntra": "52880",
+   "Jug_Entra": "RODOLFO RODRIGUEZ",
+   "camiseta": "43",
+   "minutos": "8"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "40859",
+   "Jug_Sale": "JUAN MANUEL FERREIRA",
+   "CarneEntra": "49486",
+   "Jug_Entra": "IGNACIO GONZALEZ",
+   "camiseta": "15",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "49012",
+   "Jug_Sale": "AGUSTIN SUPERVIELLE",
+   "CarneEntra": "46955",
+   "Jug_Entra": "FRANCISCO ARTURO CACERES",
+   "camiseta": "87",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "58711",
+   "Jug_Sale": "GERMAN MANGARELLI",
+   "CarneEntra": "63347",
+   "Jug_Entra": "VALENTIN ROBKIN",
+   "camiseta": "96",
+   "minutos": "81"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "53111",
+   "Nombre": "JUAN PEDRO TAFERNABERRY",
+   "minutos": "1",
+   "EnContra": "0"
+  },
+  {
+   "carne": "53111",
+   "Nombre": "JUAN PEDRO TAFERNABERRY",
+   "minutos": "12",
+   "EnContra": "0"
+  },
+  {
+   "carne": "56818",
+   "Nombre": "FACUNDO MARCEL RODRIGUEZ",
+   "minutos": "92",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58944",
+   "Nombre": "IGNACIO ALGORTA",
+   "minutos": "35",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": [],
+ "amonestadosL": [],
+ "amonestadosV": []
+}

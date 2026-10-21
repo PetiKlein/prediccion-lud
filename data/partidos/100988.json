@@ -1,0 +1,250 @@
+{
+ "id": "100988",
+ "serie": "A",
+ "fecha": 15,
+ "fechaHora": "2026-08-16 11:15:00",
+ "local": "OLD BOYS CLUB",
+ "visitante": "TAPE",
+ "gl": 0,
+ "gv": 1,
+ "detalle": [
+  {
+   "nro_partido": "118",
+   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+   "deporte": "FÚTBOL",
+   "torneo": "MAYORES",
+   "categoria": "MAYORES MASCULINO",
+   "rueda": "1",
+   "Divisional": "DIVISIONAL \"A\"",
+   "Cancha": "BRITISH SCHOOL",
+   "Fecha_Inicio": "2026-08-16 13:30:00",
+   "Fecha_fin": "2026-08-16 13:30:00",
+   "Locatario": "OLD BOYS CLUB",
+   "goles_locatario": "0",
+   "puntos_locatario": "0",
+   "Visitante": "TAPE",
+   "goles_visitante": "1",
+   "puntos_visitante": "3",
+   "walk_over": "0",
+   "observaciones": null
+  }
+ ],
+ "titularesL": [
+  {
+   "carne": "59008",
+   "Nombre": "GERONIMO FEDERICO ALONSO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54579",
+   "Nombre": "JAVIER CIVETTA",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "39045",
+   "Nombre": "SANTIAGO ASTIGARRAGA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "41575",
+   "Nombre": "MANUEL TERRA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "37275",
+   "Nombre": "JOSE MARIA MAÑE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "54585",
+   "Nombre": "TOMAS CABRAL",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "38391",
+   "Nombre": "NICOLAS MARIA RODRIGUEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "47513",
+   "Nombre": "MAXIMO VARGAS",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "47503",
+   "Nombre": "FRANCO CHIAPPARA",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "48369",
+   "Nombre": "LUCA BERTINI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "29955",
+   "Nombre": "NICOLAS CASAROTTI",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58443",
+   "Nombre": "ALFONSO PFEIFF",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "46872",
+   "Nombre": "SANTIAGO JOSE TAFERNABERRY",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61063",
+   "Nombre": "NICOLAS DORAO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "65006",
+   "Nombre": "GERONIMO GAUTHIER",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "66855",
+   "Nombre": "SEBASTIAN MARTINEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56348",
+   "Nombre": "FELIPE SICALO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "60720",
+   "Nombre": "MATEO FERRERE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "55125",
+   "Nombre": "JUAN GURMENDEZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "63592",
+   "Nombre": "JUAN ANDRES ERRANONDEA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "58984",
+   "Nombre": "NICOLAS LIBONATTI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "65012",
+   "Nombre": "JUAN MARTIN IFRAN",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "47503",
+   "Jug_Sale": "FRANCO CHIAPPARA",
+   "CarneEntra": "45980",
+   "Jug_Entra": "ZENON CAPELLI",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "54585",
+   "Jug_Sale": "TOMAS CABRAL",
+   "CarneEntra": "58231",
+   "Jug_Entra": "FACUNDO VALENTTI",
+   "camiseta": "91",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47513",
+   "Jug_Sale": "MAXIMO VARGAS",
+   "CarneEntra": "45241",
+   "Jug_Entra": "JUAN FERMIN REMEDI",
+   "camiseta": "7",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "48369",
+   "Jug_Sale": "LUCA BERTINI",
+   "CarneEntra": "26972",
+   "Jug_Entra": "JUAN MANUEL MUSETTI",
+   "camiseta": "17",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "38391",
+   "Jug_Sale": "NICOLAS MARIA RODRIGUEZ",
+   "CarneEntra": "37272",
+   "Jug_Entra": "JUAN LUIS IRULEGUY",
+   "camiseta": "20",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "55125",
+   "Jug_Sale": "JUAN GURMENDEZ",
+   "CarneEntra": "56344",
+   "Jug_Entra": "JUAN PEDRO ECHEGUIA",
+   "camiseta": "16",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "63592",
+   "Jug_Sale": "JUAN ANDRES ERRANONDEA",
+   "CarneEntra": "52213",
+   "Jug_Entra": "NICOLAS JAVIER PRATES",
+   "camiseta": "21",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "63592",
+   "Nombre": "JUAN ANDRES ERRANONDEA",
+   "minutos": "35",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "FELIPE SICALO",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "GERONIMO GAUTHIER",
+   "observaciones": ""
+  }
+ ],
+ "amonestadosL": [],
+ "amonestadosV": []
+}

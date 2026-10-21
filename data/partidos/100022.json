@@ -1,0 +1,233 @@
+{
+ "id": "100022",
+ "serie": "A",
+ "fecha": 9,
+ "fechaHora": "2026-06-14 11:15:00",
+ "local": "TENIS EL PINAR",
+ "visitante": "CLUB SEMINARIO",
+ "gl": 1,
+ "gv": 0,
+ "detalle": [
+  {
+   "nro_partido": "69",
+   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+   "deporte": "FÚTBOL",
+   "torneo": "MAYORES",
+   "categoria": "MAYORES MASCULINO",
+   "rueda": "1",
+   "Divisional": "DIVISIONAL \"A\"",
+   "Cancha": "TENIS EL PINAR",
+   "Fecha_Inicio": "2026-06-14 13:06:00",
+   "Fecha_fin": "2026-06-14 13:06:00",
+   "Locatario": "TENIS EL PINAR",
+   "goles_locatario": "1",
+   "puntos_locatario": "3",
+   "Visitante": "CLUB SEMINARIO",
+   "goles_visitante": "0",
+   "puntos_visitante": "0",
+   "walk_over": "0",
+   "observaciones": null
+  }
+ ],
+ "titularesL": [
+  {
+   "carne": "46449",
+   "Nombre": "AGUSTIN LOMBARDO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "46828",
+   "Nombre": "CIPRIANO BAROFFIO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "42528",
+   "Nombre": "RODRIGO MARTIN ESPINOSA",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "40761",
+   "Nombre": "MAXIMILIANO SIENRA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "45225",
+   "Nombre": "LAUTARO PEREZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "38349",
+   "Nombre": "JUAN PABLO ECHEVERRIARZA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "34528",
+   "Nombre": "JOAQUIN ANDRES AMOEDO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "23904",
+   "Nombre": "GASTON ANDRES SUAREZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "54830",
+   "Nombre": "GUILLERMO NIETO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "36992",
+   "Nombre": "AGUSTIN RAMOS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "26339",
+   "Nombre": "JUAN MARTIN OYENARD",
+   "camiseta": "15",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "52755",
+   "Nombre": "JOAQUIN MIRANDA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54784",
+   "Nombre": "FACUNDO EMILIANO PAGANI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "59121",
+   "Nombre": "ARIEL YONHATAN PACHECO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "39147",
+   "Nombre": "SEBASTIAN ECHEVERZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "37424",
+   "Nombre": "SANTIAGO PEREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "39017",
+   "Nombre": "GERMAN FRAGA",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "47673",
+   "Nombre": "FRANCISCO JAVIER CAMPON",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "57157",
+   "Nombre": "FACUNDO PIRIS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "47176",
+   "Nombre": "SANTIAGO BENZANO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "47696",
+   "Nombre": "IGNACIO TOMAS ESTEFAN",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "47680",
+   "Nombre": "JUAN FELIPE LUCAS",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "45225",
+   "Jug_Sale": "LAUTARO PEREZ",
+   "CarneEntra": "39169",
+   "Jug_Entra": "GONZALO FEDERICO PRADA",
+   "camiseta": "80",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "36992",
+   "Jug_Sale": "AGUSTIN RAMOS",
+   "CarneEntra": "48870",
+   "Jug_Entra": "RENZO FORTI",
+   "camiseta": "30",
+   "minutos": "86"
+  },
+  {
+   "CarneSale": "54830",
+   "Jug_Sale": "GUILLERMO NIETO",
+   "CarneEntra": "45505",
+   "Jug_Entra": "SANTIAGO DANIEL TORRES",
+   "camiseta": "3",
+   "minutos": "86"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "37424",
+   "Jug_Sale": "SANTIAGO PEREZ",
+   "CarneEntra": "42555",
+   "Jug_Entra": "RODRIGO VAZQUEZ",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47696",
+   "Jug_Sale": "IGNACIO TOMAS ESTEFAN",
+   "CarneEntra": "48141",
+   "Jug_Entra": "NICOLAS ANGEL DE LA PEÑA",
+   "camiseta": "13",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "47673",
+   "Jug_Sale": "FRANCISCO JAVIER CAMPON",
+   "CarneEntra": "28056",
+   "Jug_Entra": "RENZO CARUSO",
+   "camiseta": "5",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "34528",
+   "Nombre": "JOAQUIN ANDRES AMOEDO",
+   "minutos": "80",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": [],
+ "amonestadosL": [],
+ "amonestadosV": []
+}

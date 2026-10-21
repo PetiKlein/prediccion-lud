@@ -1,0 +1,231 @@
+{
+ "id": "99533",
+ "serie": "A",
+ "fecha": 7,
+ "fechaHora": "2026-05-31 11:15:00",
+ "local": "OLD IVY",
+ "visitante": "OLD CHRISTIANS CLUB",
+ "gl": 0,
+ "gv": 2,
+ "detalle": [
+  {
+   "nro_partido": "51",
+   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+   "deporte": "FÚTBOL",
+   "torneo": "MAYORES",
+   "categoria": "MAYORES MASCULINO",
+   "rueda": "1",
+   "Divisional": "DIVISIONAL \"A\"",
+   "Cancha": "OLD IVY",
+   "Fecha_Inicio": "2026-05-31 13:25:00",
+   "Fecha_fin": "2026-05-31 13:25:00",
+   "Locatario": "OLD IVY",
+   "goles_locatario": "0",
+   "puntos_locatario": "0",
+   "Visitante": "OLD CHRISTIANS CLUB",
+   "goles_visitante": "2",
+   "puntos_visitante": "3",
+   "walk_over": "0",
+   "observaciones": null
+  }
+ ],
+ "titularesL": [
+  {
+   "carne": "43339",
+   "Nombre": "THIAGO MAHIA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "54763",
+   "Nombre": "JUAN BAUTISTA CROSA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "18671",
+   "Nombre": "SANTIAGO COTELO",
+   "camiseta": "23",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "45594",
+   "Nombre": "SANTIAGO GUTIERREZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "61341",
+   "Nombre": "MATEO SUBIRAN",
+   "camiseta": "52",
+   "Capitan": ""
+  },
+  {
+   "carne": "45591",
+   "Nombre": "FEDERICO DEAKIN",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "61383",
+   "Nombre": "MATIAS BENECH",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "54564",
+   "Nombre": "GUILLERMO CAMPOS",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "47834",
+   "Nombre": "THOMAS DEAKIN",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "57133",
+   "Nombre": "GUIDO MARTINO",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "52848",
+   "Nombre": "CAMILO ROSSO",
+   "camiseta": "12",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "51657",
+   "Nombre": "FELIPE PEREYRA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "52602",
+   "Nombre": "JUAN DIEGO DE CASTRO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "48884",
+   "Nombre": "JUAN GUILLERMO ARROSPIDE",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "40763",
+   "Nombre": "MATEO VINCENT",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "35068",
+   "Nombre": "MATEO DI LORENZO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "28143",
+   "Nombre": "EMILIANO GIOIA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "26432",
+   "Nombre": "SANTIAGO LOPEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "52249",
+   "Nombre": "JUAN GERVASIO ETCHEVERRY",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "37187",
+   "Nombre": "GUILLERMO DEAL",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "53249",
+   "Nombre": "JUAN FRANCISCO FERREIRA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "50902",
+   "Nombre": "SANTIAGO VINCENT",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54763",
+   "Jug_Sale": "JUAN BAUTISTA CROSA",
+   "CarneEntra": "48008",
+   "Jug_Entra": "SANTIAGO DABO",
+   "camiseta": "45",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "54564",
+   "Jug_Sale": "GUILLERMO CAMPOS",
+   "CarneEntra": "48007",
+   "Jug_Entra": "VALENTIN MIER",
+   "camiseta": "12",
+   "minutos": "78"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "40763",
+   "Jug_Sale": "MATEO VINCENT",
+   "CarneEntra": "37735",
+   "Jug_Entra": "FRANCO MASCIA",
+   "camiseta": "7",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "35068",
+   "Jug_Sale": "MATEO DI LORENZO",
+   "CarneEntra": "43345",
+   "Jug_Entra": "SANTIAGO PALLARES",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "52249",
+   "Jug_Sale": "JUAN GERVASIO ETCHEVERRY",
+   "CarneEntra": "37170",
+   "Jug_Entra": "SEBASTIAN REGULES",
+   "camiseta": "71",
+   "minutos": "55"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "51657",
+   "Nombre": "FELIPE PEREYRA",
+   "minutos": "0",
+   "EnContra": "1"
+  },
+  {
+   "carne": "53249",
+   "Nombre": "JUAN FRANCISCO FERREIRA",
+   "minutos": "68",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [],
+ "amonestadosL": [],
+ "amonestadosV": []
+}

@@ -1,0 +1,210 @@
+{
+ "id": "99148",
+ "serie": "A",
+ "fecha": 6,
+ "fechaHora": "2026-05-24 11:15:00",
+ "local": "CLUB SEMINARIO",
+ "visitante": "OLD IVY",
+ "gl": 0,
+ "gv": 0,
+ "detalle": [
+  {
+   "nro_partido": "46",
+   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+   "deporte": "FÚTBOL",
+   "torneo": "MAYORES",
+   "categoria": "MAYORES MASCULINO",
+   "rueda": "1",
+   "Divisional": "DIVISIONAL \"A\"",
+   "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+   "Fecha_Inicio": "2026-05-24 13:15:00",
+   "Fecha_fin": "2026-05-24 13:15:00",
+   "Locatario": "CLUB SEMINARIO",
+   "goles_locatario": "0",
+   "puntos_locatario": "1",
+   "Visitante": "OLD IVY",
+   "goles_visitante": "0",
+   "puntos_visitante": "1",
+   "walk_over": "0",
+   "observaciones": null
+  }
+ ],
+ "titularesL": [
+  {
+   "carne": "52755",
+   "Nombre": "JOAQUIN MIRANDA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "37424",
+   "Nombre": "SANTIAGO PEREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "50839",
+   "Nombre": "FABRIZIO JORGE GRAJALES",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "39147",
+   "Nombre": "SEBASTIAN ECHEVERZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "47683",
+   "Nombre": "JUAN IGNACIO VIOLA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "28056",
+   "Nombre": "RENZO CARUSO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "57157",
+   "Nombre": "FACUNDO PIRIS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "47680",
+   "Nombre": "JUAN FELIPE LUCAS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "47176",
+   "Nombre": "SANTIAGO BENZANO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "47696",
+   "Nombre": "IGNACIO TOMAS ESTEFAN",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "50866",
+   "Nombre": "JOSE SANTIAGO LUCAS",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "35399",
+   "Nombre": "FELIPE BAUZA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61341",
+   "Nombre": "MATEO SUBIRAN",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "45594",
+   "Nombre": "SANTIAGO GUTIERREZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "18671",
+   "Nombre": "SANTIAGO COTELO",
+   "camiseta": "23",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61383",
+   "Nombre": "MATIAS BENECH",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "45591",
+   "Nombre": "FEDERICO DEAKIN",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "54564",
+   "Nombre": "GUILLERMO CAMPOS",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "47833",
+   "Nombre": "SANTIAGO ANGENSCHEDIT",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "47834",
+   "Nombre": "THOMAS DEAKIN",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "57133",
+   "Nombre": "GUIDO MARTINO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "52848",
+   "Nombre": "CAMILO ROSSO",
+   "camiseta": "12",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "50866",
+   "Jug_Sale": "JOSE SANTIAGO LUCAS",
+   "CarneEntra": "54784",
+   "Jug_Entra": "FACUNDO EMILIANO PAGANI",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57157",
+   "Jug_Sale": "FACUNDO PIRIS",
+   "CarneEntra": "52764",
+   "Jug_Entra": "DIEGO BUELA",
+   "camiseta": "20",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "28056",
+   "Jug_Sale": "RENZO CARUSO",
+   "CarneEntra": "42555",
+   "Jug_Entra": "RODRIGO VAZQUEZ",
+   "camiseta": "3",
+   "minutos": "82"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "52848",
+   "Jug_Sale": "CAMILO ROSSO",
+   "CarneEntra": "54763",
+   "Jug_Entra": "JUAN BAUTISTA CROSA",
+   "camiseta": "8",
+   "minutos": "94"
+  }
+ ],
+ "golesL": [],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": [],
+ "amonestadosL": [],
+ "amonestadosV": []
+}

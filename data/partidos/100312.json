@@ -1,0 +1,265 @@
+{
+ "id": "100312",
+ "serie": "A",
+ "fecha": 10,
+ "fechaHora": "2026-06-21 11:15:00",
+ "local": "CLUB SEMINARIO",
+ "visitante": "OLD WOODLANDS CLUB",
+ "gl": 1,
+ "gv": 1,
+ "detalle": [
+  {
+   "nro_partido": "76",
+   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+   "deporte": "FÚTBOL",
+   "torneo": "MAYORES",
+   "categoria": "MAYORES MASCULINO",
+   "rueda": "1",
+   "Divisional": "DIVISIONAL \"A\"",
+   "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+   "Fecha_Inicio": "2026-06-21 13:10:00",
+   "Fecha_fin": "2026-06-21 13:10:00",
+   "Locatario": "CLUB SEMINARIO",
+   "goles_locatario": "1",
+   "puntos_locatario": "1",
+   "Visitante": "OLD WOODLANDS CLUB",
+   "goles_visitante": "1",
+   "puntos_visitante": "1",
+   "walk_over": "0",
+   "observaciones": null
+  }
+ ],
+ "titularesL": [
+  {
+   "carne": "52755",
+   "Nombre": "JOAQUIN MIRANDA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54784",
+   "Nombre": "FACUNDO EMILIANO PAGANI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "43035",
+   "Nombre": "LUCAS PIAGGIO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "39147",
+   "Nombre": "SEBASTIAN ECHEVERZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "42555",
+   "Nombre": "RODRIGO VAZQUEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "39017",
+   "Nombre": "GERMAN FRAGA",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "47673",
+   "Nombre": "FRANCISCO JAVIER CAMPON",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "57157",
+   "Nombre": "FACUNDO PIRIS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "50866",
+   "Nombre": "JOSE SANTIAGO LUCAS",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "47176",
+   "Nombre": "SANTIAGO BENZANO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "47680",
+   "Nombre": "JUAN FELIPE LUCAS",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "47611",
+   "Nombre": "FERNAN BZUROVSKI",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "35584",
+   "Nombre": "LUCAS GUIMARAES",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "49214",
+   "Nombre": "FELIPE HERNANDEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "40030",
+   "Nombre": "ALEJO BZUROVSKI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "52842",
+   "Nombre": "TIZIANO GUIGOU",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "39927",
+   "Nombre": "MARTIN HERNANDEZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "31120",
+   "Nombre": "JUAN MANUEL DELUCCA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "36816",
+   "Nombre": "MARTIN COLELLA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "41117",
+   "Nombre": "LUIS FERNANDO HERBIN",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "49206",
+   "Nombre": "TOMAS PONCE DE LEON",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "41519",
+   "Nombre": "MATEO ROLDOS",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "57157",
+   "Jug_Sale": "FACUNDO PIRIS",
+   "CarneEntra": "28056",
+   "Jug_Entra": "RENZO CARUSO",
+   "camiseta": "5",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "47673",
+   "Jug_Sale": "FRANCISCO JAVIER CAMPON",
+   "CarneEntra": "48141",
+   "Jug_Entra": "NICOLAS ANGEL DE LA PEÑA",
+   "camiseta": "9",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "54784",
+   "Jug_Sale": "FACUNDO EMILIANO PAGANI",
+   "CarneEntra": "47800",
+   "Jug_Entra": "MATIAS GARRIDO",
+   "camiseta": "22",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "36816",
+   "Jug_Sale": "MARTIN COLELLA",
+   "CarneEntra": "59187",
+   "Jug_Entra": "FACUNDO FERNANDEZ",
+   "camiseta": "47",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "49214",
+   "Jug_Sale": "FELIPE HERNANDEZ",
+   "CarneEntra": "58593",
+   "Jug_Entra": "ALVARO FACUNDO DEFAUT",
+   "camiseta": "50",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "52842",
+   "Jug_Sale": "TIZIANO GUIGOU",
+   "CarneEntra": "62191",
+   "Jug_Entra": "NICOLAS PIRIZ",
+   "camiseta": "27",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "39927",
+   "Jug_Sale": "MARTIN HERNANDEZ",
+   "CarneEntra": "50731",
+   "Jug_Entra": "FACUNDO MUNUA",
+   "camiseta": "80",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "31120",
+   "Jug_Sale": "JUAN MANUEL DELUCCA",
+   "CarneEntra": "59184",
+   "Jug_Entra": "IGNACIO CASTELLO",
+   "camiseta": "95",
+   "minutos": "86"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "47680",
+   "Nombre": "JUAN FELIPE LUCAS",
+   "minutos": "45",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "49214",
+   "Nombre": "FELIPE HERNANDEZ",
+   "minutos": "62",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "LUCAS GUIMARAES",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "ALEJO BZUROVSKI",
+   "observaciones": ""
+  }
+ ],
+ "amonestadosL": [],
+ "amonestadosV": []
+}

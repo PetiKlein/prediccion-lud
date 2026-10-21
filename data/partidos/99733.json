@@ -1,0 +1,264 @@
+{
+ "id": "99733",
+ "serie": "A",
+ "fecha": 8,
+ "fechaHora": "2026-06-07 11:15:00",
+ "local": "CARRASCO POLO CLUB",
+ "visitante": "TENIS EL PINAR",
+ "gl": 2,
+ "gv": 1,
+ "detalle": [
+  {
+   "nro_partido": "60",
+   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+   "deporte": "FÚTBOL",
+   "torneo": "MAYORES",
+   "categoria": "MAYORES MASCULINO",
+   "rueda": "1",
+   "Divisional": "DIVISIONAL \"A\"",
+   "Cancha": "CARRASCO POLO",
+   "Fecha_Inicio": "2026-06-07 13:10:00",
+   "Fecha_fin": "2026-06-07 13:10:00",
+   "Locatario": "CARRASCO POLO CLUB",
+   "goles_locatario": "2",
+   "puntos_locatario": "3",
+   "Visitante": "TENIS EL PINAR",
+   "goles_visitante": "1",
+   "puntos_visitante": "0",
+   "walk_over": "0",
+   "observaciones": null
+  }
+ ],
+ "titularesL": [
+  {
+   "carne": "32465",
+   "Nombre": "MATHIAS PARRA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "53597",
+   "Nombre": "BAUTISTA DE LUCA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "39328",
+   "Nombre": "FEDERICO UCAR",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "29697",
+   "Nombre": "DIEGO LACURCIA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "35870",
+   "Nombre": "LUCAS MACAGNO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "48017",
+   "Nombre": "JUAN MARTIN IRAOLA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "44181",
+   "Nombre": "FRANCISCO LABAT",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "35206",
+   "Nombre": "FEDERICO LACURCIA",
+   "camiseta": "17",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "37473",
+   "Nombre": "SANTIAGO MATO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "46817",
+   "Nombre": "FEDERICO HEBER VAZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "57347",
+   "Nombre": "FACUNDO COSTA",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "30832",
+   "Nombre": "IGNACIO ODRIOZOLA",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "50899",
+   "Nombre": "EMILIANO CABRERA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "46828",
+   "Nombre": "CIPRIANO BAROFFIO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "40761",
+   "Nombre": "MAXIMILIANO SIENRA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "23904",
+   "Nombre": "GASTON ANDRES SUAREZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "38349",
+   "Nombre": "JUAN PABLO ECHEVERRIARZA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "46829",
+   "Nombre": "FACUNDO LABARTHE",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "54830",
+   "Nombre": "GUILLERMO NIETO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "45225",
+   "Nombre": "LAUTARO PEREZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "36992",
+   "Nombre": "AGUSTIN RAMOS",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "26339",
+   "Nombre": "JUAN MARTIN OYENARD",
+   "camiseta": "15",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "37473",
+   "Jug_Sale": "SANTIAGO MATO",
+   "CarneEntra": "45501",
+   "Jug_Entra": "IVAN AMADEO",
+   "camiseta": "20",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "46817",
+   "Jug_Sale": "FEDERICO HEBER VAZ",
+   "CarneEntra": "39434",
+   "Jug_Entra": "SANTIAGO QUIÑONES",
+   "camiseta": "10",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "57347",
+   "Jug_Sale": "FACUNDO COSTA",
+   "CarneEntra": "42582",
+   "Jug_Entra": "IGNACIO LACURCIA",
+   "camiseta": "4",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "45501",
+   "Jug_Sale": "IVAN AMADEO",
+   "CarneEntra": "55483",
+   "Jug_Entra": "IGNACIO PAGES",
+   "camiseta": "16",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "36992",
+   "Jug_Sale": "AGUSTIN RAMOS",
+   "CarneEntra": "34528",
+   "Jug_Entra": "JOAQUIN ANDRES AMOEDO",
+   "camiseta": "7",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "23904",
+   "Jug_Sale": "GASTON ANDRES SUAREZ",
+   "CarneEntra": "38029",
+   "Jug_Entra": "NICOLAS AMOEDO",
+   "camiseta": "20",
+   "minutos": "84"
+  },
+  {
+   "CarneSale": "38029",
+   "Jug_Sale": "NICOLAS AMOEDO",
+   "CarneEntra": "42528",
+   "Jug_Entra": "RODRIGO MARTIN ESPINOSA",
+   "camiseta": "9",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "35206",
+   "Nombre": "FEDERICO LACURCIA",
+   "minutos": "23",
+   "EnContra": "0"
+  },
+  {
+   "carne": "46817",
+   "Nombre": "FEDERICO HEBER VAZ",
+   "minutos": "57",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "40761",
+   "Nombre": "MAXIMILIANO SIENRA",
+   "minutos": "54",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "FRANCISCO LABAT",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "FACUNDO LABARTHE",
+   "observaciones": ""
+  }
+ ],
+ "amonestadosL": [],
+ "amonestadosV": []
+}

@@ -1,0 +1,276 @@
+{
+ "id": "100347",
+ "serie": "A",
+ "fecha": 10,
+ "fechaHora": "2026-06-21 11:15:00",
+ "local": "OLD BOYS CLUB",
+ "visitante": "PLAYA HONDA UNIVERSITARIO",
+ "gl": 2,
+ "gv": 0,
+ "detalle": [
+  {
+   "nro_partido": "73",
+   "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+   "deporte": "FÚTBOL",
+   "torneo": "MAYORES",
+   "categoria": "MAYORES MASCULINO",
+   "rueda": "1",
+   "Divisional": "DIVISIONAL \"A\"",
+   "Cancha": "BRITISH SCHOOL",
+   "Fecha_Inicio": "2026-06-21 13:10:00",
+   "Fecha_fin": "2026-06-21 13:10:00",
+   "Locatario": "OLD BOYS CLUB",
+   "goles_locatario": "2",
+   "puntos_locatario": "3",
+   "Visitante": "PLAYA HONDA UNIVERSITARIO",
+   "goles_visitante": "0",
+   "puntos_visitante": "0",
+   "walk_over": "0",
+   "observaciones": null
+  }
+ ],
+ "titularesL": [
+  {
+   "carne": "59008",
+   "Nombre": "GERONIMO FEDERICO ALONSO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "45769",
+   "Nombre": "JUAN MARIA ANSELMI",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "39045",
+   "Nombre": "SANTIAGO ASTIGARRAGA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "48369",
+   "Nombre": "LUCA BERTINI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "37275",
+   "Nombre": "JOSE MARIA MAÑE",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "54585",
+   "Nombre": "TOMAS CABRAL",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "42815",
+   "Nombre": "ALFONSO JOSE MARTINELLI",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "47515",
+   "Nombre": "JUAN MARIA SEIZER",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "47503",
+   "Nombre": "FRANCO CHIAPPARA",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "38391",
+   "Nombre": "NICOLAS MARIA RODRIGUEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "29955",
+   "Nombre": "NICOLAS CASAROTTI",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "54947",
+   "Nombre": "SANTIAGO HERNAN RAMIREZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54303",
+   "Nombre": "RODRIGO LEON",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "40183",
+   "Nombre": "FERNANDO MICHEL CHACON",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64140",
+   "Nombre": "JUAN IGNACIO CHOCHO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "68646",
+   "Nombre": "MARTIN GUADALUPE",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "58638",
+   "Nombre": "SANTINO TORTORELLA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "55198",
+   "Nombre": "CAMILO JOAQUIN CABRERA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "57539",
+   "Nombre": "MARTIN ANDRES RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58944",
+   "Nombre": "IGNACIO ALGORTA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "66271",
+   "Nombre": "FELIPE RODRIGUEZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "53111",
+   "Nombre": "JUAN PEDRO TAFERNABERRY",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "29955",
+   "Jug_Sale": "NICOLAS CASAROTTI",
+   "CarneEntra": "54580",
+   "Jug_Entra": "JUAN CARLOS VIDIELLA",
+   "camiseta": "49",
+   "minutos": "38"
+  },
+  {
+   "CarneSale": "47503",
+   "Jug_Sale": "FRANCO CHIAPPARA",
+   "CarneEntra": "45241",
+   "Jug_Entra": "JUAN FERMIN REMEDI",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "38391",
+   "Jug_Sale": "NICOLAS MARIA RODRIGUEZ",
+   "CarneEntra": "26972",
+   "Jug_Entra": "JUAN MANUEL MUSETTI",
+   "camiseta": "19",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "45769",
+   "Jug_Sale": "JUAN MARIA ANSELMI",
+   "CarneEntra": "54974",
+   "Jug_Entra": "SANTIAGO BOCAGE",
+   "camiseta": "27",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "29955",
+   "Jug_Sale": "NICOLAS CASAROTTI",
+   "CarneEntra": "56273",
+   "Jug_Entra": "ALEXIS BRUCE",
+   "camiseta": "18",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "47515",
+   "Jug_Sale": "JUAN MARIA SEIZER",
+   "CarneEntra": "29671",
+   "Jug_Entra": "MARTIN GUSTAVO GUERRA",
+   "camiseta": "22",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "39045",
+   "Jug_Sale": "SANTIAGO ASTIGARRAGA",
+   "CarneEntra": "45980",
+   "Jug_Entra": "ZENON CAPELLI",
+   "camiseta": "3",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "53111",
+   "Jug_Sale": "JUAN PEDRO TAFERNABERRY",
+   "CarneEntra": "31696",
+   "Jug_Entra": "JAVIER TAIS",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66271",
+   "Jug_Sale": "FELIPE RODRIGUEZ",
+   "CarneEntra": "67539",
+   "Jug_Entra": "MATIAS NICOLAS RODRIGUEZ",
+   "camiseta": "46",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "55198",
+   "Jug_Sale": "CAMILO JOAQUIN CABRERA",
+   "CarneEntra": "56818",
+   "Jug_Entra": "FACUNDO MARCEL RODRIGUEZ",
+   "camiseta": "37",
+   "minutos": "68"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "38391",
+   "Nombre": "NICOLAS MARIA RODRIGUEZ",
+   "minutos": "8",
+   "EnContra": "0"
+  },
+  {
+   "carne": "45241",
+   "Nombre": "JUAN FERMIN REMEDI",
+   "minutos": "50",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "MARTIN GUADALUPE",
+   "observaciones": ""
+  }
+ ],
+ "amonestadosL": [],
+ "amonestadosV": []
+}
