@@ -318,7 +318,8 @@ function iniciales(n){
   return w.slice(0,3).map(x => x[0]).join('').toUpperCase();
 }
 // Escudos reales en escudos/<slug>.png; los que falten usan el de iniciales.
-const ESCUDOS = new Set(['tape','old-woodlands','tenis-el-pinar','urunday','old-boys','elf','carrasco-polo','nacional-u']);
+const ESCUDOS = new Set(['tape','old-woodlands','tenis-el-pinar','urunday','old-boys','elf','carrasco-polo','nacional-u',
+  'hebraica-y-macabi','carrasco-lawn-tennis','playa-honda','juan-xxiii','old-christians','santa-elena','old-ivy','seminario']);
 const slugEq = n => n.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 function crest(n){
   const sl = slugEq(n);
