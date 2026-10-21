@@ -1,0 +1,17 @@
+{
+  "name": "Predicción LUD",
+  "short_name": "Penca LUD",
+  "description": "La penca del grupo: pronósticos de la Divisional A Mayores de la Liga Universitaria.",
+  "lang": "es-UY",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1d6b3c",
+  "theme_color": "#1d6b3c",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
