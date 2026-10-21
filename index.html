@@ -190,7 +190,7 @@ td.f{color:var(--muted)}
 .admin{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;display:flex;flex-direction:column;gap:10px}
 .admin h3{margin:0;font-family:var(--display);font-weight:800;font-size:1.35rem;line-height:1}
 .admin .tablewrap{border:0}
-.share-row{display:flex;justify-content:flex-end}
+.share-row{display:flex;justify-content:center}
 .btn.wpp{display:inline-flex;align-items:center;gap:8px;background:#25d366;border-color:#25d366;color:#06301a}
 .btn.wpp::before{content:"";width:16px;height:16px;flex:0 0 auto;background:currentColor;
   -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9 2h9a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 2v11h9V4zM4 7h1v13h11v2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z'/%3E%3C/svg%3E") center/contain no-repeat;
@@ -606,9 +606,9 @@ function renderTabla(){
     const cl = [me && r.j.id===me.id ? 'me' : '', pos <= 3 ? `p${pos}` : ''].join(' ').trim();
     return `<tr class="${cl}"><td class="pos"><span class="posn">${pos}</span></td><td class="name">${esc(r.j.nombre)}${sub}</td><td class="pts">${r.pts}</td>${hayBase?`<td class="f">${r.base}</td>`:''}${fs.map(f=>`<td class="f">+${r.porFecha[f] ?? 0}</td>`).join('')}</tr>`; }).join('');
   $main.innerHTML = identityBox() + `<p class="lede">1 punto por acertar ganador o empate. Se suma solo cuando la Liga carga el resultado.${hayBase?' «Antes» son los puntos que traían del grupo hasta la fecha 4.':''} Debajo de cada nombre está la cuenta de Google que lo usa.</p>
+    <div class="tablewrap"><table><thead><tr><th>#</th><th class="name">Jugador</th><th>Pts</th>${hayBase?'<th>Antes</th>':''}${fs.map(f=>`<th>F${f}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table></div>
     <div class="share-row"><button class="btn wpp" type="button" data-copiar-tabla>Copiar tabla para WhatsApp</button></div>
-    <textarea id="tablaTexto" class="copybox" readonly hidden aria-label="Tabla para copiar"></textarea>
-    <div class="tablewrap"><table><thead><tr><th>#</th><th class="name">Jugador</th><th>Pts</th>${hayBase?'<th>Antes</th>':''}${fs.map(f=>`<th>F${f}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table></div>`;
+    <textarea id="tablaTexto" class="copybox" readonly hidden aria-label="Tabla para copiar"></textarea>`;
 }
 
 function renderResultados(){
