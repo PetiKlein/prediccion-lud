@@ -28,7 +28,7 @@ async function api(params) {
   const q = new URLSearchParams(params).toString().replace(/\+/g, '%20');
   for (let intento = 1; ; intento++) {
     try {
-      const r = await fetch(`${BASE}?${q}`, { headers: { 'User-Agent': 'prediccion-lud (penca de amigos)' } });
+      const r = await fetch(`${BASE}?${q}`, { headers: { 'User-Agent': 'prediccion-lud (penca de amigos)' }, signal: AbortSignal.timeout(25000) });
       if (!r.ok) throw new Error(`HTTP ${r.status}`);
       const txt = (await r.text()).trim();
       if (!txt) return [];
@@ -54,12 +54,11 @@ for (const serie of SERIES) {
       if (viejo.titularesL.length && viejo.titularesV.length) { salteados++; continue; }
     }
     const out = { id: p.ID, serie, fecha: Number(p.Fecha), fechaHora: p.Fecha_Hora, local: p.Locatario, visitante: p.Visitante, gl: Number(p.GL), gv: Number(p.GV) };
-    for (const [k, action] of Object.entries(ACCIONES)) {
-      out[k] = await api({ action, id: p.ID });
-      await espera(120);
-    }
+    const partes = await Promise.all(Object.entries(ACCIONES).map(async ([k, action]) => [k, await api({ action, id: p.ID })]));
+    Object.assign(out, Object.fromEntries(partes));
     writeFileSync(archivo, JSON.stringify(out, null, 1) + '\n');
     bajados++;
+    console.log(`${serie} F${p.Fecha}: ${p.Locatario} ${p.GL}-${p.GV} ${p.Visitante}`);
   }
 }
 console.log(`Partidos bajados: ${bajados}. Ya estaban: ${salteados}.`);
