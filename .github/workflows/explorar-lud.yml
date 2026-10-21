@@ -25,6 +25,14 @@ jobs:
               curl -sL "$u" -o "$n"; echo "$u -> $n" >> scripts.txt
             done
           done
+          curl -sL "$B/resultados/detallePartido.html?id=102327" -o detalle.html
+          grep -oE 'src="[^"]+\.js[^"]*"' detalle.html | sed 's/src="//;s/"$//' | sort -u | while read s; do
+            case "$s" in http*) u="$s";; /*) u="$B$s";; *) u="$B/resultados/$s";; esac
+            n="detalle-$(basename "${s%%\?*}")"; curl -sL "$u" -o "$n"; echo "$u -> $n" >> scripts.txt
+          done
+          for a in $(cat detalle-*.js 2>/dev/null | grep -oE 'action=[A-Za-z]+' | sort -u | cut -d= -f2); do
+            curl -sL "$B/resultados/api.php?action=$a&id=102327" -o "api-$a.json"
+          done
           ls -la
       - name: Guardar
         run: |
