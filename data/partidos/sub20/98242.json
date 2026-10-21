@@ -1,0 +1,275 @@
+{
+ "id": "98242",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 2,
+ "fechaHora": "2026-04-18 15:30:00",
+ "cancha": "OLD CHRISTIANS CLUB",
+ "local": "OLD CHRISTIANS CLUB",
+ "visitante": "CARRASCO LAWN TENNIS",
+ "gl": 1,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "12",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "OLD CHRISTIANS CLUB",
+  "Fecha_Inicio": "2026-04-18 17:20:00",
+  "Fecha_fin": "2026-04-18 17:20:00",
+  "Locatario": "OLD CHRISTIANS CLUB",
+  "goles_locatario": "1",
+  "puntos_locatario": "1",
+  "Visitante": "CARRASCO LAWN TENNIS",
+  "goles_visitante": "1",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "55226",
+   "Nombre": "ALFONSO DEL CASTILLO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "52697",
+   "Nombre": "JOAQUIN DAVID LEAO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "59504",
+   "Nombre": "BAUTISTA RAUL FERNANDEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56863",
+   "Nombre": "JUAN PEDRO TORRES",
+   "camiseta": "54",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56856",
+   "Nombre": "JOAQUIN FLEURQUIN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56317",
+   "Nombre": "PABLO EZEQUIEL BARRETO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "56859",
+   "Nombre": "AGUSTIN FERNANDEZ",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "59506",
+   "Nombre": "AGUSTIN HOUNIE",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "64835",
+   "Nombre": "FACUNDO MARQUEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "55609",
+   "Nombre": "THEO CORTABARRIA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "52688",
+   "Nombre": "FRANCO RAUL CORREA",
+   "camiseta": "22",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "60181",
+   "Nombre": "MATIAS FABREGAT",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56133",
+   "Nombre": "FRANCO GAMBOGGI",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "59063",
+   "Nombre": "FRANCISCO RODRIGUEZ",
+   "camiseta": "39",
+   "Capitan": ""
+  },
+  {
+   "carne": "56134",
+   "Nombre": "FELIPE MIGUEL WAS",
+   "camiseta": "23",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66376",
+   "Nombre": "MANUEL DARIO ASENCIO",
+   "camiseta": "56",
+   "Capitan": ""
+  },
+  {
+   "carne": "54769",
+   "Nombre": "JUAN GONZALEZ",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "67506",
+   "Nombre": "JUAN IGNACIO SERRENTINO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "64790",
+   "Nombre": "SANTINO FIORELLI",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "58916",
+   "Nombre": "FELIPE BORDOLI",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "57067",
+   "Nombre": "JUAN BAUTISTA ALGORTA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "57593",
+   "Nombre": "GENARO DE MORI",
+   "camiseta": "38",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "59504",
+   "Jug_Sale": "BAUTISTA RAUL FERNANDEZ",
+   "CarneEntra": "64681",
+   "Jug_Entra": "FACUNDO TOPOLANSKI",
+   "camiseta": "33",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "59506",
+   "Jug_Sale": "AGUSTIN HOUNIE",
+   "CarneEntra": "65948",
+   "Jug_Entra": "BALTASAR DELBENE",
+   "camiseta": "47",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "56859",
+   "Jug_Sale": "AGUSTIN FERNANDEZ",
+   "CarneEntra": "55250",
+   "Jug_Entra": "TOMAS PEREYRA",
+   "camiseta": "10",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "64835",
+   "Jug_Sale": "FACUNDO MARQUEZ",
+   "CarneEntra": "54771",
+   "Jug_Entra": "MARTIN MIHALIK",
+   "camiseta": "7",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "52697",
+   "Jug_Sale": "JOAQUIN DAVID LEAO",
+   "CarneEntra": "67547",
+   "Jug_Entra": "PEDRO ALEJO AROCENA",
+   "camiseta": "96",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "52688",
+   "Jug_Sale": "FRANCO RAUL CORREA",
+   "CarneEntra": "55212",
+   "Jug_Entra": "PEDRO TORRENDELL",
+   "camiseta": "11",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57593",
+   "Jug_Sale": "GENARO DE MORI",
+   "CarneEntra": "56131",
+   "Jug_Entra": "SEBASTIAN OLAVE",
+   "camiseta": "60",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "54769",
+   "Jug_Sale": "JUAN GONZALEZ",
+   "CarneEntra": "56869",
+   "Jug_Entra": "NICOLAS PODESTA",
+   "camiseta": "36",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "67506",
+   "Jug_Sale": "JUAN IGNACIO SERRENTINO",
+   "CarneEntra": "63410",
+   "Jug_Entra": "TOMAS GRUDZIEN",
+   "camiseta": "34",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "58916",
+   "Jug_Sale": "FELIPE BORDOLI",
+   "CarneEntra": "56127",
+   "Jug_Entra": "FELIPE CROCI",
+   "camiseta": "33",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56859",
+   "Nombre": "AGUSTIN FERNANDEZ",
+   "minutos": "33",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "64790",
+   "Nombre": "SANTINO FIORELLI",
+   "minutos": "30",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "FRANCO GAMBOGGI",
+   "observaciones": ""
+  }
+ ]
+}

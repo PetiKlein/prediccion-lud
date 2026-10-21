@@ -1,0 +1,278 @@
+{
+ "id": "98077",
+ "categoria": "mayores",
+ "serie": "A",
+ "fecha": 1,
+ "fechaHora": "2026-04-12 11:15:00",
+ "cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
+ "local": "HEBRAICA UNIVERSITARIO",
+ "visitante": "JUAN XXIII",
+ "gl": 1,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "5",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "1",
+  "Divisional": "DIVISIONAL \"A\"",
+  "Cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
+  "Fecha_Inicio": "2026-04-12 13:15:00",
+  "Fecha_fin": "2026-04-12 13:15:00",
+  "Locatario": "HEBRAICA UNIVERSITARIO",
+  "goles_locatario": "1",
+  "puntos_locatario": "1",
+  "Visitante": "JUAN XXIII",
+  "goles_visitante": "1",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "35658",
+   "Nombre": "JOAQUIN ZEINAL",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "44310",
+   "Nombre": "LUCAS ARON NAHMIAS",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "34392",
+   "Nombre": "JUAN PEDRO PEREYRA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "28319",
+   "Nombre": "MIKAEL LIJTENSTEIN",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "37385",
+   "Nombre": "FEDERICO BRENER",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "61200",
+   "Nombre": "ARY GUSTAVO RABINO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "34651",
+   "Nombre": "MARCEL POZIOMEK",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "35085",
+   "Nombre": "IONATAN ISZAKOVITS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "39124",
+   "Nombre": "DARIO SZTERMAN",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "39120",
+   "Nombre": "NURIEL LEWIN",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "35092",
+   "Nombre": "NICOLAS POZIOMEK",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "47883",
+   "Nombre": "STIVEN ACOSTA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "58847",
+   "Nombre": "JUAN DIEGO FAGNONI",
+   "camiseta": "67",
+   "Capitan": ""
+  },
+  {
+   "carne": "49422",
+   "Nombre": "MARTIN ESTEBAN DECIA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "50225",
+   "Nombre": "ENZO CANCLINI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "51518",
+   "Nombre": "SANTIAGO BRANCATO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "54720",
+   "Nombre": "FRANCISCO ROBAINA",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "40859",
+   "Nombre": "JUAN MANUEL FERREIRA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "52645",
+   "Nombre": "AGUSTIN QUARTINO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "45693",
+   "Nombre": "PEDRO BENZO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "41174",
+   "Nombre": "JUAN PABLO PASTORINO",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "53365",
+   "Nombre": "FRANCO NICOLAS PEREIRA",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "35085",
+   "Jug_Sale": "IONATAN ISZAKOVITS",
+   "CarneEntra": "35104",
+   "Jug_Entra": "MARTIN OPPENHEIMER",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "44310",
+   "Jug_Sale": "LUCAS ARON NAHMIAS",
+   "CarneEntra": "52947",
+   "Jug_Entra": "TOMAS BARNETT",
+   "camiseta": "47",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "34651",
+   "Jug_Sale": "MARCEL POZIOMEK",
+   "CarneEntra": "43319",
+   "Jug_Entra": "ALAN GARFINKEL",
+   "camiseta": "9",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "61200",
+   "Jug_Sale": "ARY GUSTAVO RABINO",
+   "CarneEntra": "43899",
+   "Jug_Entra": "MATIAS KOHN",
+   "camiseta": "29",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "35092",
+   "Jug_Sale": "NICOLAS POZIOMEK",
+   "CarneEntra": "32001",
+   "Jug_Entra": "GIOVANNI ZEOLI",
+   "camiseta": "32",
+   "minutos": "84"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "52645",
+   "Jug_Sale": "AGUSTIN QUARTINO",
+   "CarneEntra": "49276",
+   "Jug_Entra": "MATEO TECHEIRA",
+   "camiseta": "15",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "45693",
+   "Jug_Sale": "PEDRO BENZO",
+   "CarneEntra": "48081",
+   "Jug_Entra": "EMILIANO DANIEL AHUNTCHAIN",
+   "camiseta": "5",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "41174",
+   "Jug_Sale": "JUAN PABLO PASTORINO",
+   "CarneEntra": "59104",
+   "Jug_Entra": "LUCAS AGUSTIN WENZEL",
+   "camiseta": "9",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "40859",
+   "Jug_Sale": "JUAN MANUEL FERREIRA",
+   "CarneEntra": "58711",
+   "Jug_Entra": "GERMAN MANGARELLI",
+   "camiseta": "10",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "58847",
+   "Jug_Sale": "JUAN DIEGO FAGNONI",
+   "CarneEntra": "67675",
+   "Jug_Entra": "MATEO MAURO GONZALEZ",
+   "camiseta": "96",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "51518",
+   "Jug_Sale": "SANTIAGO BRANCATO",
+   "CarneEntra": "47130",
+   "Jug_Entra": "FRANCISCO ALVAREZ DE RON",
+   "camiseta": "17",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "61200",
+   "Nombre": "ARY GUSTAVO RABINO",
+   "minutos": "55",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "45693",
+   "Nombre": "PEDRO BENZO",
+   "minutos": "2",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

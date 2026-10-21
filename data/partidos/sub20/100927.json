@@ -1,0 +1,276 @@
+{
+ "id": "100927",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 15,
+ "fechaHora": "2026-08-15 13:30:00",
+ "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+ "local": "PLAYA HONDA UNIVERSITARIO",
+ "visitante": "J.M.L.M",
+ "gl": 0,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "120",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+  "Fecha_Inicio": "2026-08-15 15:35:00",
+  "Fecha_fin": "2026-08-15 15:35:00",
+  "Locatario": "PLAYA HONDA UNIVERSITARIO",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "J.M.L.M",
+  "goles_visitante": "1",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "52916",
+   "Nombre": "GUZMAN ESTOUP",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "66091",
+   "Nombre": "AGUSTIN VALLARINO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "58940",
+   "Nombre": "MARTIN LANGONE",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "57053",
+   "Nombre": "JUAN MATTOS",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "64032",
+   "Nombre": "FRANCESCO BRUNO STAGNO",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "67535",
+   "Nombre": "BENJAMIN DE IZAGUIRRE",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "56235",
+   "Nombre": "MANUEL SEBASTIAN BURGOS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "58540",
+   "Nombre": "TOMAS BERTINAT",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62024",
+   "Nombre": "JUAN MANUEL BOCCHI",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "57776",
+   "Nombre": "EMILIANO DIAZ",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "58934",
+   "Nombre": "IGNACIO AGUIAR",
+   "camiseta": "2",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "61464",
+   "Nombre": "DIEGO CIRILLO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "55153",
+   "Nombre": "MAXIMO FERRIRA",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "55662",
+   "Nombre": "FEDERICO GASTON DOLIVO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "56241",
+   "Nombre": "GUILLERMO FERRARI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "53175",
+   "Nombre": "MATEO GILI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "55785",
+   "Nombre": "MATEO LAUTARO RODRIGUEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "57046",
+   "Nombre": "FRANCISCO MATTOS",
+   "camiseta": "90",
+   "Capitan": ""
+  },
+  {
+   "carne": "56238",
+   "Nombre": "THIAGO GONZALEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "56176",
+   "Nombre": "SANTIAGO LUCAS",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "55150",
+   "Nombre": "MANUEL MAZZILLI",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "58174",
+   "Nombre": "MATEO MARTINEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "57776",
+   "Jug_Sale": "EMILIANO DIAZ",
+   "CarneEntra": "67127",
+   "Jug_Entra": "FEDERICO SORIA",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56235",
+   "Jug_Sale": "MANUEL SEBASTIAN BURGOS",
+   "CarneEntra": "68239",
+   "Jug_Entra": "AGUSTIN ALEJANDRO ARTAGAVEYTIA",
+   "camiseta": "43",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "58940",
+   "Jug_Sale": "MARTIN LANGONE",
+   "CarneEntra": "62050",
+   "Jug_Entra": "ALEJO GARRIDO",
+   "camiseta": "21",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "62024",
+   "Jug_Sale": "JUAN MANUEL BOCCHI",
+   "CarneEntra": "67537",
+   "Jug_Entra": "BAUTISTA GARRE",
+   "camiseta": "38",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "62024",
+   "Jug_Sale": "JUAN MANUEL BOCCHI",
+   "CarneEntra": "59931",
+   "Jug_Entra": "JUAN MANUEL TOUYA",
+   "camiseta": "4",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "55785",
+   "Jug_Sale": "MATEO LAUTARO RODRIGUEZ",
+   "CarneEntra": "64165",
+   "Jug_Entra": "BENJAMIN MONTES",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55150",
+   "Jug_Sale": "MANUEL MAZZILLI",
+   "CarneEntra": "60876",
+   "Jug_Entra": "EMILIANO TASENDE",
+   "camiseta": "71",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58174",
+   "Jug_Sale": "MATEO MARTINEZ",
+   "CarneEntra": "66739",
+   "Jug_Entra": "RENZO BARBIERI",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55153",
+   "Jug_Sale": "MAXIMO FERRIRA",
+   "CarneEntra": "59539",
+   "Jug_Entra": "AGUSTIN ROBERTO",
+   "camiseta": "8",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "56176",
+   "Jug_Sale": "SANTIAGO LUCAS",
+   "CarneEntra": "64263",
+   "Jug_Entra": "JUAN MANUEL DUPONT",
+   "camiseta": "77",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "55662",
+   "Jug_Sale": "FEDERICO GASTON DOLIVO",
+   "CarneEntra": "58174",
+   "Jug_Entra": "MATEO MARTINEZ",
+   "camiseta": "13",
+   "minutos": "83"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "55150",
+   "Nombre": "MANUEL MAZZILLI",
+   "minutos": "42",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "IGNACIO AGUIAR",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": []
+}

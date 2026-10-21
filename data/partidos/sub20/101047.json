@@ -1,0 +1,253 @@
+{
+ "id": "101047",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 15,
+ "fechaHora": "2026-08-15 15:30:00",
+ "cancha": "COMPLEJO WOODLANDS SCHOOL",
+ "local": "OLD WOODLANDS CLUB",
+ "visitante": "OLD BOYS CLUB",
+ "gl": 0,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "119",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "COMPLEJO WOODLANDS SCHOOL",
+  "Fecha_Inicio": "2026-08-15 17:30:00",
+  "Fecha_fin": "2026-08-15 17:30:00",
+  "Locatario": "OLD WOODLANDS CLUB",
+  "goles_locatario": "0",
+  "puntos_locatario": "1",
+  "Visitante": "OLD BOYS CLUB",
+  "goles_visitante": "0",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "65071",
+   "Nombre": "MANUEL FELIPE DOMINGUEZ",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "65736",
+   "Nombre": "CONSTANTINO JUAN SOTO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "56934",
+   "Nombre": "RODRIGO VICTORICA",
+   "camiseta": "93",
+   "Capitan": ""
+  },
+  {
+   "carne": "59184",
+   "Nombre": "IGNACIO CASTELLO",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "55243",
+   "Nombre": "FELIPE LYONNET",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "57173",
+   "Nombre": "ALFONSO FLEURQUIN",
+   "camiseta": "98",
+   "Capitan": ""
+  },
+  {
+   "carne": "55065",
+   "Nombre": "FELIPE SONEIRA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "55093",
+   "Nombre": "TIMOTEO MORELLI",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "62361",
+   "Nombre": "FACUNDO GONZALEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "59187",
+   "Nombre": "FACUNDO FERNANDEZ",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "57168",
+   "Nombre": "PEDRO ROMERO",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "65914",
+   "Nombre": "LUCAS FACUNDO RUIZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56261",
+   "Nombre": "FRANCISCO NOVEGIL",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "56265",
+   "Nombre": "JUAN MARTIN HRILJAC",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "57032",
+   "Nombre": "VITTORIO VIGNOLI",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "55700",
+   "Nombre": "MANUEL LACALLE",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "56273",
+   "Nombre": "ALEXIS BRUCE",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "54975",
+   "Nombre": "TOMAS BRAUSE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "57945",
+   "Nombre": "BAUTISTA ESTEFANELL",
+   "camiseta": "95",
+   "Capitan": ""
+  },
+  {
+   "carne": "56255",
+   "Nombre": "TOMAS YOUNG",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "56262",
+   "Nombre": "FRANCISCO NAVARRO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "56267",
+   "Nombre": "JOAQUIN GUTIERREZ",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56934",
+   "Jug_Sale": "RODRIGO VICTORICA",
+   "CarneEntra": "55084",
+   "Jug_Entra": "FRANCO PIGNANELLI",
+   "camiseta": "22",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "57173",
+   "Jug_Sale": "ALFONSO FLEURQUIN",
+   "CarneEntra": "62191",
+   "Jug_Entra": "NICOLAS PIRIZ",
+   "camiseta": "27",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "55243",
+   "Jug_Sale": "FELIPE LYONNET",
+   "CarneEntra": "55081",
+   "Jug_Entra": "GUILLERMO DI BELLO",
+   "camiseta": "76",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "62361",
+   "Jug_Sale": "FACUNDO GONZALEZ",
+   "CarneEntra": "52997",
+   "Jug_Entra": "FELIX MARTIN ALVAREZ",
+   "camiseta": "20",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57945",
+   "Jug_Sale": "BAUTISTA ESTEFANELL",
+   "CarneEntra": "68761",
+   "Jug_Entra": "MATIAS AGUSTIN RUIZ",
+   "camiseta": "69",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "56267",
+   "Jug_Sale": "JOAQUIN GUTIERREZ",
+   "CarneEntra": "58858",
+   "Jug_Entra": "JOAQUIN QUINTO REYES",
+   "camiseta": "67",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "56273",
+   "Jug_Sale": "ALEXIS BRUCE",
+   "CarneEntra": "57004",
+   "Jug_Entra": "ALBERTO HERRERA",
+   "camiseta": "7",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "56255",
+   "Jug_Sale": "TOMAS YOUNG",
+   "CarneEntra": "58844",
+   "Jug_Entra": "NICOLAS MONTERO",
+   "camiseta": "15",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "54975",
+   "Jug_Sale": "TOMAS BRAUSE",
+   "CarneEntra": "67654",
+   "Jug_Entra": "BAUTISTA RISSO",
+   "camiseta": "80",
+   "minutos": "81"
+  }
+ ],
+ "golesL": [],
+ "golesV": [],
+ "expulsadosL": [
+  {
+   "Nombre": "FACUNDO FERNANDEZ",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": []
+}

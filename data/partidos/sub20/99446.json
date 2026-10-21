@@ -1,0 +1,273 @@
+{
+ "id": "99446",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 7,
+ "fechaHora": "2026-05-30 13:30:00",
+ "cancha": "ELF (LICEO FRANCES)",
+ "local": "E.L.F.",
+ "visitante": "SAN JUAN BAUTISTA",
+ "gl": 1,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "49",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "ELF (LICEO FRANCES)",
+  "Fecha_Inicio": "2026-05-30 15:25:00",
+  "Fecha_fin": "2026-05-30 15:25:00",
+  "Locatario": "E.L.F.",
+  "goles_locatario": "1",
+  "puntos_locatario": "3",
+  "Visitante": "SAN JUAN BAUTISTA",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "56750",
+   "Nombre": "JOAQUIN BLANCO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57687",
+   "Nombre": "RAMIRO MENDEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "60555",
+   "Nombre": "MARCOS TRIGO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "54773",
+   "Nombre": "JUAN IGNACIO PODESTA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "56266",
+   "Nombre": "JUAN FRANCISCO CASTELLANOS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "66605",
+   "Nombre": "AMARO SOSA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "62703",
+   "Nombre": "MATIAS AGUSTIN RIPOLL",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "56768",
+   "Nombre": "MATIAS DUPUY",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "54658",
+   "Nombre": "JUAN MANUEL DUPUY",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "67158",
+   "Nombre": "LUCIANO DOS SANTOS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "56764",
+   "Nombre": "IGNACIO VERANO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59094",
+   "Nombre": "SEBASTIAN CHAPPER",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62670",
+   "Nombre": "LORENZO MONTERO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "59224",
+   "Nombre": "MATIAS LEMBO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "59596",
+   "Nombre": "JOAQUIN PEREDA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "59103",
+   "Nombre": "MATEO AGUSTIN PETILLO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "61163",
+   "Nombre": "MATEO LAPLAZOTTE",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "59102",
+   "Nombre": "AGUSTIN CAZET",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "64195",
+   "Nombre": "CAMILO CHIAPPARA",
+   "camiseta": "75",
+   "Capitan": ""
+  },
+  {
+   "carne": "61694",
+   "Nombre": "SANTIAGO RIOS",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "59100",
+   "Nombre": "VALENTINO PIERI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "57840",
+   "Nombre": "DIEGO BIDEGAIN",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56266",
+   "Jug_Sale": "JUAN FRANCISCO CASTELLANOS",
+   "CarneEntra": "65790",
+   "Jug_Entra": "FELIPE LIMA",
+   "camiseta": "5",
+   "minutos": "10"
+  },
+  {
+   "CarneSale": "65790",
+   "Jug_Sale": "FELIPE LIMA",
+   "CarneEntra": "59824",
+   "Jug_Entra": "ALFONSO JOSE BECOÑA",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67158",
+   "Jug_Sale": "LUCIANO DOS SANTOS",
+   "CarneEntra": "57799",
+   "Jug_Entra": "IGNACIO CATTANEO",
+   "camiseta": "7",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "54658",
+   "Jug_Sale": "JUAN MANUEL DUPUY",
+   "CarneEntra": "57955",
+   "Jug_Entra": "MATIAS VIÑAR",
+   "camiseta": "15",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "59103",
+   "Jug_Sale": "MATEO AGUSTIN PETILLO",
+   "CarneEntra": "61871",
+   "Jug_Entra": "FRANCO DI GIOVANNI",
+   "camiseta": "19",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "59100",
+   "Jug_Sale": "VALENTINO PIERI",
+   "CarneEntra": "63242",
+   "Jug_Entra": "VLADIMIR CASTRO",
+   "camiseta": "80",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "59596",
+   "Jug_Sale": "JOAQUIN PEREDA",
+   "CarneEntra": "61182",
+   "Jug_Entra": "LUCAS CANOSA",
+   "camiseta": "11",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "59102",
+   "Jug_Sale": "AGUSTIN CAZET",
+   "CarneEntra": "58908",
+   "Jug_Entra": "MANUEL PONS",
+   "camiseta": "81",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "62670",
+   "Jug_Sale": "LORENZO MONTERO",
+   "CarneEntra": "57785",
+   "Jug_Entra": "JUAN CAPPELLINI",
+   "camiseta": "10",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "64195",
+   "Jug_Sale": "CAMILO CHIAPPARA",
+   "CarneEntra": "57231",
+   "Jug_Entra": "EMILIANO IFER",
+   "camiseta": "6",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "67158",
+   "Nombre": "LUCIANO DOS SANTOS",
+   "minutos": "52",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [
+  {
+   "Nombre": "IGNACIO VERANO",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "LORENZO MONTERO",
+   "observaciones": ""
+  }
+ ]
+}

@@ -1,0 +1,285 @@
+{
+ "id": "98006",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 1,
+ "fechaHora": "2026-04-11 15:45:00",
+ "cancha": "COMPLEJO LOS NOGALES",
+ "local": "OLD BRENDANS CLUB",
+ "visitante": "OLD WOODLANDS CLUB",
+ "gl": 0,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "3",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "COMPLEJO LOS NOGALES",
+  "Fecha_Inicio": "2026-04-11 17:40:00",
+  "Fecha_fin": "2026-04-11 17:40:00",
+  "Locatario": "OLD BRENDANS CLUB",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "OLD WOODLANDS CLUB",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "58285",
+   "Nombre": "RODRIGO BROTONS",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "53840",
+   "Nombre": "MATIAS ANDRES RIANI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "57835",
+   "Nombre": "ALFONSO ZAMBRANO",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "66331",
+   "Nombre": "JUAN BARRANDEGUY",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "58830",
+   "Nombre": "JOAQUÌN ROMERO",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "53398",
+   "Nombre": "MARTINO RAIMONDO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "55434",
+   "Nombre": "DIEGO TOURON",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "53390",
+   "Nombre": "JUAN MANUEL ECHEVERRY",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "53397",
+   "Nombre": "ELIAS GOMOLINSKY",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "59207",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "53395",
+   "Nombre": "MAURO MASENA",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "65071",
+   "Nombre": "MANUEL FELIPE DOMINGUEZ",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "55081",
+   "Nombre": "GUILLERMO DI BELLO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "52997",
+   "Nombre": "FELIX MARTIN ALVAREZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "56934",
+   "Nombre": "RODRIGO VICTORICA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "59184",
+   "Nombre": "IGNACIO CASTELLO",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "55243",
+   "Nombre": "FELIPE LYONNET",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "55065",
+   "Nombre": "FELIPE SONEIRA",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57173",
+   "Nombre": "ALFONSO FLEURQUIN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "55084",
+   "Nombre": "FRANCO PIGNANELLI",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "62361",
+   "Nombre": "FACUNDO GONZALEZ",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "59187",
+   "Nombre": "FACUNDO FERNANDEZ",
+   "camiseta": "47",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "58830",
+   "Jug_Sale": "JOAQUÌN ROMERO",
+   "CarneEntra": "53875",
+   "Jug_Entra": "ALFONSO ABELLA",
+   "camiseta": "20",
+   "minutos": "33"
+  },
+  {
+   "CarneSale": "53397",
+   "Jug_Sale": "ELIAS GOMOLINSKY",
+   "CarneEntra": "55708",
+   "Jug_Entra": "GONZALO BARTESAGHI",
+   "camiseta": "16",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "53875",
+   "Jug_Sale": "ALFONSO ABELLA",
+   "CarneEntra": "56689",
+   "Jug_Entra": "DIEGO ANDRE MENDOZA",
+   "camiseta": "37",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "53395",
+   "Jug_Sale": "MAURO MASENA",
+   "CarneEntra": "58479",
+   "Jug_Entra": "TOMAS TELLERIA",
+   "camiseta": "26",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "59207",
+   "Jug_Sale": "IGNACIO RODRIGUEZ",
+   "CarneEntra": "58833",
+   "Jug_Entra": "MARCOS ERRECART CARRATU",
+   "camiseta": "40",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "53390",
+   "Jug_Sale": "JUAN MANUEL ECHEVERRY",
+   "CarneEntra": "67254",
+   "Jug_Entra": "JUAN IGNACIO VAZQUEZ",
+   "camiseta": "30",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "55434",
+   "Jug_Sale": "DIEGO TOURON",
+   "CarneEntra": "56476",
+   "Jug_Entra": "ANDRES RODOLFO CALDERON",
+   "camiseta": "92",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56934",
+   "Jug_Sale": "RODRIGO VICTORICA",
+   "CarneEntra": "65736",
+   "Jug_Entra": "CONSTANTINO JUAN SOTO",
+   "camiseta": "25",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "55081",
+   "Jug_Sale": "GUILLERMO DI BELLO",
+   "CarneEntra": "52677",
+   "Jug_Entra": "JUAN MARTIN CANAN",
+   "camiseta": "15",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "62361",
+   "Jug_Sale": "FACUNDO GONZALEZ",
+   "CarneEntra": "57171",
+   "Jug_Entra": "IGNACIO IRAZUSTA",
+   "camiseta": "17",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "55065",
+   "Jug_Sale": "FELIPE SONEIRA",
+   "CarneEntra": "62191",
+   "Jug_Entra": "NICOLAS PIRIZ",
+   "camiseta": "27",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "57173",
+   "Jug_Sale": "ALFONSO FLEURQUIN",
+   "CarneEntra": "63286",
+   "Jug_Entra": "ENZO PIGNANELLI",
+   "camiseta": "3",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "52677",
+   "Nombre": "JUAN MARTIN CANAN",
+   "minutos": "74",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62361",
+   "Nombre": "FACUNDO GONZALEZ",
+   "minutos": "69",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

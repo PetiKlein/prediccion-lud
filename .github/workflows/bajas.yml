@@ -1,0 +1,37 @@
+name: Minutos y posibles bajas (Mayores A y Sub 20 A)
+
+on:
+  push:
+    branches: [main]
+    paths: ['scripts/detalle.mjs', 'scripts/analizar.mjs', 'scripts/categorias.mjs', '.github/workflows/bajas.yml']
+  schedule:
+    # Horario en UTC (Uruguay = UTC-3). Domingo 18:35 y lunes a jueves 20:35 en Montevideo,
+    # para agarrar las planillas que la Liga carga tarde. Los datos quedan en datos/data/ y los usa la web /datos.
+    - cron: '35 21 * * 0'
+    - cron: '35 23 * * 1-4'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bajas
+  cancel-in-progress: false
+
+jobs:
+  bajas:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - run: node scripts/detalle.mjs
+      - run: node scripts/analizar.mjs
+      - name: Guardar datos
+        if: always()
+        run: |
+          git config user.name github-actions; git config user.email github-actions@users.noreply.github.com
+          git add data datos/data
+          git diff --cached --quiet || { git commit -m "Datos de partidos actualizados" && git push; }

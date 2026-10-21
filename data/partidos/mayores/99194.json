@@ -1,0 +1,271 @@
+{
+ "id": "99194",
+ "categoria": "mayores",
+ "serie": "A",
+ "fecha": 6,
+ "fechaHora": "2026-05-24 11:15:00",
+ "cancha": "COMPLEJO JUAN XXIII",
+ "local": "JUAN XXIII",
+ "visitante": "OLD WOODLANDS CLUB",
+ "gl": 0,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "42",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "1",
+  "Divisional": "DIVISIONAL \"A\"",
+  "Cancha": "COMPLEJO JUAN XXIII",
+  "Fecha_Inicio": "2026-05-24 13:05:00",
+  "Fecha_fin": "2026-05-24 13:05:00",
+  "Locatario": "JUAN XXIII",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "OLD WOODLANDS CLUB",
+  "goles_visitante": "1",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "47883",
+   "Nombre": "STIVEN ACOSTA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "58847",
+   "Nombre": "JUAN DIEGO FAGNONI",
+   "camiseta": "67",
+   "Capitan": ""
+  },
+  {
+   "carne": "49422",
+   "Nombre": "MARTIN ESTEBAN DECIA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "67675",
+   "Nombre": "MATEO MAURO GONZALEZ",
+   "camiseta": "96",
+   "Capitan": ""
+  },
+  {
+   "carne": "51518",
+   "Nombre": "SANTIAGO BRANCATO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "48081",
+   "Nombre": "EMILIANO DANIEL AHUNTCHAIN",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "54720",
+   "Nombre": "FRANCISCO ROBAINA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "45693",
+   "Nombre": "PEDRO BENZO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "58711",
+   "Nombre": "GERMAN MANGARELLI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "50344",
+   "Nombre": "FELIPE MANUEL NIETO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "41174",
+   "Nombre": "JUAN PABLO PASTORINO",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "47611",
+   "Nombre": "FERNAN BZUROVSKI",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "55772",
+   "Nombre": "IGNACIO ETCHEVERS",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "49214",
+   "Nombre": "FELIPE HERNANDEZ",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "53488",
+   "Nombre": "FRANCO FONTANAROSSA",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "41519",
+   "Nombre": "MATEO ROLDOS",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "49206",
+   "Nombre": "TOMAS PONCE DE LEON",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "41117",
+   "Nombre": "LUIS FERNANDO HERBIN",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "36481",
+   "Nombre": "JUAN PABLO VIANA",
+   "camiseta": "4",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "40030",
+   "Nombre": "ALEJO BZUROVSKI",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "35584",
+   "Nombre": "LUCAS GUIMARAES",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "35145",
+   "Nombre": "IGNACIO COLELLA",
+   "camiseta": "6",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67675",
+   "Jug_Sale": "MATEO MAURO GONZALEZ",
+   "CarneEntra": "47130",
+   "Jug_Entra": "FRANCISCO ALVAREZ DE RON",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50344",
+   "Jug_Sale": "FELIPE MANUEL NIETO",
+   "CarneEntra": "52645",
+   "Jug_Entra": "AGUSTIN QUARTINO",
+   "camiseta": "11",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "45693",
+   "Jug_Sale": "PEDRO BENZO",
+   "CarneEntra": "40859",
+   "Jug_Entra": "JUAN MANUEL FERREIRA",
+   "camiseta": "30",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "51518",
+   "Jug_Sale": "SANTIAGO BRANCATO",
+   "CarneEntra": "46955",
+   "Jug_Entra": "FRANCISCO ARTURO CACERES",
+   "camiseta": "87",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "58711",
+   "Jug_Sale": "GERMAN MANGARELLI",
+   "CarneEntra": "50344",
+   "Jug_Entra": "FELIPE MANUEL NIETO",
+   "camiseta": "17",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "49422",
+   "Jug_Sale": "MARTIN ESTEBAN DECIA",
+   "CarneEntra": "49276",
+   "Jug_Entra": "MATEO TECHEIRA",
+   "camiseta": "15",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "55772",
+   "Jug_Sale": "IGNACIO ETCHEVERS",
+   "CarneEntra": "52842",
+   "Jug_Entra": "TIZIANO GUIGOU",
+   "camiseta": "15",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "49206",
+   "Jug_Sale": "TOMAS PONCE DE LEON",
+   "CarneEntra": "36816",
+   "Jug_Entra": "MARTIN COLELLA",
+   "camiseta": "7",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "49214",
+   "Jug_Sale": "FELIPE HERNANDEZ",
+   "CarneEntra": "31120",
+   "Jug_Entra": "JUAN MANUEL DELUCCA",
+   "camiseta": "10",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "53488",
+   "Jug_Sale": "FRANCO FONTANAROSSA",
+   "CarneEntra": "49929",
+   "Jug_Entra": "ALBERTO GALLINAL",
+   "camiseta": "38",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "40030",
+   "Jug_Sale": "ALEJO BZUROVSKI",
+   "CarneEntra": "39927",
+   "Jug_Entra": "MARTIN HERNANDEZ",
+   "camiseta": "26",
+   "minutos": "88"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "35584",
+   "Nombre": "LUCAS GUIMARAES",
+   "minutos": "75",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

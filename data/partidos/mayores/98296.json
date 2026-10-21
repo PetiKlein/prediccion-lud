@@ -1,0 +1,284 @@
+{
+ "id": "98296",
+ "categoria": "mayores",
+ "serie": "A",
+ "fecha": 2,
+ "fechaHora": "2026-04-19 11:15:00",
+ "cancha": "BRITISH SCHOOL",
+ "local": "OLD BOYS CLUB",
+ "visitante": "HEBRAICA UNIVERSITARIO",
+ "gl": 2,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "13",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "1",
+  "Divisional": "DIVISIONAL \"A\"",
+  "Cancha": "BRITISH SCHOOL",
+  "Fecha_Inicio": "2026-04-19 13:15:00",
+  "Fecha_fin": "2026-04-19 13:15:00",
+  "Locatario": "OLD BOYS CLUB",
+  "goles_locatario": "2",
+  "puntos_locatario": "3",
+  "Visitante": "HEBRAICA UNIVERSITARIO",
+  "goles_visitante": "1",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": "Expulsado DT de Old Boys.\r\nExpulsado preparador físico de Hebraica."
+ },
+ "titularesL": [
+  {
+   "carne": "59008",
+   "Nombre": "GERONIMO FEDERICO ALONSO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "39045",
+   "Nombre": "SANTIAGO ASTIGARRAGA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "54579",
+   "Nombre": "JAVIER CIVETTA",
+   "camiseta": "53",
+   "Capitan": ""
+  },
+  {
+   "carne": "29671",
+   "Nombre": "MARTIN GUSTAVO GUERRA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "41575",
+   "Nombre": "MANUEL TERRA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "42815",
+   "Nombre": "ALFONSO JOSE MARTINELLI",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "54585",
+   "Nombre": "TOMAS CABRAL",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "47515",
+   "Nombre": "JUAN MARIA SEIZER",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "47503",
+   "Nombre": "FRANCO CHIAPPARA",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "48369",
+   "Nombre": "LUCA BERTINI",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "49786",
+   "Nombre": "JUAN IGNACIO HARDOY",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "35658",
+   "Nombre": "JOAQUIN ZEINAL",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61200",
+   "Nombre": "ARY GUSTAVO RABINO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "43323",
+   "Nombre": "MATIAS LIJTENSTEIN",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "39120",
+   "Nombre": "NURIEL LEWIN",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "52946",
+   "Nombre": "SEBASTIAN LICHT",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "28319",
+   "Nombre": "MIKAEL LIJTENSTEIN",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "35104",
+   "Nombre": "MARTIN OPPENHEIMER",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "34651",
+   "Nombre": "MARCEL POZIOMEK",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "44310",
+   "Nombre": "LUCAS ARON NAHMIAS",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "35092",
+   "Nombre": "NICOLAS POZIOMEK",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "34392",
+   "Nombre": "JUAN PEDRO PEREYRA",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "42815",
+   "Jug_Sale": "ALFONSO JOSE MARTINELLI",
+   "CarneEntra": "39036",
+   "Jug_Entra": "MANUEL LEIVA",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "48369",
+   "Jug_Sale": "LUCA BERTINI",
+   "CarneEntra": "29955",
+   "Jug_Entra": "NICOLAS CASAROTTI",
+   "camiseta": "9",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "47503",
+   "Jug_Sale": "FRANCO CHIAPPARA",
+   "CarneEntra": "45241",
+   "Jug_Entra": "JUAN FERMIN REMEDI",
+   "camiseta": "7",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "54579",
+   "Jug_Sale": "JAVIER CIVETTA",
+   "CarneEntra": "47505",
+   "Jug_Entra": "NICOLAS MARTIN DECKER",
+   "camiseta": "66",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "54585",
+   "Jug_Sale": "TOMAS CABRAL",
+   "CarneEntra": "45980",
+   "Jug_Entra": "ZENON CAPELLI",
+   "camiseta": "31",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "39120",
+   "Jug_Sale": "NURIEL LEWIN",
+   "CarneEntra": "32001",
+   "Jug_Entra": "GIOVANNI ZEOLI",
+   "camiseta": "32",
+   "minutos": "46"
+  },
+  {
+   "CarneSale": "52946",
+   "Jug_Sale": "SEBASTIAN LICHT",
+   "CarneEntra": "43899",
+   "Jug_Entra": "MATIAS KOHN",
+   "camiseta": "76",
+   "minutos": "46"
+  },
+  {
+   "CarneSale": "44310",
+   "Jug_Sale": "LUCAS ARON NAHMIAS",
+   "CarneEntra": "43319",
+   "Jug_Entra": "ALAN GARFINKEL",
+   "camiseta": "9",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "34651",
+   "Jug_Sale": "MARCEL POZIOMEK",
+   "CarneEntra": "35085",
+   "Jug_Entra": "IONATAN ISZAKOVITS",
+   "camiseta": "8",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "32001",
+   "Jug_Sale": "GIOVANNI ZEOLI",
+   "CarneEntra": "47255",
+   "Jug_Entra": "ALAN SKORKA",
+   "camiseta": "5",
+   "minutos": "86"
+  },
+  {
+   "CarneSale": "61200",
+   "Jug_Sale": "ARY GUSTAVO RABINO",
+   "CarneEntra": "52041",
+   "Jug_Entra": "AGUSTIN OLDAK",
+   "camiseta": "15",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "29671",
+   "Nombre": "MARTIN GUSTAVO GUERRA",
+   "minutos": "23",
+   "EnContra": "0"
+  },
+  {
+   "carne": "49786",
+   "Nombre": "JUAN IGNACIO HARDOY",
+   "minutos": "3",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "34392",
+   "Nombre": "JUAN PEDRO PEREYRA",
+   "minutos": "18",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

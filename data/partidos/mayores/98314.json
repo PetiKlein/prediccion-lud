@@ -1,0 +1,261 @@
+{
+ "id": "98314",
+ "categoria": "mayores",
+ "serie": "A",
+ "fecha": 2,
+ "fechaHora": "2026-04-19 11:15:00",
+ "cancha": "TENIS EL PINAR",
+ "local": "TENIS EL PINAR",
+ "visitante": "PLAYA HONDA UNIVERSITARIO",
+ "gl": 2,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "9",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "1",
+  "Divisional": "DIVISIONAL \"A\"",
+  "Cancha": "TENIS EL PINAR",
+  "Fecha_Inicio": "2026-04-19 13:15:00",
+  "Fecha_fin": "2026-04-19 13:15:00",
+  "Locatario": "TENIS EL PINAR",
+  "goles_locatario": "2",
+  "puntos_locatario": "3",
+  "Visitante": "PLAYA HONDA UNIVERSITARIO",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "46449",
+   "Nombre": "AGUSTIN LOMBARDO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "46828",
+   "Nombre": "CIPRIANO BAROFFIO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "36994",
+   "Nombre": "AGUSTIN BAROFFIO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "23904",
+   "Nombre": "GASTON ANDRES SUAREZ",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "39703",
+   "Nombre": "GUILLERMO DANIEL TENCA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "40761",
+   "Nombre": "MAXIMILIANO SIENRA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "46829",
+   "Nombre": "FACUNDO LABARTHE",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "38349",
+   "Nombre": "JUAN PABLO ECHEVERRIARZA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "45225",
+   "Nombre": "LAUTARO PEREZ",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "54830",
+   "Nombre": "GUILLERMO NIETO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "26339",
+   "Nombre": "JUAN MARTIN OYENARD",
+   "camiseta": "0",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "53369",
+   "Nombre": "IVAN BARCIA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54303",
+   "Nombre": "RODRIGO LEON",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58714",
+   "Nombre": "LUCIANO LAUDICIO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "64140",
+   "Nombre": "JUAN IGNACIO CHOCHO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "57182",
+   "Nombre": "JOAQUIN PABLO BAUTISTA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "58638",
+   "Nombre": "SANTINO TORTORELLA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "55198",
+   "Nombre": "CAMILO JOAQUIN CABRERA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "64139",
+   "Nombre": "ALEXIS JAVIER DUQUE",
+   "camiseta": "91",
+   "Capitan": ""
+  },
+  {
+   "carne": "57539",
+   "Nombre": "MARTIN ANDRES RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58944",
+   "Nombre": "IGNACIO ALGORTA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "53111",
+   "Nombre": "JUAN PEDRO TAFERNABERRY",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "39703",
+   "Jug_Sale": "GUILLERMO DANIEL TENCA",
+   "CarneEntra": "42528",
+   "Jug_Entra": "RODRIGO MARTIN ESPINOSA",
+   "camiseta": "9",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "45225",
+   "Jug_Sale": "LAUTARO PEREZ",
+   "CarneEntra": "39169",
+   "Jug_Entra": "GONZALO FEDERICO PRADA",
+   "camiseta": "80",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "54830",
+   "Jug_Sale": "GUILLERMO NIETO",
+   "CarneEntra": "48870",
+   "Jug_Entra": "RENZO FORTI",
+   "camiseta": "18",
+   "minutos": "89"
+  },
+  {
+   "CarneSale": "46829",
+   "Jug_Sale": "FACUNDO LABARTHE",
+   "CarneEntra": "36992",
+   "Jug_Entra": "AGUSTIN RAMOS",
+   "camiseta": "21",
+   "minutos": "89"
+  },
+  {
+   "CarneSale": "40761",
+   "Jug_Sale": "MAXIMILIANO SIENRA",
+   "CarneEntra": "48796",
+   "Jug_Entra": "MARTIN JAVIER DIAZ",
+   "camiseta": "60",
+   "minutos": "94"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "58944",
+   "Jug_Sale": "IGNACIO ALGORTA",
+   "CarneEntra": "46832",
+   "Jug_Entra": "EMILIANO DANTAZ",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "53111",
+   "Jug_Sale": "JUAN PEDRO TAFERNABERRY",
+   "CarneEntra": "31696",
+   "Jug_Entra": "JAVIER TAIS",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58638",
+   "Jug_Sale": "SANTINO TORTORELLA",
+   "CarneEntra": "67539",
+   "Jug_Entra": "MATIAS NICOLAS RODRIGUEZ",
+   "camiseta": "46",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "57182",
+   "Jug_Sale": "JOAQUIN PABLO BAUTISTA",
+   "CarneEntra": "58715",
+   "Jug_Entra": "JUAN SEBASTIAN RODRIGUEZ",
+   "camiseta": "32",
+   "minutos": "67"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "26339",
+   "Nombre": "JUAN MARTIN OYENARD",
+   "minutos": "51",
+   "EnContra": "0"
+  },
+  {
+   "carne": "36994",
+   "Nombre": "AGUSTIN BAROFFIO",
+   "minutos": "12",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

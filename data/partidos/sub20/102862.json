@@ -1,0 +1,255 @@
+{
+ "id": "102862",
+ "categoria": "sub20",
+ "serie": "20APD",
+ "fecha": 3,
+ "fechaHora": "2026-10-10 15:30:00",
+ "cancha": "COMPLEJO AZULGRANA",
+ "local": "OLD BOYS CLUB",
+ "visitante": "SAN JUAN BAUTISTA",
+ "gl": 2,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "398",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"A\" PERM. y DESC.",
+  "Cancha": "COMPLEJO AZULGRANA",
+  "Fecha_Inicio": "2026-10-10 17:30:00",
+  "Fecha_fin": "2026-10-10 17:30:00",
+  "Locatario": "OLD BOYS CLUB",
+  "goles_locatario": "2",
+  "puntos_locatario": "1",
+  "Visitante": "SAN JUAN BAUTISTA",
+  "goles_visitante": "2",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "65914",
+   "Nombre": "LUCAS FACUNDO RUIZ",
+   "camiseta": "1",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "55700",
+   "Nombre": "MANUEL LACALLE",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "56265",
+   "Nombre": "JUAN MARTIN HRILJAC",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "57010",
+   "Nombre": "FELIPE SUAREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "56261",
+   "Nombre": "FRANCISCO NOVEGIL",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "62988",
+   "Nombre": "LUCAS BENJAMIN WOYCIK",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "56262",
+   "Nombre": "FRANCISCO NAVARRO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "57945",
+   "Nombre": "BAUTISTA ESTEFANELL",
+   "camiseta": "95",
+   "Capitan": ""
+  },
+  {
+   "carne": "56255",
+   "Nombre": "TOMAS YOUNG",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "57000",
+   "Nombre": "ANDRES ARTAGAVEYTIA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "58841",
+   "Nombre": "JUAN BAUTISTA BONOMI",
+   "camiseta": "18",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59094",
+   "Nombre": "SEBASTIAN CHAPPER",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61871",
+   "Nombre": "FRANCO DI GIOVANNI",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "59224",
+   "Nombre": "MATIAS LEMBO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "61182",
+   "Nombre": "LUCAS CANOSA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "62670",
+   "Nombre": "LORENZO MONTERO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "64195",
+   "Nombre": "CAMILO CHIAPPARA",
+   "camiseta": "75",
+   "Capitan": ""
+  },
+  {
+   "carne": "58908",
+   "Nombre": "MANUEL PONS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "59102",
+   "Nombre": "AGUSTIN CAZET",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "61694",
+   "Nombre": "SANTIAGO RIOS",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "59100",
+   "Nombre": "VALENTINO PIERI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "57840",
+   "Nombre": "DIEGO BIDEGAIN",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "58841",
+   "Jug_Sale": "JUAN BAUTISTA BONOMI",
+   "CarneEntra": "56267",
+   "Jug_Entra": "JOAQUIN GUTIERREZ",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62988",
+   "Jug_Sale": "LUCAS BENJAMIN WOYCIK",
+   "CarneEntra": "57004",
+   "Jug_Entra": "ALBERTO HERRERA",
+   "camiseta": "7",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "57000",
+   "Jug_Sale": "ANDRES ARTAGAVEYTIA",
+   "CarneEntra": "58844",
+   "Jug_Entra": "NICOLAS MONTERO",
+   "camiseta": "45",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "57945",
+   "Jug_Sale": "BAUTISTA ESTEFANELL",
+   "CarneEntra": "58858",
+   "Jug_Entra": "JOAQUIN QUINTO REYES",
+   "camiseta": "67",
+   "minutos": "72"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "61871",
+   "Jug_Sale": "FRANCO DI GIOVANNI",
+   "CarneEntra": "57231",
+   "Jug_Entra": "EMILIANO IFER",
+   "camiseta": "6",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "64195",
+   "Jug_Sale": "CAMILO CHIAPPARA",
+   "CarneEntra": "59596",
+   "Jug_Entra": "JOAQUIN PEREDA",
+   "camiseta": "4",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "58841",
+   "Nombre": "JUAN BAUTISTA BONOMI",
+   "minutos": "9",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58858",
+   "Nombre": "JOAQUIN QUINTO REYES",
+   "minutos": "83",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "59100",
+   "Nombre": "VALENTINO PIERI",
+   "minutos": "78",
+   "EnContra": "1"
+  },
+  {
+   "carne": "59224",
+   "Nombre": "MATIAS LEMBO",
+   "minutos": "60",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "MATIAS LEMBO",
+   "observaciones": ""
+  }
+ ]
+}

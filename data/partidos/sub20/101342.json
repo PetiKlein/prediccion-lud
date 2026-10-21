@@ -1,0 +1,270 @@
+{
+ "id": "101342",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 4,
+ "fechaHora": "2026-08-29 15:30:00",
+ "cancha": "COMPLEJO AZULGRANA",
+ "local": "OLD BOYS CLUB",
+ "visitante": "OLD BRENDANS CLUB",
+ "gl": 1,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "32",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "COMPLEJO AZULGRANA",
+  "Fecha_Inicio": "2026-08-29 17:25:00",
+  "Fecha_fin": "2026-08-29 17:25:00",
+  "Locatario": "OLD BOYS CLUB",
+  "goles_locatario": "1",
+  "puntos_locatario": "1",
+  "Visitante": "OLD BRENDANS CLUB",
+  "goles_visitante": "1",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "65914",
+   "Nombre": "LUCAS FACUNDO RUIZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "55700",
+   "Nombre": "MANUEL LACALLE",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "56265",
+   "Nombre": "JUAN MARTIN HRILJAC",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "57032",
+   "Nombre": "VITTORIO VIGNOLI",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "56261",
+   "Nombre": "FRANCISCO NOVEGIL",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "54975",
+   "Nombre": "TOMAS BRAUSE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "68761",
+   "Nombre": "MATIAS AGUSTIN RUIZ",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "57945",
+   "Nombre": "BAUTISTA ESTEFANELL",
+   "camiseta": "95",
+   "Capitan": ""
+  },
+  {
+   "carne": "56262",
+   "Nombre": "FRANCISCO NAVARRO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "56267",
+   "Nombre": "JOAQUIN GUTIERREZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "56255",
+   "Nombre": "TOMAS YOUNG",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58285",
+   "Nombre": "RODRIGO BROTONS",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "66331",
+   "Nombre": "JUAN BARRANDEGUY",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "53875",
+   "Nombre": "ALFONSO ABELLA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "57835",
+   "Nombre": "ALFONSO ZAMBRANO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "59207",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "53398",
+   "Nombre": "MARTINO RAIMONDO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "56689",
+   "Nombre": "DIEGO ANDRE MENDOZA",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "67254",
+   "Nombre": "JUAN IGNACIO VAZQUEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "53397",
+   "Nombre": "ELIAS GOMOLINSKY",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "55708",
+   "Nombre": "GONZALO BARTESAGHI",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "57398",
+   "Nombre": "CIRO LACABANNE",
+   "camiseta": "5",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56255",
+   "Jug_Sale": "TOMAS YOUNG",
+   "CarneEntra": "56273",
+   "Jug_Entra": "ALEXIS BRUCE",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56267",
+   "Jug_Sale": "JOAQUIN GUTIERREZ",
+   "CarneEntra": "57001",
+   "Jug_Entra": "MANUEL BOSCH",
+   "camiseta": "20",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "68761",
+   "Jug_Sale": "MATIAS AGUSTIN RUIZ",
+   "CarneEntra": "58844",
+   "Jug_Entra": "NICOLAS MONTERO",
+   "camiseta": "45",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "57945",
+   "Jug_Sale": "BAUTISTA ESTEFANELL",
+   "CarneEntra": "58858",
+   "Jug_Entra": "JOAQUIN QUINTO REYES",
+   "camiseta": "67",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "55700",
+   "Jug_Sale": "MANUEL LACALLE",
+   "CarneEntra": "67654",
+   "Jug_Entra": "BAUTISTA RISSO",
+   "camiseta": "80",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56689",
+   "Jug_Sale": "DIEGO ANDRE MENDOZA",
+   "CarneEntra": "53395",
+   "Jug_Entra": "MAURO MASENA",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67254",
+   "Jug_Sale": "JUAN IGNACIO VAZQUEZ",
+   "CarneEntra": "56367",
+   "Jug_Entra": "RENZO FADEUILLE",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59207",
+   "Jug_Sale": "IGNACIO RODRIGUEZ",
+   "CarneEntra": "57837",
+   "Jug_Entra": "TOMAS ASTIAZARAN",
+   "camiseta": "44",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "53397",
+   "Jug_Sale": "ELIAS GOMOLINSKY",
+   "CarneEntra": "58833",
+   "Jug_Entra": "MARCOS ERRECART CARRATU",
+   "camiseta": "15",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "53875",
+   "Jug_Sale": "ALFONSO ABELLA",
+   "CarneEntra": "61164",
+   "Jug_Entra": "MATEO CAPLIVSCHI",
+   "camiseta": "40",
+   "minutos": "84"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56265",
+   "Nombre": "JUAN MARTIN HRILJAC",
+   "minutos": "30",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "55708",
+   "Nombre": "GONZALO BARTESAGHI",
+   "minutos": "90",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

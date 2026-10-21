@@ -1,0 +1,18 @@
+[
+ {
+  "id": "mayores",
+  "nombre": "Mayores A",
+  "actualizado": "2026-10-21T15:17:50.943Z",
+  "partidos": 152,
+  "conPlanilla": 152,
+  "conProblemas": 22
+ },
+ {
+  "id": "sub20",
+  "nombre": "Sub 20 A",
+  "actualizado": "2026-10-21T15:17:51.023Z",
+  "partidos": 152,
+  "conPlanilla": 150,
+  "conProblemas": 35
+ }
+]

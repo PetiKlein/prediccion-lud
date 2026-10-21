@@ -1,0 +1,263 @@
+{
+ "id": "100271",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 10,
+ "fechaHora": "2026-06-20 15:30:00",
+ "cancha": "CAMPO DEP. SAN JUAN BAUTISTA",
+ "local": "SAN JUAN BAUTISTA",
+ "visitante": "NACIONAL UNIVERSITARIO",
+ "gl": 1,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "79",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "CAMPO DEP. SAN JUAN BAUTISTA",
+  "Fecha_Inicio": "2026-06-20 17:30:00",
+  "Fecha_fin": "2026-06-20 17:30:00",
+  "Locatario": "SAN JUAN BAUTISTA",
+  "goles_locatario": "1",
+  "puntos_locatario": "1",
+  "Visitante": "NACIONAL UNIVERSITARIO",
+  "goles_visitante": "1",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "59094",
+   "Nombre": "SEBASTIAN CHAPPER",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61182",
+   "Nombre": "LUCAS CANOSA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "59224",
+   "Nombre": "MATIAS LEMBO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "59596",
+   "Nombre": "JOAQUIN PEREDA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "57231",
+   "Nombre": "EMILIANO IFER",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "61163",
+   "Nombre": "MATEO LAPLAZOTTE",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64195",
+   "Nombre": "CAMILO CHIAPPARA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "61871",
+   "Nombre": "FRANCO DI GIOVANNI",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "57840",
+   "Nombre": "DIEGO BIDEGAIN",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "63242",
+   "Nombre": "VLADIMIR CASTRO",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "59100",
+   "Nombre": "VALENTINO PIERI",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62299",
+   "Nombre": "FACUNDO GONZALEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68674",
+   "Nombre": "SANTIAGO VIERA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "66786",
+   "Nombre": "FACUNDO FEO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "58538",
+   "Nombre": "PATRICIO BULA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "57415",
+   "Nombre": "IÑAKI ETCHEVERRIA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "67309",
+   "Nombre": "GUZMAN DUFOUR",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "53307",
+   "Nombre": "LUCA GIUSEPPE MARRONE",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "58009",
+   "Nombre": "SEBASTIAN FARIAS",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67310",
+   "Nombre": "FACUNDO PEREZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "56570",
+   "Nombre": "MARCOA ISMAEL GARCIA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "63351",
+   "Nombre": "FRANCO ESTEBAN VALIENTE",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "64195",
+   "Jug_Sale": "CAMILO CHIAPPARA",
+   "CarneEntra": "59102",
+   "Jug_Entra": "AGUSTIN CAZET",
+   "camiseta": "8",
+   "minutos": "11"
+  },
+  {
+   "CarneSale": "61871",
+   "Jug_Sale": "FRANCO DI GIOVANNI",
+   "CarneEntra": "61694",
+   "Jug_Entra": "SANTIAGO RIOS",
+   "camiseta": "11",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "59596",
+   "Jug_Sale": "JOAQUIN PEREDA",
+   "CarneEntra": "62670",
+   "Jug_Entra": "LORENZO MONTERO",
+   "camiseta": "2",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "57231",
+   "Jug_Sale": "EMILIANO IFER",
+   "CarneEntra": "50040",
+   "Jug_Entra": "IGNACIO NAHUEL FERNANDEZ",
+   "camiseta": "15",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "59100",
+   "Jug_Sale": "VALENTINO PIERI",
+   "CarneEntra": "61097",
+   "Jug_Entra": "FRANCISCO FERNANDEZ",
+   "camiseta": "7",
+   "minutos": "87"
+  },
+  {
+   "CarneSale": "61182",
+   "Jug_Sale": "LUCAS CANOSA",
+   "CarneEntra": "59236",
+   "Jug_Entra": "MATIAS JAMBRESIC",
+   "camiseta": "21",
+   "minutos": "87"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57415",
+   "Jug_Sale": "IÑAKI ETCHEVERRIA",
+   "CarneEntra": "63621",
+   "Jug_Entra": "RAUL ERNESTO GONZALEZ",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67310",
+   "Jug_Sale": "FACUNDO PEREZ",
+   "CarneEntra": "58539",
+   "Jug_Entra": "SEBASTIAN BULA",
+   "camiseta": "21",
+   "minutos": "84"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "57840",
+   "Nombre": "DIEGO BIDEGAIN",
+   "minutos": "94",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "56570",
+   "Nombre": "MARCOA ISMAEL GARCIA",
+   "minutos": "70",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "LUCA GIUSEPPE MARRONE",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "MARCOA ISMAEL GARCIA",
+   "observaciones": ""
+  }
+ ]
+}

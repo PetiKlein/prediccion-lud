@@ -1,0 +1,254 @@
+{
+ "id": "99400",
+ "categoria": "mayores",
+ "serie": "A",
+ "fecha": 7,
+ "fechaHora": "2026-05-30 17:30:00",
+ "cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
+ "local": "HEBRAICA UNIVERSITARIO",
+ "visitante": "TAPE",
+ "gl": 1,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "50",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "1",
+  "Divisional": "DIVISIONAL \"A\"",
+  "Cancha": "CAM. DEP. ASOC. HEBRAICA Y MAC",
+  "Fecha_Inicio": "2026-05-30 19:30:00",
+  "Fecha_fin": "2026-05-30 19:30:00",
+  "Locatario": "HEBRAICA UNIVERSITARIO",
+  "goles_locatario": "1",
+  "puntos_locatario": "1",
+  "Visitante": "TAPE",
+  "goles_visitante": "1",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "35658",
+   "Nombre": "JOAQUIN ZEINAL",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61200",
+   "Nombre": "ARY GUSTAVO RABINO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "43323",
+   "Nombre": "MATIAS LIJTENSTEIN",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "39124",
+   "Nombre": "DARIO SZTERMAN",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "37385",
+   "Nombre": "FEDERICO BRENER",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "35085",
+   "Nombre": "IONATAN ISZAKOVITS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "47255",
+   "Nombre": "ALAN SKORKA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "28319",
+   "Nombre": "MIKAEL LIJTENSTEIN",
+   "camiseta": "11",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "35092",
+   "Nombre": "NICOLAS POZIOMEK",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "37317",
+   "Nombre": "MAURICIO WAITER",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "43899",
+   "Nombre": "MATIAS KOHN",
+   "camiseta": "16",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58443",
+   "Nombre": "ALFONSO PFEIFF",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "61063",
+   "Nombre": "NICOLAS DORAO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "65006",
+   "Nombre": "GERONIMO GAUTHIER",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "55125",
+   "Nombre": "JUAN GURMENDEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "66855",
+   "Nombre": "SEBASTIAN MARTINEZ",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "65007",
+   "Nombre": "MATHIAS LUCAS",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "56348",
+   "Nombre": "FELIPE SICALO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "46872",
+   "Nombre": "SANTIAGO JOSE TAFERNABERRY",
+   "camiseta": "19",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "58984",
+   "Nombre": "NICOLAS LIBONATTI",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "60720",
+   "Nombre": "MATEO FERRERE",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "52213",
+   "Nombre": "NICOLAS JAVIER PRATES",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "47255",
+   "Jug_Sale": "ALAN SKORKA",
+   "CarneEntra": "39120",
+   "Jug_Entra": "NURIEL LEWIN",
+   "camiseta": "13",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "37317",
+   "Jug_Sale": "MAURICIO WAITER",
+   "CarneEntra": "43319",
+   "Jug_Entra": "ALAN GARFINKEL",
+   "camiseta": "9",
+   "minutos": "81"
+  },
+  {
+   "CarneSale": "35085",
+   "Jug_Sale": "IONATAN ISZAKOVITS",
+   "CarneEntra": "49164",
+   "Jug_Entra": "SEBASTIAN AKERMAN",
+   "camiseta": "51",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "65006",
+   "Jug_Sale": "GERONIMO GAUTHIER",
+   "CarneEntra": "63592",
+   "Jug_Entra": "JUAN ANDRES ERRANONDEA",
+   "camiseta": "18",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "56348",
+   "Jug_Sale": "FELIPE SICALO",
+   "CarneEntra": "56344",
+   "Jug_Entra": "JUAN PEDRO ECHEGUIA",
+   "camiseta": "16",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "63592",
+   "Jug_Sale": "JUAN ANDRES ERRANONDEA",
+   "CarneEntra": "65012",
+   "Jug_Entra": "JUAN MARTIN IFRAN",
+   "camiseta": "20",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "65007",
+   "Jug_Sale": "MATHIAS LUCAS",
+   "CarneEntra": "39600",
+   "Jug_Entra": "JAVIER ANDRES ZAFFARONI",
+   "camiseta": "4",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "55125",
+   "Jug_Sale": "JUAN GURMENDEZ",
+   "CarneEntra": "55925",
+   "Jug_Entra": "FRANCISCO PABLO VILLAR",
+   "camiseta": "7",
+   "minutos": "95"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "37317",
+   "Nombre": "MAURICIO WAITER",
+   "minutos": "41",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "46872",
+   "Nombre": "SANTIAGO JOSE TAFERNABERRY",
+   "minutos": "15",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

@@ -1,0 +1,291 @@
+{
+ "id": "101270",
+ "categoria": "mayores",
+ "serie": "A",
+ "fecha": 4,
+ "fechaHora": "2026-08-30 09:00:00",
+ "cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
+ "local": "URUNDAY UNIVERSITARIO",
+ "visitante": "OLD IVY",
+ "gl": 1,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "29",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "1",
+  "Divisional": "DIVISIONAL \"A\"",
+  "Cancha": "COMPLEJO URUNDAY UNIVERSITARIO",
+  "Fecha_Inicio": "2026-08-30 11:05:00",
+  "Fecha_fin": "2026-08-30 11:05:00",
+  "Locatario": "URUNDAY UNIVERSITARIO",
+  "goles_locatario": "1",
+  "puntos_locatario": "1",
+  "Visitante": "OLD IVY",
+  "goles_visitante": "1",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "52399",
+   "Nombre": "FEDERICO JOAQUIN GARCIA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "54532",
+   "Nombre": "MANUEL AGUSTIN DURE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "62165",
+   "Nombre": "JUAN IGNACIO AFFONSO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "66692",
+   "Nombre": "FACUNDO MOLINA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "36910",
+   "Nombre": "GERMAN CAYON",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "41285",
+   "Nombre": "RODRIGO FERNANDEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "41114",
+   "Nombre": "FACUNDO MEDEIROS",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "66693",
+   "Nombre": "AGUSTIN LEMA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "56470",
+   "Nombre": "BRUNO AGUSTIN FANTONI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "36942",
+   "Nombre": "NICOLAS LOPEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "52533",
+   "Nombre": "GUZMAN FERNANDEZ",
+   "camiseta": "77",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "35399",
+   "Nombre": "FELIPE BAUZA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "47834",
+   "Nombre": "THOMAS DEAKIN",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "45594",
+   "Nombre": "SANTIAGO GUTIERREZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "61383",
+   "Nombre": "MATIAS BENECH",
+   "camiseta": "45",
+   "Capitan": ""
+  },
+  {
+   "carne": "61341",
+   "Nombre": "MATEO SUBIRAN",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "54564",
+   "Nombre": "GUILLERMO CAMPOS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "45591",
+   "Nombre": "FEDERICO DEAKIN",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "52848",
+   "Nombre": "CAMILO ROSSO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "47833",
+   "Nombre": "SANTIAGO ANGENSCHEDIT",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "61290",
+   "Nombre": "FERNANDO BENITEZ",
+   "camiseta": "98",
+   "Capitan": ""
+  },
+  {
+   "carne": "57133",
+   "Nombre": "GUIDO MARTINO",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "62165",
+   "Jug_Sale": "JUAN IGNACIO AFFONSO",
+   "CarneEntra": "54332",
+   "Jug_Entra": "AGUSTIN PENELA",
+   "camiseta": "13",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "56470",
+   "Jug_Sale": "BRUNO AGUSTIN FANTONI",
+   "CarneEntra": "54315",
+   "Jug_Entra": "JUAN ANDRES VILARIÑO",
+   "camiseta": "14",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "41114",
+   "Jug_Sale": "FACUNDO MEDEIROS",
+   "CarneEntra": "46496",
+   "Jug_Entra": "RODRIGO AGUSTIN VEGA",
+   "camiseta": "20",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "52533",
+   "Jug_Sale": "GUZMAN FERNANDEZ",
+   "CarneEntra": "50071",
+   "Jug_Entra": "AGUSTIN SANTURIO",
+   "camiseta": "29",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "36910",
+   "Jug_Sale": "GERMAN CAYON",
+   "CarneEntra": "58206",
+   "Jug_Entra": "TOMAS ARAGUSTO",
+   "camiseta": "92",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "54532",
+   "Jug_Sale": "MANUEL AGUSTIN DURE",
+   "CarneEntra": "62723",
+   "Jug_Entra": "TOMAS GABRIEL ERRECARTT",
+   "camiseta": "27",
+   "minutos": "87"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "47833",
+   "Jug_Sale": "SANTIAGO ANGENSCHEDIT",
+   "CarneEntra": "37264",
+   "Jug_Entra": "AGUSTIN ARTAGAVEYTIA",
+   "camiseta": "69",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "45594",
+   "Jug_Sale": "SANTIAGO GUTIERREZ",
+   "CarneEntra": "66871",
+   "Jug_Entra": "JUAN MANUEL COLMAN",
+   "camiseta": "75",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "61290",
+   "Jug_Sale": "FERNANDO BENITEZ",
+   "CarneEntra": "47833",
+   "Jug_Entra": "SANTIAGO ANGENSCHEDIT",
+   "camiseta": "7",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "57133",
+   "Jug_Sale": "GUIDO MARTINO",
+   "CarneEntra": "61290",
+   "Jug_Entra": "FERNANDO BENITEZ",
+   "camiseta": "99",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "66871",
+   "Jug_Sale": "JUAN MANUEL COLMAN",
+   "CarneEntra": "45594",
+   "Jug_Entra": "SANTIAGO GUTIERREZ",
+   "camiseta": "3",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "47833",
+   "Jug_Sale": "SANTIAGO ANGENSCHEDIT",
+   "CarneEntra": "18671",
+   "Jug_Entra": "SANTIAGO COTELO",
+   "camiseta": "18",
+   "minutos": "89"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "36942",
+   "Nombre": "NICOLAS LOPEZ",
+   "minutos": "35",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "61383",
+   "Nombre": "MATIAS BENECH",
+   "minutos": "78",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "MATIAS BENECH",
+   "observaciones": ""
+  }
+ ]
+}

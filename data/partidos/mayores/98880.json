@@ -1,0 +1,274 @@
+{
+ "id": "98880",
+ "categoria": "mayores",
+ "serie": "A",
+ "fecha": 5,
+ "fechaHora": "2026-05-17 11:15:00",
+ "cancha": "ELF (LICEO FRANCES)",
+ "local": "E.L.F.",
+ "visitante": "URUNDAY UNIVERSITARIO",
+ "gl": 2,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "37",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "1",
+  "Divisional": "DIVISIONAL \"A\"",
+  "Cancha": "ELF (LICEO FRANCES)",
+  "Fecha_Inicio": "2026-05-17 13:30:00",
+  "Fecha_fin": "2026-05-17 13:30:00",
+  "Locatario": "E.L.F.",
+  "goles_locatario": "2",
+  "puntos_locatario": "1",
+  "Visitante": "URUNDAY UNIVERSITARIO",
+  "goles_visitante": "2",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "56750",
+   "Nombre": "JOAQUIN BLANCO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "36849",
+   "Nombre": "LUCAS RICARDO VITOLA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "48958",
+   "Nombre": "MARCOS TUZMAN",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "43243",
+   "Nombre": "LUIS OMAR CASTAGNINO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "43958",
+   "Nombre": "JUAN MARTIN STARICCO",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "27123",
+   "Nombre": "AGUSTIN GABUS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "45408",
+   "Nombre": "IGNACIO CANEPA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "40768",
+   "Nombre": "GERMAN PAZOS",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "47497",
+   "Nombre": "FEDERICO TUZMAN",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "59826",
+   "Nombre": "ALFONSO BADANO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "40561",
+   "Nombre": "AGUSTIN ETCHEGARAY",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "52399",
+   "Nombre": "FEDERICO JOAQUIN GARCIA",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "52411",
+   "Nombre": "CHRISTIAN NICOLAS DONALEY",
+   "camiseta": "32",
+   "Capitan": ""
+  },
+  {
+   "carne": "47161",
+   "Nombre": "ERIC SEBASTIAN CABRERA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "36910",
+   "Nombre": "GERMAN CAYON",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "62165",
+   "Nombre": "JUAN IGNACIO AFFONSO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "41285",
+   "Nombre": "RODRIGO FERNANDEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "41114",
+   "Nombre": "FACUNDO MEDEIROS",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "66693",
+   "Nombre": "AGUSTIN LEMA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "58206",
+   "Nombre": "TOMAS ARAGUSTO",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "52533",
+   "Nombre": "GUZMAN FERNANDEZ",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "36942",
+   "Nombre": "NICOLAS LOPEZ",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "43958",
+   "Jug_Sale": "JUAN MARTIN STARICCO",
+   "CarneEntra": "49456",
+   "Jug_Entra": "IGNACIO ANTONIO CARNEIRO",
+   "camiseta": "10",
+   "minutos": "36"
+  },
+  {
+   "CarneSale": "36849",
+   "Jug_Sale": "LUCAS RICARDO VITOLA",
+   "CarneEntra": "41113",
+   "Jug_Entra": "FACUNDO CANEPA",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "40768",
+   "Jug_Sale": "GERMAN PAZOS",
+   "CarneEntra": "66605",
+   "Jug_Entra": "AMARO SOSA",
+   "camiseta": "20",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "45408",
+   "Jug_Sale": "IGNACIO CANEPA",
+   "CarneEntra": "56764",
+   "Jug_Entra": "IGNACIO VERANO",
+   "camiseta": "7",
+   "minutos": "72"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "52411",
+   "Jug_Sale": "CHRISTIAN NICOLAS DONALEY",
+   "CarneEntra": "54532",
+   "Jug_Entra": "MANUEL AGUSTIN DURE",
+   "camiseta": "4",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "58206",
+   "Jug_Sale": "TOMAS ARAGUSTO",
+   "CarneEntra": "55417",
+   "Jug_Entra": "DIEGO HERNAN TABORDA",
+   "camiseta": "21",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "41114",
+   "Jug_Sale": "FACUNDO MEDEIROS",
+   "CarneEntra": "66801",
+   "Jug_Entra": "JUAN IGNACIO LOPEZ",
+   "camiseta": "50",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "41285",
+   "Jug_Sale": "RODRIGO FERNANDEZ",
+   "CarneEntra": "56470",
+   "Jug_Entra": "BRUNO AGUSTIN FANTONI",
+   "camiseta": "7",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "47161",
+   "Jug_Sale": "ERIC SEBASTIAN CABRERA",
+   "CarneEntra": "66692",
+   "Jug_Entra": "FACUNDO MOLINA",
+   "camiseta": "24",
+   "minutos": "72"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "40768",
+   "Nombre": "GERMAN PAZOS",
+   "minutos": "44",
+   "EnContra": "0"
+  },
+  {
+   "carne": "41113",
+   "Nombre": "FACUNDO CANEPA",
+   "minutos": "48",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "36942",
+   "Nombre": "NICOLAS LOPEZ",
+   "minutos": "8",
+   "EnContra": "1"
+  },
+  {
+   "carne": "58206",
+   "Nombre": "TOMAS ARAGUSTO",
+   "minutos": "35",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

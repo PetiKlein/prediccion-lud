@@ -1,0 +1,296 @@
+{
+ "id": "102981",
+ "categoria": "sub20",
+ "serie": "20APD",
+ "fecha": 4,
+ "fechaHora": "2026-10-17 15:30:00",
+ "cancha": "TENIS EL PINAR",
+ "local": "TENIS EL PINAR",
+ "visitante": "PLAYA HONDA UNIVERSITARIO",
+ "gl": 4,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "401",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"A\" PERM. y DESC.",
+  "Cancha": "TENIS EL PINAR",
+  "Fecha_Inicio": "2026-10-17 17:23:00",
+  "Fecha_fin": "2026-10-17 17:23:00",
+  "Locatario": "TENIS EL PINAR",
+  "goles_locatario": "4",
+  "puntos_locatario": "3",
+  "Visitante": "PLAYA HONDA UNIVERSITARIO",
+  "goles_visitante": "1",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "56185",
+   "Nombre": "JUAN ANDRES BAYARDI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56834",
+   "Nombre": "JOAQUIN QUINTANA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "54831",
+   "Nombre": "JOAQUÌN GOLDARACENA",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56164",
+   "Nombre": "GUZMAN COSTEMALLE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "61620",
+   "Nombre": "FACUNDO PORRAS",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "64786",
+   "Nombre": "THIAGO  DANILO SOUTO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "61622",
+   "Nombre": "MATEO OMAR ROLAND",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "56188",
+   "Nombre": "THIAGO NAHUEL ROLAND",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "66599",
+   "Nombre": "FACUNDO ALVAREZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67917",
+   "Nombre": "SANTIAGO CASTRO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "56166",
+   "Nombre": "MARTIN NICOLAS GOMEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "52916",
+   "Nombre": "GUZMAN ESTOUP",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "57053",
+   "Nombre": "JUAN MATTOS",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "58934",
+   "Nombre": "IGNACIO AGUIAR",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "69184",
+   "Nombre": "SANTINO JOSUE VELAZQUEZ",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "56235",
+   "Nombre": "MANUEL SEBASTIAN BURGOS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "58940",
+   "Nombre": "MARTIN LANGONE",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "64032",
+   "Nombre": "FRANCESCO BRUNO STAGNO",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "67535",
+   "Nombre": "BENJAMIN DE IZAGUIRRE",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "58540",
+   "Nombre": "TOMAS BERTINAT",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62024",
+   "Nombre": "JUAN MANUEL BOCCHI",
+   "camiseta": "41",
+   "Capitan": ""
+  },
+  {
+   "carne": "58744",
+   "Nombre": "AGUSTIN SANTIAGO LUCERO",
+   "camiseta": "24",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56834",
+   "Jug_Sale": "JOAQUIN QUINTANA",
+   "CarneEntra": "54596",
+   "Jug_Entra": "HERNAN FERNANDEZ",
+   "camiseta": "22",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "56188",
+   "Jug_Sale": "THIAGO NAHUEL ROLAND",
+   "CarneEntra": "64788",
+   "Jug_Entra": "JUAN IGNACIO LIZARRAGA",
+   "camiseta": "14",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "61620",
+   "Jug_Sale": "FACUNDO PORRAS",
+   "CarneEntra": "60921",
+   "Jug_Entra": "TEO OLAVE",
+   "camiseta": "15",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "64786",
+   "Jug_Sale": "THIAGO  DANILO SOUTO",
+   "CarneEntra": "54594",
+   "Jug_Entra": "JUAN DIEGO ZORRILLA DE SAN M",
+   "camiseta": "3",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "54831",
+   "Jug_Sale": "JOAQUÌN GOLDARACENA",
+   "CarneEntra": "66515",
+   "Jug_Entra": "FELIPE ANTONIO REGUEIRO",
+   "camiseta": "12",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "56164",
+   "Jug_Sale": "GUZMAN COSTEMALLE",
+   "CarneEntra": "57044",
+   "Jug_Entra": "JUAN RAMON CASAL",
+   "camiseta": "18",
+   "minutos": "83"
+  },
+  {
+   "CarneSale": "61620",
+   "Jug_Sale": "FACUNDO PORRAS",
+   "CarneEntra": "56831",
+   "Jug_Entra": "JUAN MARTIN ABO",
+   "camiseta": "25",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56235",
+   "Jug_Sale": "MANUEL SEBASTIAN BURGOS",
+   "CarneEntra": "67127",
+   "Jug_Entra": "FEDERICO SORIA",
+   "camiseta": "6",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57053",
+   "Jug_Sale": "JUAN MATTOS",
+   "CarneEntra": "68239",
+   "Jug_Entra": "AGUSTIN ALEJANDRO ARTAGAVEYTIA",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58940",
+   "Jug_Sale": "MARTIN LANGONE",
+   "CarneEntra": "59931",
+   "Jug_Entra": "JUAN MANUEL TOUYA",
+   "camiseta": "4",
+   "minutos": "82"
+  },
+  {
+   "CarneSale": "58744",
+   "Jug_Sale": "AGUSTIN SANTIAGO LUCERO",
+   "CarneEntra": "57776",
+   "Jug_Entra": "EMILIANO DIAZ",
+   "camiseta": "29",
+   "minutos": "82"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "54831",
+   "Nombre": "JOAQUÌN GOLDARACENA",
+   "minutos": "79",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67917",
+   "Nombre": "SANTIAGO CASTRO",
+   "minutos": "1",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67917",
+   "Nombre": "SANTIAGO CASTRO",
+   "minutos": "46",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67917",
+   "Nombre": "SANTIAGO CASTRO",
+   "minutos": "77",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "62024",
+   "Nombre": "JUAN MANUEL BOCCHI",
+   "minutos": "86",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

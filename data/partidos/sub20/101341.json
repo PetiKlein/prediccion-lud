@@ -1,0 +1,268 @@
+{
+ "id": "101341",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 4,
+ "fechaHora": "2026-08-29 15:30:00",
+ "cancha": "OLD CHRISTIANS CLUB",
+ "local": "OLD CHRISTIANS CLUB",
+ "visitante": "CLUB SEMINARIO",
+ "gl": 2,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "27",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "OLD CHRISTIANS CLUB",
+  "Fecha_Inicio": "2026-08-29 17:22:00",
+  "Fecha_fin": "2026-08-29 17:22:00",
+  "Locatario": "OLD CHRISTIANS CLUB",
+  "goles_locatario": "2",
+  "puntos_locatario": "3",
+  "Visitante": "CLUB SEMINARIO",
+  "goles_visitante": "1",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "55226",
+   "Nombre": "ALFONSO DEL CASTILLO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "64681",
+   "Nombre": "FACUNDO TOPOLANSKI",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "59504",
+   "Nombre": "BAUTISTA RAUL FERNANDEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56863",
+   "Nombre": "JUAN PEDRO TORRES",
+   "camiseta": "54",
+   "Capitan": ""
+  },
+  {
+   "carne": "56856",
+   "Nombre": "JOAQUIN FLEURQUIN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56317",
+   "Nombre": "PABLO EZEQUIEL BARRETO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "56859",
+   "Nombre": "AGUSTIN FERNANDEZ",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "55250",
+   "Nombre": "TOMAS PEREYRA",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "54771",
+   "Nombre": "MARTIN MIHALIK",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "59506",
+   "Nombre": "AGUSTIN HOUNIE",
+   "camiseta": "59",
+   "Capitan": ""
+  },
+  {
+   "carne": "55609",
+   "Nombre": "THEO CORTABARRIA",
+   "camiseta": "20",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58598",
+   "Nombre": "NICOLAS MAZZILLI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54598",
+   "Nombre": "LUCA SIVORI",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "62949",
+   "Nombre": "JUAN IGNACIO PEDROZO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56647",
+   "Nombre": "JOAQUIN EMILIANO SOLOGAISTOA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "56190",
+   "Nombre": "JUAN BAUTISTA OLASCOAGA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "56643",
+   "Nombre": "FEDERICO MOSCA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "58217",
+   "Nombre": "LUCA TORTEROLO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56645",
+   "Nombre": "MAXIMO BERTOLA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "60868",
+   "Nombre": "IGNACIO ANDRES LEGARRA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "62166",
+   "Nombre": "FELIPE AMARO LACASSY",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "54618",
+   "Nombre": "MATIAS JOSE MORENO",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54771",
+   "Jug_Sale": "MARTIN MIHALIK",
+   "CarneEntra": "64835",
+   "Jug_Entra": "FACUNDO MARQUEZ",
+   "camiseta": "23",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56856",
+   "Jug_Sale": "JOAQUIN FLEURQUIN",
+   "CarneEntra": "55216",
+   "Jug_Entra": "GASPAR HUGHES",
+   "camiseta": "9",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "59506",
+   "Jug_Sale": "AGUSTIN HOUNIE",
+   "CarneEntra": "55251",
+   "Jug_Entra": "JUAN MENENDEZ",
+   "camiseta": "19",
+   "minutos": "82"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56190",
+   "Jug_Sale": "JUAN BAUTISTA OLASCOAGA",
+   "CarneEntra": "54965",
+   "Jug_Entra": "JOAQUIN EMILIO VOLA",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56645",
+   "Jug_Sale": "MAXIMO BERTOLA",
+   "CarneEntra": "56642",
+   "Jug_Entra": "MATEO PEREZ",
+   "camiseta": "10",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "62166",
+   "Jug_Sale": "FELIPE AMARO LACASSY",
+   "CarneEntra": "59080",
+   "Jug_Entra": "MATIAS GOSSWEILER",
+   "camiseta": "11",
+   "minutos": "56"
+  },
+  {
+   "CarneSale": "60868",
+   "Jug_Sale": "IGNACIO ANDRES LEGARRA",
+   "CarneEntra": "65936",
+   "Jug_Entra": "DIEGO TABERNE",
+   "camiseta": "19",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "58217",
+   "Jug_Sale": "LUCA TORTEROLO",
+   "CarneEntra": "56639",
+   "Jug_Entra": "BENJAMIN MORALES",
+   "camiseta": "5",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "62949",
+   "Jug_Sale": "JUAN IGNACIO PEDROZO",
+   "CarneEntra": "68563",
+   "Jug_Entra": "BENICIO CUEVAS",
+   "camiseta": "20",
+   "minutos": "83"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "56317",
+   "Nombre": "PABLO EZEQUIEL BARRETO",
+   "minutos": "70",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64835",
+   "Nombre": "FACUNDO MARQUEZ",
+   "minutos": "87",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "56643",
+   "Nombre": "FEDERICO MOSCA",
+   "minutos": "64",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

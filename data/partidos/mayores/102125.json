@@ -1,0 +1,276 @@
+{
+ "id": "102125",
+ "categoria": "mayores",
+ "serie": "A",
+ "fecha": 14,
+ "fechaHora": "2026-09-20 09:00:00",
+ "cancha": "ELF (LICEO FRANCES)",
+ "local": "E.L.F.",
+ "visitante": "CARRASCO LAWN TENNIS",
+ "gl": 2,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "112",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "1",
+  "Divisional": "DIVISIONAL \"A\"",
+  "Cancha": "ELF (LICEO FRANCES)",
+  "Fecha_Inicio": "2026-09-20 00:00:00",
+  "Fecha_fin": "2026-09-20 00:00:00",
+  "Locatario": "E.L.F.",
+  "goles_locatario": "2",
+  "puntos_locatario": "3",
+  "Visitante": "CARRASCO LAWN TENNIS",
+  "goles_visitante": "1",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "41722",
+   "Nombre": "NICOLAS FREYER",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "56768",
+   "Nombre": "MATIAS DUPUY",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "35841",
+   "Nombre": "ADOLFO SAEZ",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "48958",
+   "Nombre": "MARCOS TUZMAN",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "43243",
+   "Nombre": "LUIS OMAR CASTAGNINO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "45408",
+   "Nombre": "IGNACIO CANEPA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "27123",
+   "Nombre": "AGUSTIN GABUS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "38540",
+   "Nombre": "JOAQUIN SAEZ",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "59826",
+   "Nombre": "ALFONSO BADANO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "40561",
+   "Nombre": "AGUSTIN ETCHEGARAY",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "41113",
+   "Nombre": "FACUNDO CANEPA",
+   "camiseta": "19",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "41005",
+   "Nombre": "NICOLAS RAFFO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "49606",
+   "Nombre": "ALEJO MONTERROSO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "56134",
+   "Nombre": "FELIPE MIGUEL WAS",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "31952",
+   "Nombre": "JOAQUIN REBELLATO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "44899",
+   "Nombre": "JUAN MARTIN DEFFEMINIS",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "22166",
+   "Nombre": "FEDERICO PUA",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "39086",
+   "Nombre": "MATHIAS GASTON CASTIÑEIRA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "40246",
+   "Nombre": "LUCAS NERY CALCAGNO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "50239",
+   "Nombre": "FRANCISCO AGUSTIN PERTUSSO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "29653",
+   "Nombre": "MARTIN MUSETTI",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "44809",
+   "Nombre": "TOMAS JOSE SANZ",
+   "camiseta": "6",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "40561",
+   "Jug_Sale": "AGUSTIN ETCHEGARAY",
+   "CarneEntra": "47497",
+   "Jug_Entra": "FEDERICO TUZMAN",
+   "camiseta": "17",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56768",
+   "Jug_Sale": "MATIAS DUPUY",
+   "CarneEntra": "43958",
+   "Jug_Entra": "JUAN MARTIN STARICCO",
+   "camiseta": "16",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "45408",
+   "Jug_Sale": "IGNACIO CANEPA",
+   "CarneEntra": "49456",
+   "Jug_Entra": "IGNACIO ANTONIO CARNEIRO",
+   "camiseta": "10",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "41113",
+   "Jug_Sale": "FACUNDO CANEPA",
+   "CarneEntra": "44457",
+   "Jug_Entra": "BRUNO GIORDANO",
+   "camiseta": "7",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "59826",
+   "Jug_Sale": "ALFONSO BADANO",
+   "CarneEntra": "36849",
+   "Jug_Entra": "LUCAS RICARDO VITOLA",
+   "camiseta": "3",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "44899",
+   "Jug_Sale": "JUAN MARTIN DEFFEMINIS",
+   "CarneEntra": "57067",
+   "Jug_Entra": "JUAN BAUTISTA ALGORTA",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "49606",
+   "Jug_Sale": "ALEJO MONTERROSO",
+   "CarneEntra": "19944",
+   "Jug_Entra": "MAURICIO JAVIER GENINAZZI",
+   "camiseta": "18",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "39086",
+   "Jug_Sale": "MATHIAS GASTON CASTIÑEIRA",
+   "CarneEntra": "48826",
+   "Jug_Entra": "JOAQUIN PODESTA",
+   "camiseta": "14",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "40246",
+   "Jug_Sale": "LUCAS NERY CALCAGNO",
+   "CarneEntra": "44291",
+   "Jug_Entra": "IGNACIO GEISINGER",
+   "camiseta": "19",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "56134",
+   "Jug_Sale": "FELIPE MIGUEL WAS",
+   "CarneEntra": "49620",
+   "Jug_Entra": "ALEJO ZEFFERINO",
+   "camiseta": "17",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "40561",
+   "Nombre": "AGUSTIN ETCHEGARAY",
+   "minutos": "34",
+   "EnContra": "0"
+  },
+  {
+   "carne": "59826",
+   "Nombre": "ALFONSO BADANO",
+   "minutos": "82",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "44809",
+   "Nombre": "TOMAS JOSE SANZ",
+   "minutos": "44",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

@@ -1,0 +1,230 @@
+{
+ "id": "101517",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 12,
+ "fechaHora": "2026-09-05 13:30:00",
+ "cancha": "CARRASCO LAWN TENIS (KM 23)",
+ "local": "CARRASCO LAWN TENNIS",
+ "visitante": "NACIONAL UNIVERSITARIO",
+ "gl": 1,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "96",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "CARRASCO LAWN TENIS (KM 23)",
+  "Fecha_Inicio": "2026-09-05 15:10:00",
+  "Fecha_fin": "2026-09-05 15:10:00",
+  "Locatario": "CARRASCO LAWN TENNIS",
+  "goles_locatario": "1",
+  "puntos_locatario": "1",
+  "Visitante": "NACIONAL UNIVERSITARIO",
+  "goles_visitante": "1",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "57786",
+   "Nombre": "FAUSTINO ARDITTI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56134",
+   "Nombre": "FELIPE MIGUEL WAS",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66376",
+   "Nombre": "MANUEL DARIO ASENCIO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56131",
+   "Nombre": "SEBASTIAN OLAVE",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "59063",
+   "Nombre": "FRANCISCO RODRIGUEZ",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "64790",
+   "Nombre": "SANTINO FIORELLI",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "58673",
+   "Nombre": "ALEJO FERRES",
+   "camiseta": "38",
+   "Capitan": ""
+  },
+  {
+   "carne": "57067",
+   "Nombre": "JUAN BAUTISTA ALGORTA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "58916",
+   "Nombre": "FELIPE BORDOLI",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "61096",
+   "Nombre": "TOMAS ARRIETA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "63410",
+   "Nombre": "TOMAS GRUDZIEN",
+   "camiseta": "39",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62299",
+   "Nombre": "FACUNDO GONZALEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68674",
+   "Nombre": "SANTIAGO VIERA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "63621",
+   "Nombre": "RAUL ERNESTO GONZALEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "58538",
+   "Nombre": "PATRICIO BULA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "57415",
+   "Nombre": "IÑAKI ETCHEVERRIA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "53307",
+   "Nombre": "LUCA GIUSEPPE MARRONE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "67309",
+   "Nombre": "GUZMAN DUFOUR",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "58009",
+   "Nombre": "SEBASTIAN FARIAS",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57960",
+   "Nombre": "LUCAS GABRIEL GRAÑA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "63351",
+   "Nombre": "FRANCO ESTEBAN VALIENTE",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "67310",
+   "Nombre": "FACUNDO PEREZ",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "58673",
+   "Jug_Sale": "ALEJO FERRES",
+   "CarneEntra": "60773",
+   "Jug_Entra": "ALFONSO SCHAICH",
+   "camiseta": "40",
+   "minutos": "27"
+  },
+  {
+   "CarneSale": "63410",
+   "Jug_Sale": "TOMAS GRUDZIEN",
+   "CarneEntra": "57593",
+   "Jug_Entra": "GENARO DE MORI",
+   "camiseta": "21",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "58916",
+   "Jug_Sale": "FELIPE BORDOLI",
+   "CarneEntra": "56127",
+   "Jug_Entra": "FELIPE CROCI",
+   "camiseta": "16",
+   "minutos": "40"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "63351",
+   "Jug_Sale": "FRANCO ESTEBAN VALIENTE",
+   "CarneEntra": "66786",
+   "Jug_Entra": "FACUNDO FEO",
+   "camiseta": "2",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "57415",
+   "Jug_Sale": "IÑAKI ETCHEVERRIA",
+   "CarneEntra": "68428",
+   "Jug_Entra": "FRANCISCO VIDIELLA",
+   "camiseta": "22",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "57067",
+   "Nombre": "JUAN BAUTISTA ALGORTA",
+   "minutos": "49",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "66786",
+   "Nombre": "FACUNDO FEO",
+   "minutos": "80",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

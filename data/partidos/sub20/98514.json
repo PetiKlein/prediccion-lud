@@ -1,0 +1,316 @@
+{
+ "id": "98514",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 3,
+ "fechaHora": "2026-04-25 15:30:00",
+ "cancha": "CAMPO DEP. SAN JUAN BAUTISTA",
+ "local": "SAN JUAN BAUTISTA",
+ "visitante": "PLAYA HONDA UNIVERSITARIO",
+ "gl": 3,
+ "gv": 4,
+ "detalle": {
+  "nro_partido": "19",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "CAMPO DEP. SAN JUAN BAUTISTA",
+  "Fecha_Inicio": "2026-04-25 17:40:00",
+  "Fecha_fin": "2026-04-25 17:40:00",
+  "Locatario": "SAN JUAN BAUTISTA",
+  "goles_locatario": "3",
+  "puntos_locatario": "0",
+  "Visitante": "PLAYA HONDA UNIVERSITARIO",
+  "goles_visitante": "4",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "59094",
+   "Nombre": "SEBASTIAN CHAPPER",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "59103",
+   "Nombre": "MATEO AGUSTIN PETILLO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "59596",
+   "Nombre": "JOAQUIN PEREDA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "66389",
+   "Nombre": "JOAQUIN LIMA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "61871",
+   "Nombre": "FRANCO DI GIOVANNI",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "61163",
+   "Nombre": "MATEO LAPLAZOTTE",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57231",
+   "Nombre": "EMILIANO IFER",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "59102",
+   "Nombre": "AGUSTIN CAZET",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58908",
+   "Nombre": "MANUEL PONS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "63242",
+   "Nombre": "VLADIMIR CASTRO",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "57840",
+   "Nombre": "DIEGO BIDEGAIN",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "52916",
+   "Nombre": "GUZMAN ESTOUP",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "62052",
+   "Nombre": "MANUEL MOREIRA",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "58934",
+   "Nombre": "IGNACIO AGUIAR",
+   "camiseta": "2",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56235",
+   "Nombre": "MANUEL SEBASTIAN BURGOS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "64032",
+   "Nombre": "FRANCESCO BRUNO STAGNO",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "58939",
+   "Nombre": "JOAQUIN MARTINEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "58940",
+   "Nombre": "MARTIN LANGONE",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "58540",
+   "Nombre": "TOMAS BERTINAT",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "68239",
+   "Nombre": "AGUSTIN ALEJANDRO ARTAGAVEYTIA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "67302",
+   "Nombre": "DIEGO PERAZZO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "62024",
+   "Nombre": "JUAN MANUEL BOCCHI",
+   "camiseta": "41",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "61871",
+   "Jug_Sale": "FRANCO DI GIOVANNI",
+   "CarneEntra": "64194",
+   "Jug_Entra": "SANTIAGO DEL CAMPO",
+   "camiseta": "3",
+   "minutos": "30"
+  },
+  {
+   "CarneSale": "59103",
+   "Jug_Sale": "MATEO AGUSTIN PETILLO",
+   "CarneEntra": "59224",
+   "Jug_Entra": "MATIAS LEMBO",
+   "camiseta": "5",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "59596",
+   "Jug_Sale": "JOAQUIN PEREDA",
+   "CarneEntra": "62670",
+   "Jug_Entra": "LORENZO MONTERO",
+   "camiseta": "77",
+   "minutos": "50"
+  },
+  {
+   "CarneSale": "59102",
+   "Jug_Sale": "AGUSTIN CAZET",
+   "CarneEntra": "57781",
+   "Jug_Entra": "JUAN PEDRO LANARO",
+   "camiseta": "2",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "63242",
+   "Jug_Sale": "VLADIMIR CASTRO",
+   "CarneEntra": "62570",
+   "Jug_Entra": "JUAN BERNARDO HERNANDEZ",
+   "camiseta": "7",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "64194",
+   "Jug_Sale": "SANTIAGO DEL CAMPO",
+   "CarneEntra": "59596",
+   "Jug_Entra": "JOAQUIN PEREDA",
+   "camiseta": "4",
+   "minutos": "90"
+  },
+  {
+   "CarneSale": "57231",
+   "Jug_Sale": "EMILIANO IFER",
+   "CarneEntra": "59236",
+   "Jug_Entra": "MATIAS JAMBRESIC",
+   "camiseta": "14",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "58939",
+   "Jug_Sale": "JOAQUIN MARTINEZ",
+   "CarneEntra": "56204",
+   "Jug_Entra": "THOMAS SÖRENSEN",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "62052",
+   "Jug_Sale": "MANUEL MOREIRA",
+   "CarneEntra": "67535",
+   "Jug_Entra": "BENJAMIN DE IZAGUIRRE",
+   "camiseta": "44",
+   "minutos": "44"
+  },
+  {
+   "CarneSale": "56235",
+   "Jug_Sale": "MANUEL SEBASTIAN BURGOS",
+   "CarneEntra": "67127",
+   "Jug_Entra": "FEDERICO SORIA",
+   "camiseta": "6",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "68239",
+   "Jug_Sale": "AGUSTIN ALEJANDRO ARTAGAVEYTIA",
+   "CarneEntra": "67301",
+   "Jug_Entra": "TOMAS TABOADA",
+   "camiseta": "18",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "62024",
+   "Jug_Sale": "JUAN MANUEL BOCCHI",
+   "CarneEntra": "62051",
+   "Jug_Entra": "LUCA MORALES",
+   "camiseta": "26",
+   "minutos": "79"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "57840",
+   "Nombre": "DIEGO BIDEGAIN",
+   "minutos": "25",
+   "EnContra": "0"
+  },
+  {
+   "carne": "57840",
+   "Nombre": "DIEGO BIDEGAIN",
+   "minutos": "86",
+   "EnContra": "0"
+  },
+  {
+   "carne": "61163",
+   "Nombre": "MATEO LAPLAZOTTE",
+   "minutos": "85",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "56204",
+   "Nombre": "THOMAS SÖRENSEN",
+   "minutos": "94",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62024",
+   "Nombre": "JUAN MANUEL BOCCHI",
+   "minutos": "46",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62024",
+   "Nombre": "JUAN MANUEL BOCCHI",
+   "minutos": "58",
+   "EnContra": "1"
+  },
+  {
+   "carne": "62024",
+   "Nombre": "JUAN MANUEL BOCCHI",
+   "minutos": "75",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

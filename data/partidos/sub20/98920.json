@@ -1,0 +1,328 @@
+{
+ "id": "98920",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 5,
+ "fechaHora": "2026-05-16 15:30:00",
+ "cancha": "COMPLEJO JUAN XXIII",
+ "local": "MATURANA UNIVERSITARIO",
+ "visitante": "OLD CHRISTIANS CLUB",
+ "gl": 2,
+ "gv": 7,
+ "detalle": {
+  "nro_partido": "39",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "COMPLEJO JUAN XXIII",
+  "Fecha_Inicio": "2026-05-16 17:15:00",
+  "Fecha_fin": "2026-05-16 17:15:00",
+  "Locatario": "MATURANA UNIVERSITARIO",
+  "goles_locatario": "2",
+  "puntos_locatario": "0",
+  "Visitante": "OLD CHRISTIANS CLUB",
+  "goles_visitante": "7",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "57897",
+   "Nombre": "FACUNDO TORRES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56100",
+   "Nombre": "IGNACIO POPELKA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "56223",
+   "Nombre": "SALVADOR MORATORIO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "56098",
+   "Nombre": "MATIAS MARTIRENA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64798",
+   "Nombre": "SANTIAGO BIDONDO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "64808",
+   "Nombre": "MANUEL TIAGO LIARD",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "56778",
+   "Nombre": "FRANCISCO GOMEZ",
+   "camiseta": "30",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "63826",
+   "Nombre": "JUAN SEBASTIAN CHIESA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "63888",
+   "Nombre": "TOMAS NAHUEL AREOSA",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "52597",
+   "Nombre": "JOAQUIN ZABALETA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "56787",
+   "Nombre": "IGNACIO GONZALEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "55226",
+   "Nombre": "ALFONSO DEL CASTILLO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "54771",
+   "Nombre": "MARTIN MIHALIK",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "55609",
+   "Nombre": "THEO CORTABARRIA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "64835",
+   "Nombre": "FACUNDO MARQUEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "56317",
+   "Nombre": "PABLO EZEQUIEL BARRETO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "59506",
+   "Nombre": "AGUSTIN HOUNIE",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "52697",
+   "Nombre": "JOAQUIN DAVID LEAO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "56856",
+   "Nombre": "JOAQUIN FLEURQUIN",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56863",
+   "Nombre": "JUAN PEDRO TORRES",
+   "camiseta": "54",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59504",
+   "Nombre": "BAUTISTA RAUL FERNANDEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "55250",
+   "Nombre": "TOMAS PEREYRA",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63826",
+   "Jug_Sale": "JUAN SEBASTIAN CHIESA",
+   "CarneEntra": "63203",
+   "Jug_Entra": "JOAQUIN RODRIGUEZ",
+   "camiseta": "66",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56787",
+   "Jug_Sale": "IGNACIO GONZALEZ",
+   "CarneEntra": "59701",
+   "Jug_Entra": "MATIAS JAVIER GATTO",
+   "camiseta": "99",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "56100",
+   "Jug_Sale": "IGNACIO POPELKA",
+   "CarneEntra": "60756",
+   "Jug_Entra": "IGNACIO AGUSTIN DE GOUVEIA",
+   "camiseta": "7",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "56223",
+   "Jug_Sale": "SALVADOR MORATORIO",
+   "CarneEntra": "59528",
+   "Jug_Entra": "MANUEL CAIMI",
+   "camiseta": "13",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "52597",
+   "Jug_Sale": "JOAQUIN ZABALETA",
+   "CarneEntra": "58751",
+   "Jug_Entra": "FRANCISCO ANTONIO VILLAGRAN",
+   "camiseta": "10",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "59504",
+   "Jug_Sale": "BAUTISTA RAUL FERNANDEZ",
+   "CarneEntra": "52688",
+   "Jug_Entra": "FRANCO RAUL CORREA",
+   "camiseta": "22",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "55250",
+   "Jug_Sale": "TOMAS PEREYRA",
+   "CarneEntra": "56866",
+   "Jug_Entra": "MATEO AGUIRRE",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59506",
+   "Jug_Sale": "AGUSTIN HOUNIE",
+   "CarneEntra": "56004",
+   "Jug_Entra": "JOAQUIN BARBOSA",
+   "camiseta": "15",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56856",
+   "Jug_Sale": "JOAQUIN FLEURQUIN",
+   "CarneEntra": "67547",
+   "Jug_Entra": "PEDRO ALEJO AROCENA",
+   "camiseta": "93",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "55609",
+   "Jug_Sale": "THEO CORTABARRIA",
+   "CarneEntra": "65751",
+   "Jug_Entra": "SANTIAGO GOSSWEILER",
+   "camiseta": "42",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "52697",
+   "Jug_Sale": "JOAQUIN DAVID LEAO",
+   "CarneEntra": "56848",
+   "Jug_Entra": "ALFONSO BEYHAUT",
+   "camiseta": "37",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "56317",
+   "Jug_Sale": "PABLO EZEQUIEL BARRETO",
+   "CarneEntra": "56862",
+   "Jug_Entra": "MANUEL HINSCH",
+   "camiseta": "18",
+   "minutos": "77"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "59701",
+   "Nombre": "MATIAS JAVIER GATTO",
+   "minutos": "65",
+   "EnContra": "0"
+  },
+  {
+   "carne": "64808",
+   "Nombre": "MANUEL TIAGO LIARD",
+   "minutos": "28",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "52688",
+   "Nombre": "FRANCO RAUL CORREA",
+   "minutos": "71",
+   "EnContra": "1"
+  },
+  {
+   "carne": "54771",
+   "Nombre": "MARTIN MIHALIK",
+   "minutos": "36",
+   "EnContra": "1"
+  },
+  {
+   "carne": "54771",
+   "Nombre": "MARTIN MIHALIK",
+   "minutos": "87",
+   "EnContra": "1"
+  },
+  {
+   "carne": "55609",
+   "Nombre": "THEO CORTABARRIA",
+   "minutos": "14",
+   "EnContra": "1"
+  },
+  {
+   "carne": "55609",
+   "Nombre": "THEO CORTABARRIA",
+   "minutos": "20",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56317",
+   "Nombre": "PABLO EZEQUIEL BARRETO",
+   "minutos": "25",
+   "EnContra": "1"
+  },
+  {
+   "carne": "64835",
+   "Nombre": "FACUNDO MARQUEZ",
+   "minutos": "17",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

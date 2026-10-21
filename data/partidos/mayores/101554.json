@@ -1,0 +1,238 @@
+{
+ "id": "101554",
+ "categoria": "mayores",
+ "serie": "A",
+ "fecha": 12,
+ "fechaHora": "2026-09-06 09:00:00",
+ "cancha": "CARRASCO POLO",
+ "local": "CARRASCO POLO CLUB",
+ "visitante": "OLD BOYS CLUB",
+ "gl": 1,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "90",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "1",
+  "Divisional": "DIVISIONAL \"A\"",
+  "Cancha": "CARRASCO POLO",
+  "Fecha_Inicio": "2026-09-06 11:00:00",
+  "Fecha_fin": "2026-09-06 11:00:00",
+  "Locatario": "CARRASCO POLO CLUB",
+  "goles_locatario": "1",
+  "puntos_locatario": "1",
+  "Visitante": "OLD BOYS CLUB",
+  "goles_visitante": "1",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "40866",
+   "Nombre": "FACUNDO ROMANELLI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "44449",
+   "Nombre": "MARTIN PIANGELUA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "29697",
+   "Nombre": "DIEGO LACURCIA",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "35870",
+   "Nombre": "LUCAS MACAGNO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "53597",
+   "Nombre": "BAUTISTA DE LUCA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "44181",
+   "Nombre": "FRANCISCO LABAT",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "37473",
+   "Nombre": "SANTIAGO MATO",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "42582",
+   "Nombre": "IGNACIO LACURCIA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "59748",
+   "Nombre": "SANTIAGO MENDEZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "46817",
+   "Nombre": "FEDERICO HEBER VAZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "35206",
+   "Nombre": "FEDERICO LACURCIA",
+   "camiseta": "17",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "59008",
+   "Nombre": "GERONIMO FEDERICO ALONSO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "37275",
+   "Nombre": "JOSE MARIA MAÑE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "54579",
+   "Nombre": "JAVIER CIVETTA",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "39045",
+   "Nombre": "SANTIAGO ASTIGARRAGA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "38391",
+   "Nombre": "NICOLAS MARIA RODRIGUEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "54585",
+   "Nombre": "TOMAS CABRAL",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "45980",
+   "Nombre": "ZENON CAPELLI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "37272",
+   "Nombre": "JUAN LUIS IRULEGUY",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "45241",
+   "Nombre": "JUAN FERMIN REMEDI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "54580",
+   "Nombre": "JUAN CARLOS VIDIELLA",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "29955",
+   "Nombre": "NICOLAS CASAROTTI",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "37473",
+   "Jug_Sale": "SANTIAGO MATO",
+   "CarneEntra": "45501",
+   "Jug_Entra": "IVAN AMADEO",
+   "camiseta": "4",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "42582",
+   "Jug_Sale": "IGNACIO LACURCIA",
+   "CarneEntra": "48017",
+   "Jug_Entra": "JUAN MARTIN IRAOLA",
+   "camiseta": "6",
+   "minutos": "80"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "37272",
+   "Jug_Sale": "JUAN LUIS IRULEGUY",
+   "CarneEntra": "56273",
+   "Jug_Entra": "ALEXIS BRUCE",
+   "camiseta": "10",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "54580",
+   "Jug_Sale": "JUAN CARLOS VIDIELLA",
+   "CarneEntra": "26972",
+   "Jug_Entra": "JUAN MANUEL MUSETTI",
+   "camiseta": "99",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "45241",
+   "Jug_Sale": "JUAN FERMIN REMEDI",
+   "CarneEntra": "47503",
+   "Jug_Entra": "FRANCO CHIAPPARA",
+   "camiseta": "77",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "45980",
+   "Jug_Sale": "ZENON CAPELLI",
+   "CarneEntra": "34990",
+   "Jug_Entra": "MARTIN SORONDO",
+   "camiseta": "11",
+   "minutos": "81"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "35206",
+   "Nombre": "FEDERICO LACURCIA",
+   "minutos": "5",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "45241",
+   "Nombre": "JUAN FERMIN REMEDI",
+   "minutos": "29",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

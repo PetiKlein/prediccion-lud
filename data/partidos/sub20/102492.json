@@ -1,0 +1,256 @@
+{
+ "id": "102492",
+ "categoria": "sub20",
+ "serie": "20AT",
+ "fecha": 2,
+ "fechaHora": "2026-10-03 15:30:00",
+ "cancha": "ST. BRENDANS",
+ "local": "OLD BRENDANS CLUB",
+ "visitante": "J.M.L.M",
+ "gl": 1,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "365",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"A\" TITULO",
+  "Cancha": "ST. BRENDANS",
+  "Fecha_Inicio": "2026-10-03 17:30:00",
+  "Fecha_fin": "2026-10-03 17:30:00",
+  "Locatario": "OLD BRENDANS CLUB",
+  "goles_locatario": "1",
+  "puntos_locatario": "1",
+  "Visitante": "J.M.L.M",
+  "goles_visitante": "1",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "58285",
+   "Nombre": "RODRIGO BROTONS",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "53875",
+   "Nombre": "ALFONSO ABELLA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "69116",
+   "Nombre": "EMILIANO MOITIÑO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "63255",
+   "Nombre": "JOAQUIN YAGODA",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "57835",
+   "Nombre": "ALFONSO ZAMBRANO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "53390",
+   "Nombre": "JUAN MANUEL ECHEVERRY",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67254",
+   "Nombre": "JUAN IGNACIO VAZQUEZ",
+   "camiseta": "70",
+   "Capitan": ""
+  },
+  {
+   "carne": "53398",
+   "Nombre": "MARTINO RAIMONDO",
+   "camiseta": "43",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "53395",
+   "Nombre": "MAURO MASENA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "59207",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "53397",
+   "Nombre": "ELIAS GOMOLINSKY",
+   "camiseta": "29",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67397",
+   "Nombre": "ALEJANDRO MAURO NARIO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "55785",
+   "Nombre": "MATEO LAUTARO RODRIGUEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "53175",
+   "Nombre": "MATEO GILI",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57046",
+   "Nombre": "FRANCISCO MATTOS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "56241",
+   "Nombre": "GUILLERMO FERRARI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "55153",
+   "Nombre": "MAXIMO FERRIRA",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "64263",
+   "Nombre": "JUAN MANUEL DUPONT",
+   "camiseta": "71",
+   "Capitan": ""
+  },
+  {
+   "carne": "56176",
+   "Nombre": "SANTIAGO LUCAS",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "55662",
+   "Nombre": "FEDERICO GASTON DOLIVO",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "56238",
+   "Nombre": "THIAGO GONZALEZ",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "66739",
+   "Nombre": "RENZO BARBIERI",
+   "camiseta": "35",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "53395",
+   "Jug_Sale": "MAURO MASENA",
+   "CarneEntra": "58479",
+   "Jug_Entra": "TOMAS TELLERIA",
+   "camiseta": "26",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "59207",
+   "Jug_Sale": "IGNACIO RODRIGUEZ",
+   "CarneEntra": "58342",
+   "Jug_Entra": "PEDRO DEMICHELIS",
+   "camiseta": "24",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "67254",
+   "Jug_Sale": "JUAN IGNACIO VAZQUEZ",
+   "CarneEntra": "58833",
+   "Jug_Entra": "MARCOS ERRECART CARRATU",
+   "camiseta": "50",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "55785",
+   "Jug_Sale": "MATEO LAUTARO RODRIGUEZ",
+   "CarneEntra": "58174",
+   "Jug_Entra": "MATEO MARTINEZ",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "66739",
+   "Jug_Sale": "RENZO BARBIERI",
+   "CarneEntra": "55785",
+   "Jug_Entra": "MATEO LAUTARO RODRIGUEZ",
+   "camiseta": "9",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "56176",
+   "Jug_Sale": "SANTIAGO LUCAS",
+   "CarneEntra": "59539",
+   "Jug_Entra": "AGUSTIN ROBERTO",
+   "camiseta": "8",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "55153",
+   "Jug_Sale": "MAXIMO FERRIRA",
+   "CarneEntra": "62555",
+   "Jug_Entra": "JUAN DIEGO FERNANDEZ",
+   "camiseta": "31",
+   "minutos": "72"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "69116",
+   "Nombre": "EMILIANO MOITIÑO",
+   "minutos": "87",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "55785",
+   "Nombre": "MATEO LAUTARO RODRIGUEZ",
+   "minutos": "68",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "ELIAS GOMOLINSKY",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "JUAN MANUEL DUPONT",
+   "observaciones": ""
+  }
+ ]
+}

@@ -1,0 +1,262 @@
+{
+ "id": "102523",
+ "categoria": "mayores",
+ "serie": "APD",
+ "fecha": 2,
+ "fechaHora": "2026-10-04 11:15:00",
+ "cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+ "local": "PLAYA HONDA UNIVERSITARIO",
+ "visitante": "CARRASCO LAWN TENNIS",
+ "gl": 1,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "874",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "2",
+  "Divisional": "MAYORES \"A\" PERM. y DESC.",
+  "Cancha": "PARQUE CUPRA - CLUB SEMINARIO",
+  "Fecha_Inicio": "2026-10-04 13:05:00",
+  "Fecha_fin": "2026-10-04 13:05:00",
+  "Locatario": "PLAYA HONDA UNIVERSITARIO",
+  "goles_locatario": "1",
+  "puntos_locatario": "1",
+  "Visitante": "CARRASCO LAWN TENNIS",
+  "goles_visitante": "1",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "54947",
+   "Nombre": "SANTIAGO HERNAN RAMIREZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "40183",
+   "Nombre": "FERNANDO MICHEL CHACON",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "58714",
+   "Nombre": "LUCIANO LAUDICIO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "54303",
+   "Nombre": "RODRIGO LEON",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57182",
+   "Nombre": "JOAQUIN PABLO BAUTISTA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "64140",
+   "Nombre": "JUAN IGNACIO CHOCHO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "68646",
+   "Nombre": "MARTIN GUADALUPE",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "58638",
+   "Nombre": "SANTINO TORTORELLA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "68936",
+   "Nombre": "EZEQUIEL ACOSTA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "55198",
+   "Nombre": "CAMILO JOAQUIN CABRERA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "58944",
+   "Nombre": "IGNACIO ALGORTA",
+   "camiseta": "29",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "41005",
+   "Nombre": "NICOLAS RAFFO",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "49606",
+   "Nombre": "ALEJO MONTERROSO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "31952",
+   "Nombre": "JOAQUIN REBELLATO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "19944",
+   "Nombre": "MAURICIO JAVIER GENINAZZI",
+   "camiseta": "18",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "44899",
+   "Nombre": "JUAN MARTIN DEFFEMINIS",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "48826",
+   "Nombre": "JOAQUIN PODESTA",
+   "camiseta": "42",
+   "Capitan": ""
+  },
+  {
+   "carne": "39086",
+   "Nombre": "MATHIAS GASTON CASTIÑEIRA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "22166",
+   "Nombre": "FEDERICO PUA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "44809",
+   "Nombre": "TOMAS JOSE SANZ",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "50239",
+   "Nombre": "FRANCISCO AGUSTIN PERTUSSO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "29653",
+   "Nombre": "MARTIN MUSETTI",
+   "camiseta": "21",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "55198",
+   "Jug_Sale": "CAMILO JOAQUIN CABRERA",
+   "CarneEntra": "53111",
+   "Jug_Entra": "JUAN PEDRO TAFERNABERRY",
+   "camiseta": "11",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "58714",
+   "Jug_Sale": "LUCIANO LAUDICIO",
+   "CarneEntra": "56818",
+   "Jug_Entra": "FACUNDO MARCEL RODRIGUEZ",
+   "camiseta": "37",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "57182",
+   "Jug_Sale": "JOAQUIN PABLO BAUTISTA",
+   "CarneEntra": "39946",
+   "Jug_Entra": "MAURO OSORIO",
+   "camiseta": "14",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "58944",
+   "Jug_Sale": "IGNACIO ALGORTA",
+   "CarneEntra": "52880",
+   "Jug_Entra": "RODOLFO RODRIGUEZ",
+   "camiseta": "43",
+   "minutos": "92"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "49606",
+   "Jug_Sale": "ALEJO MONTERROSO",
+   "CarneEntra": "28144",
+   "Jug_Entra": "ANDRES ANTONIO BESIO",
+   "camiseta": "3",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "48826",
+   "Jug_Sale": "JOAQUIN PODESTA",
+   "CarneEntra": "40246",
+   "Jug_Entra": "LUCAS NERY CALCAGNO",
+   "camiseta": "31",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "44899",
+   "Jug_Sale": "JUAN MARTIN DEFFEMINIS",
+   "CarneEntra": "23708",
+   "Jug_Entra": "LEANDRO JOSE FERNANDEZ",
+   "camiseta": "15",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "39086",
+   "Jug_Sale": "MATHIAS GASTON CASTIÑEIRA",
+   "CarneEntra": "66422",
+   "Jug_Entra": "RODRIGO ARIAS",
+   "camiseta": "4",
+   "minutos": "88"
+  },
+  {
+   "CarneSale": "22166",
+   "Jug_Sale": "FEDERICO PUA",
+   "CarneEntra": "58673",
+   "Jug_Entra": "ALEJO FERRES",
+   "camiseta": "18",
+   "minutos": "88"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "68646",
+   "Nombre": "MARTIN GUADALUPE",
+   "minutos": "70",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "50239",
+   "Nombre": "FRANCISCO AGUSTIN PERTUSSO",
+   "minutos": "94",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

@@ -1,0 +1,292 @@
+{
+ "id": "100978",
+ "categoria": "mayores",
+ "serie": "A",
+ "fecha": 15,
+ "fechaHora": "2026-08-16 11:15:00",
+ "cancha": "COMPLEJO JUAN XXIII",
+ "local": "JUAN XXIII",
+ "visitante": "NACIONAL UNIVERSITARIO",
+ "gl": 1,
+ "gv": 2,
+ "detalle": {
+  "nro_partido": "117",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "1",
+  "Divisional": "DIVISIONAL \"A\"",
+  "Cancha": "COMPLEJO JUAN XXIII",
+  "Fecha_Inicio": "2026-08-16 13:05:00",
+  "Fecha_fin": "2026-08-16 13:05:00",
+  "Locatario": "JUAN XXIII",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "NACIONAL UNIVERSITARIO",
+  "goles_visitante": "2",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "47883",
+   "Nombre": "STIVEN ACOSTA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "49012",
+   "Nombre": "AGUSTIN SUPERVIELLE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "40859",
+   "Nombre": "JUAN MANUEL FERREIRA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "58850",
+   "Nombre": "NICOLAS GANDIOLI",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "51518",
+   "Nombre": "SANTIAGO BRANCATO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "58711",
+   "Nombre": "GERMAN MANGARELLI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "48450",
+   "Nombre": "MATEO CORREA",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "54720",
+   "Nombre": "FRANCISCO ROBAINA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "50344",
+   "Nombre": "FELIPE MANUEL NIETO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "41174",
+   "Nombre": "JUAN PABLO PASTORINO",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "51708",
+   "Nombre": "AGUSTIN FERRES",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "48534",
+   "Nombre": "LEANDRO LOBELCHO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "30119",
+   "Nombre": "GONZALO PUIG",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "42913",
+   "Nombre": "MARTIN MASLLORENS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "40727",
+   "Nombre": "RODRIGO YAMANDU TISCORNIA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "46942",
+   "Nombre": "IGNACIO REGUEIRO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "52718",
+   "Nombre": "AGUSTIN CHAIA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "35132",
+   "Nombre": "GIANFRANCO ROVETTA",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "33218",
+   "Nombre": "FACUNDO MARQUES",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "35011",
+   "Nombre": "FEDERICO MANUEL ALFARO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "62452",
+   "Nombre": "FRANCISCO ARRUA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "44968",
+   "Nombre": "JOAQUIN GARCIA",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "50344",
+   "Jug_Sale": "FELIPE MANUEL NIETO",
+   "CarneEntra": "48081",
+   "Jug_Entra": "EMILIANO DANIEL AHUNTCHAIN",
+   "camiseta": "5",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "51708",
+   "Jug_Sale": "AGUSTIN FERRES",
+   "CarneEntra": "63347",
+   "Jug_Entra": "VALENTIN ROBKIN",
+   "camiseta": "96",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "51518",
+   "Jug_Sale": "SANTIAGO BRANCATO",
+   "CarneEntra": "58867",
+   "Jug_Entra": "BRUNO MARASCO",
+   "camiseta": "15",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "48450",
+   "Jug_Sale": "MATEO CORREA",
+   "CarneEntra": "22008",
+   "Jug_Entra": "MARCOS ANDRES SANCHEZ",
+   "camiseta": "24",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "58711",
+   "Jug_Sale": "GERMAN MANGARELLI",
+   "CarneEntra": "45693",
+   "Jug_Entra": "PEDRO BENZO",
+   "camiseta": "13",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "49012",
+   "Jug_Sale": "AGUSTIN SUPERVIELLE",
+   "CarneEntra": "53601",
+   "Jug_Entra": "JOAQUIN CASAS",
+   "camiseta": "22",
+   "minutos": "92"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "30119",
+   "Jug_Sale": "GONZALO PUIG",
+   "CarneEntra": "28307",
+   "Jug_Entra": "ALEJANDRO DA CUNHA",
+   "camiseta": "15",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "52718",
+   "Jug_Sale": "AGUSTIN CHAIA",
+   "CarneEntra": "56667",
+   "Jug_Entra": "JUAN DIEGO GODOY",
+   "camiseta": "23",
+   "minutos": "58"
+  },
+  {
+   "CarneSale": "62452",
+   "Jug_Sale": "FRANCISCO ARRUA",
+   "CarneEntra": "58507",
+   "Jug_Entra": "VALENTINO MUYANO",
+   "camiseta": "20",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "33218",
+   "Jug_Sale": "FACUNDO MARQUES",
+   "CarneEntra": "52667",
+   "Jug_Entra": "ENZO GALEANO",
+   "camiseta": "6",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "46942",
+   "Jug_Sale": "IGNACIO REGUEIRO",
+   "CarneEntra": "42097",
+   "Jug_Entra": "JUAN MANUEL LEIZA",
+   "camiseta": "14",
+   "minutos": "88"
+  },
+  {
+   "CarneSale": "35132",
+   "Jug_Sale": "GIANFRANCO ROVETTA",
+   "CarneEntra": "33218",
+   "Jug_Entra": "FACUNDO MARQUES",
+   "camiseta": "5",
+   "minutos": "94"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "51708",
+   "Nombre": "AGUSTIN FERRES",
+   "minutos": "25",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "44968",
+   "Nombre": "JOAQUIN GARCIA",
+   "minutos": "90",
+   "EnContra": "1"
+  },
+  {
+   "carne": "46942",
+   "Nombre": "IGNACIO REGUEIRO",
+   "minutos": "6",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

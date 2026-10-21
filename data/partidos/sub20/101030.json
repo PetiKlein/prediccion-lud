@@ -1,0 +1,302 @@
+{
+ "id": "101030",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 15,
+ "fechaHora": "2026-08-15 15:30:00",
+ "cancha": "COMPLEJO JUAN XXIII",
+ "local": "MATURANA UNIVERSITARIO",
+ "visitante": "NACIONAL UNIVERSITARIO",
+ "gl": 1,
+ "gv": 5,
+ "detalle": {
+  "nro_partido": "114",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "COMPLEJO JUAN XXIII",
+  "Fecha_Inicio": "2026-08-15 17:15:00",
+  "Fecha_fin": "2026-08-15 17:15:00",
+  "Locatario": "MATURANA UNIVERSITARIO",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "NACIONAL UNIVERSITARIO",
+  "goles_visitante": "5",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "57897",
+   "Nombre": "FACUNDO TORRES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57624",
+   "Nombre": "MANUEL THIAGO MARTINEZ",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "56098",
+   "Nombre": "MATIAS MARTIRENA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64807",
+   "Nombre": "FRANCO GONZALEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "63203",
+   "Nombre": "JOAQUIN RODRIGUEZ",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "59293",
+   "Nombre": "AGUSTIN ALMEIDA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "56778",
+   "Nombre": "FRANCISCO GOMEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "64798",
+   "Nombre": "SANTIAGO BIDONDO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "56787",
+   "Nombre": "IGNACIO GONZALEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "59701",
+   "Nombre": "MATIAS JAVIER GATTO",
+   "camiseta": "94",
+   "Capitan": ""
+  },
+  {
+   "carne": "52597",
+   "Nombre": "JOAQUIN ZABALETA",
+   "camiseta": "80",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "62299",
+   "Nombre": "FACUNDO GONZALEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "66786",
+   "Nombre": "FACUNDO FEO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "67309",
+   "Nombre": "GUZMAN DUFOUR",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "57960",
+   "Nombre": "LUCAS GABRIEL GRAÑA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "53307",
+   "Nombre": "LUCA GIUSEPPE MARRONE",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "66558",
+   "Nombre": "CONSTANTINO BENTANCUR",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "58009",
+   "Nombre": "SEBASTIAN FARIAS",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "63621",
+   "Nombre": "RAUL ERNESTO GONZALEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "57415",
+   "Nombre": "IÑAKI ETCHEVERRIA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "67310",
+   "Nombre": "FACUNDO PEREZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "68981",
+   "Nombre": "IGNACIO FACUNDO ISNARDI",
+   "camiseta": "13",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "57624",
+   "Jug_Sale": "MANUEL THIAGO MARTINEZ",
+   "CarneEntra": "56775",
+   "Jug_Entra": "MARIO AGUSTIN ANDRIOLO",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59701",
+   "Jug_Sale": "MATIAS JAVIER GATTO",
+   "CarneEntra": "56100",
+   "Jug_Entra": "IGNACIO POPELKA",
+   "camiseta": "2",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "64798",
+   "Jug_Sale": "SANTIAGO BIDONDO",
+   "CarneEntra": "58751",
+   "Jug_Entra": "FRANCISCO ANTONIO VILLAGRAN",
+   "camiseta": "9",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "56787",
+   "Jug_Sale": "IGNACIO GONZALEZ",
+   "CarneEntra": "57845",
+   "Jug_Entra": "ANDRES COUCE",
+   "camiseta": "3",
+   "minutos": "73"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "53307",
+   "Jug_Sale": "LUCA GIUSEPPE MARRONE",
+   "CarneEntra": "68428",
+   "Jug_Entra": "FRANCISCO VIDIELLA",
+   "camiseta": "22",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "57960",
+   "Jug_Sale": "LUCAS GABRIEL GRAÑA",
+   "CarneEntra": "63351",
+   "Jug_Entra": "FRANCO ESTEBAN VALIENTE",
+   "camiseta": "20",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "66558",
+   "Jug_Sale": "CONSTANTINO BENTANCUR",
+   "CarneEntra": "60148",
+   "Jug_Entra": "GASPAR GUARISCO",
+   "camiseta": "9",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "63621",
+   "Jug_Sale": "RAUL ERNESTO GONZALEZ",
+   "CarneEntra": "58538",
+   "Jug_Entra": "PATRICIO BULA",
+   "camiseta": "25",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "58009",
+   "Jug_Sale": "SEBASTIAN FARIAS",
+   "CarneEntra": "61151",
+   "Jug_Entra": "VALENTIN GUERRICO",
+   "camiseta": "26",
+   "minutos": "76"
+  },
+  {
+   "CarneSale": "68981",
+   "Jug_Sale": "IGNACIO FACUNDO ISNARDI",
+   "CarneEntra": "58539",
+   "Jug_Entra": "SEBASTIAN BULA",
+   "camiseta": "21",
+   "minutos": "87"
+  },
+  {
+   "CarneSale": "67309",
+   "Jug_Sale": "GUZMAN DUFOUR",
+   "CarneEntra": "67311",
+   "Jug_Entra": "SEBASTIAN ALEJANDRO FIGUEROA",
+   "camiseta": "30",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "59293",
+   "Nombre": "AGUSTIN ALMEIDA",
+   "minutos": "73",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "57960",
+   "Nombre": "LUCAS GABRIEL GRAÑA",
+   "minutos": "55",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66558",
+   "Nombre": "CONSTANTINO BENTANCUR",
+   "minutos": "40",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66558",
+   "Nombre": "CONSTANTINO BENTANCUR",
+   "minutos": "46",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66558",
+   "Nombre": "CONSTANTINO BENTANCUR",
+   "minutos": "70",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67309",
+   "Nombre": "GUZMAN DUFOUR",
+   "minutos": "5",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

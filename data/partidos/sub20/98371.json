@@ -1,0 +1,253 @@
+{
+ "id": "98371",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 2,
+ "fechaHora": "2026-04-18 15:30:00",
+ "cancha": "COMPLEJO JUAN XXIII",
+ "local": "MATURANA UNIVERSITARIO",
+ "visitante": "E.L.F.",
+ "gl": 0,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "9",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "COMPLEJO JUAN XXIII",
+  "Fecha_Inicio": "2026-04-18 17:30:00",
+  "Fecha_fin": "2026-04-18 17:30:00",
+  "Locatario": "MATURANA UNIVERSITARIO",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "E.L.F.",
+  "goles_visitante": "1",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": "Expulsado DT de E.L.F. se amplía en observaciones."
+ },
+ "titularesL": [
+  {
+   "carne": "57897",
+   "Nombre": "FACUNDO TORRES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56223",
+   "Nombre": "SALVADOR MORATORIO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "59293",
+   "Nombre": "AGUSTIN ALMEIDA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "56098",
+   "Nombre": "MATIAS MARTIRENA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "60756",
+   "Nombre": "IGNACIO AGUSTIN DE GOUVEIA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "63888",
+   "Nombre": "TOMAS NAHUEL AREOSA",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "59701",
+   "Nombre": "MATIAS JAVIER GATTO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "52597",
+   "Nombre": "JOAQUIN ZABALETA",
+   "camiseta": "85",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "64798",
+   "Nombre": "SANTIAGO BIDONDO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "56778",
+   "Nombre": "FRANCISCO GOMEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "56787",
+   "Nombre": "IGNACIO GONZALEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "56750",
+   "Nombre": "JOAQUIN BLANCO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57687",
+   "Nombre": "RAMIRO MENDEZ",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "54773",
+   "Nombre": "JUAN IGNACIO PODESTA",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "55273",
+   "Nombre": "JUAN SARACCO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "56266",
+   "Nombre": "JUAN FRANCISCO CASTELLANOS",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "66605",
+   "Nombre": "AMARO SOSA",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "62703",
+   "Nombre": "MATIAS AGUSTIN RIPOLL",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "54658",
+   "Nombre": "JUAN MANUEL DUPUY",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "63493",
+   "Nombre": "TEO SILVA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "67158",
+   "Nombre": "LUCIANO DOS SANTOS",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "56764",
+   "Nombre": "IGNACIO VERANO",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56787",
+   "Jug_Sale": "IGNACIO GONZALEZ",
+   "CarneEntra": "56775",
+   "Jug_Entra": "MARIO AGUSTIN ANDRIOLO",
+   "camiseta": "10",
+   "minutos": "42"
+  },
+  {
+   "CarneSale": "60756",
+   "Jug_Sale": "IGNACIO AGUSTIN DE GOUVEIA",
+   "CarneEntra": "63203",
+   "Jug_Entra": "JOAQUIN RODRIGUEZ",
+   "camiseta": "14",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59701",
+   "Jug_Sale": "MATIAS JAVIER GATTO",
+   "CarneEntra": "56100",
+   "Jug_Entra": "IGNACIO POPELKA",
+   "camiseta": "4",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "64798",
+   "Jug_Sale": "SANTIAGO BIDONDO",
+   "CarneEntra": "58751",
+   "Jug_Entra": "FRANCISCO ANTONIO VILLAGRAN",
+   "camiseta": "9",
+   "minutos": "78"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "63493",
+   "Jug_Sale": "TEO SILVA",
+   "CarneEntra": "59828",
+   "Jug_Entra": "IGNACIO RAMO",
+   "camiseta": "12",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59828",
+   "Jug_Sale": "IGNACIO RAMO",
+   "CarneEntra": "65790",
+   "Jug_Entra": "FELIPE LIMA",
+   "camiseta": "8",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67158",
+   "Jug_Sale": "LUCIANO DOS SANTOS",
+   "CarneEntra": "61161",
+   "Jug_Entra": "FACUNDO CORREA",
+   "camiseta": "21",
+   "minutos": "45"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "56266",
+   "Nombre": "JUAN FRANCISCO CASTELLANOS",
+   "minutos": "27",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "SALVADOR MORATORIO",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "AGUSTIN ALMEIDA",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "IGNACIO VERANO",
+   "observaciones": ""
+  }
+ ]
+}

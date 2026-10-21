@@ -1,0 +1,277 @@
+{
+ "id": "98495",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 3,
+ "fechaHora": "2026-04-25 13:30:00",
+ "cancha": "CARRASCO LAWN TENIS (KM 23)",
+ "local": "CARRASCO LAWN TENNIS",
+ "visitante": "TENIS EL PINAR",
+ "gl": 2,
+ "gv": 0,
+ "detalle": {
+  "nro_partido": "21",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "CARRASCO LAWN TENIS (KM 23)",
+  "Fecha_Inicio": "2026-04-25 15:40:00",
+  "Fecha_fin": "2026-04-25 15:40:00",
+  "Locatario": "CARRASCO LAWN TENNIS",
+  "goles_locatario": "2",
+  "puntos_locatario": "3",
+  "Visitante": "TENIS EL PINAR",
+  "goles_visitante": "0",
+  "puntos_visitante": "0",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "56767",
+   "Nombre": "AGUSTIN MORENO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56134",
+   "Nombre": "FELIPE MIGUEL WAS",
+   "camiseta": "23",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "66376",
+   "Nombre": "MANUEL DARIO ASENCIO",
+   "camiseta": "56",
+   "Capitan": ""
+  },
+  {
+   "carne": "56131",
+   "Nombre": "SEBASTIAN OLAVE",
+   "camiseta": "60",
+   "Capitan": ""
+  },
+  {
+   "carne": "59063",
+   "Nombre": "FRANCISCO RODRIGUEZ",
+   "camiseta": "39",
+   "Capitan": ""
+  },
+  {
+   "carne": "54769",
+   "Nombre": "JUAN GONZALEZ",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "64790",
+   "Nombre": "SANTINO FIORELLI",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "58673",
+   "Nombre": "ALEJO FERRES",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "57067",
+   "Nombre": "JUAN BAUTISTA ALGORTA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "67506",
+   "Nombre": "JUAN IGNACIO SERRENTINO",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "58916",
+   "Nombre": "FELIPE BORDOLI",
+   "camiseta": "30",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "57995",
+   "Nombre": "TIAGO BARBOZA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56831",
+   "Nombre": "JUAN MARTIN ABO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "66515",
+   "Nombre": "FELIPE ANTONIO REGUEIRO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "56834",
+   "Nombre": "JOAQUIN QUINTANA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "53658",
+   "Nombre": "JOAQUIN VAZQUEZ",
+   "camiseta": "15",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67917",
+   "Nombre": "SANTIAGO CASTRO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64788",
+   "Nombre": "JUAN IGNACIO LIZARRAGA",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "54592",
+   "Nombre": "LUCCA BONOMI",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "66599",
+   "Nombre": "FACUNDO ALVAREZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "58654",
+   "Nombre": "MATIAS NICOLAS BARRIOS",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "64786",
+   "Nombre": "THIAGO  DANILO SOUTO",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "54769",
+   "Jug_Sale": "JUAN GONZALEZ",
+   "CarneEntra": "63410",
+   "Jug_Entra": "TOMAS GRUDZIEN",
+   "camiseta": "34",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "57067",
+   "Jug_Sale": "JUAN BAUTISTA ALGORTA",
+   "CarneEntra": "56127",
+   "Jug_Entra": "FELIPE CROCI",
+   "camiseta": "33",
+   "minutos": "80"
+  },
+  {
+   "CarneSale": "64790",
+   "Jug_Sale": "SANTINO FIORELLI",
+   "CarneEntra": "56868",
+   "Jug_Entra": "MAXIMO NICOLAS BAGNARDI",
+   "camiseta": "50",
+   "minutos": "86"
+  },
+  {
+   "CarneSale": "67506",
+   "Jug_Sale": "JUAN IGNACIO SERRENTINO",
+   "CarneEntra": "56879",
+   "Jug_Entra": "JERONIMO CODARI",
+   "camiseta": "55",
+   "minutos": "90"
+  },
+  {
+   "CarneSale": "58916",
+   "Jug_Sale": "FELIPE BORDOLI",
+   "CarneEntra": "61096",
+   "Jug_Entra": "TOMAS ARRIETA",
+   "camiseta": "27",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "66515",
+   "Jug_Sale": "FELIPE ANTONIO REGUEIRO",
+   "CarneEntra": "54596",
+   "Jug_Entra": "HERNAN FERNANDEZ",
+   "camiseta": "3",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "58654",
+   "Jug_Sale": "MATIAS NICOLAS BARRIOS",
+   "CarneEntra": "57044",
+   "Jug_Entra": "JUAN RAMON CASAL",
+   "camiseta": "17",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "66599",
+   "Jug_Sale": "FACUNDO ALVAREZ",
+   "CarneEntra": "54831",
+   "Jug_Entra": "JOAQUÌN GOLDARACENA",
+   "camiseta": "22",
+   "minutos": "54"
+  },
+  {
+   "CarneSale": "64788",
+   "Jug_Sale": "JUAN IGNACIO LIZARRAGA",
+   "CarneEntra": "56164",
+   "Jug_Entra": "GUZMAN COSTEMALLE",
+   "camiseta": "25",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "53658",
+   "Jug_Sale": "JOAQUIN VAZQUEZ",
+   "CarneEntra": "56188",
+   "Jug_Entra": "THIAGO NAHUEL ROLAND",
+   "camiseta": "17",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "54592",
+   "Jug_Sale": "LUCCA BONOMI",
+   "CarneEntra": "54594",
+   "Jug_Entra": "JUAN DIEGO ZORRILLA DE SAN M",
+   "camiseta": "7",
+   "minutos": "75"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "57067",
+   "Nombre": "JUAN BAUTISTA ALGORTA",
+   "minutos": "43",
+   "EnContra": "0"
+  },
+  {
+   "carne": "57067",
+   "Nombre": "JUAN BAUTISTA ALGORTA",
+   "minutos": "48",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

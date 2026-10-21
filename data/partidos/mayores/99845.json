@@ -1,0 +1,287 @@
+{
+ "id": "99845",
+ "categoria": "mayores",
+ "serie": "A",
+ "fecha": 8,
+ "fechaHora": "2026-06-07 11:15:00",
+ "cancha": "COMPLEJO JUAN XXIII",
+ "local": "JUAN XXIII",
+ "visitante": "PLAYA HONDA UNIVERSITARIO",
+ "gl": 0,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "57",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "1",
+  "Divisional": "DIVISIONAL \"A\"",
+  "Cancha": "COMPLEJO JUAN XXIII",
+  "Fecha_Inicio": "2026-06-07 13:15:00",
+  "Fecha_fin": "2026-06-07 13:15:00",
+  "Locatario": "JUAN XXIII",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "PLAYA HONDA UNIVERSITARIO",
+  "goles_visitante": "1",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "36530",
+   "Nombre": "MATIAS IROLDI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "47130",
+   "Nombre": "FRANCISCO ALVAREZ DE RON",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "49422",
+   "Nombre": "MARTIN ESTEBAN DECIA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "58847",
+   "Nombre": "JUAN DIEGO FAGNONI",
+   "camiseta": "67",
+   "Capitan": ""
+  },
+  {
+   "carne": "46955",
+   "Nombre": "FRANCISCO ARTURO CACERES",
+   "camiseta": "87",
+   "Capitan": ""
+  },
+  {
+   "carne": "40859",
+   "Nombre": "JUAN MANUEL FERREIRA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "49276",
+   "Nombre": "MATEO TECHEIRA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "58711",
+   "Nombre": "GERMAN MANGARELLI",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "45693",
+   "Nombre": "PEDRO BENZO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "50344",
+   "Nombre": "FELIPE MANUEL NIETO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "41174",
+   "Nombre": "JUAN PABLO PASTORINO",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "54947",
+   "Nombre": "SANTIAGO HERNAN RAMIREZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "40183",
+   "Nombre": "FERNANDO MICHEL CHACON",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64140",
+   "Nombre": "JUAN IGNACIO CHOCHO",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "57182",
+   "Nombre": "JOAQUIN PABLO BAUTISTA",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "54303",
+   "Nombre": "RODRIGO LEON",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "55198",
+   "Nombre": "CAMILO JOAQUIN CABRERA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "58638",
+   "Nombre": "SANTINO TORTORELLA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "57539",
+   "Nombre": "MARTIN ANDRES RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58944",
+   "Nombre": "IGNACIO ALGORTA",
+   "camiseta": "29",
+   "Capitan": ""
+  },
+  {
+   "carne": "53111",
+   "Nombre": "JUAN PEDRO TAFERNABERRY",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "66271",
+   "Nombre": "FELIPE RODRIGUEZ",
+   "camiseta": "2",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "45693",
+   "Jug_Sale": "PEDRO BENZO",
+   "CarneEntra": "53365",
+   "Jug_Entra": "FRANCO NICOLAS PEREIRA",
+   "camiseta": "7",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50344",
+   "Jug_Sale": "FELIPE MANUEL NIETO",
+   "CarneEntra": "48081",
+   "Jug_Entra": "EMILIANO DANIEL AHUNTCHAIN",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "46955",
+   "Jug_Sale": "FRANCISCO ARTURO CACERES",
+   "CarneEntra": "51708",
+   "Jug_Entra": "AGUSTIN FERRES",
+   "camiseta": "9",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "49276",
+   "Jug_Sale": "MATEO TECHEIRA",
+   "CarneEntra": "52645",
+   "Jug_Entra": "AGUSTIN QUARTINO",
+   "camiseta": "11",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "41174",
+   "Jug_Sale": "JUAN PABLO PASTORINO",
+   "CarneEntra": "51518",
+   "Jug_Entra": "SANTIAGO BRANCATO",
+   "camiseta": "6",
+   "minutos": "62"
+  },
+  {
+   "CarneSale": "58847",
+   "Jug_Sale": "JUAN DIEGO FAGNONI",
+   "CarneEntra": "58861",
+   "Jug_Entra": "SEBASTIAN RODRIGUEZ",
+   "camiseta": "50",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "47130",
+   "Jug_Sale": "FRANCISCO ALVAREZ DE RON",
+   "CarneEntra": "56837",
+   "Jug_Entra": "RENZO BORGATO",
+   "camiseta": "67",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "53111",
+   "Jug_Sale": "JUAN PEDRO TAFERNABERRY",
+   "CarneEntra": "31696",
+   "Jug_Entra": "JAVIER TAIS",
+   "camiseta": "19",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "58944",
+   "Jug_Sale": "IGNACIO ALGORTA",
+   "CarneEntra": "68646",
+   "Jug_Entra": "MARTIN GUADALUPE",
+   "camiseta": "13",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "55198",
+   "Jug_Sale": "CAMILO JOAQUIN CABRERA",
+   "CarneEntra": "56818",
+   "Jug_Entra": "FACUNDO MARCEL RODRIGUEZ",
+   "camiseta": "37",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "57539",
+   "Jug_Sale": "MARTIN ANDRES RODRIGUEZ",
+   "CarneEntra": "67539",
+   "Jug_Entra": "MATIAS NICOLAS RODRIGUEZ",
+   "camiseta": "46",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "64140",
+   "Jug_Sale": "JUAN IGNACIO CHOCHO",
+   "CarneEntra": "62123",
+   "Jug_Entra": "LAUTARO ELIAS CATSOURIS",
+   "camiseta": "10",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "66271",
+   "Jug_Sale": "FELIPE RODRIGUEZ",
+   "CarneEntra": "64140",
+   "Jug_Entra": "JUAN IGNACIO CHOCHO",
+   "camiseta": "28",
+   "minutos": "89"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "58944",
+   "Nombre": "IGNACIO ALGORTA",
+   "minutos": "15",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

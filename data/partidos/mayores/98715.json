@@ -1,0 +1,248 @@
+{
+ "id": "98715",
+ "categoria": "mayores",
+ "serie": "A",
+ "fecha": 3,
+ "fechaHora": "2026-04-29 21:00:00",
+ "cancha": "CARRASCO LAWN TENIS (KM 23)",
+ "local": "CARRASCO LAWN TENNIS",
+ "visitante": "SANTA ELENA LAGOMAR",
+ "gl": 1,
+ "gv": 4,
+ "detalle": {
+  "nro_partido": "23",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "1",
+  "Divisional": "DIVISIONAL \"A\"",
+  "Cancha": "CARRASCO LAWN TENIS (KM 23)",
+  "Fecha_Inicio": "2026-04-29 22:15:00",
+  "Fecha_fin": "2026-04-29 22:15:00",
+  "Locatario": "CARRASCO LAWN TENNIS",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "SANTA ELENA LAGOMAR",
+  "goles_visitante": "4",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": ""
+ },
+ "titularesL": [
+  {
+   "carne": "41005",
+   "Nombre": "NICOLAS RAFFO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "40246",
+   "Nombre": "LUCAS NERY CALCAGNO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "31952",
+   "Nombre": "JOAQUIN REBELLATO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "44899",
+   "Nombre": "JUAN MARTIN DEFFEMINIS",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "44809",
+   "Nombre": "TOMAS JOSE SANZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "43969",
+   "Nombre": "MAURO DONNANGELO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "50239",
+   "Nombre": "FRANCISCO AGUSTIN PERTUSSO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "56869",
+   "Nombre": "NICOLAS PODESTA",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "29653",
+   "Nombre": "MARTIN MUSETTI",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "48826",
+   "Nombre": "JOAQUIN PODESTA",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "66377",
+   "Nombre": "MATEO AGUSTIN ASENCIO",
+   "camiseta": "29",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "40031",
+   "Nombre": "MATEO GUERRA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "41018",
+   "Nombre": "FEDERICO IGNACIO TAMBUSSO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "49228",
+   "Nombre": "SANTIAGO QUINTANS",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "53269",
+   "Nombre": "JUAN MANUEL RODRIGUEZ",
+   "camiseta": "23",
+   "Capitan": ""
+  },
+  {
+   "carne": "39354",
+   "Nombre": "FEDERICO COMBA",
+   "camiseta": "3",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56503",
+   "Nombre": "JOAQUIN SANCHEZ",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "50407",
+   "Nombre": "FELIPE PONS",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "54416",
+   "Nombre": "JOAQUIN FALCON",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "61323",
+   "Nombre": "SANTINO MIGUEL VILA",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "53426",
+   "Nombre": "JUAN MANUEL BELLO",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "41326",
+   "Nombre": "FRANCO POLACCHINI",
+   "camiseta": "96",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "43969",
+   "Jug_Sale": "MAURO DONNANGELO",
+   "CarneEntra": "67649",
+   "Jug_Entra": "FEDERICO TELLECHEA",
+   "camiseta": "38",
+   "minutos": "30"
+  },
+  {
+   "CarneSale": "56869",
+   "Jug_Sale": "NICOLAS PODESTA",
+   "CarneEntra": "39086",
+   "Jug_Entra": "MATHIAS GASTON CASTIÑEIRA",
+   "camiseta": "15",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "66377",
+   "Jug_Sale": "MATEO AGUSTIN ASENCIO",
+   "CarneEntra": "23708",
+   "Jug_Entra": "LEANDRO JOSE FERNANDEZ",
+   "camiseta": "10",
+   "minutos": "65"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "54416",
+   "Jug_Sale": "JOAQUIN FALCON",
+   "CarneEntra": "41027",
+   "Jug_Entra": "FELIPE ESTEVEZ",
+   "camiseta": "10",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "56503",
+   "Jug_Sale": "JOAQUIN SANCHEZ",
+   "CarneEntra": "56961",
+   "Jug_Entra": "MAXIMILIAN AMADO",
+   "camiseta": "62",
+   "minutos": "80"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "50239",
+   "Nombre": "FRANCISCO AGUSTIN PERTUSSO",
+   "minutos": "45",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "53269",
+   "Nombre": "JUAN MANUEL RODRIGUEZ",
+   "minutos": "90",
+   "EnContra": "1"
+  },
+  {
+   "carne": "53426",
+   "Nombre": "JUAN MANUEL BELLO",
+   "minutos": "57",
+   "EnContra": "1"
+  },
+  {
+   "carne": "53426",
+   "Nombre": "JUAN MANUEL BELLO",
+   "minutos": "69",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56503",
+   "Nombre": "JOAQUIN SANCHEZ",
+   "minutos": "52",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

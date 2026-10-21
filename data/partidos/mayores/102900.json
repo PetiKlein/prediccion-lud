@@ -1,0 +1,313 @@
+{
+ "id": "102900",
+ "categoria": "mayores",
+ "serie": "APD",
+ "fecha": 3,
+ "fechaHora": "2026-10-13 21:30:00",
+ "cancha": "COMPLEJO JUAN XXIII",
+ "local": "JUAN XXIII",
+ "visitante": "OLD IVY",
+ "gl": 1,
+ "gv": 4,
+ "detalle": {
+  "nro_partido": "877",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "2",
+  "Divisional": "MAYORES \"A\" PERM. y DESC.",
+  "Cancha": "COMPLEJO JUAN XXIII",
+  "Fecha_Inicio": "2026-10-13 23:25:00",
+  "Fecha_fin": "2026-10-13 23:25:00",
+  "Locatario": "JUAN XXIII",
+  "goles_locatario": "1",
+  "puntos_locatario": "0",
+  "Visitante": "OLD IVY",
+  "goles_visitante": "4",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "47883",
+   "Nombre": "STIVEN ACOSTA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "49012",
+   "Nombre": "AGUSTIN SUPERVIELLE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "49422",
+   "Nombre": "MARTIN ESTEBAN DECIA",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "40859",
+   "Nombre": "JUAN MANUEL FERREIRA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "51518",
+   "Nombre": "SANTIAGO BRANCATO",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "47130",
+   "Nombre": "FRANCISCO ALVAREZ DE RON",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "58711",
+   "Nombre": "GERMAN MANGARELLI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "67671",
+   "Nombre": "JUAN IGNACIO SÀNCHEZ",
+   "camiseta": "96",
+   "Capitan": ""
+  },
+  {
+   "carne": "50344",
+   "Nombre": "FELIPE MANUEL NIETO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "45693",
+   "Nombre": "PEDRO BENZO",
+   "camiseta": "31",
+   "Capitan": ""
+  },
+  {
+   "carne": "41174",
+   "Nombre": "JUAN PABLO PASTORINO",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "35399",
+   "Nombre": "FELIPE BAUZA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56372",
+   "Nombre": "ALFONSO CARDELINO",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "18671",
+   "Nombre": "SANTIAGO COTELO",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "45591",
+   "Nombre": "FEDERICO DEAKIN",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "69107",
+   "Nombre": "MATIAS PEREIRA",
+   "camiseta": "24",
+   "Capitan": ""
+  },
+  {
+   "carne": "54564",
+   "Nombre": "GUILLERMO CAMPOS",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "47833",
+   "Nombre": "SANTIAGO ANGENSCHEDIT",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "37264",
+   "Nombre": "AGUSTIN ARTAGAVEYTIA",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "57133",
+   "Nombre": "GUIDO MARTINO",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "61290",
+   "Nombre": "FERNANDO BENITEZ",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "66871",
+   "Nombre": "JUAN MANUEL COLMAN",
+   "camiseta": "75",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "47130",
+   "Jug_Sale": "FRANCISCO ALVAREZ DE RON",
+   "CarneEntra": "52645",
+   "Jug_Entra": "AGUSTIN QUARTINO",
+   "camiseta": "11",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "67671",
+   "Jug_Sale": "JUAN IGNACIO SÀNCHEZ",
+   "CarneEntra": "48081",
+   "Jug_Entra": "EMILIANO DANIEL AHUNTCHAIN",
+   "camiseta": "5",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "41174",
+   "Jug_Sale": "JUAN PABLO PASTORINO",
+   "CarneEntra": "51708",
+   "Jug_Entra": "AGUSTIN FERRES",
+   "camiseta": "9",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "58711",
+   "Jug_Sale": "GERMAN MANGARELLI",
+   "CarneEntra": "64095",
+   "Jug_Entra": "JUAN ANDRES GARCIA",
+   "camiseta": "51",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "49012",
+   "Jug_Sale": "AGUSTIN SUPERVIELLE",
+   "CarneEntra": "58847",
+   "Jug_Entra": "JUAN DIEGO FAGNONI",
+   "camiseta": "70",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "50344",
+   "Jug_Sale": "FELIPE MANUEL NIETO",
+   "CarneEntra": "49276",
+   "Jug_Entra": "MATEO TECHEIRA",
+   "camiseta": "12",
+   "minutos": "77"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56372",
+   "Jug_Sale": "ALFONSO CARDELINO",
+   "CarneEntra": "61341",
+   "Jug_Entra": "MATEO SUBIRAN",
+   "camiseta": "88",
+   "minutos": "30"
+  },
+  {
+   "CarneSale": "37264",
+   "Jug_Sale": "AGUSTIN ARTAGAVEYTIA",
+   "CarneEntra": "35857",
+   "Jug_Entra": "JOSE MANUEL BRIT",
+   "camiseta": "5",
+   "minutos": "64"
+  },
+  {
+   "CarneSale": "66871",
+   "Jug_Sale": "JUAN MANUEL COLMAN",
+   "CarneEntra": "47834",
+   "Jug_Entra": "THOMAS DEAKIN",
+   "camiseta": "22",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "69107",
+   "Jug_Sale": "MATIAS PEREIRA",
+   "CarneEntra": "49105",
+   "Jug_Entra": "NICOLAS CASAMAYOU",
+   "camiseta": "8",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "18671",
+   "Jug_Sale": "SANTIAGO COTELO",
+   "CarneEntra": "54763",
+   "Jug_Entra": "JUAN BAUTISTA CROSA",
+   "camiseta": "24",
+   "minutos": "85"
+  },
+  {
+   "CarneSale": "61290",
+   "Jug_Sale": "FERNANDO BENITEZ",
+   "CarneEntra": "48007",
+   "Jug_Entra": "VALENTIN MIER",
+   "camiseta": "12",
+   "minutos": "87"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "41174",
+   "Nombre": "JUAN PABLO PASTORINO",
+   "minutos": "44",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "57133",
+   "Nombre": "GUIDO MARTINO",
+   "minutos": "18",
+   "EnContra": "1"
+  },
+  {
+   "carne": "61290",
+   "Nombre": "FERNANDO BENITEZ",
+   "minutos": "69",
+   "EnContra": "1"
+  },
+  {
+   "carne": "61290",
+   "Nombre": "FERNANDO BENITEZ",
+   "minutos": "86",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66871",
+   "Nombre": "JUAN MANUEL COLMAN",
+   "minutos": "31",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "MARTIN ESTEBAN DECIA",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "SANTIAGO BRANCATO",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": []
+}

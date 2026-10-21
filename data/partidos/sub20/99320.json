@@ -1,0 +1,299 @@
+{
+ "id": "99320",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 7,
+ "fechaHora": "2026-05-29 20:30:00",
+ "cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
+ "local": "NAUTICO CARRASCO Y PUNTA GORDA",
+ "visitante": "OLD BRENDANS CLUB",
+ "gl": 0,
+ "gv": 3,
+ "detalle": {
+  "nro_partido": "50",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "COMP. DEVOTO (NAUT. PICHINCHA)",
+  "Fecha_Inicio": "2026-05-29 22:15:00",
+  "Fecha_fin": "2026-05-29 22:15:00",
+  "Locatario": "NAUTICO CARRASCO Y PUNTA GORDA",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "OLD BRENDANS CLUB",
+  "goles_visitante": "3",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "56966",
+   "Nombre": "MARTIN GOMEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "62605",
+   "Nombre": "FELIPE CÒCCARO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "59560",
+   "Nombre": "NAHUEL TABOADA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "65858",
+   "Nombre": "DYLAN JOAQUIN PITTAMEGLIO",
+   "camiseta": "69",
+   "Capitan": ""
+  },
+  {
+   "carne": "68685",
+   "Nombre": "BRUNO ALVAREZ",
+   "camiseta": "67",
+   "Capitan": ""
+  },
+  {
+   "carne": "61249",
+   "Nombre": "AGUSTIN PALOMINO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "59549",
+   "Nombre": "SANTIAGO MARTINEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "56547",
+   "Nombre": "JUAN FRANCISCO PEREIRO",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57720",
+   "Nombre": "FELIPE GALLO",
+   "camiseta": "99",
+   "Capitan": ""
+  },
+  {
+   "carne": "61206",
+   "Nombre": "ALEX AGUSTIN MIGUEL",
+   "camiseta": "44",
+   "Capitan": ""
+  },
+  {
+   "carne": "60967",
+   "Nombre": "JUAN FRANCISCO ARRETCHE",
+   "camiseta": "50",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58285",
+   "Nombre": "RODRIGO BROTONS",
+   "camiseta": "88",
+   "Capitan": ""
+  },
+  {
+   "carne": "61565",
+   "Nombre": "JOAQUIN FRANCISCO WÜRTH",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "57835",
+   "Nombre": "ALFONSO ZAMBRANO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "53840",
+   "Nombre": "MATIAS ANDRES RIANI",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56689",
+   "Nombre": "DIEGO ANDRE MENDOZA",
+   "camiseta": "37",
+   "Capitan": ""
+  },
+  {
+   "carne": "56690",
+   "Nombre": "ALEJO ZAMBRANO",
+   "camiseta": "36",
+   "Capitan": ""
+  },
+  {
+   "carne": "53875",
+   "Nombre": "ALFONSO ABELLA",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "53398",
+   "Nombre": "MARTINO RAIMONDO",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "53390",
+   "Nombre": "JUAN MANUEL ECHEVERRY",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "55708",
+   "Nombre": "GONZALO BARTESAGHI",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "59207",
+   "Nombre": "IGNACIO RODRIGUEZ",
+   "camiseta": "8",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "57720",
+   "Jug_Sale": "FELIPE GALLO",
+   "CarneEntra": "57690",
+   "Jug_Entra": "JUAN PABLO ROCHE",
+   "camiseta": "19",
+   "minutos": "9"
+  },
+  {
+   "CarneSale": "62605",
+   "Jug_Sale": "FELIPE CÒCCARO",
+   "CarneEntra": "58759",
+   "Jug_Entra": "JUAN FAUSTINO FERRARI",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "68685",
+   "Jug_Sale": "BRUNO ALVAREZ",
+   "CarneEntra": "67319",
+   "Jug_Entra": "FACUNDO LAPROVITERA",
+   "camiseta": "19",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "61249",
+   "Jug_Sale": "AGUSTIN PALOMINO",
+   "CarneEntra": "59933",
+   "Jug_Entra": "AGUSTIN MARTINEZ",
+   "camiseta": "24",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "59560",
+   "Jug_Sale": "NAHUEL TABOADA",
+   "CarneEntra": "57686",
+   "Jug_Entra": "ALEJANDRO MELOGNO",
+   "camiseta": "18",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "60967",
+   "Jug_Sale": "JUAN FRANCISCO ARRETCHE",
+   "CarneEntra": "54710",
+   "Jug_Entra": "JUAN BAUTISTA BERNACHIN",
+   "camiseta": "11",
+   "minutos": "75"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "61565",
+   "Jug_Sale": "JOAQUIN FRANCISCO WÜRTH",
+   "CarneEntra": "54756",
+   "Jug_Entra": "ADRIANO MARTIN AGGIO",
+   "camiseta": "55",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "56689",
+   "Jug_Sale": "DIEGO ANDRE MENDOZA",
+   "CarneEntra": "58816",
+   "Jug_Entra": "GUILLERMO SOTO",
+   "camiseta": "32",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "55708",
+   "Jug_Sale": "GONZALO BARTESAGHI",
+   "CarneEntra": "57398",
+   "Jug_Entra": "CIRO LACABANNE",
+   "camiseta": "9",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "59207",
+   "Jug_Sale": "IGNACIO RODRIGUEZ",
+   "CarneEntra": "61164",
+   "Jug_Entra": "MATEO CAPLIVSCHI",
+   "camiseta": "40",
+   "minutos": "71"
+  },
+  {
+   "CarneSale": "57835",
+   "Jug_Sale": "ALFONSO ZAMBRANO",
+   "CarneEntra": "55605",
+   "Jug_Entra": "BAUTISTA PARODI",
+   "camiseta": "13",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "53398",
+   "Jug_Sale": "MARTINO RAIMONDO",
+   "CarneEntra": "58833",
+   "Jug_Entra": "MARCOS ERRECART CARRATU",
+   "camiseta": "29",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "53840",
+   "Jug_Sale": "MATIAS ANDRES RIANI",
+   "CarneEntra": "58830",
+   "Jug_Entra": "JOAQUÌN ROMERO",
+   "camiseta": "24",
+   "minutos": "82"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "55708",
+   "Nombre": "GONZALO BARTESAGHI",
+   "minutos": "8",
+   "EnContra": "1"
+  },
+  {
+   "carne": "55708",
+   "Nombre": "GONZALO BARTESAGHI",
+   "minutos": "33",
+   "EnContra": "1"
+  },
+  {
+   "carne": "56690",
+   "Nombre": "ALEJO ZAMBRANO",
+   "minutos": "72",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

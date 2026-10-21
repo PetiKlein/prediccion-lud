@@ -1,0 +1,288 @@
+{
+ "id": "102316",
+ "categoria": "sub20",
+ "serie": "20APD",
+ "fecha": 1,
+ "fechaHora": "2026-09-26 15:30:00",
+ "cancha": "COMPLEJO AZULGRANA",
+ "local": "OLD BOYS CLUB",
+ "visitante": "TENIS EL PINAR",
+ "gl": 0,
+ "gv": 3,
+ "detalle": {
+  "nro_partido": "391",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"A\" PERM. y DESC.",
+  "Cancha": "COMPLEJO AZULGRANA",
+  "Fecha_Inicio": "2026-09-26 15:05:00",
+  "Fecha_fin": "2026-09-26 15:05:00",
+  "Locatario": "OLD BOYS CLUB",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "TENIS EL PINAR",
+  "goles_visitante": "3",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "65914",
+   "Nombre": "LUCAS FACUNDO RUIZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "55875",
+   "Nombre": "AGUSTIN AGUIRRE",
+   "camiseta": "25",
+   "Capitan": ""
+  },
+  {
+   "carne": "57010",
+   "Nombre": "FELIPE SUAREZ",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "57002",
+   "Nombre": "JUAN MARTIN CANUTI",
+   "camiseta": "26",
+   "Capitan": ""
+  },
+  {
+   "carne": "55700",
+   "Nombre": "MANUEL LACALLE",
+   "camiseta": "14",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "68761",
+   "Nombre": "MATIAS AGUSTIN RUIZ",
+   "camiseta": "89",
+   "Capitan": ""
+  },
+  {
+   "carne": "57001",
+   "Nombre": "MANUEL BOSCH",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "57004",
+   "Nombre": "ALBERTO HERRERA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "57945",
+   "Nombre": "BAUTISTA ESTEFANELL",
+   "camiseta": "95",
+   "Capitan": ""
+  },
+  {
+   "carne": "67654",
+   "Nombre": "BAUTISTA RISSO",
+   "camiseta": "87",
+   "Capitan": ""
+  },
+  {
+   "carne": "57000",
+   "Nombre": "ANDRES ARTAGAVEYTIA",
+   "camiseta": "23",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "56185",
+   "Nombre": "JUAN ANDRES BAYARDI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56164",
+   "Nombre": "GUZMAN COSTEMALLE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "54831",
+   "Nombre": "JOAQUÌN GOLDARACENA",
+   "camiseta": "20",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "61620",
+   "Nombre": "FACUNDO PORRAS",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56834",
+   "Nombre": "JOAQUIN QUINTANA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "56831",
+   "Nombre": "JUAN MARTIN ABO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "66599",
+   "Nombre": "FACUNDO ALVAREZ",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "67917",
+   "Nombre": "SANTIAGO CASTRO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "61622",
+   "Nombre": "MATEO OMAR ROLAND",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "56188",
+   "Nombre": "THIAGO NAHUEL ROLAND",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "64786",
+   "Nombre": "THIAGO  DANILO SOUTO",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "67654",
+   "Jug_Sale": "BAUTISTA RISSO",
+   "CarneEntra": "56262",
+   "Jug_Entra": "FRANCISCO NAVARRO",
+   "camiseta": "17",
+   "minutos": "30"
+  },
+  {
+   "CarneSale": "57001",
+   "Jug_Sale": "MANUEL BOSCH",
+   "CarneEntra": "69149",
+   "Jug_Entra": "LORENZO AGUSTIN DIAZ",
+   "camiseta": "4",
+   "minutos": "30"
+  },
+  {
+   "CarneSale": "57004",
+   "Jug_Sale": "ALBERTO HERRERA",
+   "CarneEntra": "56273",
+   "Jug_Entra": "ALEXIS BRUCE",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "65914",
+   "Jug_Sale": "LUCAS FACUNDO RUIZ",
+   "CarneEntra": "56265",
+   "Jug_Entra": "JUAN MARTIN HRILJAC",
+   "camiseta": "3",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "57000",
+   "Jug_Sale": "ANDRES ARTAGAVEYTIA",
+   "CarneEntra": "56267",
+   "Jug_Entra": "JOAQUIN GUTIERREZ",
+   "camiseta": "19",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "55875",
+   "Jug_Sale": "AGUSTIN AGUIRRE",
+   "CarneEntra": "58858",
+   "Jug_Entra": "JOAQUIN QUINTO REYES",
+   "camiseta": "67",
+   "minutos": "72"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "56188",
+   "Jug_Sale": "THIAGO NAHUEL ROLAND",
+   "CarneEntra": "54592",
+   "Jug_Entra": "LUCCA BONOMI",
+   "camiseta": "24",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "64786",
+   "Jug_Sale": "THIAGO  DANILO SOUTO",
+   "CarneEntra": "64788",
+   "Jug_Entra": "JUAN IGNACIO LIZARRAGA",
+   "camiseta": "14",
+   "minutos": "53"
+  },
+  {
+   "CarneSale": "61622",
+   "Jug_Sale": "MATEO OMAR ROLAND",
+   "CarneEntra": "60921",
+   "Jug_Entra": "TEO OLAVE",
+   "camiseta": "15",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "67917",
+   "Jug_Sale": "SANTIAGO CASTRO",
+   "CarneEntra": "62853",
+   "Jug_Entra": "GUILLERMO BAROFFIO",
+   "camiseta": "21",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "56164",
+   "Jug_Sale": "GUZMAN COSTEMALLE",
+   "CarneEntra": "57044",
+   "Jug_Entra": "JUAN RAMON CASAL",
+   "camiseta": "17",
+   "minutos": "88"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "64786",
+   "Nombre": "THIAGO  DANILO SOUTO",
+   "minutos": "3",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67917",
+   "Nombre": "SANTIAGO CASTRO",
+   "minutos": "13",
+   "EnContra": "1"
+  },
+  {
+   "carne": "67917",
+   "Nombre": "SANTIAGO CASTRO",
+   "minutos": "19",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "JUAN MARTIN CANUTI",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": []
+}

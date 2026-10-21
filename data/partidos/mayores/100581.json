@@ -1,0 +1,255 @@
+{
+ "id": "100581",
+ "categoria": "mayores",
+ "serie": "A",
+ "fecha": 11,
+ "fechaHora": "2026-06-28 11:15:00",
+ "cancha": "COMPLEJO JUAN XXIII",
+ "local": "JUAN XXIII",
+ "visitante": "CARRASCO POLO CLUB",
+ "gl": 0,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "87",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "1",
+  "Divisional": "DIVISIONAL \"A\"",
+  "Cancha": "COMPLEJO JUAN XXIII",
+  "Fecha_Inicio": "2026-06-28 13:15:00",
+  "Fecha_fin": "2026-06-28 13:15:00",
+  "Locatario": "JUAN XXIII",
+  "goles_locatario": "0",
+  "puntos_locatario": "0",
+  "Visitante": "CARRASCO POLO CLUB",
+  "goles_visitante": "1",
+  "puntos_visitante": "3",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "47883",
+   "Nombre": "STIVEN ACOSTA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "47130",
+   "Nombre": "FRANCISCO ALVAREZ DE RON",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "49422",
+   "Nombre": "MARTIN ESTEBAN DECIA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "49012",
+   "Nombre": "AGUSTIN SUPERVIELLE",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "58850",
+   "Nombre": "NICOLAS GANDIOLI",
+   "camiseta": "28",
+   "Capitan": ""
+  },
+  {
+   "carne": "40859",
+   "Nombre": "JUAN MANUEL FERREIRA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "58711",
+   "Nombre": "GERMAN MANGARELLI",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "54720",
+   "Nombre": "FRANCISCO ROBAINA",
+   "camiseta": "27",
+   "Capitan": ""
+  },
+  {
+   "carne": "52645",
+   "Nombre": "AGUSTIN QUARTINO",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "45693",
+   "Nombre": "PEDRO BENZO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "41174",
+   "Nombre": "JUAN PABLO PASTORINO",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "53730",
+   "Nombre": "RENZO MACHIN",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "53597",
+   "Nombre": "BAUTISTA DE LUCA",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "39328",
+   "Nombre": "FEDERICO UCAR",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "35870",
+   "Nombre": "LUCAS MACAGNO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "44449",
+   "Nombre": "MARTIN PIANGELUA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "48017",
+   "Nombre": "JUAN MARTIN IRAOLA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "44181",
+   "Nombre": "FRANCISCO LABAT",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "45501",
+   "Nombre": "IVAN AMADEO",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "39434",
+   "Nombre": "SANTIAGO QUIÑONES",
+   "camiseta": "10",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "57347",
+   "Nombre": "FACUNDO COSTA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "46817",
+   "Nombre": "FEDERICO HEBER VAZ",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "49012",
+   "Jug_Sale": "AGUSTIN SUPERVIELLE",
+   "CarneEntra": "58847",
+   "Jug_Entra": "JUAN DIEGO FAGNONI",
+   "camiseta": "70",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "45693",
+   "Jug_Sale": "PEDRO BENZO",
+   "CarneEntra": "49276",
+   "Jug_Entra": "MATEO TECHEIRA",
+   "camiseta": "15",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "52645",
+   "Jug_Sale": "AGUSTIN QUARTINO",
+   "CarneEntra": "50344",
+   "Jug_Entra": "FELIPE MANUEL NIETO",
+   "camiseta": "17",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "58850",
+   "Jug_Sale": "NICOLAS GANDIOLI",
+   "CarneEntra": "46955",
+   "Jug_Entra": "FRANCISCO ARTURO CACERES",
+   "camiseta": "87",
+   "minutos": "73"
+  },
+  {
+   "CarneSale": "47130",
+   "Jug_Sale": "FRANCISCO ALVAREZ DE RON",
+   "CarneEntra": "51708",
+   "Jug_Entra": "AGUSTIN FERRES",
+   "camiseta": "9",
+   "minutos": "87"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "48017",
+   "Jug_Sale": "JUAN MARTIN IRAOLA",
+   "CarneEntra": "42582",
+   "Jug_Entra": "IGNACIO LACURCIA",
+   "camiseta": "16",
+   "minutos": "19"
+  },
+  {
+   "CarneSale": "45501",
+   "Jug_Sale": "IVAN AMADEO",
+   "CarneEntra": "37473",
+   "Jug_Entra": "SANTIAGO MATO",
+   "camiseta": "15",
+   "minutos": "72"
+  },
+  {
+   "CarneSale": "57347",
+   "Jug_Sale": "FACUNDO COSTA",
+   "CarneEntra": "59748",
+   "Jug_Entra": "SANTIAGO MENDEZ",
+   "camiseta": "5",
+   "minutos": "79"
+  },
+  {
+   "CarneSale": "46817",
+   "Jug_Sale": "FEDERICO HEBER VAZ",
+   "CarneEntra": "42512",
+   "Jug_Entra": "NICOLAS BOLGER",
+   "camiseta": "7",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [],
+ "golesV": [
+  {
+   "carne": "46817",
+   "Nombre": "FEDERICO HEBER VAZ",
+   "minutos": "85",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

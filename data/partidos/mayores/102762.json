@@ -1,0 +1,286 @@
+{
+ "id": "102762",
+ "categoria": "mayores",
+ "serie": "APD",
+ "fecha": 3,
+ "fechaHora": "2026-10-11 11:15:00",
+ "cancha": "CARRASCO LAWN TENIS (KM 23)",
+ "local": "CARRASCO LAWN TENNIS",
+ "visitante": "OLD CHRISTIANS CLUB",
+ "gl": 1,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "879",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "MAYORES",
+  "categoria": "MAYORES MASCULINO",
+  "rueda": "2",
+  "Divisional": "MAYORES \"A\" PERM. y DESC.",
+  "Cancha": "CARRASCO LAWN TENIS (KM 23)",
+  "Fecha_Inicio": "2026-10-11 13:10:00",
+  "Fecha_fin": "2026-10-11 13:10:00",
+  "Locatario": "CARRASCO LAWN TENNIS",
+  "goles_locatario": "1",
+  "puntos_locatario": "1",
+  "Visitante": "OLD CHRISTIANS CLUB",
+  "goles_visitante": "1",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "41005",
+   "Nombre": "NICOLAS RAFFO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "31952",
+   "Nombre": "JOAQUIN REBELLATO",
+   "camiseta": "33",
+   "Capitan": ""
+  },
+  {
+   "carne": "19944",
+   "Nombre": "MAURICIO JAVIER GENINAZZI",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "49606",
+   "Nombre": "ALEJO MONTERROSO",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "66422",
+   "Nombre": "RODRIGO ARIAS",
+   "camiseta": "51",
+   "Capitan": ""
+  },
+  {
+   "carne": "39086",
+   "Nombre": "MATHIAS GASTON CASTIÑEIRA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "48826",
+   "Nombre": "JOAQUIN PODESTA",
+   "camiseta": "45",
+   "Capitan": ""
+  },
+  {
+   "carne": "22166",
+   "Nombre": "FEDERICO PUA",
+   "camiseta": "50",
+   "Capitan": ""
+  },
+  {
+   "carne": "44809",
+   "Nombre": "TOMAS JOSE SANZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "50239",
+   "Nombre": "FRANCISCO AGUSTIN PERTUSSO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "29653",
+   "Nombre": "MARTIN MUSETTI",
+   "camiseta": "21",
+   "Capitan": "(C)"
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "51657",
+   "Nombre": "FELIPE PEREYRA",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "50841",
+   "Nombre": "SANTOS JUAN HOUNIE",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "52602",
+   "Nombre": "JUAN DIEGO DE CASTRO",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "51886",
+   "Nombre": "LUCAS ALONSO",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "37170",
+   "Nombre": "SEBASTIAN REGULES",
+   "camiseta": "71",
+   "Capitan": ""
+  },
+  {
+   "carne": "52355",
+   "Nombre": "SANTIAGO PAZ RODRIGUEZ",
+   "camiseta": "47",
+   "Capitan": ""
+  },
+  {
+   "carne": "53249",
+   "Nombre": "JUAN FRANCISCO FERREIRA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "50902",
+   "Nombre": "SANTIAGO VINCENT",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "42069",
+   "Nombre": "MATEO GIOIA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "37735",
+   "Nombre": "FRANCO MASCIA",
+   "camiseta": "7",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "37187",
+   "Nombre": "GUILLERMO DEAL",
+   "camiseta": "11",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "48826",
+   "Jug_Sale": "JOAQUIN PODESTA",
+   "CarneEntra": "23708",
+   "Jug_Entra": "LEANDRO JOSE FERNANDEZ",
+   "camiseta": "46",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "50239",
+   "Jug_Sale": "FRANCISCO AGUSTIN PERTUSSO",
+   "CarneEntra": "58916",
+   "Jug_Entra": "FELIPE BORDOLI",
+   "camiseta": "30",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "39086",
+   "Jug_Sale": "MATHIAS GASTON CASTIÑEIRA",
+   "CarneEntra": "28144",
+   "Jug_Entra": "ANDRES ANTONIO BESIO",
+   "camiseta": "16",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "19944",
+   "Jug_Sale": "MAURICIO JAVIER GENINAZZI",
+   "CarneEntra": "56134",
+   "Jug_Entra": "FELIPE MIGUEL WAS",
+   "camiseta": "23",
+   "minutos": "77"
+  },
+  {
+   "CarneSale": "22166",
+   "Jug_Sale": "FEDERICO PUA",
+   "CarneEntra": "46325",
+   "Jug_Entra": "FRANCO SUBIRAN",
+   "camiseta": "25",
+   "minutos": "90"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "53249",
+   "Jug_Sale": "JUAN FRANCISCO FERREIRA",
+   "CarneEntra": "26432",
+   "Jug_Entra": "SANTIAGO LOPEZ",
+   "camiseta": "10",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "50902",
+   "Jug_Sale": "SANTIAGO VINCENT",
+   "CarneEntra": "40765",
+   "Jug_Entra": "JUAN DIEGO GONZALEZ",
+   "camiseta": "5",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "50841",
+   "Jug_Sale": "SANTOS JUAN HOUNIE",
+   "CarneEntra": "51135",
+   "Jug_Entra": "JOAQUIN FABREGAT",
+   "camiseta": "61",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "42069",
+   "Jug_Sale": "MATEO GIOIA",
+   "CarneEntra": "43345",
+   "Jug_Entra": "SANTIAGO PALLARES",
+   "camiseta": "9",
+   "minutos": "67"
+  },
+  {
+   "CarneSale": "37187",
+   "Jug_Sale": "GUILLERMO DEAL",
+   "CarneEntra": "52249",
+   "Jug_Entra": "JUAN GERVASIO ETCHEVERRY",
+   "camiseta": "19",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "51886",
+   "Jug_Sale": "LUCAS ALONSO",
+   "CarneEntra": "39599",
+   "Jug_Entra": "MATIAS HAM",
+   "camiseta": "21",
+   "minutos": "70"
+  },
+  {
+   "CarneSale": "52355",
+   "Jug_Sale": "SANTIAGO PAZ RODRIGUEZ",
+   "CarneEntra": "66722",
+   "Jug_Entra": "JOAQUIN RODRIGUEZ",
+   "camiseta": "38",
+   "minutos": "85"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "50239",
+   "Nombre": "FRANCISCO AGUSTIN PERTUSSO",
+   "minutos": "61",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "37735",
+   "Nombre": "FRANCO MASCIA",
+   "minutos": "88",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

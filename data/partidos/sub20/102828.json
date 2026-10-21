@@ -1,0 +1,256 @@
+{
+ "id": "102828",
+ "categoria": "sub20",
+ "serie": "20AT",
+ "fecha": 3,
+ "fechaHora": "2026-10-12 20:00:00",
+ "cancha": "COMPLEJO LOS NOGALES",
+ "local": "NACIONAL UNIVERSITARIO",
+ "visitante": "CLUB SEMINARIO",
+ "gl": 1,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "370",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "2",
+  "Divisional": "SUB20 \"A\" TITULO",
+  "Cancha": "COMPLEJO LOS NOGALES",
+  "Fecha_Inicio": "2026-10-12 21:50:00",
+  "Fecha_fin": "2026-10-12 21:50:00",
+  "Locatario": "NACIONAL UNIVERSITARIO",
+  "goles_locatario": "1",
+  "puntos_locatario": "1",
+  "Visitante": "CLUB SEMINARIO",
+  "goles_visitante": "1",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "62299",
+   "Nombre": "FACUNDO GONZALEZ",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "68674",
+   "Nombre": "SANTIAGO VIERA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "63621",
+   "Nombre": "RAUL ERNESTO GONZALEZ",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "69106",
+   "Nombre": "JUAN PABLO VIERA",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "57415",
+   "Nombre": "IÑAKI ETCHEVERRIA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "58009",
+   "Nombre": "SEBASTIAN FARIAS",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67309",
+   "Nombre": "GUZMAN DUFOUR",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "53307",
+   "Nombre": "LUCA GIUSEPPE MARRONE",
+   "camiseta": "20",
+   "Capitan": ""
+  },
+  {
+   "carne": "67310",
+   "Nombre": "FACUNDO PEREZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "57960",
+   "Nombre": "LUCAS GABRIEL GRAÑA",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "66558",
+   "Nombre": "CONSTANTINO BENTANCUR",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "58598",
+   "Nombre": "NICOLAS MAZZILLI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "57297",
+   "Nombre": "FACUNDO SAPELLO",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "62949",
+   "Nombre": "JUAN IGNACIO PEDROZO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "57302",
+   "Nombre": "JUAN BAUTISTA PAMPIN",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "56647",
+   "Nombre": "JOAQUIN EMILIANO SOLOGAISTOA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "54965",
+   "Nombre": "JOAQUIN EMILIO VOLA",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "59080",
+   "Nombre": "MATIAS GOSSWEILER",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "56639",
+   "Nombre": "BENJAMIN MORALES",
+   "camiseta": "5",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "56643",
+   "Nombre": "FEDERICO MOSCA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "58599",
+   "Nombre": "FACUNDO MOSCA",
+   "camiseta": "9",
+   "Capitan": ""
+  },
+  {
+   "carne": "62166",
+   "Nombre": "FELIPE AMARO LACASSY",
+   "camiseta": "7",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "63621",
+   "Jug_Sale": "RAUL ERNESTO GONZALEZ",
+   "CarneEntra": "66786",
+   "Jug_Entra": "FACUNDO FEO",
+   "camiseta": "2",
+   "minutos": "45"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "62166",
+   "Jug_Sale": "FELIPE AMARO LACASSY",
+   "CarneEntra": "60868",
+   "Jug_Entra": "IGNACIO ANDRES LEGARRA",
+   "camiseta": "10",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "57302",
+   "Jug_Sale": "JUAN BAUTISTA PAMPIN",
+   "CarneEntra": "62948",
+   "Jug_Entra": "JOAQUIN CAPPUCCIO",
+   "camiseta": "20",
+   "minutos": "51"
+  },
+  {
+   "CarneSale": "59080",
+   "Jug_Sale": "MATIAS GOSSWEILER",
+   "CarneEntra": "65364",
+   "Jug_Entra": "FRANCISO RAMOS",
+   "camiseta": "6",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "56639",
+   "Jug_Sale": "BENJAMIN MORALES",
+   "CarneEntra": "62030",
+   "Jug_Entra": "FRANCO TORTEROLO",
+   "camiseta": "21",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "65364",
+   "Jug_Sale": "FRANCISO RAMOS",
+   "CarneEntra": "56645",
+   "Jug_Entra": "MAXIMO BERTOLA",
+   "camiseta": "23",
+   "minutos": "90"
+  },
+  {
+   "CarneSale": "58599",
+   "Jug_Sale": "FACUNDO MOSCA",
+   "CarneEntra": "63872",
+   "Jug_Entra": "MANUEL DE LA PEÑA",
+   "camiseta": "13",
+   "minutos": "90"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "57960",
+   "Nombre": "LUCAS GABRIEL GRAÑA",
+   "minutos": "92",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "56639",
+   "Nombre": "BENJAMIN MORALES",
+   "minutos": "76",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "GUZMAN DUFOUR",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": [
+  {
+   "Nombre": "FEDERICO MOSCA",
+   "observaciones": ""
+  }
+ ]
+}

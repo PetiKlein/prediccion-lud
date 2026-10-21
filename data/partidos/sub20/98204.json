@@ -1,0 +1,278 @@
+{
+ "id": "98204",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 2,
+ "fechaHora": "2026-04-18 13:30:00",
+ "cancha": "TENIS EL PINAR",
+ "local": "TENIS EL PINAR",
+ "visitante": "NAUTICO CARRASCO Y PUNTA GORDA",
+ "gl": 1,
+ "gv": 1,
+ "detalle": {
+  "nro_partido": "13",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "TENIS EL PINAR",
+  "Fecha_Inicio": "2026-04-18 15:15:00",
+  "Fecha_fin": "2026-04-18 15:15:00",
+  "Locatario": "TENIS EL PINAR",
+  "goles_locatario": "1",
+  "puntos_locatario": "1",
+  "Visitante": "NAUTICO CARRASCO Y PUNTA GORDA",
+  "goles_visitante": "1",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "56185",
+   "Nombre": "JUAN ANDRES BAYARDI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56166",
+   "Nombre": "MARTIN NICOLAS GOMEZ",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "56831",
+   "Nombre": "JUAN MARTIN ABO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "56164",
+   "Nombre": "GUZMAN COSTEMALLE",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "64788",
+   "Nombre": "JUAN IGNACIO LIZARRAGA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "66515",
+   "Nombre": "FELIPE ANTONIO REGUEIRO",
+   "camiseta": "16",
+   "Capitan": ""
+  },
+  {
+   "carne": "66599",
+   "Nombre": "FACUNDO ALVAREZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "53658",
+   "Nombre": "JOAQUIN VAZQUEZ",
+   "camiseta": "22",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67917",
+   "Nombre": "SANTIAGO CASTRO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "64786",
+   "Nombre": "THIAGO  DANILO SOUTO",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "54592",
+   "Nombre": "LUCCA BONOMI",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "56966",
+   "Nombre": "MARTIN GOMEZ",
+   "camiseta": "12",
+   "Capitan": ""
+  },
+  {
+   "carne": "61249",
+   "Nombre": "AGUSTIN PALOMINO",
+   "camiseta": "13",
+   "Capitan": ""
+  },
+  {
+   "carne": "59560",
+   "Nombre": "NAHUEL TABOADA",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "56547",
+   "Nombre": "JUAN FRANCISCO PEREIRO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "57996",
+   "Nombre": "FRNCISCO GUZMAN BICA",
+   "camiseta": "77",
+   "Capitan": ""
+  },
+  {
+   "carne": "57720",
+   "Nombre": "FELIPE GALLO",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "59549",
+   "Nombre": "SANTIAGO MARTINEZ",
+   "camiseta": "81",
+   "Capitan": ""
+  },
+  {
+   "carne": "51094",
+   "Nombre": "DAMIAN ALMIRON",
+   "camiseta": "8",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59547",
+   "Nombre": "FEDERICO MARTINEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "67319",
+   "Nombre": "FACUNDO LAPROVITERA",
+   "camiseta": "19",
+   "Capitan": ""
+  },
+  {
+   "carne": "59740",
+   "Nombre": "IGNACIO LOPEZ",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56166",
+   "Jug_Sale": "MARTIN NICOLAS GOMEZ",
+   "CarneEntra": "56834",
+   "Jug_Entra": "JOAQUIN QUINTANA",
+   "camiseta": "4",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56164",
+   "Jug_Sale": "GUZMAN COSTEMALLE",
+   "CarneEntra": "54831",
+   "Jug_Entra": "JOAQUÌN GOLDARACENA",
+   "camiseta": "7",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "53658",
+   "Jug_Sale": "JOAQUIN VAZQUEZ",
+   "CarneEntra": "58653",
+   "Jug_Entra": "MATIAS HERNANDEZ",
+   "camiseta": "11",
+   "minutos": "55"
+  },
+  {
+   "CarneSale": "54592",
+   "Jug_Sale": "LUCCA BONOMI",
+   "CarneEntra": "56188",
+   "Jug_Entra": "THIAGO NAHUEL ROLAND",
+   "camiseta": "24",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "67917",
+   "Jug_Sale": "SANTIAGO CASTRO",
+   "CarneEntra": "64246",
+   "Jug_Entra": "FELIPE RAFFETTO",
+   "camiseta": "25",
+   "minutos": "75"
+  },
+  {
+   "CarneSale": "64788",
+   "Jug_Sale": "JUAN IGNACIO LIZARRAGA",
+   "CarneEntra": "60921",
+   "Jug_Entra": "TEO OLAVE",
+   "camiseta": "80",
+   "minutos": "88"
+  },
+  {
+   "CarneSale": "66599",
+   "Jug_Sale": "FACUNDO ALVAREZ",
+   "CarneEntra": "54596",
+   "Jug_Entra": "HERNAN FERNANDEZ",
+   "camiseta": "22",
+   "minutos": "88"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "57720",
+   "Jug_Sale": "FELIPE GALLO",
+   "CarneEntra": "58759",
+   "Jug_Entra": "JUAN FAUSTINO FERRARI",
+   "camiseta": "21",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "59740",
+   "Jug_Sale": "IGNACIO LOPEZ",
+   "CarneEntra": "61206",
+   "Jug_Entra": "ALEX AGUSTIN MIGUEL",
+   "camiseta": "99",
+   "minutos": "52"
+  },
+  {
+   "CarneSale": "61249",
+   "Jug_Sale": "AGUSTIN PALOMINO",
+   "CarneEntra": "62605",
+   "Jug_Entra": "FELIPE CÒCCARO",
+   "camiseta": "69",
+   "minutos": "89"
+  },
+  {
+   "CarneSale": "57996",
+   "Jug_Sale": "FRNCISCO GUZMAN BICA",
+   "CarneEntra": "59933",
+   "Jug_Entra": "AGUSTIN MARTINEZ",
+   "camiseta": "24",
+   "minutos": "89"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "67917",
+   "Nombre": "SANTIAGO CASTRO",
+   "minutos": "1",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "59547",
+   "Nombre": "FEDERICO MARTINEZ",
+   "minutos": "25",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": []
+}

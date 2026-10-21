@@ -1,0 +1,319 @@
+{
+ "id": "99884",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 8,
+ "fechaHora": "2026-06-06 13:30:00",
+ "cancha": "TENIS EL PINAR",
+ "local": "TENIS EL PINAR",
+ "visitante": "SAN PABLO UNIVERSITARIO",
+ "gl": 5,
+ "gv": 5,
+ "detalle": {
+  "nro_partido": "58",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "TENIS EL PINAR",
+  "Fecha_Inicio": "2026-06-06 15:30:00",
+  "Fecha_fin": "2026-06-06 15:30:00",
+  "Locatario": "TENIS EL PINAR",
+  "goles_locatario": "5",
+  "puntos_locatario": "1",
+  "Visitante": "SAN PABLO UNIVERSITARIO",
+  "goles_visitante": "5",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "56185",
+   "Nombre": "JUAN ANDRES BAYARDI",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56831",
+   "Nombre": "JUAN MARTIN ABO",
+   "camiseta": "2",
+   "Capitan": ""
+  },
+  {
+   "carne": "56834",
+   "Nombre": "JOAQUIN QUINTANA",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "68702",
+   "Nombre": "FRANCO EZEQUIEL TABASSI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "58656",
+   "Nombre": "SANTIAGO VALENTIN BARBOZA",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "64788",
+   "Nombre": "JUAN IGNACIO LIZARRAGA",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "56188",
+   "Nombre": "THIAGO NAHUEL ROLAND",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "56164",
+   "Nombre": "GUZMAN COSTEMALLE",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "54831",
+   "Nombre": "JOAQUÌN GOLDARACENA",
+   "camiseta": "9",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "67917",
+   "Nombre": "SANTIAGO CASTRO",
+   "camiseta": "5",
+   "Capitan": ""
+  },
+  {
+   "carne": "58654",
+   "Nombre": "MATIAS NICOLAS BARRIOS",
+   "camiseta": "10",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "64487",
+   "Nombre": "HUGO FELIPE CASAL",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "64488",
+   "Nombre": "JOAQUIN HECTOR CERRUDO",
+   "camiseta": "80",
+   "Capitan": ""
+  },
+  {
+   "carne": "59591",
+   "Nombre": "EMILIANO GARCIA",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "66026",
+   "Nombre": "JOAQUIN GIRAUDIN",
+   "camiseta": "75",
+   "Capitan": ""
+  },
+  {
+   "carne": "59963",
+   "Nombre": "NICOLAS PROCHNAU",
+   "camiseta": "3",
+   "Capitan": ""
+  },
+  {
+   "carne": "65764",
+   "Nombre": "JOAQUIN CARRASCO",
+   "camiseta": "18",
+   "Capitan": ""
+  },
+  {
+   "carne": "55821",
+   "Nombre": "FACUNDO JOEL SANDMAN",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "56493",
+   "Nombre": "SEBASTIAN MANGANELLI",
+   "camiseta": "22",
+   "Capitan": "(C)"
+  },
+  {
+   "carne": "59536",
+   "Nombre": "VALENTINO GUIDI",
+   "camiseta": "15",
+   "Capitan": ""
+  },
+  {
+   "carne": "57407",
+   "Nombre": "LUCAS GAMBETTA",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "63701",
+   "Nombre": "IGNACIO DANGLADA",
+   "camiseta": "69",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "64788",
+   "Jug_Sale": "JUAN IGNACIO LIZARRAGA",
+   "CarneEntra": "64246",
+   "Jug_Entra": "FELIPE RAFFETTO",
+   "camiseta": "25",
+   "minutos": "68"
+  },
+  {
+   "CarneSale": "56188",
+   "Jug_Sale": "THIAGO NAHUEL ROLAND",
+   "CarneEntra": "57995",
+   "Jug_Entra": "TIAGO BARBOZA",
+   "camiseta": "13",
+   "minutos": "84"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64488",
+   "Jug_Sale": "JOAQUIN HECTOR CERRUDO",
+   "CarneEntra": "56707",
+   "Jug_Entra": "JUAN SANCHEZ",
+   "camiseta": "13",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "59536",
+   "Jug_Sale": "VALENTINO GUIDI",
+   "CarneEntra": "64490",
+   "Jug_Entra": "FACUNDO MORENO",
+   "camiseta": "21",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63701",
+   "Jug_Sale": "IGNACIO DANGLADA",
+   "CarneEntra": "56773",
+   "Jug_Entra": "SANTIAGO DANIEL VERGARA",
+   "camiseta": "10",
+   "minutos": "59"
+  },
+  {
+   "CarneSale": "59591",
+   "Jug_Sale": "EMILIANO GARCIA",
+   "CarneEntra": "62714",
+   "Jug_Entra": "IGNACIO RODRIGUEZ",
+   "camiseta": "5",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "65764",
+   "Jug_Sale": "JOAQUIN CARRASCO",
+   "CarneEntra": "59390",
+   "Jug_Entra": "LUCCA BREGANI",
+   "camiseta": "18",
+   "minutos": "65"
+  },
+  {
+   "CarneSale": "59963",
+   "Jug_Sale": "NICOLAS PROCHNAU",
+   "CarneEntra": "63701",
+   "Jug_Entra": "IGNACIO DANGLADA",
+   "camiseta": "69",
+   "minutos": "78"
+  },
+  {
+   "CarneSale": "62714",
+   "Jug_Sale": "IGNACIO RODRIGUEZ",
+   "CarneEntra": "59591",
+   "Jug_Entra": "EMILIANO GARCIA",
+   "camiseta": "30",
+   "minutos": "88"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "54831",
+   "Nombre": "JOAQUÌN GOLDARACENA",
+   "minutos": "43",
+   "EnContra": "0"
+  },
+  {
+   "carne": "57995",
+   "Nombre": "TIAGO BARBOZA",
+   "minutos": "91",
+   "EnContra": "0"
+  },
+  {
+   "carne": "58654",
+   "Nombre": "MATIAS NICOLAS BARRIOS",
+   "minutos": "97",
+   "EnContra": "0"
+  },
+  {
+   "carne": "67917",
+   "Nombre": "SANTIAGO CASTRO",
+   "minutos": "24",
+   "EnContra": "0"
+  },
+  {
+   "carne": "68702",
+   "Nombre": "FRANCO EZEQUIEL TABASSI",
+   "minutos": "1",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "56493",
+   "Nombre": "SEBASTIAN MANGANELLI",
+   "minutos": "96",
+   "EnContra": "1"
+  },
+  {
+   "carne": "64490",
+   "Nombre": "FACUNDO MORENO",
+   "minutos": "77",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66026",
+   "Nombre": "JOAQUIN GIRAUDIN",
+   "minutos": "17",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66026",
+   "Nombre": "JOAQUIN GIRAUDIN",
+   "minutos": "43",
+   "EnContra": "1"
+  },
+  {
+   "carne": "66026",
+   "Nombre": "JOAQUIN GIRAUDIN",
+   "minutos": "90",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [
+  {
+   "Nombre": "FRANCO EZEQUIEL TABASSI",
+   "observaciones": ""
+  },
+  {
+   "Nombre": "MATIAS NICOLAS BARRIOS",
+   "observaciones": ""
+  }
+ ],
+ "expulsadosV": []
+}

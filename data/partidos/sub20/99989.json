@@ -1,0 +1,299 @@
+{
+ "id": "99989",
+ "categoria": "sub20",
+ "serie": "20A",
+ "fecha": 9,
+ "fechaHora": "2026-06-13 15:30:00",
+ "cancha": "COMPLEJO JUAN XXIII",
+ "local": "MATURANA UNIVERSITARIO",
+ "visitante": "J.M.L.M",
+ "gl": 3,
+ "gv": 3,
+ "detalle": {
+  "nro_partido": "69",
+  "temporada": "RAFAEL \"CANARIO\" GARCÍA",
+  "deporte": "FÚTBOL",
+  "torneo": "SUB 20",
+  "categoria": "SUB 20 MASCULINO",
+  "rueda": "1",
+  "Divisional": "SUB 20 DIVISIONAL \"A\"",
+  "Cancha": "COMPLEJO JUAN XXIII",
+  "Fecha_Inicio": "2026-06-13 17:30:00",
+  "Fecha_fin": "2026-06-13 17:30:00",
+  "Locatario": "MATURANA UNIVERSITARIO",
+  "goles_locatario": "3",
+  "puntos_locatario": "1",
+  "Visitante": "J.M.L.M",
+  "goles_visitante": "3",
+  "puntos_visitante": "1",
+  "walk_over": "0",
+  "observaciones": null
+ },
+ "titularesL": [
+  {
+   "carne": "57897",
+   "Nombre": "FACUNDO TORRES",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "56778",
+   "Nombre": "FRANCISCO GOMEZ",
+   "camiseta": "30",
+   "Capitan": ""
+  },
+  {
+   "carne": "63888",
+   "Nombre": "TOMAS NAHUEL AREOSA",
+   "camiseta": "92",
+   "Capitan": ""
+  },
+  {
+   "carne": "63203",
+   "Nombre": "JOAQUIN RODRIGUEZ",
+   "camiseta": "66",
+   "Capitan": ""
+  },
+  {
+   "carne": "63826",
+   "Nombre": "JUAN SEBASTIAN CHIESA",
+   "camiseta": "8",
+   "Capitan": ""
+  },
+  {
+   "carne": "59293",
+   "Nombre": "AGUSTIN ALMEIDA",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "56775",
+   "Nombre": "MARIO AGUSTIN ANDRIOLO",
+   "camiseta": "10",
+   "Capitan": ""
+  },
+  {
+   "carne": "64807",
+   "Nombre": "FRANCO GONZALEZ",
+   "camiseta": "6",
+   "Capitan": ""
+  },
+  {
+   "carne": "64798",
+   "Nombre": "SANTIAGO BIDONDO",
+   "camiseta": "4",
+   "Capitan": ""
+  },
+  {
+   "carne": "56787",
+   "Nombre": "IGNACIO GONZALEZ",
+   "camiseta": "11",
+   "Capitan": ""
+  },
+  {
+   "carne": "56223",
+   "Nombre": "SALVADOR MORATORIO",
+   "camiseta": "14",
+   "Capitan": ""
+  }
+ ],
+ "titularesV": [
+  {
+   "carne": "67397",
+   "Nombre": "ALEJANDRO MAURO NARIO",
+   "camiseta": "1",
+   "Capitan": ""
+  },
+  {
+   "carne": "53175",
+   "Nombre": "MATEO GILI",
+   "camiseta": "7",
+   "Capitan": ""
+  },
+  {
+   "carne": "64263",
+   "Nombre": "JUAN MANUEL DUPONT",
+   "camiseta": "71",
+   "Capitan": ""
+  },
+  {
+   "carne": "56241",
+   "Nombre": "GUILLERMO FERRARI",
+   "camiseta": "17",
+   "Capitan": ""
+  },
+  {
+   "carne": "55148",
+   "Nombre": "SEBASTIAN DANIEL REY",
+   "camiseta": "21",
+   "Capitan": ""
+  },
+  {
+   "carne": "56176",
+   "Nombre": "SANTIAGO LUCAS",
+   "camiseta": "22",
+   "Capitan": ""
+  },
+  {
+   "carne": "56238",
+   "Nombre": "THIAGO GONZALEZ",
+   "camiseta": "14",
+   "Capitan": ""
+  },
+  {
+   "carne": "57046",
+   "Nombre": "FRANCISCO MATTOS",
+   "camiseta": "40",
+   "Capitan": ""
+  },
+  {
+   "carne": "54714",
+   "Nombre": "JOAQUIN MARTINICORENA",
+   "camiseta": "55",
+   "Capitan": ""
+  },
+  {
+   "carne": "55662",
+   "Nombre": "FEDERICO GASTON DOLIVO",
+   "camiseta": "35",
+   "Capitan": ""
+  },
+  {
+   "carne": "66739",
+   "Nombre": "RENZO BARBIERI",
+   "camiseta": "9",
+   "Capitan": ""
+  }
+ ],
+ "cambiosL": [
+  {
+   "CarneSale": "56775",
+   "Jug_Sale": "MARIO AGUSTIN ANDRIOLO",
+   "CarneEntra": "59701",
+   "Jug_Entra": "MATIAS JAVIER GATTO",
+   "camiseta": "99",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "63203",
+   "Jug_Sale": "JOAQUIN RODRIGUEZ",
+   "CarneEntra": "64808",
+   "Jug_Entra": "MANUEL TIAGO LIARD",
+   "camiseta": "16",
+   "minutos": "57"
+  },
+  {
+   "CarneSale": "56787",
+   "Jug_Sale": "IGNACIO GONZALEZ",
+   "CarneEntra": "58677",
+   "Jug_Entra": "BRUNO TRAVERSA",
+   "camiseta": "31",
+   "minutos": "61"
+  },
+  {
+   "CarneSale": "63826",
+   "Jug_Sale": "JUAN SEBASTIAN CHIESA",
+   "CarneEntra": "58751",
+   "Jug_Entra": "FRANCISCO ANTONIO VILLAGRAN",
+   "camiseta": "9",
+   "minutos": "66"
+  },
+  {
+   "CarneSale": "64807",
+   "Jug_Sale": "FRANCO GONZALEZ",
+   "CarneEntra": "57845",
+   "Jug_Entra": "ANDRES COUCE",
+   "camiseta": "3",
+   "minutos": "85"
+  }
+ ],
+ "cambiosV": [
+  {
+   "CarneSale": "64263",
+   "Jug_Sale": "JUAN MANUEL DUPONT",
+   "CarneEntra": "55679",
+   "Jug_Entra": "TOMAS RODRIGUEZ",
+   "camiseta": "20",
+   "minutos": "45"
+  },
+  {
+   "CarneSale": "56176",
+   "Jug_Sale": "SANTIAGO LUCAS",
+   "CarneEntra": "62555",
+   "Jug_Entra": "JUAN DIEGO FERNANDEZ",
+   "camiseta": "31",
+   "minutos": "60"
+  },
+  {
+   "CarneSale": "55148",
+   "Jug_Sale": "SEBASTIAN DANIEL REY",
+   "CarneEntra": "59539",
+   "Jug_Entra": "AGUSTIN ROBERTO",
+   "camiseta": "24",
+   "minutos": "63"
+  },
+  {
+   "CarneSale": "66739",
+   "Jug_Sale": "RENZO BARBIERI",
+   "CarneEntra": "55150",
+   "Jug_Entra": "MANUEL MAZZILLI",
+   "camiseta": "27",
+   "minutos": "74"
+  },
+  {
+   "CarneSale": "56238",
+   "Jug_Sale": "THIAGO GONZALEZ",
+   "CarneEntra": "56237",
+   "Jug_Entra": "JOAQUIN PLATERO",
+   "camiseta": "80",
+   "minutos": "74"
+  }
+ ],
+ "golesL": [
+  {
+   "carne": "59701",
+   "Nombre": "MATIAS JAVIER GATTO",
+   "minutos": "70",
+   "EnContra": "0"
+  },
+  {
+   "carne": "63826",
+   "Nombre": "JUAN SEBASTIAN CHIESA",
+   "minutos": "20",
+   "EnContra": "0"
+  },
+  {
+   "carne": "63888",
+   "Nombre": "TOMAS NAHUEL AREOSA",
+   "minutos": "51",
+   "EnContra": "0"
+  }
+ ],
+ "golesV": [
+  {
+   "carne": "55150",
+   "Nombre": "MANUEL MAZZILLI",
+   "minutos": "88",
+   "EnContra": "1"
+  },
+  {
+   "carne": "55679",
+   "Nombre": "TOMAS RODRIGUEZ",
+   "minutos": "91",
+   "EnContra": "1"
+  },
+  {
+   "carne": "55679",
+   "Nombre": "TOMAS RODRIGUEZ",
+   "minutos": "94",
+   "EnContra": "1"
+  }
+ ],
+ "expulsadosL": [],
+ "expulsadosV": [
+  {
+   "Nombre": "GUILLERMO FERRARI",
+   "observaciones": ""
+  }
+ ]
+}
