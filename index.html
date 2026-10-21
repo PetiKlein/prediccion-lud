@@ -190,6 +190,12 @@ td.f{color:var(--muted)}
 .admin{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;display:flex;flex-direction:column;gap:10px}
 .admin h3{margin:0;font-family:var(--display);font-weight:800;font-size:1.35rem;line-height:1}
 .admin .tablewrap{border:0}
+.share-row{display:flex;justify-content:flex-end}
+.btn.wpp{display:inline-flex;align-items:center;gap:8px;background:#25d366;border-color:#25d366;color:#06301a}
+.btn.wpp::before{content:"";width:16px;height:16px;flex:0 0 auto;background:currentColor;
+  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9 2h9a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 2v11h9V4zM4 7h1v13h11v2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z'/%3E%3C/svg%3E") center/contain no-repeat;
+  mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9 2h9a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 2v11h9V4zM4 7h1v13h11v2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z'/%3E%3C/svg%3E") center/contain no-repeat}
+.copybox{width:100%;font:inherit;font-size:.9rem;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--fg);resize:vertical}
 .join{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
 .join input{flex:1 1 180px;min-width:0;font:inherit;padding:9px 11px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--fg)}
 form.inline{display:flex;gap:6px;justify-content:center;align-items:center}
@@ -566,6 +572,27 @@ function renderPronosticar(){
   $main.innerHTML = html;
 }
 
+// Texto de la tabla con el formato que usa el grupo: "1. Juanma 63pts (+4)".
+function tablaWhatsApp(){
+  const conPicks = new Set(S.picks.map(k => k.partido));
+  const fs = fechas().filter(f => S.partidos.some(p => p.fecha === f && played(p) && conPicks.has(p.id)));
+  const ult = fs[fs.length - 1];
+  const rows = S.jugadores.map(j => ({ j, ...score(j) })).sort((a,b) => b.pts-a.pts || a.j.nombre.localeCompare(b.j.nombre,'es'));
+  const titulo = ult != null ? `*Predicción LUD* después de la fecha ${ult}` : '*Predicción LUD*';
+  const lineas = rows.map((r,i) => `${i+1}. ${r.j.nombre} ${r.pts}pts${ult != null ? ` (+${r.porFecha[ult] ?? 0})` : ''}`);
+  return [titulo, '', ...lineas, '', location.origin + location.pathname].join('\n');
+}
+
+async function copiarTabla(){
+  const txt = tablaWhatsApp();
+  try { await navigator.clipboard.writeText(txt); toast('Tabla copiada. Pegala en el grupo.'); return; }
+  catch(e){}
+  // Si el navegador no deja copiar solo, se muestra el texto seleccionado para copiarlo a mano.
+  const box = document.getElementById('tablaTexto'); if (!box) return;
+  box.value = txt; box.hidden = false; box.rows = txt.split('\n').length; box.focus(); box.select();
+  toast('Mantené apretado el texto y elegí Copiar');
+}
+
 function renderTabla(){
   const conPicks = new Set(S.picks.map(k => k.partido));
   const fs = fechas().filter(f => S.partidos.some(p => p.fecha === f && played(p) && conPicks.has(p.id)));
@@ -579,6 +606,8 @@ function renderTabla(){
     const cl = [me && r.j.id===me.id ? 'me' : '', pos <= 3 ? `p${pos}` : ''].join(' ').trim();
     return `<tr class="${cl}"><td class="pos"><span class="posn">${pos}</span></td><td class="name">${esc(r.j.nombre)}${sub}</td><td class="pts">${r.pts}</td>${hayBase?`<td class="f">${r.base}</td>`:''}${fs.map(f=>`<td class="f">+${r.porFecha[f] ?? 0}</td>`).join('')}</tr>`; }).join('');
   $main.innerHTML = identityBox() + `<p class="lede">1 punto por acertar ganador o empate. Se suma solo cuando la Liga carga el resultado.${hayBase?' «Antes» son los puntos que traían del grupo hasta la fecha 4.':''} Debajo de cada nombre está la cuenta de Google que lo usa.</p>
+    <div class="share-row"><button class="btn wpp" type="button" data-copiar-tabla>Copiar tabla para WhatsApp</button></div>
+    <textarea id="tablaTexto" class="copybox" readonly hidden aria-label="Tabla para copiar"></textarea>
     <div class="tablewrap"><table><thead><tr><th>#</th><th class="name">Jugador</th><th>Pts</th>${hayBase?'<th>Antes</th>':''}${fs.map(f=>`<th>F${f}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table></div>`;
 }
 
@@ -648,6 +677,7 @@ document.querySelector('nav.tabs').addEventListener('click', e => {
 $authBtn.addEventListener('click', () => S.user ? signOut(auth) : login());
 $main.addEventListener('click', e => {
   if (e.target.closest('button[data-login]')) { login(); return; }
+  if (e.target.closest('button[data-copiar-tabla]')) { copiarTabla(); return; }
   const f = e.target.closest('button[data-fecha]'); if (f){ S.fecha = Number(f.dataset.fecha); render(); return; }
   const p = e.target.closest('button[data-pick]'); if (p && !p.disabled){ savePick(p.dataset.id, p.dataset.pick); return; }
   const c = e.target.closest('button[data-claim]'); if (c){ S.pendingClaim = c.dataset.claim; render(); return; }
