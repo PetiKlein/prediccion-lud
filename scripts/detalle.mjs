@@ -9,6 +9,7 @@ import { TEMPORADA } from './lud.mjs';
 import { CATEGORIAS } from './categorias.mjs';
 
 const BASE = 'https://ligauniversitaria.org.uy/resultados/api.php';
+const BASE_FIXTURE = 'https://ligauniversitaria.org.uy/partidos/api.php';
 const REBAJAR = process.env.REBAJAR === '1';
 
 const ACCIONES = {
@@ -24,11 +25,11 @@ const ACCIONES = {
 };
 
 const espera = ms => new Promise(r => setTimeout(r, ms));
-async function api(params) {
+async function api(params, base = BASE) {
   const q = new URLSearchParams(params).toString().replace(/\+/g, '%20');
   for (let intento = 1; ; intento++) {
     try {
-      const r = await fetch(`${BASE}?${q}`, { headers: { 'User-Agent': 'prediccion-lud (penca de amigos)' }, signal: AbortSignal.timeout(25000) });
+      const r = await fetch(`${base}?${q}`, { headers: { 'User-Agent': 'prediccion-lud (penca de amigos)' }, signal: AbortSignal.timeout(25000) });
       if (!r.ok) throw new Error(`HTTP ${r.status}`);
       const txt = (await r.text()).trim();
       if (!txt) return [];
@@ -45,11 +46,15 @@ for (const cat of CATEGORIAS) {
   const DIR = new URL(`../data/partidos/${cat.id}/`, import.meta.url);
   mkdirSync(DIR, { recursive: true });
   let bajados = 0, salteados = 0, sinJugar = 0;
-  const tareas = [];
+  const tareas = [], proximos = [];
   for (const serie of Object.keys(cat.series)) {
     const lista = await api({ action: 'cargarPartidos', temporada: TEMPORADA, deporte: 'F', torneo: cat.torneo, categoria: cat.categoria, serie });
     for (const p of lista) tareas.push({ serie, p });
+    const fixture = await api({ action: 'cargarPartidos', temporada: TEMPORADA, deporte: 'F', torneo: cat.torneo, categoria: cat.categoria, serie }, BASE_FIXTURE);
+    for (const f of fixture) proximos.push({ serie, fechaHora: f.Fecha, cancha: f.Cancha, local: f.Locatario, visitante: f.Visitante });
   }
+  // Próximos partidos (fixture sin resultado), para mostrar el rival de cada equipo.
+  writeFileSync(new URL('_proximos.json', DIR), JSON.stringify(proximos.sort((a, b) => a.fechaHora.localeCompare(b.fechaHora)), null, 1) + '\n');
   // De a 4 partidos por vez, para no saturar a la Liga.
   const cola = [...tareas];
   await Promise.all(Array.from({ length: 4 }, async () => {
