@@ -1,5 +1,0 @@
-https://ligauniversitaria.org.uy/resultados/script.js -> resultados-script.js
-https://ligauniversitaria.org.uy/partidos/script.js -> partidos-script.js
-https://ligauniversitaria.org.uy/resultados/script.js -> resultados-script.js
-https://ligauniversitaria.org.uy/partidos/script.js -> partidos-script.js
-https://ligauniversitaria.org.uy/resultados/detallepartido.js -> detalle-detallepartido.js

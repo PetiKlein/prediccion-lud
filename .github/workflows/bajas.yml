@@ -1,0 +1,31 @@
+name: Minutos y posibles bajas
+
+on:
+  push:
+    branches: [explorar-lud]
+    paths: ['scripts/detalle.mjs', 'scripts/bajas.mjs', '.github/workflows/bajas.yml']
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bajas
+  cancel-in-progress: false
+
+jobs:
+  bajas:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - run: node scripts/detalle.mjs
+      - run: '[ -f scripts/bajas.mjs ] && node scripts/bajas.mjs || true'
+      - name: Guardar datos
+        run: |
+          git config user.name github-actions; git config user.email github-actions@users.noreply.github.com
+          git add data
+          git diff --cached --quiet || { git commit -m "Datos de partidos actualizados" && git push; }
