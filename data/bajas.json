@@ -1,0 +1,423 @@
+{
+ "actualizado": "2026-10-21T15:03:33.923Z",
+ "equipos": {
+  "Nacional U.": {
+   "ultimo": {
+    "fecha": 4,
+    "serie": "AT",
+    "dia": "2026-10-18",
+    "rival": "Carrasco Polo",
+    "gf": 2,
+    "gc": 1,
+    "local": false
+   },
+   "alertas": [
+    {
+     "carne": "33218",
+     "nombre": "Facundo Marques",
+     "tipo": "salio-temprano",
+     "nivel": "alta",
+     "minuto": 12,
+     "texto": "Titular, salió a los 12' contra Carrasco Polo y no volvió a entrar."
+    },
+    {
+     "carne": "41919",
+     "nombre": "Christopher Matias Larrosa",
+     "tipo": "no-jugo",
+     "nivel": "media",
+     "partidosSinJugar": 1,
+     "texto": "Titular habitual, no jugó contra Carrasco Polo."
+    }
+   ]
+  },
+  "Old Boys": {
+   "ultimo": {
+    "fecha": 4,
+    "serie": "AT",
+    "dia": "2026-10-18",
+    "rival": "ELF",
+    "gf": 0,
+    "gc": 1,
+    "local": true
+   },
+   "alertas": [
+    {
+     "carne": "38391",
+     "nombre": "Nicolas Maria Rodriguez",
+     "tipo": "expulsado",
+     "nivel": "alta",
+     "texto": "Expulsado contra ELF. Probable suspensión (ver Fallos y Penas el jueves)."
+    },
+    {
+     "carne": "39045",
+     "nombre": "Santiago Astigarraga",
+     "tipo": "suspendido",
+     "nivel": "alta",
+     "partidosSinJugar": 2,
+     "texto": "Expulsado contra TAPE; lleva 2 partidos sin jugar. Probable suspensión."
+    }
+   ]
+  },
+  "Carrasco Lawn Tennis": {
+   "ultimo": {
+    "fecha": 4,
+    "serie": "APD",
+    "dia": "2026-10-18",
+    "rival": "Hebraica y Macabi",
+    "gf": 2,
+    "gc": 2,
+    "local": false
+   },
+   "alertas": [
+    {
+     "carne": "49606",
+     "nombre": "Alejo Monterroso",
+     "tipo": "salio-temprano",
+     "nivel": "alta",
+     "minuto": 1,
+     "texto": "Titular, salió a los 1' contra Hebraica y Macabi y no volvió a entrar."
+    },
+    {
+     "carne": "44899",
+     "nombre": "Juan Martin Deffeminis",
+     "tipo": "no-jugo",
+     "nivel": "alta",
+     "partidosSinJugar": 2,
+     "texto": "Titular habitual, lleva 2 partidos sin jugar."
+    },
+    {
+     "carne": "50239",
+     "nombre": "Francisco Agustin Pertusso",
+     "tipo": "no-jugo",
+     "nivel": "media",
+     "partidosSinJugar": 1,
+     "texto": "Titular habitual, no jugó contra Hebraica y Macabi."
+    }
+   ]
+  },
+  "Tenis El Pinar": {
+   "ultimo": {
+    "fecha": 4,
+    "serie": "AT",
+    "dia": "2026-10-18",
+    "rival": "Urunday",
+    "gf": 1,
+    "gc": 2,
+    "local": true
+   },
+   "alertas": []
+  },
+  "TAPE": {
+   "ultimo": {
+    "fecha": 4,
+    "serie": "AT",
+    "dia": "2026-10-18",
+    "rival": "Old Woodlands",
+    "gf": 0,
+    "gc": 3,
+    "local": true
+   },
+   "alertas": [
+    {
+     "carne": "65006",
+     "nombre": "Geronimo Gauthier",
+     "tipo": "no-jugo",
+     "nivel": "alta",
+     "partidosSinJugar": 2,
+     "texto": "Titular habitual, lleva 2 partidos sin jugar."
+    },
+    {
+     "carne": "60720",
+     "nombre": "Mateo Ferrere",
+     "tipo": "no-jugo",
+     "nivel": "alta",
+     "partidosSinJugar": 1,
+     "texto": "Titular habitual, no jugó contra Old Woodlands. En su último partido (vs Nacional U.) salió a los 22'."
+    },
+    {
+     "carne": "58984",
+     "nombre": "Nicolas Libonatti",
+     "tipo": "no-jugo",
+     "nivel": "media",
+     "partidosSinJugar": 1,
+     "texto": "Titular habitual, no jugó contra Old Woodlands."
+    }
+   ]
+  },
+  "Urunday": {
+   "ultimo": {
+    "fecha": 4,
+    "serie": "AT",
+    "dia": "2026-10-18",
+    "rival": "Tenis El Pinar",
+    "gf": 2,
+    "gc": 1,
+    "local": false
+   },
+   "alertas": [
+    {
+     "carne": "54532",
+     "nombre": "Manuel Agustin Dure",
+     "tipo": "no-jugo",
+     "nivel": "media",
+     "partidosSinJugar": 1,
+     "texto": "Titular habitual, no jugó contra Tenis El Pinar."
+    }
+   ]
+  },
+  "ELF": {
+   "ultimo": {
+    "fecha": 4,
+    "serie": "AT",
+    "dia": "2026-10-18",
+    "rival": "Old Boys",
+    "gf": 1,
+    "gc": 0,
+    "local": false
+   },
+   "alertas": [
+    {
+     "carne": "59826",
+     "nombre": "Alfonso Badano",
+     "tipo": "no-jugo",
+     "nivel": "media",
+     "partidosSinJugar": 1,
+     "texto": "Titular habitual, no jugó contra Old Boys."
+    }
+   ]
+  },
+  "Old Woodlands": {
+   "ultimo": {
+    "fecha": 4,
+    "serie": "AT",
+    "dia": "2026-10-18",
+    "rival": "TAPE",
+    "gf": 3,
+    "gc": 0,
+    "local": false
+   },
+   "alertas": []
+  },
+  "Old Christians": {
+   "ultimo": {
+    "fecha": 4,
+    "serie": "APD",
+    "dia": "2026-10-18",
+    "rival": "Santa Elena",
+    "gf": 2,
+    "gc": 1,
+    "local": true
+   },
+   "alertas": [
+    {
+     "carne": "48884",
+     "nombre": "Juan Guillermo Arrospide",
+     "tipo": "no-jugo",
+     "nivel": "alta",
+     "partidosSinJugar": 3,
+     "texto": "Titular habitual, lleva 3 partidos sin jugar."
+    },
+    {
+     "carne": "42069",
+     "nombre": "Mateo Gioia",
+     "tipo": "no-jugo",
+     "nivel": "media",
+     "partidosSinJugar": 1,
+     "texto": "Titular habitual, no jugó contra Santa Elena."
+    }
+   ]
+  },
+  "Carrasco Polo": {
+   "ultimo": {
+    "fecha": 4,
+    "serie": "AT",
+    "dia": "2026-10-18",
+    "rival": "Nacional U.",
+    "gf": 1,
+    "gc": 2,
+    "local": true
+   },
+   "alertas": [
+    {
+     "carne": "55483",
+     "nombre": "Ignacio Pages",
+     "tipo": "salio-temprano",
+     "nivel": "alta",
+     "minuto": 23,
+     "texto": "Titular, salió a los 23' contra Nacional U. y no volvió a entrar."
+    }
+   ]
+  },
+  "Hebraica y Macabi": {
+   "ultimo": {
+    "fecha": 4,
+    "serie": "APD",
+    "dia": "2026-10-18",
+    "rival": "Carrasco Lawn Tennis",
+    "gf": 2,
+    "gc": 2,
+    "local": true
+   },
+   "alertas": [
+    {
+     "carne": "39124",
+     "nombre": "Dario Szterman",
+     "tipo": "expulsado",
+     "nivel": "alta",
+     "texto": "Expulsado contra Carrasco Lawn Tennis. Probable suspensión (ver Fallos y Penas el jueves)."
+    },
+    {
+     "carne": "37385",
+     "nombre": "Federico Brener",
+     "tipo": "no-jugo",
+     "nivel": "alta",
+     "partidosSinJugar": 3,
+     "texto": "Titular habitual, lleva 3 partidos sin jugar."
+    }
+   ]
+  },
+  "Juan XXIII": {
+   "ultimo": {
+    "fecha": 4,
+    "serie": "APD",
+    "dia": "2026-10-18",
+    "rival": "Playa Honda",
+    "gf": 0,
+    "gc": 4,
+    "local": false
+   },
+   "alertas": [
+    {
+     "carne": "54720",
+     "nombre": "Francisco Robaina",
+     "tipo": "no-jugo",
+     "nivel": "alta",
+     "partidosSinJugar": 2,
+     "texto": "Titular habitual, lleva 2 partidos sin jugar."
+    },
+    {
+     "carne": "49422",
+     "nombre": "Martin Esteban Decia",
+     "tipo": "suspendido",
+     "nivel": "alta",
+     "partidosSinJugar": 1,
+     "texto": "Expulsado contra Old Ivy; no jugó el partido siguiente. Probable suspensión."
+    },
+    {
+     "carne": "51518",
+     "nombre": "Santiago Brancato",
+     "tipo": "suspendido",
+     "nivel": "alta",
+     "partidosSinJugar": 1,
+     "texto": "Expulsado contra Old Ivy; no jugó el partido siguiente. Probable suspensión."
+    },
+    {
+     "carne": "58847",
+     "nombre": "Juan Diego Fagnoni",
+     "tipo": "no-jugo",
+     "nivel": "media",
+     "partidosSinJugar": 1,
+     "texto": "Titular habitual, no jugó contra Playa Honda."
+    },
+    {
+     "carne": "47883",
+     "nombre": "Stiven Acosta",
+     "tipo": "no-jugo",
+     "nivel": "media",
+     "partidosSinJugar": 1,
+     "texto": "Titular habitual, no jugó contra Playa Honda."
+    }
+   ]
+  },
+  "Old Ivy": {
+   "ultimo": {
+    "fecha": 4,
+    "serie": "APD",
+    "dia": "2026-10-18",
+    "rival": "Seminario",
+    "gf": 0,
+    "gc": 4,
+    "local": true
+   },
+   "alertas": [
+    {
+     "carne": "61383",
+     "nombre": "Matias Benech",
+     "tipo": "no-jugo",
+     "nivel": "alta",
+     "partidosSinJugar": 2,
+     "texto": "Titular habitual, lleva 2 partidos sin jugar."
+    },
+    {
+     "carne": "45594",
+     "nombre": "Santiago Gutierrez",
+     "tipo": "no-jugo",
+     "nivel": "alta",
+     "partidosSinJugar": 2,
+     "texto": "Titular habitual, lleva 2 partidos sin jugar."
+    }
+   ]
+  },
+  "Santa Elena": {
+   "ultimo": {
+    "fecha": 4,
+    "serie": "APD",
+    "dia": "2026-10-18",
+    "rival": "Old Christians",
+    "gf": 1,
+    "gc": 2,
+    "local": false
+   },
+   "alertas": []
+  },
+  "Playa Honda": {
+   "ultimo": {
+    "fecha": 4,
+    "serie": "APD",
+    "dia": "2026-10-18",
+    "rival": "Juan XXIII",
+    "gf": 4,
+    "gc": 0,
+    "local": true
+   },
+   "alertas": [
+    {
+     "carne": "57182",
+     "nombre": "Joaquin Pablo Bautista",
+     "tipo": "salio-temprano",
+     "nivel": "alta",
+     "minuto": 8,
+     "texto": "Titular, salió a los 8' contra Juan XXIII y no volvió a entrar."
+    },
+    {
+     "carne": "54303",
+     "nombre": "Rodrigo Leon",
+     "tipo": "suspendido",
+     "nivel": "alta",
+     "partidosSinJugar": 1,
+     "texto": "Expulsado contra Santa Elena; no jugó el partido siguiente. Probable suspensión."
+    },
+    {
+     "carne": "57539",
+     "nombre": "Martin Andres Rodriguez",
+     "tipo": "no-jugo",
+     "nivel": "media",
+     "partidosSinJugar": 1,
+     "texto": "Titular habitual, no jugó contra Juan XXIII."
+    }
+   ]
+  },
+  "Seminario": {
+   "ultimo": {
+    "fecha": 4,
+    "serie": "APD",
+    "dia": "2026-10-18",
+    "rival": "Old Ivy",
+    "gf": 4,
+    "gc": 0,
+    "local": false
+   },
+   "alertas": []
+  }
+ }
+}
