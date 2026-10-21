@@ -428,7 +428,7 @@ function cierresPanel(){
   const f = S.panelFecha;
   const barra = `<div class="fechas" role="group" aria-label="Fecha a editar">` + fs.map(x =>
     `<button type="button" data-panel-fecha="${x}" aria-pressed="${x===f}">F${x}<small>${esc(fmtDia(diaDeFecha(x)).replace(/^\S+ /,''))}</small></button>`).join('') + `</div>`;
-  const ps = S.partidos.filter(p => p.fecha === f).sort((a,b)=> a.zona.localeCompare(b.zona) || (a.dia+a.hora).localeCompare(b.dia+b.hora));
+  const ps = S.partidos.filter(p => p.fecha === f).sort((a,b)=> b.zona.localeCompare(a.zona) || (a.dia+a.hora).localeCompare(b.dia+b.hora));
   const filas = ps.map(p => {
     const hora = p.horaAConfirmar ? 'hora a confirmar' : `${p.hora} h`;
     const head = `<div><b>${esc(p.local)} vs ${esc(p.visitante)}</b> <span class="acct">Zona ${esc(p.zona)} · ${esc(fmtDia(p.dia))} · ${esc(hora)}</span></div>`;
@@ -571,7 +571,7 @@ function renderResultados(){
   if (!fs.length){ $main.innerHTML = `<div class="empty">Todavía no hay resultados cargados.</div>`; return; }
   let html = '';
   for (const f of fs){
-    const ps = S.partidos.filter(p => p.fecha === f).sort((a,b)=> a.zona.localeCompare(b.zona) || (a.dia+a.hora).localeCompare(b.dia+b.hora));
+    const ps = S.partidos.filter(p => p.fecha === f).sort((a,b)=> b.zona.localeCompare(a.zona) || (a.dia+a.hora).localeCompare(b.dia+b.hora));
     html += `<section class="zona"><h2>Fecha ${f}<small>${esc(fmtDia(diaDeFecha(f)))}</small></h2><div class="matches">` + ps.map(p => {
       const o = outcome(p);
       const chips = S.jugadores.map(j => [j, picksPor(j.id)[p.id]]).filter(([,v]) => v).map(([j,v]) => `<span class="chip ${o ? (v===o?'hit':'miss') : ''}">${esc(j.nombre)}</span>`).join('');
