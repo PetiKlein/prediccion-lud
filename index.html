@@ -153,7 +153,14 @@ main{padding-block:20px 56px;display:flex;flex-direction:column;gap:20px}
 .vbar{display:flex;height:8px;border-radius:999px;overflow:hidden;background:var(--surface-2);gap:2px}
 .vbar span{display:block;height:100%}
 .vbar .vl{background:var(--accent)} .vbar .ve{background:var(--muted)} .vbar .vv{background:var(--yellow)}
-.vleg{display:flex;justify-content:space-between;gap:8px;font-size:.74rem;color:var(--muted)}
+.vleg{display:grid;grid-template-columns:1fr auto 1fr;gap:6px 10px;font-size:.76rem;color:var(--muted)}
+.vcol{display:flex;flex-direction:column;gap:2px;min-width:0}
+.vcol.ve{text-align:center;min-width:62px} .vcol.vv{text-align:right}
+.vt{display:flex;gap:4px;align-items:baseline;flex-wrap:wrap}
+.vcol.ve .vt{justify-content:center} .vcol.vv .vt{justify-content:flex-end}
+.vt::before{content:"";width:8px;height:8px;border-radius:2px;flex:0 0 auto;align-self:center}
+.vcol.vl .vt::before{background:var(--accent)} .vcol.ve .vt::before{background:var(--muted)} .vcol.vv .vt::before{background:var(--yellow)}
+.vn{color:var(--fg);line-height:1.35;overflow-wrap:anywhere}
 .vleg b{color:var(--fg);font-variant-numeric:tabular-nums}
 .others{font-size:.78rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 12px}
 .others b{color:var(--fg);font-weight:600}
@@ -540,9 +547,12 @@ function matchCard(p, me){
     const n = { L:0, E:0, V:0 }; for (const [,v] of quienes) n[v]++;
     const tot = quienes.length;
     const bar = ['L','E','V'].filter(k => n[k]).map(k => `<span class="v${k.toLowerCase()}" style="flex:${n[k]}"></span>`).join('');
-    const nombres = `<div class="others">${quienes.map(([j,v]) => `<span><b>${esc(j.nombre)}</b> ${esc(v==='L'?p.local:v==='V'?p.visitante:'Empate')}</span>`).join('')}</div>`;
+    const col = (k, titulo) => {
+      const ns = quienes.filter(([,v]) => v === k).map(([j]) => j.nombre).sort((a,b)=>a.localeCompare(b,'es'));
+      return `<div class="vcol v${k.toLowerCase()}"><span class="vt"><b>${n[k]}</b> ${esc(titulo)}</span>${ns.length ? `<span class="vn">${ns.map(esc).join(', ')}</span>` : ''}</div>`;
+    };
     vote = `<div class="vote"><div class="vbar" role="img" aria-label="${n.L} con ${esc(p.local)}, ${n.E} empate, ${n.V} con ${esc(p.visitante)}">${bar}</div>
-      <div class="vleg"><span><b>${n.L}</b> ${esc(p.local)}</span><span><b>${n.E}</b> empate</span><span><b>${n.V}</b> ${esc(p.visitante)}</span></div>${lk ? nombres : ''}</div>`;
+      <div class="vleg">${col('L', p.local)}${col('E', 'Empate')}${col('V', p.visitante)}</div></div>`;
     void tot;
   }
   const hora = p.horaAConfirmar ? 'hora a confirmar' : `${p.hora} h`;
