@@ -149,6 +149,10 @@ main{padding-block:20px 56px;display:flex;flex-direction:column;gap:20px}
 .crest-img{width:40px;height:40px;object-fit:contain;background:#fff;border-radius:10px;padding:3px;box-shadow:0 0 0 1px var(--line)}
 .res .crest.crest-img{width:30px;height:30px;border-radius:8px;padding:2px}
 .crest path{fill:var(--fg)} .crest text{fill:var(--surface-2);font-family:var(--display);font-weight:800}
+.prob{display:grid;grid-template-columns:1fr auto 1fr;gap:6px;margin-top:-4px;font-size:.78rem;color:var(--muted);text-align:center;font-variant-numeric:tabular-nums}
+.prob .pc:nth-child(2){min-width:62px}
+.prob b{font-weight:600}
+.prob .fav{color:var(--fg)} .prob .fav b{font-weight:800}
 .vote{display:flex;flex-direction:column;gap:6px}
 .vbar{display:flex;height:8px;border-radius:999px;overflow:hidden;background:var(--surface-2);gap:2px}
 .vbar span{display:block;height:100%}
@@ -378,6 +382,16 @@ function renderKick(){
   $k.innerHTML = `<div class="k-label">La fecha ${f} cierra en</div><div class="k-big">${big}</div><div class="k-sub">${esc(fmtDia(diaMvd(prox.cierre)))} a las ${esc(fmtHora(prox.cierre))}. ${esc(sub)}</div>`;
 }
 
+// Probabilidades de Calculadora LUD (data/probabilidades.json), por "local|visitante".
+S.probs = {}; S.probFuente = null;
+fetch('data/probabilidades.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).then(d => {
+  if (!d) return;
+  S.probFuente = d;
+  for (const x of d.partidos || []) S.probs[slugEq(x.local) + '|' + slugEq(x.visitante)] = x;
+  render();
+}).catch(() => {});
+function probDe(p){ return S.probs[slugEq(p.local) + '|' + slugEq(p.visitante)] || null; }
+
 function picksPor(jugadorId){ const o = {}; for (const k of S.picks) if (k.jugador === jugadorId) o[k.partido] = k.v; return o; }
 function yo(){ return S.user ? S.jugadores.find(j => j.uid === S.user.uid) || null : null; }
 // El organizador. Firebase verifica el mismo mail en firestore.rules; acá solo decide qué se muestra.
@@ -532,6 +546,13 @@ function fechaBar(){
     `<button data-fecha="${f}" aria-pressed="${f===S.fecha}">F${f}<small>${esc(fmtDia(diaDeFecha(f)).replace(/^\S+ /,''))}</small></button>`).join('') + `</div>`;
 }
 
+function probLinea(p){
+  const x = probDe(p); if (!x || played(p)) return '';
+  const max = Math.max(x.L, x.E, x.V);
+  const c = (k, txt) => `<span class="pc${x[k] === max ? ' fav' : ''}"><b>${x[k]}%</b>${txt ? ` <small>${esc(txt)}</small>` : ''}</span>`;
+  return `<div class="prob" title="Probabilidad según ${esc(S.probFuente?.fuente || 'Calculadora LUD')}">${c('L','')}${c('E','')}${c('V','')}</div>`;
+}
+
 function matchCard(p, me){
   const pk = me ? picksPor(me.id)[p.id] || null : null;
   const o = outcome(p), lk = locked(p);
@@ -559,6 +580,7 @@ function matchCard(p, me){
   return `<article class="match">
     <div class="meta"><span>${esc(fmtDia(p.dia))}, ${esc(hora)}. ${esc(p.cancha)}</span><span class="state ${stCls}">${state}</span></div>
     <div class="picks">${team('L', p.local, o?p.gl:null)}${emp}${team('V', p.visitante, o?p.gv:null)}</div>
+    ${probLinea(p)}
     ${vote}
   </article>`;
 }
@@ -578,7 +600,7 @@ function renderPronosticar(){
     if (!zp.length) continue;
     html += `<section class="zona"><h2>Zona ${z}<small>${z==='Título'?'pelean el campeonato':'pelean la permanencia'}</small></h2><div class="matches">${zp.map(p=>matchCard(p,me)).join('')}</div></section>`;
   }
-  html += `<p class="src">Fixture y resultados: <a href="https://ligauniversitaria.org.uy/estadisticas-futbol-mayores-a/" target="_blank" rel="noopener">Liga Universitaria de Deportes</a>. Se actualizan solos los domingos de tarde.</p>`;
+  html += `<p class="src">Fixture y resultados: <a href="https://ligauniversitaria.org.uy/estadisticas-futbol-mayores-a/" target="_blank" rel="noopener">Liga Universitaria de Deportes</a>. Se actualizan solos los domingos de tarde.${S.probFuente ? ` Los porcentajes debajo de cada partido son de <a href="${esc(S.probFuente.url)}" target="_blank" rel="noopener">${esc(S.probFuente.fuente)}</a>.` : ''}</p>`;
   $main.innerHTML = html;
 }
 

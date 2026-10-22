@@ -1,0 +1,175 @@
+{
+ "fuente": "Calculadora LUD",
+ "url": "https://calculadora-lud.vercel.app/mayores/a",
+ "actualizado": "2026-10-22",
+ "partidos": [
+  {
+   "local": "Urunday",
+   "visitante": "Old Boys",
+   "L": 52,
+   "E": 25,
+   "V": 23
+  },
+  {
+   "local": "Nacional U.",
+   "visitante": "Old Woodlands",
+   "L": 31,
+   "E": 25,
+   "V": 45
+  },
+  {
+   "local": "ELF",
+   "visitante": "TAPE",
+   "L": 56,
+   "E": 20,
+   "V": 24
+  },
+  {
+   "local": "Carrasco Polo",
+   "visitante": "Tenis El Pinar",
+   "L": 35,
+   "E": 24,
+   "V": 41
+  },
+  {
+   "local": "Santa Elena",
+   "visitante": "Hebraica y Macabi",
+   "L": 32,
+   "E": 23,
+   "V": 45
+  },
+  {
+   "local": "Carrasco Lawn Tennis",
+   "visitante": "Old Ivy",
+   "L": 52,
+   "E": 22,
+   "V": 26
+  },
+  {
+   "local": "Juan XXIII",
+   "visitante": "Seminario",
+   "L": 13,
+   "E": 17,
+   "V": 71
+  },
+  {
+   "local": "Playa Honda",
+   "visitante": "Old Christians",
+   "L": 32,
+   "E": 25,
+   "V": 43
+  },
+  {
+   "local": "Tenis El Pinar",
+   "visitante": "Nacional U.",
+   "L": 41,
+   "E": 24,
+   "V": 35
+  },
+  {
+   "local": "Old Ivy",
+   "visitante": "Santa Elena",
+   "L": 27,
+   "E": 21,
+   "V": 52
+  },
+  {
+   "local": "Old Christians",
+   "visitante": "Juan XXIII",
+   "L": 74,
+   "E": 16,
+   "V": 10
+  },
+  {
+   "local": "TAPE",
+   "visitante": "Urunday",
+   "L": 17,
+   "E": 18,
+   "V": 64
+  },
+  {
+   "local": "Old Woodlands",
+   "visitante": "ELF",
+   "L": 54,
+   "E": 22,
+   "V": 24
+  },
+  {
+   "local": "Old Boys",
+   "visitante": "Carrasco Polo",
+   "L": 32,
+   "E": 26,
+   "V": 41
+  },
+  {
+   "local": "Seminario",
+   "visitante": "Carrasco Lawn Tennis",
+   "L": 51,
+   "E": 22,
+   "V": 27
+  },
+  {
+   "local": "Hebraica y Macabi",
+   "visitante": "Playa Honda",
+   "L": 39,
+   "E": 26,
+   "V": 34
+  },
+  {
+   "local": "Tenis El Pinar",
+   "visitante": "Old Boys",
+   "L": 47,
+   "E": 26,
+   "V": 27
+  },
+  {
+   "local": "Old Christians",
+   "visitante": "Hebraica y Macabi",
+   "L": 43,
+   "E": 26,
+   "V": 31
+  },
+  {
+   "local": "Santa Elena",
+   "visitante": "Seminario",
+   "L": 29,
+   "E": 21,
+   "V": 49
+  },
+  {
+   "local": "Urunday",
+   "visitante": "Old Woodlands",
+   "L": 37,
+   "E": 26,
+   "V": 38
+  },
+  {
+   "local": "Nacional U.",
+   "visitante": "ELF",
+   "L": 46,
+   "E": 22,
+   "V": 32
+  },
+  {
+   "local": "Juan XXIII",
+   "visitante": "Carrasco Lawn Tennis",
+   "L": 19,
+   "E": 21,
+   "V": 60
+  },
+  {
+   "local": "Carrasco Polo",
+   "visitante": "TAPE",
+   "L": 58,
+   "E": 20,
+   "V": 22
+  },
+  {
+   "local": "Playa Honda",
+   "visitante": "Old Ivy",
+   "L": 58,
+   "E": 21,
+   "V": 20
+  }
+ ]
+}
