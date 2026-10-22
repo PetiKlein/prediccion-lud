@@ -18,10 +18,15 @@ const NOMBRES = {
 };
 const corto = n => NOMBRES[n.trim().toLowerCase()] || null;
 
-const res = await fetch(URL_CALC, { headers: { 'User-Agent': 'prediccion-lud (penca de amigos)' } });
-if (!res.ok) { console.log(`La calculadora respondió ${res.status}; no se cambia nada.`); process.exit(0); }
-const html = await res.text();
-writeFileSync(CRUDO, html);
+// PRUEBA=archivo.html lee una copia guardada y no escribe nada (para probar el lector).
+const PRUEBA = process.env.PRUEBA;
+let html;
+if (PRUEBA) html = readFileSync(PRUEBA, 'utf8');
+else {
+  const res = await fetch(URL_CALC, { headers: { 'User-Agent': 'prediccion-lud (penca de amigos)' } });
+  if (!res.ok) { console.log(`La calculadora respondió ${res.status}; no se cambia nada.`); process.exit(0); }
+  html = await res.text();
+}
 
 // Pasar el HTML a una lista de textos visibles, en orden.
 const textos = html
@@ -29,30 +34,32 @@ const textos = html
   .replace(/<[^>]+>/g, '\n').replace(/&amp;/g, '&').replace(/&nbsp;/g, ' ').replace(/&#x27;|&#39;/g, "'")
   .split('\n').map(t => t.trim()).filter(Boolean);
 
-// Buscar: equipo, (texto opcional), equipo, y después tres porcentajes seguidos.
+// Solo la sección "Partidos que quedan" (hasta "Resultados"). Cada partido viene como:
+// fecha, local, "52%", visitante, "23%", "Empate", "25%".
+const desde = textos.indexOf('Partidos que quedan');
+const hasta = textos.indexOf('Resultados', desde + 1);
+const seccion = desde >= 0 ? textos.slice(desde + 1, hasta > desde ? hasta : undefined) : [];
+const pct = t => { const m = t.match(/^(\d{1,3})(?:[.,]\d+)?\s*%$/); return m ? Number(m[1]) : null; };
 const partidos = []; const vistos = new Set();
-const pct = t => { const m = t.match(/^(\d{1,3})\s*%$/); return m ? Number(m[1]) : null; };
-for (let i = 0; i < textos.length; i++) {
-  const a = corto(textos[i]); if (!a) continue;
-  let j = i + 1, b = null;
-  for (; j < Math.min(i + 6, textos.length); j++) { b = corto(textos[j]); if (b && b !== a) break; b = null; }
-  if (!b) continue;
-  const nums = [];
-  for (let k = j + 1; k < Math.min(j + 14, textos.length) && nums.length < 3; k++) {
-    if (corto(textos[k])) break;
-    const n = pct(textos[k]); if (n != null) nums.push(n);
-  }
-  if (nums.length < 3) continue;
-  const suma = nums[0] + nums[1] + nums[2];
-  if (suma < 97 || suma > 103) continue;
+for (let i = 0; i + 5 < seccion.length; i++) {
+  const a = corto(seccion[i]); if (!a) continue;
+  const pl = pct(seccion[i + 1]); const b = corto(seccion[i + 2]); const pv = pct(seccion[i + 3]);
+  const esEmp = /^empate$/i.test(seccion[i + 4]); const pe = pct(seccion[i + 5]);
+  if (pl == null || !b || pv == null || !esEmp || pe == null) continue;
+  const suma = pl + pv + pe; if (suma < 97 || suma > 103) continue;
   const key = a + '|' + b; if (vistos.has(key)) continue; vistos.add(key);
-  partidos.push({ local: a, visitante: b, L: nums[0], E: nums[1], V: nums[2] });
-  i = j;
+  partidos.push({ local: a, visitante: b, L: pl, E: pe, V: pv });
+  i += 5;
 }
 
 console.log(`Partidos leídos: ${partidos.length}`);
 for (const p of partidos) console.log(`  ${p.local} ${p.L}% · ${p.E}% · ${p.V}% ${p.visitante}`);
-if (partidos.length < 4) { console.log('Muy pocos partidos; no se cambia el archivo.'); process.exit(0); }
+if (partidos.length < 4) {
+  // Probablemente cambió la página: se guarda una copia para revisar el lector.
+  if (!PRUEBA) writeFileSync(CRUDO, html);
+  console.log('Muy pocos partidos; no se cambia el archivo.'); process.exit(0);
+}
+if (PRUEBA) process.exit(0);
 
 let anterior = null; try { anterior = JSON.parse(readFileSync(SALIDA, 'utf8')); } catch {}
 const igual = anterior && JSON.stringify(anterior.partidos) === JSON.stringify(partidos);

@@ -4,907 +4,172 @@
  "actualizado": "2026-10-22",
  "partidos": [
   {
-   "local": "Old Ivy",
-   "visitante": "Seminario",
-   "L": 27,
-   "E": 22,
-   "V": 50
-  },
-  {
-   "local": "Playa Honda",
-   "visitante": "Juan XXIII",
-   "L": 58,
-   "E": 23,
-   "V": 19
-  },
-  {
-   "local": "Old Christians",
-   "visitante": "Santa Elena",
-   "L": 53,
-   "E": 21,
-   "V": 26
-  },
-  {
-   "local": "Hebraica y Macabi",
-   "visitante": "Carrasco Lawn Tennis",
-   "L": 48,
-   "E": 25,
-   "V": 27
-  },
-  {
-   "local": "Carrasco Polo",
-   "visitante": "Nacional U.",
-   "L": 41,
-   "E": 23,
-   "V": 35
-  },
-  {
-   "local": "Tenis El Pinar",
-   "visitante": "Urunday",
-   "L": 38,
-   "E": 25,
-   "V": 37
-  },
-  {
-   "local": "Old Boys",
-   "visitante": "ELF",
-   "L": 40,
-   "E": 24,
-   "V": 36
-  },
-  {
-   "local": "TAPE",
-   "visitante": "Old Woodlands",
-   "L": 21,
-   "E": 21,
-   "V": 59
-  },
-  {
-   "local": "Juan XXIII",
-   "visitante": "Old Ivy",
-   "L": 36,
-   "E": 26,
-   "V": 38
-  },
-  {
-   "local": "Seminario",
-   "visitante": "Hebraica y Macabi",
-   "L": 40,
-   "E": 25,
-   "V": 35
-  },
-  {
-   "local": "Carrasco Lawn Tennis",
-   "visitante": "Old Christians",
-   "L": 25,
-   "E": 23,
-   "V": 52
-  },
-  {
-   "local": "Santa Elena",
-   "visitante": "Playa Honda",
-   "L": 44,
-   "E": 23,
-   "V": 33
-  },
-  {
-   "local": "Old Woodlands",
+   "local": "Urunday",
    "visitante": "Old Boys",
-   "L": 58,
-   "E": 24,
-   "V": 19
+   "L": 52,
+   "E": 25,
+   "V": 23
+  },
+  {
+   "local": "Nacional U.",
+   "visitante": "Old Woodlands",
+   "L": 31,
+   "E": 25,
+   "V": 45
   },
   {
    "local": "ELF",
+   "visitante": "TAPE",
+   "L": 56,
+   "E": 20,
+   "V": 24
+  },
+  {
+   "local": "Carrasco Polo",
    "visitante": "Tenis El Pinar",
    "L": 35,
    "E": 24,
    "V": 41
   },
   {
-   "local": "Nacional U.",
-   "visitante": "TAPE",
-   "L": 49,
-   "E": 22,
-   "V": 29
-  },
-  {
-   "local": "Urunday",
-   "visitante": "Carrasco Polo",
-   "L": 41,
-   "E": 24,
-   "V": 35
-  },
-  {
-   "local": "Santa Elena",
-   "visitante": "Juan XXIII",
-   "L": 49,
-   "E": 24,
-   "V": 27
-  },
-  {
-   "local": "Playa Honda",
-   "visitante": "Carrasco Lawn Tennis",
-   "L": 41,
-   "E": 26,
-   "V": 34
-  },
-  {
-   "local": "Old Christians",
-   "visitante": "Seminario",
-   "L": 42,
-   "E": 24,
-   "V": 34
-  },
-  {
-   "local": "Hebraica y Macabi",
-   "visitante": "Old Ivy",
-   "L": 55,
-   "E": 23,
-   "V": 22
-  },
-  {
-   "local": "Carrasco Polo",
-   "visitante": "ELF",
-   "L": 42,
-   "E": 22,
-   "V": 35
-  },
-  {
-   "local": "Tenis El Pinar",
-   "visitante": "Old Woodlands",
-   "L": 28,
-   "E": 27,
-   "V": 45
-  },
-  {
-   "local": "Urunday",
-   "visitante": "Nacional U.",
-   "L": 40,
-   "E": 25,
-   "V": 35
-  },
-  {
-   "local": "Old Boys",
-   "visitante": "TAPE",
-   "L": 36,
-   "E": 26,
-   "V": 38
-  },
-  {
-   "local": "Juan XXIII",
-   "visitante": "Hebraica y Macabi",
-   "L": 23,
-   "E": 25,
-   "V": 52
-  },
-  {
-   "local": "Old Ivy",
-   "visitante": "Old Christians",
-   "L": 30,
-   "E": 26,
-   "V": 44
-  },
-  {
-   "local": "Seminario",
-   "visitante": "Playa Honda",
-   "L": 41,
-   "E": 25,
-   "V": 34
-  },
-  {
-   "local": "Carrasco Lawn Tennis",
-   "visitante": "Santa Elena",
-   "L": 34,
-   "E": 22,
-   "V": 45
-  },
-  {
-   "local": "Old Woodlands",
-   "visitante": "Carrasco Polo",
-   "L": 46,
-   "E": 25,
-   "V": 29
-  },
-  {
-   "local": "ELF",
-   "visitante": "Urunday",
-   "L": 33,
-   "E": 23,
-   "V": 44
-  },
-  {
-   "local": "Nacional U.",
-   "visitante": "Old Boys",
-   "L": 43,
-   "E": 27,
-   "V": 30
-  },
-  {
-   "local": "TAPE",
-   "visitante": "Tenis El Pinar",
-   "L": 34,
-   "E": 26,
-   "V": 40
-  },
-  {
-   "local": "Tenis El Pinar",
-   "visitante": "ELF",
-   "L": 54,
-   "E": 21,
-   "V": 25
-  },
-  {
    "local": "Santa Elena",
    "visitante": "Hebraica y Macabi",
-   "L": 36,
-   "E": 22,
-   "V": 41
-  },
-  {
-   "local": "Juan XXIII",
-   "visitante": "Nacional U.",
-   "L": 26,
-   "E": 28,
-   "V": 47
-  },
-  {
-   "local": "Carrasco Polo",
-   "visitante": "Seminario",
-   "L": 47,
-   "E": 25,
-   "V": 28
-  },
-  {
-   "local": "Urunday",
-   "visitante": "Old Christians",
-   "L": 50,
-   "E": 24,
-   "V": 26
-  },
-  {
-   "local": "Hebraica y Macabi",
-   "visitante": "Old Woodlands",
-   "L": 22,
-   "E": 25,
-   "V": 53
-  },
-  {
-   "local": "Carrasco Polo",
-   "visitante": "Playa Honda",
-   "L": 55,
-   "E": 23,
-   "V": 22
-  },
-  {
-   "local": "Seminario",
-   "visitante": "Urunday",
-   "L": 26,
-   "E": 22,
-   "V": 52
-  },
-  {
-   "local": "Old Christians",
-   "visitante": "Old Boys",
-   "L": 36,
-   "E": 29,
-   "V": 36
-  },
-  {
-   "local": "Old Ivy",
-   "visitante": "Tenis El Pinar",
-   "L": 22,
-   "E": 26,
-   "V": 53
-  },
-  {
-   "local": "TAPE",
-   "visitante": "Juan XXIII",
-   "L": 59,
-   "E": 22,
-   "V": 19
-  },
-  {
-   "local": "Nacional U.",
-   "visitante": "Santa Elena",
-   "L": 50,
-   "E": 22,
-   "V": 29
-  },
-  {
-   "local": "ELF",
-   "visitante": "Carrasco Lawn Tennis",
-   "L": 63,
-   "E": 18,
-   "V": 19
-  },
-  {
-   "local": "Playa Honda",
-   "visitante": "ELF",
    "L": 32,
-   "E": 24,
+   "E": 23,
    "V": 45
   },
   {
    "local": "Carrasco Lawn Tennis",
    "visitante": "Old Ivy",
-   "L": 50,
-   "E": 24,
-   "V": 27
-  },
-  {
-   "local": "Tenis El Pinar",
-   "visitante": "Hebraica y Macabi",
-   "L": 47,
-   "E": 26,
-   "V": 28
-  },
-  {
-   "local": "Old Woodlands",
-   "visitante": "Nacional U.",
    "L": 52,
-   "E": 26,
-   "V": 22
-  },
-  {
-   "local": "Santa Elena",
-   "visitante": "TAPE",
-   "L": 46,
-   "E": 21,
-   "V": 33
+   "E": 22,
+   "V": 26
   },
   {
    "local": "Juan XXIII",
-   "visitante": "Old Christians",
-   "L": 26,
-   "E": 26,
-   "V": 48
-  },
-  {
-   "local": "Old Boys",
    "visitante": "Seminario",
-   "L": 35,
-   "E": 26,
-   "V": 39
-  },
-  {
-   "local": "Seminario",
-   "visitante": "Juan XXIII",
-   "L": 57,
-   "E": 23,
-   "V": 20
-  },
-  {
-   "local": "Old Ivy",
-   "visitante": "ELF",
-   "L": 20,
-   "E": 19,
-   "V": 61
-  },
-  {
-   "local": "Urunday",
-   "visitante": "Playa Honda",
-   "L": 53,
-   "E": 24,
-   "V": 23
-  },
-  {
-   "local": "Carrasco Polo",
-   "visitante": "Old Boys",
-   "L": 57,
-   "E": 23,
-   "V": 20
-  },
-  {
-   "local": "Nacional U.",
-   "visitante": "Tenis El Pinar",
-   "L": 34,
-   "E": 26,
-   "V": 40
-  },
-  {
-   "local": "ELF",
-   "visitante": "Hebraica y Macabi",
-   "L": 44,
-   "E": 23,
-   "V": 34
+   "L": 13,
+   "E": 17,
+   "V": 71
   },
   {
    "local": "Playa Honda",
-   "visitante": "Old Ivy",
-   "L": 52,
-   "E": 24,
-   "V": 23
-  },
-  {
-   "local": "Carrasco Lawn Tennis",
-   "visitante": "Nacional U.",
-   "L": 40,
-   "E": 25,
-   "V": 36
-  },
-  {
-   "local": "Tenis El Pinar",
-   "visitante": "TAPE",
-   "L": 73,
-   "E": 15,
-   "V": 12
-  },
-  {
-   "local": "Old Woodlands",
    "visitante": "Old Christians",
-   "L": 52,
+   "L": 32,
    "E": 25,
-   "V": 23
-  },
-  {
-   "local": "Santa Elena",
-   "visitante": "Seminario",
-   "L": 33,
-   "E": 24,
    "V": 43
   },
   {
-   "local": "Juan XXIII",
-   "visitante": "Carrasco Polo",
-   "L": 16,
-   "E": 22,
-   "V": 62
-  },
-  {
-   "local": "Old Boys",
-   "visitante": "Urunday",
-   "L": 28,
-   "E": 26,
-   "V": 46
-  },
-  {
-   "local": "Carrasco Polo",
-   "visitante": "Santa Elena",
-   "L": 60,
-   "E": 21,
-   "V": 20
-  },
-  {
-   "local": "Old Boys",
-   "visitante": "Playa Honda",
-   "L": 33,
-   "E": 29,
-   "V": 38
-  },
-  {
-   "local": "Seminario",
-   "visitante": "Old Woodlands",
-   "L": 25,
-   "E": 26,
-   "V": 49
-  },
-  {
-   "local": "Old Christians",
-   "visitante": "Tenis El Pinar",
-   "L": 18,
-   "E": 22,
-   "V": 61
-  },
-  {
-   "local": "Urunday",
-   "visitante": "Juan XXIII",
-   "L": 54,
+   "local": "Tenis El Pinar",
+   "visitante": "Nacional U.",
+   "L": 41,
    "E": 24,
-   "V": 22
-  },
-  {
-   "local": "TAPE",
-   "visitante": "Carrasco Lawn Tennis",
-   "L": 42,
-   "E": 22,
-   "V": 36
-  },
-  {
-   "local": "Nacional U.",
-   "visitante": "ELF",
-   "L": 48,
-   "E": 23,
-   "V": 29
-  },
-  {
-   "local": "Playa Honda",
-   "visitante": "Hebraica y Macabi",
-   "L": 33,
-   "E": 26,
-   "V": 41
+   "V": 35
   },
   {
    "local": "Old Ivy",
-   "visitante": "Nacional U.",
-   "L": 17,
-   "E": 21,
-   "V": 62
-  },
-  {
-   "local": "ELF",
-   "visitante": "TAPE",
-   "L": 34,
-   "E": 22,
-   "V": 44
-  },
-  {
-   "local": "Tenis El Pinar",
-   "visitante": "Seminario",
-   "L": 59,
-   "E": 22,
-   "V": 19
-  },
-  {
-   "local": "Santa Elena",
-   "visitante": "Urunday",
-   "L": 36,
-   "E": 23,
-   "V": 41
-  },
-  {
-   "local": "Juan XXIII",
-   "visitante": "Old Boys",
-   "L": 29,
-   "E": 28,
-   "V": 43
-  },
-  {
-   "local": "Juan XXIII",
-   "visitante": "Playa Honda",
-   "L": 33,
-   "E": 28,
-   "V": 39
-  },
-  {
-   "local": "Old Boys",
    "visitante": "Santa Elena",
-   "L": 36,
-   "E": 24,
-   "V": 40
-  },
-  {
-   "local": "Carrasco Polo",
-   "visitante": "Tenis El Pinar",
-   "L": 26,
-   "E": 24,
-   "V": 50
-  },
-  {
-   "local": "Seminario",
-   "visitante": "Carrasco Lawn Tennis",
-   "L": 46,
-   "E": 24,
-   "V": 30
-  },
-  {
-   "local": "Old Christians",
-   "visitante": "ELF",
-   "L": 47,
-   "E": 24,
-   "V": 29
-  },
-  {
-   "local": "Urunday",
-   "visitante": "Old Woodlands",
-   "L": 26,
-   "E": 23,
+   "L": 27,
+   "E": 21,
    "V": 52
   },
   {
-   "local": "TAPE",
-   "visitante": "Old Ivy",
-   "L": 48,
-   "E": 23,
-   "V": 29
+   "local": "Old Christians",
+   "visitante": "Juan XXIII",
+   "L": 74,
+   "E": 16,
+   "V": 10
   },
   {
-   "local": "Nacional U.",
+   "local": "TAPE",
+   "visitante": "Urunday",
+   "L": 17,
+   "E": 18,
+   "V": 64
+  },
+  {
+   "local": "Old Woodlands",
+   "visitante": "ELF",
+   "L": 54,
+   "E": 22,
+   "V": 24
+  },
+  {
+   "local": "Old Boys",
+   "visitante": "Carrasco Polo",
+   "L": 32,
+   "E": 26,
+   "V": 41
+  },
+  {
+   "local": "Seminario",
+   "visitante": "Carrasco Lawn Tennis",
+   "L": 51,
+   "E": 22,
+   "V": 27
+  },
+  {
+   "local": "Hebraica y Macabi",
+   "visitante": "Playa Honda",
+   "L": 39,
+   "E": 26,
+   "V": 34
+  },
+  {
+   "local": "Tenis El Pinar",
+   "visitante": "Old Boys",
+   "L": 47,
+   "E": 26,
+   "V": 27
+  },
+  {
+   "local": "Old Christians",
    "visitante": "Hebraica y Macabi",
-   "L": 45,
-   "E": 24,
+   "L": 43,
+   "E": 26,
    "V": 31
   },
   {
-   "local": "Playa Honda",
-   "visitante": "Nacional U.",
+   "local": "Santa Elena",
+   "visitante": "Seminario",
    "L": 29,
-   "E": 25,
-   "V": 46
-  },
-  {
-   "local": "ELF",
-   "visitante": "Seminario",
-   "L": 24,
-   "E": 22,
-   "V": 55
-  },
-  {
-   "local": "Carrasco Lawn Tennis",
-   "visitante": "Carrasco Polo",
-   "L": 25,
-   "E": 24,
-   "V": 52
-  },
-  {
-   "local": "Hebraica y Macabi",
-   "visitante": "TAPE",
-   "L": 51,
    "E": 21,
-   "V": 28
+   "V": 49
   },
   {
-   "local": "Juan XXIII",
+   "local": "Urunday",
    "visitante": "Old Woodlands",
-   "L": 21,
-   "E": 23,
-   "V": 57
-  },
-  {
-   "local": "Old Boys",
-   "visitante": "Tenis El Pinar",
-   "L": 17,
-   "E": 20,
-   "V": 63
-  },
-  {
-   "local": "Seminario",
-   "visitante": "Old Ivy",
-   "L": 61,
-   "E": 20,
-   "V": 19
-  },
-  {
-   "local": "Old Christians",
-   "visitante": "Hebraica y Macabi",
-   "L": 38,
-   "E": 25,
-   "V": 37
-  },
-  {
-   "local": "Urunday",
-   "visitante": "Carrasco Lawn Tennis",
-   "L": 54,
-   "E": 21,
-   "V": 25
-  },
-  {
-   "local": "TAPE",
-   "visitante": "Nacional U.",
-   "L": 25,
-   "E": 21,
-   "V": 54
-  },
-  {
-   "local": "Playa Honda",
-   "visitante": "TAPE",
-   "L": 41,
-   "E": 23,
-   "V": 36
-  },
-  {
-   "local": "Hebraica y Macabi",
-   "visitante": "Seminario",
-   "L": 25,
-   "E": 24,
-   "V": 51
-  },
-  {
-   "local": "Old Ivy",
-   "visitante": "Carrasco Polo",
-   "L": 25,
-   "E": 26,
-   "V": 49
-  },
-  {
-   "local": "Carrasco Lawn Tennis",
-   "visitante": "Old Boys",
-   "L": 31,
-   "E": 25,
-   "V": 44
-  },
-  {
-   "local": "Tenis El Pinar",
-   "visitante": "Juan XXIII",
-   "L": 63,
-   "E": 22,
-   "V": 16
-  },
-  {
-   "local": "Old Woodlands",
-   "visitante": "Santa Elena",
-   "L": 35,
-   "E": 23,
-   "V": 41
-  },
-  {
-   "local": "Nacional U.",
-   "visitante": "Old Christians",
-   "L": 48,
-   "E": 25,
-   "V": 28
-  },
-  {
-   "local": "Old Woodlands",
-   "visitante": "Playa Honda",
-   "L": 59,
-   "E": 24,
-   "V": 18
-  },
-  {
-   "local": "Santa Elena",
-   "visitante": "Tenis El Pinar",
-   "L": 28,
-   "E": 22,
-   "V": 50
-  },
-  {
-   "local": "Juan XXIII",
-   "visitante": "Carrasco Lawn Tennis",
-   "L": 28,
-   "E": 24,
-   "V": 47
-  },
-  {
-   "local": "Carrasco Polo",
-   "visitante": "Hebraica y Macabi",
-   "L": 56,
-   "E": 21,
-   "V": 23
-  },
-  {
-   "local": "Seminario",
-   "visitante": "Nacional U.",
-   "L": 44,
-   "E": 26,
-   "V": 30
-  },
-  {
-   "local": "Old Christians",
-   "visitante": "TAPE",
-   "L": 36,
-   "E": 24,
-   "V": 40
-  },
-  {
-   "local": "Urunday",
-   "visitante": "Old Ivy",
-   "L": 71,
-   "E": 17,
-   "V": 12
-  },
-  {
-   "local": "Hebraica y Macabi",
-   "visitante": "Urunday",
-   "L": 32,
-   "E": 23,
-   "V": 45
-  },
-  {
-   "local": "Playa Honda",
-   "visitante": "Old Christians",
-   "L": 27,
-   "E": 24,
-   "V": 49
-  },
-  {
-   "local": "Old Ivy",
-   "visitante": "Old Boys",
-   "L": 35,
-   "E": 26,
-   "V": 39
-  },
-  {
-   "local": "ELF",
-   "visitante": "Juan XXIII",
-   "L": 31,
-   "E": 23,
-   "V": 47
-  },
-  {
-   "local": "TAPE",
-   "visitante": "Seminario",
-   "L": 23,
-   "E": 21,
-   "V": 56
-  },
-  {
-   "local": "Nacional U.",
-   "visitante": "Carrasco Polo",
-   "L": 50,
-   "E": 25,
-   "V": 25
-  },
-  {
-   "local": "Tenis El Pinar",
-   "visitante": "Playa Honda",
-   "L": 72,
-   "E": 16,
-   "V": 12
-  },
-  {
-   "local": "Old Woodlands",
-   "visitante": "Carrasco Lawn Tennis",
-   "L": 50,
-   "E": 24,
-   "V": 26
-  },
-  {
-   "local": "Santa Elena",
-   "visitante": "ELF",
-   "L": 48,
-   "E": 23,
-   "V": 30
-  },
-  {
-   "local": "Old Boys",
-   "visitante": "Hebraica y Macabi",
-   "L": 32,
-   "E": 26,
-   "V": 43
-  },
-  {
-   "local": "Carrasco Polo",
-   "visitante": "TAPE",
-   "L": 44,
-   "E": 23,
-   "V": 33
-  },
-  {
-   "local": "Seminario",
-   "visitante": "Old Christians",
    "L": 37,
    "E": 26,
    "V": 38
   },
   {
-   "local": "Playa Honda",
-   "visitante": "Seminario",
-   "L": 35,
-   "E": 24,
-   "V": 41
-  },
-  {
-   "local": "Old Christians",
-   "visitante": "Carrasco Polo",
-   "L": 50,
-   "E": 23,
-   "V": 27
-  },
-  {
-   "local": "TAPE",
-   "visitante": "Urunday",
-   "L": 35,
+   "local": "Nacional U.",
+   "visitante": "ELF",
+   "L": 46,
    "E": 22,
-   "V": 43
+   "V": 32
   },
   {
-   "local": "Hebraica y Macabi",
-   "visitante": "Juan XXIII",
-   "L": 45,
-   "E": 25,
-   "V": 30
-  },
-  {
-   "local": "Old Ivy",
-   "visitante": "Santa Elena",
-   "L": 35,
-   "E": 23,
-   "V": 43
-  },
-  {
-   "local": "ELF",
-   "visitante": "Old Woodlands",
-   "L": 28,
-   "E": 22,
-   "V": 50
-  },
-  {
-   "local": "Carrasco Lawn Tennis",
-   "visitante": "Tenis El Pinar",
-   "L": 20,
+   "local": "Juan XXIII",
+   "visitante": "Carrasco Lawn Tennis",
+   "L": 19,
    "E": 21,
-   "V": 59
+   "V": 60
+  },
+  {
+   "local": "Carrasco Polo",
+   "visitante": "TAPE",
+   "L": 58,
+   "E": 20,
+   "V": 22
+  },
+  {
+   "local": "Playa Honda",
+   "visitante": "Old Ivy",
+   "L": 58,
+   "E": 21,
+   "V": 20
   }
  ]
 }
