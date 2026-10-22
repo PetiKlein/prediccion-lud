@@ -149,7 +149,10 @@ main{padding-block:20px 56px;display:flex;flex-direction:column;gap:20px}
 .crest-img{width:40px;height:40px;object-fit:contain;background:#fff;border-radius:10px;padding:3px;box-shadow:0 0 0 1px var(--line)}
 .res .crest.crest-img{width:30px;height:30px;border-radius:8px;padding:2px}
 .crest path{fill:var(--fg)} .crest text{fill:var(--surface-2);font-family:var(--display);font-weight:800}
-.prob{display:grid;grid-template-columns:1fr auto 1fr;gap:6px;margin-top:-4px;font-size:.78rem;color:var(--muted);text-align:center;font-variant-numeric:tabular-nums}
+.prob-row{display:flex;flex-direction:column;gap:4px;padding-block:8px;border-top:1px solid var(--line)}
+.prob-eq{display:grid;grid-template-columns:1fr auto 1fr;gap:6px;font-weight:600;font-size:.85rem;text-align:center}
+.prob-eq span:nth-child(2){min-width:62px;color:var(--muted);font-weight:500}
+.prob{display:grid;grid-template-columns:1fr auto 1fr;gap:6px;font-size:.78rem;color:var(--muted);text-align:center;font-variant-numeric:tabular-nums}
 .prob .pc:nth-child(2){min-width:62px}
 .prob b{font-weight:600}
 .prob .fav{color:var(--fg)} .prob .fav b{font-weight:800}
@@ -447,6 +450,9 @@ function renderPanel(){
         : faltan.length ? `<div class="chips">${faltan.map(x => `<span class="chip miss">${esc(x.j.nombre)} · ${x.n} de ${abiertos.length}</span>`).join('')}</div>`
         : '<p class="lede">Ya votaron todos.</p>'}
     </section>
+    <section class="admin"><h3>Probabilidades</h3>
+      ${probsPanel()}
+    </section>
     <section class="admin"><h3>Cierre de los partidos</h3>
       <p class="lede">Por defecto todos los partidos cierran el domingo de su fecha a las 9:00, y uno que se juega antes cierra a su hora. Elegí la fecha y cambiá el cierre del partido que necesites.</p>
       ${cierresPanel()}
@@ -546,6 +552,19 @@ function fechaBar(){
     `<button data-fecha="${f}" aria-pressed="${f===S.fecha}">F${f}<small>${esc(fmtDia(diaDeFecha(f)).replace(/^\S+ /,''))}</small></button>`).join('') + `</div>`;
 }
 
+function probsPanel(){
+  if (!S.probFuente) return '<p class="lede">Todavía no hay datos de la calculadora.</p>';
+  const fs = fechas().filter(f => S.partidos.some(p => p.fecha === f && !played(p) && probDe(p)));
+  if (!fs.length) return '<p class="lede">No hay partidos pendientes con probabilidades.</p>';
+  if (!fs.includes(S.probFecha)) S.probFecha = fs.includes(defaultFecha()) ? defaultFecha() : fs[0];
+  const f = S.probFecha;
+  const barra = `<div class="fechas" role="group" aria-label="Fecha">` + fs.map(x =>
+    `<button type="button" data-prob-fecha="${x}" aria-pressed="${x===f}">F${x}<small>${esc(fmtDia(diaDeFecha(x)).replace(/^\S+ /,''))}</small></button>`).join('') + `</div>`;
+  const ps = S.partidos.filter(p => p.fecha === f && !played(p) && probDe(p)).sort((a,b)=> b.zona.localeCompare(a.zona) || (a.dia+a.hora).localeCompare(b.dia+b.hora));
+  const filas = ps.map(p => `<div class="prob-row"><div class="prob-eq"><span>${esc(p.local)}</span><span>Empate</span><span>${esc(p.visitante)}</span></div>${probLinea(p)}</div>`).join('');
+  return `<p class="lede">Según <a href="${esc(S.probFuente.url)}" target="_blank" rel="noopener">${esc(S.probFuente.fuente)}</a>, actualizado el ${esc(S.probFuente.actualizado || '')}. Solo lo ves vos.</p>${barra}<div class="cierres">${filas}</div>`;
+}
+
 function probLinea(p){
   const x = probDe(p); if (!x || played(p)) return '';
   const max = Math.max(x.L, x.E, x.V);
@@ -580,7 +599,6 @@ function matchCard(p, me){
   return `<article class="match">
     <div class="meta"><span>${esc(fmtDia(p.dia))}, ${esc(hora)}. ${esc(p.cancha)}</span><span class="state ${stCls}">${state}</span></div>
     <div class="picks">${team('L', p.local, o?p.gl:null)}${emp}${team('V', p.visitante, o?p.gv:null)}</div>
-    ${probLinea(p)}
     ${vote}
   </article>`;
 }
@@ -600,7 +618,7 @@ function renderPronosticar(){
     if (!zp.length) continue;
     html += `<section class="zona"><h2>Zona ${z}<small>${z==='Título'?'pelean el campeonato':'pelean la permanencia'}</small></h2><div class="matches">${zp.map(p=>matchCard(p,me)).join('')}</div></section>`;
   }
-  html += `<p class="src">Fixture y resultados: <a href="https://ligauniversitaria.org.uy/estadisticas-futbol-mayores-a/" target="_blank" rel="noopener">Liga Universitaria de Deportes</a>. Se actualizan solos los domingos de tarde.${S.probFuente ? ` Los porcentajes debajo de cada partido son de <a href="${esc(S.probFuente.url)}" target="_blank" rel="noopener">${esc(S.probFuente.fuente)}</a>.` : ''}</p>`;
+  html += `<p class="src">Fixture y resultados: <a href="https://ligauniversitaria.org.uy/estadisticas-futbol-mayores-a/" target="_blank" rel="noopener">Liga Universitaria de Deportes</a>. Se actualizan solos los domingos de tarde.</p>`;
   $main.innerHTML = html;
 }
 
@@ -719,6 +737,7 @@ $main.addEventListener('click', e => {
   if (e.target.closest('button[data-cancelar]')){ S.panelConfirm = null; render(); return; }
   const lb = e.target.closest('button[data-liberar]'); if (lb){ lb.disabled = true; liberar(lb.dataset.liberar); return; }
   const ca = e.target.closest('button[data-cierre-auto]'); if (ca){ ca.disabled = true; cierreAutomatico(ca.dataset.cierreAuto); return; }
+  const prf = e.target.closest('button[data-prob-fecha]'); if (prf){ S.probFecha = Number(prf.dataset.probFecha); render(); return; }
   const pf = e.target.closest('button[data-panel-fecha]'); if (pf){ S.panelFecha = Number(pf.dataset.panelFecha); render(); }
 });
 $main.addEventListener('submit', e => {
