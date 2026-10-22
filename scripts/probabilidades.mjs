@@ -23,8 +23,11 @@ const PRUEBA = process.env.PRUEBA;
 let html;
 if (PRUEBA) html = readFileSync(PRUEBA, 'utf8');
 else {
-  const res = await fetch(URL_CALC, { headers: { 'User-Agent': 'prediccion-lud (penca de amigos)' } });
-  if (!res.ok) { console.log(`La calculadora respondió ${res.status}; no se cambia nada.`); process.exit(0); }
+  // Si la calculadora no responde, el robot falla (código 1) para que el workflow abra un aviso.
+  let res;
+  try { res = await fetch(URL_CALC, { headers: { 'User-Agent': 'prediccion-lud (penca de amigos)' } }); }
+  catch (e) { console.error(`No se pudo conectar con la calculadora: ${e.message}`); process.exit(1); }
+  if (!res.ok) { console.error(`La calculadora respondió ${res.status}. Puede que la página ya no exista.`); process.exit(1); }
   html = await res.text();
 }
 
@@ -57,7 +60,8 @@ for (const p of partidos) console.log(`  ${p.local} ${p.L}% · ${p.E}% · ${p.V}
 if (partidos.length < 4) {
   // Probablemente cambió la página: se guarda una copia para revisar el lector.
   if (!PRUEBA) writeFileSync(CRUDO, html);
-  console.log('Muy pocos partidos; no se cambia el archivo.'); process.exit(0);
+  console.error('No se encontraron los partidos en la página: puede que haya cambiado. Se mantienen los datos anteriores.');
+  process.exit(PRUEBA ? 0 : 1);
 }
 if (PRUEBA) process.exit(0);
 

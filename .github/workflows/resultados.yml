@@ -10,6 +10,10 @@ on:
     - cron: '5 23 * * 1,2,3'
   workflow_dispatch: {}
 
+permissions:
+  contents: read
+  issues: write
+
 concurrency:
   group: resultados
   cancel-in-progress: false
@@ -27,3 +31,24 @@ jobs:
       - run: npm run actualizar
         env:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+      - name: Avisar si falló
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          titulo="No se pudieron cargar los resultados de la Liga"
+          if [ -z "$(gh issue list --state open --search "$titulo in:title" --json number --jq '.[0].number')" ]; then
+            gh issue create --title "$titulo" --body "El robot de resultados no pudo leer la página de la Liga Universitaria o no pudo guardar en Firebase. Los resultados de la penca no se están actualizando.
+
+          Detalle: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+          Este aviso se cierra solo cuando el robot vuelva a funcionar."
+          fi
+      - name: Cerrar el aviso si volvió a andar
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for n in $(gh issue list --state open --search "No se pudieron cargar los resultados de la Liga in:title" --json number --jq '.[].number'); do
+            gh issue close "$n" --comment "Volvió a funcionar el $(TZ=America/Montevideo date '+%d/%m %H:%M')."
+          done

@@ -14,6 +14,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: probabilidades
@@ -37,3 +38,24 @@ jobs:
           if git diff --cached --quiet; then echo "Nada para guardar"; exit 0; fi
           git commit -m "Actualizar probabilidades de Calculadora LUD"
           git push
+      - name: Avisar si falló
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          titulo="No se pudo leer Calculadora LUD"
+          if [ -z "$(gh issue list --state open --search "$titulo in:title" --json number --jq '.[0].number')" ]; then
+            gh issue create --title "$titulo" --body "El robot de probabilidades no pudo leer https://calculadora-lud.vercel.app/mayores/a. Puede que la página haya cambiado o dejado de existir. La penca sigue mostrando los últimos datos que tenía.
+
+          Detalle: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+          Este aviso se cierra solo cuando el robot vuelva a funcionar."
+          fi
+      - name: Cerrar el aviso si volvió a andar
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for n in $(gh issue list --state open --search "No se pudo leer Calculadora LUD in:title" --json number --jq '.[].number'); do
+            gh issue close "$n" --comment "Volvió a funcionar el $(TZ=America/Montevideo date '+%d/%m %H:%M')."
+          done
