@@ -28,6 +28,18 @@ const existentes = Object.fromEntries(partSnap.docs.map(d => [d.id, d.data()]));
 const datos = await bajar();
 const partidos = transformar(datos, existentes);
 
+// Resultados manuales (data/resultados-manuales.json): se usan solo si la Liga todavía no cargó ese partido.
+let manuales = [];
+try { manuales = JSON.parse(readFileSync(new URL('../data/resultados-manuales.json', import.meta.url))).resultados || []; } catch {}
+const norm = s => String(s).toLowerCase().trim();
+let usadosManual = 0;
+for (const m of manuales) {
+  const p = Object.values(partidos).find(x => norm(x.local) === norm(m.local) && norm(x.visitante) === norm(m.visitante) && x.gl == null);
+  if (!p || !Number.isFinite(m.gl) || !Number.isFinite(m.gv)) continue;
+  p.gl = m.gl; p.gv = m.gv; usadosManual++;
+}
+if (usadosManual) console.log(`Resultados manuales usados (la Liga todavía no los cargó): ${usadosManual}`);
+
 const cambios = [];
 let batch = db.batch(), enBatch = 0;
 for (const [id, p] of Object.entries(partidos)) {
