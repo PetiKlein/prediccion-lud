@@ -205,6 +205,15 @@ td.f{color:var(--muted)}
 .admin h3{margin:0;font-family:var(--display);font-weight:800;font-size:1.35rem;line-height:1}
 .admin .tablewrap{border:0}
 .share-row{display:flex;justify-content:center}
+.resumen{background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--pitch);border-radius:var(--r);padding:14px 16px;display:flex;flex-direction:column;gap:8px}
+.resumen h3{margin:0;font-family:var(--display);font-weight:800;font-size:1.35rem;line-height:1}
+.res-mio{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:3px;font-size:.95rem}
+.res-mio li::marker{color:var(--accent)}
+.res-extra{display:flex;flex-direction:column;gap:2px;font-size:.84rem;color:var(--muted)}
+.res-extra b{color:var(--fg);font-weight:600}
+.nm{display:inline-flex;align-items:center;gap:6px}
+.mv{font-size:.7rem;font-weight:700;font-variant-numeric:tabular-nums}
+.mv.up{color:var(--win)} .mv.down{color:var(--miss)} .mv.eq{color:var(--muted)}
 .btn.wpp{display:inline-flex;align-items:center;gap:8px;background:#25d366;border-color:#25d366;color:#06301a}
 .btn.wpp::before{content:"";width:16px;height:16px;flex:0 0 auto;background:currentColor;
   -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9 2h9a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 2v11h9V4zM4 7h1v13h11v2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z'/%3E%3C/svg%3E") center/contain no-repeat;
@@ -643,6 +652,61 @@ async function copiarTabla(){
   toast('Mantené apretado el texto y elegí Copiar');
 }
 
+// Posiciones con empates (1, 1, 3...).
+function posiciones(lista, campo){
+  const ord = lista.slice().sort((a,b) => b[campo] - a[campo]);
+  const pos = {}; let p = 0, prev = null;
+  ord.forEach((r,i) => { if (r[campo] !== prev){ p = i + 1; prev = r[campo]; } pos[r.id] = p; });
+  return pos;
+}
+// Cómo cambió la tabla con la fecha F: puntos de la fecha, posición antes/después y distancia a la punta.
+function movimientos(rows, F){
+  const l = rows.map(r => ({ id: r.j.id, nombre: r.j.nombre, ahora: r.pts, fecha: r.porFecha[F] ?? 0, antes: r.pts - (r.porFecha[F] ?? 0) }));
+  const pA = posiciones(l, 'antes'), pD = posiciones(l, 'ahora');
+  const topA = Math.max(...l.map(x => x.antes)), topD = Math.max(...l.map(x => x.ahora));
+  for (const x of l){ x.posAntes = pA[x.id]; x.posAhora = pD[x.id]; x.gapAntes = topA - x.antes; x.gapAhora = topD - x.ahora; }
+  return l;
+}
+const ord = n => `${n}°`;
+const pts = n => `${n} punto${n === 1 ? '' : 's'}`;
+function textoMio(m, l, F){
+  const frases = [];
+  frases.push(`Sumaste ${m.fecha === 0 ? 'cero' : '+' + m.fecha} en la fecha ${F}.`);
+  if (m.posAhora === 1){
+    const seg = l.filter(x => x.id !== m.id).reduce((a,x) => Math.max(a, x.ahora), -Infinity);
+    const segA = l.filter(x => x.id !== m.id).reduce((a,x) => Math.max(a, x.antes), -Infinity);
+    const ventaja = m.ahora - seg, ventajaA = m.antes - segA;
+    if (ventaja === 0) frases.push(m.posAntes === 1 && ventajaA > 0 ? 'Te alcanzaron: estás compartiendo la punta.' : 'Estás compartiendo la punta.');
+    else if (m.posAntes !== 1) frases.push(`Pasaste a la punta: le sacás ${pts(ventaja)} al segundo.`);
+    else if (ventaja > ventajaA) frases.push(`Seguís puntero y estiraste la ventaja a ${pts(ventaja)}.`);
+    else if (ventaja < ventajaA) frases.push(`Seguís puntero, pero la ventaja bajó a ${pts(ventaja)}.`);
+    else frases.push(`Seguís puntero, con ${pts(ventaja)} de ventaja.`);
+  } else {
+    const d = m.gapAntes - m.gapAhora;
+    if (d > 0) frases.push(`Le recortaste ${pts(d)} a la punta: ahora estás a ${pts(m.gapAhora)}.`);
+    else if (d < 0) frases.push(`Te alejaste ${pts(-d)} de la punta: ahora estás a ${pts(m.gapAhora)}.`);
+    else frases.push(`Mantuviste la distancia: seguís a ${pts(m.gapAhora)} de la punta.`);
+  }
+  if (m.posAhora < m.posAntes) frases.push(`Subiste del ${ord(m.posAntes)} al ${ord(m.posAhora)} puesto.`);
+  else if (m.posAhora > m.posAntes) frases.push(`Bajaste del ${ord(m.posAntes)} al ${ord(m.posAhora)} puesto.`);
+  else frases.push(`Seguís ${ord(m.posAhora)}.`);
+  return frases;
+}
+function resumenFecha(rows, F, me){
+  const l = movimientos(rows, F);
+  const mejor = Math.max(...l.map(x => x.fecha));
+  const mejores = l.filter(x => x.fecha === mejor && mejor > 0).map(x => x.nombre);
+  const subida = Math.max(...l.map(x => x.posAntes - x.posAhora));
+  const trepadores = subida > 0 ? l.filter(x => x.posAntes - x.posAhora === subida).map(x => x.nombre) : [];
+  const m = me ? l.find(x => x.id === me.id) : null;
+  const mio = m ? `<ul class="res-mio">${textoMio(m, l, F).map(t => `<li>${esc(t)}</li>`).join('')}</ul>` : '';
+  const extra = [
+    mejores.length ? `<span><b>Mejor de la fecha:</b> ${esc(mejores.join(', '))} (+${mejor})</span>` : '',
+    trepadores.length ? `<span><b>El que más subió:</b> ${esc(trepadores.join(', '))} (${subida} puesto${subida>1?'s':''})</span>` : '',
+  ].filter(Boolean).join('');
+  return { html: `<section class="resumen"><h3>${m ? `Tu fecha ${F}` : `La fecha ${F}`}</h3>${mio}${extra ? `<div class="res-extra">${extra}</div>` : ''}</section>`, l };
+}
+
 function renderTabla(){
   const conPicks = new Set(S.picks.map(k => k.partido));
   const fs = fechas().filter(f => S.partidos.some(p => p.fecha === f && played(p) && conPicks.has(p.id)));
@@ -650,12 +714,16 @@ function renderTabla(){
   if (!rows.length){ $main.innerHTML = `<div class="empty">Todavía no hay jugadores en la penca.</div>`; return; }
   const hayBase = rows.some(r => r.base);
   const me = yo();
+  const F = fs[fs.length - 1];
+  const res = F != null ? resumenFecha(rows, F, me) : null;
+  const mov = id => { if (!res) return ''; const x = res.l.find(y => y.id === id); const d = x.posAntes - x.posAhora;
+    return d > 0 ? `<span class="mv up" title="Subió ${d}">▲${d}</span>` : d < 0 ? `<span class="mv down" title="Bajó ${-d}">▼${-d}</span>` : `<span class="mv eq" title="Igual">=</span>`; };
   let pos = 0, prev = null;
   const body = rows.map((r,i) => { if (r.pts !== prev){ pos = i+1; prev = r.pts; }
     const sub = r.j.uid ? (r.j.cuentaNombre ? `<span class="acct">${esc(r.j.cuentaNombre)}</span>` : '') : `<span class="acct">sin reclamar</span>`;
     const cl = [me && r.j.id===me.id ? 'me' : '', pos <= 3 ? `p${pos}` : ''].join(' ').trim();
-    return `<tr class="${cl}"><td class="pos"><span class="posn">${pos}</span></td><td class="name">${esc(r.j.nombre)}${sub}</td><td class="pts">${r.pts}</td>${hayBase?`<td class="f">${r.base}</td>`:''}${fs.map(f=>`<td class="f">+${r.porFecha[f] ?? 0}</td>`).join('')}</tr>`; }).join('');
-  $main.innerHTML = identityBox() + `<p class="lede">1 punto por acertar ganador o empate. Se suma solo cuando la Liga carga el resultado.${hayBase?' «Antes» son los puntos que traían del grupo hasta la fecha 4.':''} Debajo de cada nombre está la cuenta de Google que lo usa.</p>
+    return `<tr class="${cl}"><td class="pos"><span class="posn">${pos}</span></td><td class="name"><span class="nm">${esc(r.j.nombre)} ${mov(r.j.id)}</span>${sub}</td><td class="pts">${r.pts}</td>${hayBase?`<td class="f">${r.base}</td>`:''}${fs.map(f=>`<td class="f">+${r.porFecha[f] ?? 0}</td>`).join('')}</tr>`; }).join('');
+  $main.innerHTML = identityBox() + (res ? res.html : '') + `<p class="lede">1 punto por acertar ganador o empate. Se suma solo cuando la Liga carga el resultado.${hayBase?' «Antes» son los puntos que traían del grupo hasta la fecha 4.':''} Debajo de cada nombre está la cuenta de Google que lo usa.</p>
     <div class="tablewrap"><table><thead><tr><th>#</th><th class="name">Jugador</th><th>Pts</th>${hayBase?'<th>Antes</th>':''}${fs.map(f=>`<th>F${f}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table></div>
     <div class="share-row"><button class="btn wpp" type="button" data-copiar-tabla>Copiar tabla para WhatsApp</button></div>
     <textarea id="tablaTexto" class="copybox" readonly hidden aria-label="Tabla para copiar"></textarea>`;
