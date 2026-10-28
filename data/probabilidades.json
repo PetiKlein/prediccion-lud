@@ -1,22 +1,8 @@
 {
  "fuente": "Calculadora LUD",
  "url": "https://calculadora-lud.vercel.app/mayores/a",
- "actualizado": "2026-10-25",
+ "actualizado": "2026-10-28",
  "partidos": [
-  {
-   "local": "Tenis El Pinar",
-   "visitante": "Nacional U.",
-   "L": 44,
-   "E": 24,
-   "V": 31
-  },
-  {
-   "local": "Old Ivy",
-   "visitante": "Santa Elena",
-   "L": 24,
-   "E": 19,
-   "V": 57
-  },
   {
    "local": "Old Christians",
    "visitante": "Juan XXIII",
@@ -32,6 +18,20 @@
    "V": 68
   },
   {
+   "local": "Old Boys",
+   "visitante": "Carrasco Polo",
+   "L": 38,
+   "E": 26,
+   "V": 37
+  },
+  {
+   "local": "Tenis El Pinar",
+   "visitante": "Nacional U.",
+   "L": 44,
+   "E": 24,
+   "V": 31
+  },
+  {
    "local": "Old Woodlands",
    "visitante": "ELF",
    "L": 52,
@@ -39,11 +39,11 @@
    "V": 27
   },
   {
-   "local": "Old Boys",
-   "visitante": "Carrasco Polo",
-   "L": 38,
-   "E": 26,
-   "V": 37
+   "local": "Old Ivy",
+   "visitante": "Santa Elena",
+   "L": 24,
+   "E": 19,
+   "V": 57
   },
   {
    "local": "Seminario",
