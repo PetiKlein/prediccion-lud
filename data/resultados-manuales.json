@@ -1,13 +1,103 @@
 {
   "nota": "Resultados que el robot usa cuando la Liga todavía no los cargó. Si la Liga publica el oficial, manda el de la Liga. Local y visitante como en el fixture de la Liga.",
   "resultados": [
-    { "local": "ELF", "visitante": "TAPE", "gl": 5, "gv": 3, "fuente": "Sofascore" },
-    { "local": "Nacional U.", "visitante": "Old Woodlands", "gl": 0, "gv": 0, "fuente": "Sofascore" },
-    { "local": "Urunday", "visitante": "Old Boys", "gl": 2, "gv": 2, "fuente": "Sofascore" },
-    { "local": "Carrasco Polo", "visitante": "Tenis El Pinar", "gl": 0, "gv": 3, "fuente": "Sofascore" },
-    { "local": "Carrasco Lawn Tennis", "visitante": "Old Ivy", "gl": 4, "gv": 2, "fuente": "Sofascore" },
-    { "local": "Santa Elena", "visitante": "Hebraica y Macabi", "gl": 3, "gv": 3, "fuente": "Sofascore" },
-    { "local": "Juan XXIII", "visitante": "Seminario", "gl": 0, "gv": 5, "fuente": "Sofascore" },
-    { "local": "Playa Honda", "visitante": "Old Christians", "gl": 0, "gv": 1, "fuente": "Sofascore" }
+    {
+      "local": "ELF",
+      "visitante": "TAPE",
+      "gl": 5,
+      "gv": 3,
+      "fuente": "Sofascore"
+    },
+    {
+      "local": "Nacional U.",
+      "visitante": "Old Woodlands",
+      "gl": 0,
+      "gv": 0,
+      "fuente": "Sofascore"
+    },
+    {
+      "local": "Urunday",
+      "visitante": "Old Boys",
+      "gl": 2,
+      "gv": 2,
+      "fuente": "Sofascore"
+    },
+    {
+      "local": "Carrasco Polo",
+      "visitante": "Tenis El Pinar",
+      "gl": 0,
+      "gv": 3,
+      "fuente": "Sofascore"
+    },
+    {
+      "local": "Carrasco Lawn Tennis",
+      "visitante": "Old Ivy",
+      "gl": 4,
+      "gv": 2,
+      "fuente": "Sofascore"
+    },
+    {
+      "local": "Santa Elena",
+      "visitante": "Hebraica y Macabi",
+      "gl": 3,
+      "gv": 3,
+      "fuente": "Sofascore"
+    },
+    {
+      "local": "Juan XXIII",
+      "visitante": "Seminario",
+      "gl": 0,
+      "gv": 5,
+      "fuente": "Sofascore"
+    },
+    {
+      "local": "Playa Honda",
+      "visitante": "Old Christians",
+      "gl": 0,
+      "gv": 1,
+      "fuente": "Sofascore"
+    },
+    {
+      "local": "Seminario",
+      "visitante": "Carrasco Lawn Tennis",
+      "gl": 2,
+      "gv": 0,
+      "fuente": "Calculadora LUD"
+    },
+    {
+      "local": "Old Christians",
+      "visitante": "Juan XXIII",
+      "gl": 3,
+      "gv": 1,
+      "fuente": "Calculadora LUD"
+    },
+    {
+      "local": "Old Woodlands",
+      "visitante": "ELF",
+      "gl": 2,
+      "gv": 0,
+      "fuente": "Calculadora LUD"
+    },
+    {
+      "local": "Tenis El Pinar",
+      "visitante": "Nacional U.",
+      "gl": 0,
+      "gv": 1,
+      "fuente": "Calculadora LUD"
+    },
+    {
+      "local": "Old Boys",
+      "visitante": "Carrasco Polo",
+      "gl": 1,
+      "gv": 1,
+      "fuente": "Calculadora LUD"
+    },
+    {
+      "local": "TAPE",
+      "visitante": "Urunday",
+      "gl": 1,
+      "gv": 2,
+      "fuente": "Calculadora LUD"
+    }
   ]
 }
