@@ -1,42 +1,14 @@
 {
  "fuente": "Calculadora LUD",
  "url": "https://calculadora-lud.vercel.app/mayores/a",
- "actualizado": "2026-10-28",
+ "actualizado": "2026-11-01",
  "partidos": [
   {
-   "local": "Old Christians",
-   "visitante": "Juan XXIII",
-   "L": 79,
-   "E": 13,
-   "V": 7
-  },
-  {
-   "local": "TAPE",
-   "visitante": "Urunday",
-   "L": 16,
-   "E": 16,
-   "V": 68
-  },
-  {
-   "local": "Old Boys",
-   "visitante": "Carrasco Polo",
-   "L": 38,
+   "local": "Hebraica y Macabi",
+   "visitante": "Playa Honda",
+   "L": 41,
    "E": 26,
-   "V": 37
-  },
-  {
-   "local": "Tenis El Pinar",
-   "visitante": "Nacional U.",
-   "L": 44,
-   "E": 24,
-   "V": 31
-  },
-  {
-   "local": "Old Woodlands",
-   "visitante": "ELF",
-   "L": 52,
-   "E": 22,
-   "V": 27
+   "V": 34
   },
   {
    "local": "Old Ivy",
@@ -46,60 +18,46 @@
    "V": 57
   },
   {
-   "local": "Seminario",
-   "visitante": "Carrasco Lawn Tennis",
-   "L": 54,
-   "E": 21,
-   "V": 25
-  },
-  {
-   "local": "Hebraica y Macabi",
-   "visitante": "Playa Honda",
-   "L": 41,
-   "E": 26,
-   "V": 34
-  },
-  {
    "local": "Tenis El Pinar",
    "visitante": "Old Boys",
-   "L": 51,
-   "E": 25,
-   "V": 24
+   "L": 48,
+   "E": 26,
+   "V": 26
   },
   {
    "local": "Old Christians",
    "visitante": "Hebraica y Macabi",
-   "L": 46,
+   "L": 47,
    "E": 25,
    "V": 29
   },
   {
    "local": "Santa Elena",
    "visitante": "Seminario",
-   "L": 25,
+   "L": 23,
    "E": 19,
-   "V": 55
+   "V": 58
   },
   {
    "local": "Urunday",
    "visitante": "Old Woodlands",
-   "L": 36,
+   "L": 34,
    "E": 26,
-   "V": 38
+   "V": 40
   },
   {
    "local": "Nacional U.",
    "visitante": "ELF",
-   "L": 44,
+   "L": 49,
    "E": 22,
-   "V": 34
+   "V": 29
   },
   {
    "local": "Juan XXIII",
    "visitante": "Carrasco Lawn Tennis",
-   "L": 14,
-   "E": 17,
-   "V": 69
+   "L": 16,
+   "E": 18,
+   "V": 66
   },
   {
    "local": "Carrasco Polo",
@@ -112,7 +70,7 @@
    "local": "Playa Honda",
    "visitante": "Old Ivy",
    "L": 60,
-   "E": 20,
+   "E": 21,
    "V": 20
   }
  ]
