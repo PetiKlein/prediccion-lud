@@ -98,6 +98,20 @@
       "gl": 1,
       "gv": 2,
       "fuente": "Calculadora LUD"
+    },
+    {
+      "local": "Hebraica y Macabi",
+      "visitante": "Playa Honda",
+      "gl": 1,
+      "gv": 1,
+      "fuente": "Calculadora LUD"
+    },
+    {
+      "local": "Old Ivy",
+      "visitante": "Santa Elena",
+      "gl": 1,
+      "gv": 2,
+      "fuente": "Calculadora LUD"
     }
   ]
 }
