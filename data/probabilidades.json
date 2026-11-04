@@ -1,42 +1,28 @@
 {
  "fuente": "Calculadora LUD",
  "url": "https://calculadora-lud.vercel.app/mayores/a",
- "actualizado": "2026-11-01",
+ "actualizado": "2026-11-04",
  "partidos": [
-  {
-   "local": "Hebraica y Macabi",
-   "visitante": "Playa Honda",
-   "L": 41,
-   "E": 26,
-   "V": 34
-  },
-  {
-   "local": "Old Ivy",
-   "visitante": "Santa Elena",
-   "L": 24,
-   "E": 19,
-   "V": 57
-  },
   {
    "local": "Tenis El Pinar",
    "visitante": "Old Boys",
-   "L": 48,
-   "E": 26,
-   "V": 26
+   "L": 64,
+   "E": 22,
+   "V": 14
   },
   {
    "local": "Old Christians",
    "visitante": "Hebraica y Macabi",
-   "L": 47,
+   "L": 30,
    "E": 25,
-   "V": 29
+   "V": 45
   },
   {
    "local": "Santa Elena",
    "visitante": "Seminario",
-   "L": 23,
-   "E": 19,
-   "V": 58
+   "L": 40,
+   "E": 21,
+   "V": 39
   },
   {
    "local": "Urunday",
@@ -48,30 +34,30 @@
   {
    "local": "Nacional U.",
    "visitante": "ELF",
-   "L": 49,
+   "L": 43,
    "E": 22,
-   "V": 29
+   "V": 35
   },
   {
    "local": "Juan XXIII",
    "visitante": "Carrasco Lawn Tennis",
-   "L": 16,
-   "E": 18,
-   "V": 66
+   "L": 9,
+   "E": 15,
+   "V": 75
   },
   {
    "local": "Carrasco Polo",
    "visitante": "TAPE",
-   "L": 56,
-   "E": 20,
-   "V": 24
+   "L": 59,
+   "E": 19,
+   "V": 22
   },
   {
    "local": "Playa Honda",
    "visitante": "Old Ivy",
-   "L": 60,
-   "E": 21,
-   "V": 20
+   "L": 74,
+   "E": 16,
+   "V": 9
   }
  ]
 }
