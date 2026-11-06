@@ -1,14 +1,35 @@
 {
  "fuente": "Calculadora LUD",
  "url": "https://calculadora-lud.vercel.app/mayores/a",
- "actualizado": "2026-11-04",
+ "actualizado": "2026-11-06",
  "partidos": [
+  {
+   "local": "Urunday",
+   "visitante": "Old Woodlands",
+   "L": 34,
+   "E": 26,
+   "V": 40
+  },
+  {
+   "local": "Nacional U.",
+   "visitante": "ELF",
+   "L": 49,
+   "E": 22,
+   "V": 30
+  },
   {
    "local": "Tenis El Pinar",
    "visitante": "Old Boys",
    "L": 64,
    "E": 22,
    "V": 14
+  },
+  {
+   "local": "Carrasco Polo",
+   "visitante": "TAPE",
+   "L": 60,
+   "E": 19,
+   "V": 21
   },
   {
    "local": "Old Christians",
@@ -25,32 +46,11 @@
    "V": 39
   },
   {
-   "local": "Urunday",
-   "visitante": "Old Woodlands",
-   "L": 34,
-   "E": 26,
-   "V": 40
-  },
-  {
-   "local": "Nacional U.",
-   "visitante": "ELF",
-   "L": 43,
-   "E": 22,
-   "V": 35
-  },
-  {
    "local": "Juan XXIII",
    "visitante": "Carrasco Lawn Tennis",
    "L": 9,
    "E": 15,
    "V": 75
-  },
-  {
-   "local": "Carrasco Polo",
-   "visitante": "TAPE",
-   "L": 59,
-   "E": 19,
-   "V": 22
   },
   {
    "local": "Playa Honda",
