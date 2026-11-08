@@ -112,6 +112,62 @@
       "gl": 1,
       "gv": 2,
       "fuente": "Calculadora LUD"
+    },
+    {
+      "local": "Juan XXIII",
+      "visitante": "Carrasco Lawn Tennis",
+      "gl": 0,
+      "gv": 7,
+      "fuente": "Sofascore"
+    },
+    {
+      "local": "Urunday",
+      "visitante": "Old Woodlands",
+      "gl": 0,
+      "gv": 1,
+      "fuente": "Sofascore"
+    },
+    {
+      "local": "Nacional U.",
+      "visitante": "ELF",
+      "gl": 2,
+      "gv": 0,
+      "fuente": "Sofascore"
+    },
+    {
+      "local": "Old Christians",
+      "visitante": "Hebraica y Macabi",
+      "gl": 1,
+      "gv": 2,
+      "fuente": "Sofascore"
+    },
+    {
+      "local": "Playa Honda",
+      "visitante": "Old Ivy",
+      "gl": 4,
+      "gv": 0,
+      "fuente": "Sofascore"
+    },
+    {
+      "local": "Santa Elena",
+      "visitante": "Seminario",
+      "gl": 2,
+      "gv": 1,
+      "fuente": "Sofascore"
+    },
+    {
+      "local": "Tenis El Pinar",
+      "visitante": "Old Boys",
+      "gl": 2,
+      "gv": 0,
+      "fuente": "Sofascore"
+    },
+    {
+      "local": "Carrasco Polo",
+      "visitante": "TAPE",
+      "gl": 2,
+      "gv": 0,
+      "fuente": "Sofascore"
     }
   ]
 }
